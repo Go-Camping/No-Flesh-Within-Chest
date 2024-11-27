@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:cookie_dough/sugar"
+    },
+    {
+      "tag": "extradelight:processed/apple"
+    },
+    {
+      "tag": "forge:cinnamon/ground"
+    }
+  ],
+  "results": [
+    {
+      "item": "extradelight:apple_cookie_dough"
+    }
+  ]
+}

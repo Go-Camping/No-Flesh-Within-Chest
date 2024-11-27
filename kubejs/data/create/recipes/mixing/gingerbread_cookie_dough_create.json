@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "extradelight:sweetener"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "extradelight:grated_ginger"
+    },
+    {
+      "tag": "forge:cinnamon/ground"
+    }
+  ],
+  "results": [
+    {
+      "item": "extradelight:gingerbread_cookie_dough"
+    }
+  ]
+}

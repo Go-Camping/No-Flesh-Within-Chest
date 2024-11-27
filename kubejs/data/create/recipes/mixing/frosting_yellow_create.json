@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:whipped_cream"
+    },
+    {
+      "item": "extradelight:butter"
+    },
+    {
+      "tag": "extradelight:sweetener"
+    },
+    {
+      "tag": "forge:dyes/yellow"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "extradelight:frosting_yellow"
+    }
+  ]
+}

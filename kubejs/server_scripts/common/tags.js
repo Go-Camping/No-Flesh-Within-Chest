@@ -40,13 +40,11 @@ ServerEvents.tags('item', event => {
 
   event.add('forge:sausage', ['chestcavity:raw_sausage', 'chestcavity:sausage', 'chestcavity:raw_rich_sausage', 'chestcavity:rich_sausage', 'chestcavity:raw_mini_sausage', 'chestcavity:mini_sausage', 'chestcavity:raw_rich_mini_sausage', 'chestcavity:rich_mini_sausage', 'chestcavity:rotten_sausage', 'chestcavity:raw_toxic_sausage', 'chestcavity:toxic_sausage', 'chestcavity:raw_rich_toxic_sausage', 'chestcavity:rich_toxic_sausage', 'chestcavity:raw_human_sausage', 'chestcavity:human_sausage', 'chestcavity:raw_rich_human_sausage', 'chestcavity:rich_human_sausage', 'chestcavity:raw_alien_sausage', 'chestcavity:alien_sausage', 'chestcavity:raw_rich_alien_sausage', 'chestcavity:rich_alien_sausage', 'chestcavity:raw_dragon_sausage', 'chestcavity:dragon_sausage', 'chestcavity:raw_rich_dragon_sausage', 'chestcavity:rich_dragon_sausage', 'kubejs:brown_sauce_braised_intestines'])
 
+  event.add('forge:rabbit/ground/raw', ['minecraft:rabbit'])
+
   const baseorgan = event.get('chestcavity:salvageable').getObjectIds()
   baseorgan.forEach(organ => {
     event.add('kubejs:organ', organ)
   })
 
-})
-
-ServerEvents.tags('minecraft:entity_type', event => {
-  event.add('forge:rabbit/ground/raw', ['minecraft:rabbit'])
 })

@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "extradelight:sweetener"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "extradelight:processed/apple"
+    },
+    {
+      "tag": "forge:cinnamon/ground"
+    }
+  ],
+  "results": [
+    {
+      "item": "extradelight:apple_cookie_dough"
+    }
+  ]
+}

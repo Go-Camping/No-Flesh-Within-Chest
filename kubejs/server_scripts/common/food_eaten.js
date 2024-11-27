@@ -1,7 +1,7 @@
 ItemEvents.foodEaten(event => {
     let player = event.player
     let item = event.item
-    if (!player || !item || !item.id in warpFoodMap) return
+    if (!player || !item || !(item.id in warpFoodMap)) return
     let warp = player.persistentData.getInt(warpCount)
     let count = warpFoodMap[item.id].count
     let chance = warpFoodMap[item.id].chance
