@@ -1,0 +1,11 @@
+{
+  "type": "unusualprehistory:cultivator",
+  "ingredients": [
+    {
+      "item": "bettas:betta_fish"
+    }
+  ],
+  "output": {
+    "item": "bettas:betta_fish_spawn_egg"
+  }
+}
