@@ -2153,4 +2153,13 @@ StartupEvents.registry('item', event => {
     .tag("kubejs:heart")
     .tag("kubejs:damage_only")
     
+    //暮色器官
+    registerOrgan(new Organ('kubejs:snow_monster_core')
+    .addScore('health', 1.5)
+    .addTextLines('default', [Text.gray(Text.translatable("kubejs.tooltips.snow_monster_core.1"))])
+    .addTextLines('alt', [LEADING_SYMBOL, Text.gray(Text.translatable("kubejs.tooltips.snow_monster_core.2"))])
+    .build())
+    .texture('kubejs:item/organs/twilightforest/snow_monster_core')
+    .tag("kubejs:heart")
+    .tag("kubejs:rclick_only")
 });

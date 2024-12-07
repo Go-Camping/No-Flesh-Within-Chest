@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "biome_source": {
+      "biome": "minecraft:snowy_taiga",
+      "type": "minecraft:fixed"
+    },
+    "settings": "minecraft:overworld",
+    "type": "minecraft:noise"
+  }
+}

@@ -109,4 +109,21 @@ const organRightClickedOnlyStrategies = {
         event.item.shrink(1)
         event.player.give(Item.of('minecraft:glass_bottle'))
     },
+    'kubejs:snow_monster_core': function (event, organ) {
+        let player = event.player
+        let level = player.level
+        if (event.item != "minecraft:snowball"){
+            return
+        }
+        event.item.shrink(1)
+        player.swing()
+        let rayY = Math.sin(-player.xRot/180*3.1415926) 
+        let rayZ = Math.cos(-player.xRot/180*3.1415926)*Math.cos(-player.yRot/180*3.1415926)
+        let rayX = Math.cos(-player.xRot/180*3.1415926)*Math.sin(-player.yRot/180*3.1415926)
+        let iceBomb = level.createEntity("twilightforest:thrown_ice")
+        iceBomb.setPosition(player.x, player.y + 1, player.z)
+        iceBomb.setOwner(player)
+        iceBomb.setMotion(rayX,rayY,rayZ)
+        iceBomb.spawn()
+    }
 };
