@@ -37,6 +37,7 @@ global.LUCK_MULTI_BASE = { key: 'minecraft:generic.luck', name: 'kubejsLuckMulti
 global.ATTACK_UP_MULTI_BASE = { key: 'minecraft:generic.attack_damage', name: 'kubejsAttackDamageMultiBase', operation: 'multiply_base' }
 global.ARMOR_MULTI_BASE = { key: 'minecraft:generic.armor', name: 'kubejsArmorMultiBase', operation: 'multiply_base' }
 
+
 global.ATTRIBUTE_MAP = {
     'kubejsAttackDamage': global.ATTACK_UP,
     'kubejsMaxHealth': global.HEALTH_UP,

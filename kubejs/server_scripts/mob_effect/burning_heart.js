@@ -1,6 +1,6 @@
 // priority: 3
 /**
- * 熔火效果
+ * 熔火增伤效果
  * @param {Internal.LivingHurtEvent} event 
  * @param {EntityHurtCustomModel} data 
  * @returns 
@@ -23,4 +23,26 @@ function burningHeartEntityHurtByPlayer(event, data) {
             return;
         }
     }
+}
+
+// priority: 3
+/**
+ * 熔火升温效果
+ * @param {Internal.SimplePlayerEventJS} event 
+ */
+function burningHeartTick(event) {
+    let player = event.player
+    if (player.hasEffect('kubejs:burning_heart')) {
+        let burningHeartEffect = player.getEffect('kubejs:burning_heart')
+        let burningHeartAmplifier = burningHeartEffect.getAmplifier();
+        $Temperature.add(player,$Trait.CORE,burningHeartAmplifier+1)
+        return;
+    }
+    if (player.hasEffect('kubejs:flaring_heart')) {
+        let flaringHeartEffect = player.getEffect('kubejs:flaring_heart')
+        let flaringHeartAmplifier = flaringHeartEffect.getAmplifier();
+        $Temperature.add(player,$Trait.CORE,flaringHeartAmplifier+1)
+        return;
+    }
+
 }

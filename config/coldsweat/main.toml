@@ -2,7 +2,11 @@
 #DO NOT EDIT THE SETTINGS IN THIS SECTION
 [Builtin]
 	#Range: 0 ~ 4
+<<<<<<< Updated upstream
 	Difficulty = 2
+=======
+	Difficulty = 4
+>>>>>>> Stashed changes
 	Version = "2.3.9"
 
 [Difficulty]
@@ -19,7 +23,11 @@
 	#Range: 0.0 ~ Infinity
 	"Temperature Damage" = 2.0
 	#Sets whether damage scales with difficulty
+<<<<<<< Updated upstream
 	"Damage Scaling" = true
+=======
+	"Damage Scaling" = false
+>>>>>>> Stashed changes
 
 [Items]
 	#Allow fire resistance to block overheating damage
@@ -27,7 +35,11 @@
 	#Allow ice resistance to block freezing damage
 	"Ice Resistance Immunity" = true
 	#Thermometer item is required to see detailed world temperature
+<<<<<<< Updated upstream
 	"Require Thermometer" = true
+=======
+	"Require Thermometer" = false
+>>>>>>> Stashed changes
 
 ["Temperature Effects"]
 

@@ -2,10 +2,17 @@
 ["Fuel Items"]
 	#Defines items that can be used as fuel
 	#Format: [["item-id-1", amount-1], ["item-id-2", amount-2], ...etc]
+<<<<<<< Updated upstream
 	Boiler = [["#minecraft:planks", 10], ["#minecraft:coals", 37], ["#minecraft:logs_that_burn", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000]]
 	Icebox = [["minecraft:snowball", 10], ["minecraft:clay_ball", 37], ["minecraft:snow_block", 100], ["minecraft:ice", 250], ["minecraft:clay", 333], ["minecraft:powder_snow_bucket", 100], ["minecraft:packed_ice", 1000]]
 	#Negative values indicate cold fuel
 	Hearth = [["#minecraft:planks", 10], ["#minecraft:coals", 37], ["#minecraft:logs_that_burn", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000], ["minecraft:snowball", -10], ["minecraft:clay_ball", -37], ["minecraft:snow_block", -100], ["minecraft:ice", -250], ["minecraft:clay", -333], ["minecraft:powder_snow_bucket", -100], ["minecraft:packed_ice", -1000]]
+=======
+	Boiler = [["#minecraft:planks", 10], ["minecraft:coal", 37], ["minecraft:charcoal", 37], ["#minecraft:logs_that_burn", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000]]
+	Icebox = [["minecraft:snowball", 10], ["minecraft:clay_ball", 37], ["minecraft:snow_block", 100], ["minecraft:ice", 250], ["minecraft:clay", 333], ["minecraft:powder_snow_bucket", 100], ["minecraft:packed_ice", 1000]]
+	#Negative values indicate cold fuel
+	Hearth = [["#minecraft:planks", 10], ["minecraft:coal", 37], ["minecraft:charcoal", 37], ["#minecraft:logs_that_burn", 37], ["minecraft:coal_block", 333], ["minecraft:magma_block", 333], ["minecraft:lava_bucket", 1000], ["minecraft:snowball", -10], ["minecraft:clay_ball", -37], ["minecraft:snow_block", -100], ["minecraft:ice", -250], ["minecraft:clay", -333], ["minecraft:powder_snow_bucket", -100], ["minecraft:packed_ice", -1000]]
+>>>>>>> Stashed changes
 	#Potions containing any of these effects will not be allowed in the hearth
 	#Format: ["effect_id", "effect_id", ...etc]
 	"Blacklisted Hearth Potions" = ["minecraft:instant_damage", "minecraft:poison", "minecraft:wither", "minecraft:weakness", "minecraft:mining_fatigue", "minecraft:slowness"]
@@ -37,10 +44,17 @@
 	#"hot": The amount of heat insulation the item provides.
 	#*"type": Optional. Either "static" or "adaptive". Defines the insulation type. Defaults to static.
 	#*"nbt": Optional. If set, the item will only provide insulation if it has the specified NBT tag.
+<<<<<<< Updated upstream
 	"Insulation Ingredients" = [["minecraft:leather_helmet", 4, 4], ["minecraft:leather_chestplate", 6, 6], ["minecraft:leather_leggings", 5, 5], ["minecraft:leather_boots", 4, 4], ["minecraft:leather", 1, 1], ["cold_sweat:chameleon_molt", 2, 0.0085, "adaptive"], ["cold_sweat:hoglin_hide", 0, 2], ["cold_sweat:goat_fur", 2, 0], ["#minecraft:wool", 1.5, 0], ["minecraft:rabbit_hide", 0, 1.5], ["cold_sweat:hoglin_headpiece", 0, 8], ["cold_sweat:hoglin_tunic", 0, 12], ["cold_sweat:hoglin_trousers", 0, 10], ["cold_sweat:hoglin_hooves", 0, 8], ["cold_sweat:goat_fur_cap", 8, 0], ["cold_sweat:goat_fur_parka", 12, 0], ["cold_sweat:goat_fur_pants", 10, 0], ["cold_sweat:goat_fur_boots", 8, 0]]
 	#Defines the items that provide insulation when worn
 	#See Insulation Ingredients for formatting
 	"Insulating Armor" = [["minecraft:leather_helmet", 4, 4], ["minecraft:leather_chestplate", 6, 6], ["minecraft:leather_leggings", 5, 5], ["minecraft:leather_boots", 4, 4], ["cold_sweat:hoglin_headpiece", 0, 8], ["cold_sweat:hoglin_tunic", 0, 12], ["cold_sweat:hoglin_trousers", 0, 10], ["cold_sweat:hoglin_hooves", 0, 8], ["cold_sweat:goat_fur_cap", 8, 0], ["cold_sweat:goat_fur_parka", 12, 0], ["cold_sweat:goat_fur_pants", 10, 0], ["cold_sweat:goat_fur_boots", 8, 0]]
+=======
+	"Insulation Ingredients" = [["minecraft:leather_helmet", 4.0, 4.0, "static", "{}"], ["minecraft:leather_chestplate", 6.0, 6.0, "static", "{}"], ["minecraft:leather_leggings", 5.0, 5.0, "static", "{}"], ["minecraft:leather_boots", 4.0, 4.0, "static", "{}"], ["minecraft:leather", 1.0, 1.0, "static", "{}"], ["cold_sweat:chameleon_molt", 2.0, 0.0085, "adaptive", "{}"], ["cold_sweat:hoglin_hide", 0.0, 2.0, "static", "{}"], ["cold_sweat:goat_fur", 2.0, 0.0, "static", "{}"], ["minecraft:white_wool", 1.5, 0.0, "static", "{}"], ["minecraft:orange_wool", 1.5, 0.0, "static", "{}"], ["minecraft:magenta_wool", 1.5, 0.0, "static", "{}"], ["minecraft:light_blue_wool", 1.5, 0.0, "static", "{}"], ["minecraft:yellow_wool", 1.5, 0.0, "static", "{}"], ["minecraft:lime_wool", 1.5, 0.0, "static", "{}"], ["minecraft:pink_wool", 1.5, 0.0, "static", "{}"], ["minecraft:gray_wool", 1.5, 0.0, "static", "{}"], ["minecraft:light_gray_wool", 1.5, 0.0, "static", "{}"], ["minecraft:cyan_wool", 1.5, 0.0, "static", "{}"], ["minecraft:purple_wool", 1.5, 0.0, "static", "{}"], ["minecraft:blue_wool", 1.5, 0.0, "static", "{}"], ["minecraft:brown_wool", 1.5, 0.0, "static", "{}"], ["minecraft:green_wool", 1.5, 0.0, "static", "{}"], ["minecraft:red_wool", 1.5, 0.0, "static", "{}"], ["minecraft:black_wool", 1.5, 0.0, "static", "{}"], ["minecraft:rabbit_hide", 0.0, 1.5, "static", "{}"], ["cold_sweat:hoglin_headpiece", 0.0, 8.0, "static", "{}"], ["cold_sweat:hoglin_tunic", 0.0, 12.0, "static", "{}"], ["cold_sweat:hoglin_trousers", 0.0, 10.0, "static", "{}"], ["cold_sweat:hoglin_hooves", 0.0, 8.0, "static", "{}"], ["cold_sweat:goat_fur_cap", 8.0, 0.0, "static", "{}"], ["cold_sweat:goat_fur_parka", 12.0, 0.0, "static", "{}"], ["cold_sweat:goat_fur_pants", 10.0, 0.0, "static", "{}"], ["cold_sweat:goat_fur_boots", 8.0, 0.0, "static", "{}"]]
+	#Defines the items that provide insulation when worn
+	#See Insulation Ingredients for formatting
+	"Insulating Armor" = [["minecraft:leather_helmet", 4.0, 4.0, "static", "{}"], ["minecraft:leather_chestplate", 6.0, 6.0, "static", "{}"], ["minecraft:leather_leggings", 5.0, 5.0, "static", "{}"], ["minecraft:leather_boots", 4.0, 4.0, "static", "{}"], ["cold_sweat:hoglin_headpiece", 0.0, 8.0, "static", "{}"], ["cold_sweat:hoglin_tunic", 0.0, 12.0, "static", "{}"], ["cold_sweat:hoglin_trousers", 0.0, 10.0, "static", "{}"], ["cold_sweat:hoglin_hooves", 0.0, 8.0, "static", "{}"], ["cold_sweat:goat_fur_cap", 8.0, 0.0, "static", "{}"], ["cold_sweat:goat_fur_parka", 12.0, 0.0, "static", "{}"], ["cold_sweat:goat_fur_pants", 10.0, 0.0, "static", "{}"], ["cold_sweat:goat_fur_boots", 8.0, 0.0, "static", "{}"]]
+>>>>>>> Stashed changes
 	#Defines the items that provide insulation when worn in a curio slot
 	#See Insulation Ingredients for formatting
 	"Insulating Curios" = []
@@ -67,7 +81,11 @@
 	#Negative values are cold foods, positive values are hot foods
 	#nbt: Optional. If set, the item will only affect the player's temperature if it has the specified NBT tag.
 	#duration: Optional. If set, the player's temperature will remain increased/decreased for this amount of time (in ticks).
+<<<<<<< Updated upstream
 	"Temperature-Affecting Foods" = [["cold_sweat:soul_sprout", -20, "{}", 1200]]
+=======
+	"Temperature-Affecting Foods" = [["cold_sweat:soul_sprout", -20.0, "{}", 1200]]
+>>>>>>> Stashed changes
 	#Defines how much a waterskin will change the player's body temperature by when used
 	#Range: > 0
 	"Waterskin Strength" = 50

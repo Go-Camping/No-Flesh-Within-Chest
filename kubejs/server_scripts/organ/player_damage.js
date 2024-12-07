@@ -301,4 +301,8 @@ const organPlayerDamageOnlyStrategies = {
         let amplifier = Math.floor(player.getLuck() * 0.2) - 1
         target.potionEffects.add('minecraft:luck', 20 * 120, Math.max(amplifier, 0))
     },
+    'kubejs:flame_heart': function (event, organ, data) {
+        let player = event.source.player
+        event.amount = event.amount + coldsweat.getTemperature(player,'body')
+    }
 };

@@ -42,6 +42,7 @@
   "fluiddrawerslegacy:controller": null,
   "fluiddrawerslegacy:controller_slave": null,
   "fluiddrawerslegacy:fluiddrawer": null,
+<<<<<<< Updated upstream
   "goety:summon_owner": null,
   "goety:summon_lifespan": null,
   "goety:summon_breed": null,
@@ -57,6 +58,9 @@
   "minecraft:mob_breeding": null,
   "minecraft:mob_growth": null,
   "goety:soul_energy": null,
+=======
+  "twilightforest:quest_ram_wool": null,
+>>>>>>> Stashed changes
   "twilightforest:quest_ram_wool": null,
   "waystones:waystone": null,
   "minecraft:brewing_stand": null,
