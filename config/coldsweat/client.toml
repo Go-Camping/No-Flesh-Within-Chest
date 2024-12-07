@@ -1,7 +1,11 @@
 
 ["Visual Preferences"]
 	#Sets all temperatures to be displayed in Celsius
+<<<<<<< Updated upstream
 	Celsius = false
+=======
+	Celsius = true
+>>>>>>> Stashed changes
 	#Visually offsets the world temperature to better match the user's definition of "hot" and "cold"
 	#Range: > -2147483647
 	"Temperature Offset" = 0

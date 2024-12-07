@@ -81,6 +81,19 @@ const organPlayerTickStrategies = {
             }
         })
     },
+    'kubejs:flame_muscle': function(event, organ) {
+        let player = event.player
+        let playerChestInstance = player.getChestCavityInstance()
+        playerChestInstance.containerChanged(playerChestInstance.inventory)
+        global.initChestCavityIntoMap(player, false)
+        if (player.persistentData.contains(organActive) &&
+            player.persistentData.getInt(organActive) == 1) {
+            global.updatePlayerActiveStatus(player)
+        }
+        let strength = playerChestInstance.organScores.getOrDefault(new ResourceLocation('chestcavity', 'strength'), 0)
+        playerChestInstance.organScores.put(new ResourceLocation('chestcavity', 'strength'), new $Float(strength + coldsweat.getTemperature(player,'body')))
+
+    }
 };
 
 /**
@@ -201,4 +214,5 @@ const organPlayerTickOnlyStrategies = {
         revolSteamEngine(player)
         player.addItemCooldown(Item.of('minecraft:potion'), 20 * 20)
     },
+    
 };

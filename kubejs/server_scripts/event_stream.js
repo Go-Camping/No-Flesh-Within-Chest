@@ -78,3 +78,5 @@ global.LivingHurtByOthers = event => {
     dragonPowerPlayerHurtByOthers(event, data)
     championPlayerHurtByOthers(event, data)
 }
+
+

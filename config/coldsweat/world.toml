@@ -3,7 +3,11 @@
 #Common dimension IDs: minecraft:overworld, minecraft:the_nether, minecraft:the_end
 [Dimensions]
 	#Applies an offset to the world's temperature across an entire dimension
+<<<<<<< Updated upstream
 	"Dimension Temperature Offsets" = [["minecraft:the_nether", 1.0], ["minecraft:the_end", -0.1]]
+=======
+	"Dimension Temperature Offsets" = [["minecraft:the_nether", 1.0, "MC"], ["minecraft:the_end", -0.1, "MC"]]
+>>>>>>> Stashed changes
 	#Defines the temperature of a dimension, overriding all other biome and dimension temperatures/settings
 	"Dimension Temperatures" = []
 
@@ -15,7 +19,11 @@
 	#Applies an offset to the temperature of a biome
 	"Biome Temperature Offsets" = []
 	#Defines the temperature of a biome, overriding the biome's default temperature
+<<<<<<< Updated upstream
 	"Biome Temperatures" = [["minecraft:soul_sand_valley", 53, 53, "F"], ["minecraft:old_growth_birch_forest", 58, 72, "F"], ["minecraft:river", 60, 70, "F"], ["minecraft:swamp", 72, 84, "F"], ["minecraft:savanna", 70, 95, "F"], ["minecraft:savanna_plateau", 76, 98, "F"], ["minecraft:windswept_savanna", 67, 90, "F"], ["minecraft:taiga", 44, 62, "F"], ["minecraft:snowy_taiga", 19, 48, "F"], ["minecraft:old_growth_pine_taiga", 48, 62, "F"], ["minecraft:old_growth_spruce_taiga", 48, 62, "F"], ["minecraft:desert", 48, 115, "F"], ["minecraft:stony_shore", 50, 64, "F"], ["minecraft:snowy_beach", 38, 52, "F"], ["minecraft:snowy_slopes", 24, 38, "F"], ["minecraft:windswept_forest", 48, 66, "F"], ["minecraft:frozen_peaks", 15, 33, "F"], ["minecraft:warm_ocean", 67, 76, "F"], ["minecraft:deep_frozen_ocean", 56, 65, "F"], ["minecraft:jungle", 76, 87, "F"], ["minecraft:bamboo_jungle", 76, 87, "F"], ["minecraft:badlands", 84, 120, "F"], ["minecraft:wooded_badlands", 80, 108, "F"], ["minecraft:eroded_badlands", 88, 120, "F"], ["minecraft:deep_dark", 63, 63, "F"]]
+=======
+	"Biome Temperatures" = [["minecraft:frozen_peaks", 15.0, 33.0, "F"], ["minecraft:stony_shore", 50.0, 64.0, "F"], ["minecraft:old_growth_pine_taiga", 48.0, 62.0, "F"], ["minecraft:warm_ocean", 67.0, 76.0, "F"], ["minecraft:deep_dark", 63.0, 63.0, "F"], ["minecraft:soul_sand_valley", 53.0, 53.0, "F"], ["minecraft:deep_frozen_ocean", 56.0, 65.0, "F"], ["minecraft:jungle", 76.0, 87.0, "F"], ["minecraft:bamboo_jungle", 76.0, 87.0, "F"], ["minecraft:old_growth_spruce_taiga", 48.0, 62.0, "F"], ["minecraft:badlands", 84.0, 120.0, "F"], ["minecraft:old_growth_birch_forest", 58.0, 72.0, "F"], ["minecraft:windswept_savanna", 67.0, 90.0, "F"], ["minecraft:snowy_taiga", 19.0, 48.0, "F"], ["minecraft:windswept_forest", 48.0, 66.0, "F"], ["minecraft:wooded_badlands", 80.0, 108.0, "F"], ["minecraft:taiga", 44.0, 62.0, "F"], ["minecraft:snowy_beach", 38.0, 52.0, "F"], ["minecraft:savanna", 70.0, 95.0, "F"], ["minecraft:desert", 48.0, 115.0, "F"], ["minecraft:eroded_badlands", 88.0, 120.0, "F"], ["minecraft:snowy_slopes", 24.0, 38.0, "F"], ["minecraft:swamp", 72.0, 84.0, "F"], ["minecraft:savanna_plateau", 76.0, 98.0, "F"], ["minecraft:river", 60.0, 70.0, "F"]]
+>>>>>>> Stashed changes
 
 [Blocks]
 	#Allows for adding simple BlockTemps without the use of Java mods
@@ -48,7 +56,11 @@
 	#Overrides the world temperature when the player is within this structure
 	#Format: [["structure_1", temperature1, *units], ["structure_2", temperature2, *units]... etc]
 	#(* = optional)
+<<<<<<< Updated upstream
 	"Structure Temperatures" = [["minecraft:igloo", 65, "F"]]
+=======
+	"Structure Temperatures" = [["minecraft:igloo", 65.0, "F"]]
+>>>>>>> Stashed changes
 	#Offsets the world temperature when the player is within this structure
 	#Format: [["structure_1", offset1, *units], ["structure_2", offset2, *units]... etc]
 	#(* = optional)

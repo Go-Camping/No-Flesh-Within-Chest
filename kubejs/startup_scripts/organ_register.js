@@ -2132,5 +2132,34 @@ StartupEvents.registry('item', event => {
     registerOrgan(new Organ('kubejs:lightning_dragon_liver').addScore('detoxification', 1.5).addScore('speed', 0.25).build()).texture('kubejs:item/organs/dragon/lightning_dragon_liver').tag('kubejs:liver').tag('itemborders:diamond');
 
     registerOrgan(new Organ('kubejs:lightning_dragon_appendix').addScore('luck', 1.5).addScore('speed', 0.25).build()).texture('kubejs:item/organs/dragon/lightning_dragon_appendix').tag('kubejs:appendix').tag('itemborders:diamond');
-
+    
+    //温度器官
+    registerOrgan(new Organ('kubejs:flame_muscle')
+    .addScore('strength',1.5)
+    .addScore('speed',1.75)
+    .addTextLines('default', [Text.gray(Text.translatable("kubejs.tooltips.flame_muscle.1"))])
+    .addTextLines('alt', [LEADING_SYMBOL, Text.gray(Text.translatable("kubejs.tooltips.flame_muscle.2"))])
+    .build())
+    .texture('kubejs:item/organs/flame/flame_muscle')
+    .tag("kubejs:muscle")
+    .tag("kubejs:player_tick")
+    
+    registerOrgan(new Organ('kubejs:flame_heart')
+    .addScore('health', 1.5)
+    .addTextLines('default', [Text.gray(Text.translatable("kubejs.tooltips.flame_heart.1"))])
+    .addTextLines('alt', [LEADING_SYMBOL, Text.gray(Text.translatable("kubejs.tooltips.flame_heart.2"))])
+    .build())
+    .texture('kubejs:item/organs/flame/flame_heart')
+    .tag("kubejs:heart")
+    .tag("kubejs:damage_only")
+    
+    //暮色器官
+    registerOrgan(new Organ('kubejs:snow_monster_core')
+    .addScore('health', 1.5)
+    .addTextLines('default', [Text.gray(Text.translatable("kubejs.tooltips.snow_monster_core.1"))])
+    .addTextLines('alt', [LEADING_SYMBOL, Text.gray(Text.translatable("kubejs.tooltips.snow_monster_core.2"))])
+    .build())
+    .texture('kubejs:item/organs/twilightforest/snow_monster_core')
+    .tag("kubejs:heart")
+    .tag("kubejs:rclick_only")
 });

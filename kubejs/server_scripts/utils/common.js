@@ -11,7 +11,8 @@ const $MapItem = Java.loadClass('net.minecraft.world.item.MapItem')
 const $MapDecorationType = Java.loadClass('net.minecraft.world.level.saveddata.maps.MapDecoration$Type')
 const $ModBlocks = Java.loadClass('noobanidus.mods.lootr.init.ModBlocks')
 const $RandomizableContainerBlockEntity = Java.loadClass('net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity')
-
+const $Temperature = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature')
+const $Trait = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature$Trait')
 /**
  * 获取某个半径内的生物
  * @param {Internal.Level} level

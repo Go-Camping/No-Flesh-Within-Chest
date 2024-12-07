@@ -1,0 +1,108 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 0
+    },
+    {
+      "item": "chestcavity:rib",
+      "position": 1
+    },
+    {
+      "item": "chestcavity:animal_appendix",
+      "position": 2
+    },
+    {
+      "item": "chestcavity:animal_lung",
+      "position": 3
+    },
+    {
+      "item": "kubejs:snow_monster_core",
+      "position": 4
+    },
+    {
+      "item": "chestcavity:animal_lung",
+      "position": 5
+    },
+    {
+      "item": "chestcavity:rib",
+      "position": 7
+    },
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 8
+    },
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 9
+    },
+    {
+      "item": "chestcavity:rib",
+      "position": 10
+    },
+    {
+      "item": "chestcavity:animal_spleen",
+      "position": 11
+    },
+    {
+      "item": "chestcavity:animal_kidney",
+      "position": 12
+    },
+    {
+      "item": "chestcavity:animal_spine",
+      "position": 13
+    },
+    {
+      "item": "chestcavity:animal_kidney",
+      "position": 14
+    },
+    {
+      "item": "chestcavity:animal_liver",
+      "position": 15
+    },
+    {
+      "item": "chestcavity:rib",
+      "position": 16
+    },
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 17
+    },
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 18
+    },
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 19
+    },
+    {
+      "item": "chestcavity:animal_intestine",
+      "position": 20
+    },
+    {
+      "item": "chestcavity:animal_intestine",
+      "position": 21
+    },
+    {
+      "item": "chestcavity:animal_stomach",
+      "position": 22
+    },
+    {
+      "item": "chestcavity:animal_intestine",
+      "position": 23
+    },
+    {
+      "item": "chestcavity:animal_intestine",
+      "position": 24
+    },
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 25
+    },
+    {
+      "item": "chestcavity:animal_muscle",
+      "position": 26
+    }
+  ]
+}

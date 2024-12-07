@@ -132,6 +132,7 @@
         "value": Infinity
       }
     },
+<<<<<<< Updated upstream
     "witherstormmod:target_stationary_flying_speed": {
       "enabled": false,
       "min": {
@@ -143,6 +144,8 @@
         "value": 2
       }
     },
+=======
+>>>>>>> Stashed changes
     "obscure_api:regeneration": {
       "enabled": false,
       "min": {
