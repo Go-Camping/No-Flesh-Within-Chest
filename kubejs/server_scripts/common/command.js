@@ -54,3 +54,15 @@ ServerEvents.commandRegistry(event => {
     )
 
 })
+
+ServerEvents.command((event) => {
+    const player = event.parseResults.context.source.player
+    if (!player || player.hasPermissions(4)) return
+    if (event.input.startsWith('kubejs stages')
+        || event.input.startsWith('kjs stages')
+    ) {
+        //提示玩家缺少权限
+        player.tell(Text.red(Text.translatable('commands.help.failed')))
+        event.cancel()
+    }
+})
