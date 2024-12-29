@@ -2316,6 +2316,7 @@ StartupEvents.registry('item', event => {
         .addTextLines('alt', [LEADING_SYMBOL, Text.translatable("kubejs.tooltips.cloud_pyramid.2").gray()])
         .addTextLines('alt', [LEADING_SYMBOL, Text.translatable("kubejs.tooltips.cloud_pyramid.3").gray()])
         .addTextLines('alt', [LEADING_SYMBOL, Text.translatable("kubejs.tooltips.cloud_pyramid.4").gray()])
+        .addTextLines('alt', [LEADING_SYMBOL, Text.translatable("kubejs.tooltips.cloud_pyramid.5").gray()])
         .build())
         .texture('kubejs:item/organs/twilightforest/cloud_pyramid')
         .tag('kubejs:magic')

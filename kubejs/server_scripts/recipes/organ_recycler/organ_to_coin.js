@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
                 coinItemList.forEach(coinItem => {
                     let unpickableItem = $WalletItem.PickupCoin(coinSlotItem, coinItem)
                     ctx.block.popItemFromFace(unpickableItem, Direction.UP)
-                })
+                }) 
             } else {
                 let playerBankAccount = $BankSaveData.GetBankAccount(false, ctx.machine.ownerId)
                 playerBankAccount.depositMoney(ConvertMainMoneyValue(worth))

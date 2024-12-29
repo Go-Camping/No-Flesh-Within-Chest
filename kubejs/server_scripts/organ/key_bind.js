@@ -413,12 +413,17 @@ const organPlayerKeyPressedOnlyStrategies = {
     },
     'kubejs:cloud_pyramid': function (event, organ) {
         let player = event.player
+        let magicData = getPlayerMagicData(player)
         let instance = player.getChestCavityInstance()
         let buoyant = organ.tag.getFloat('buoyant_factor')
         if(!buoyant){
             player.removeEffect("minecraft:jump_boost")           
             player.potionEffects.add("minecraft:slow_falling", 20 * 5, 0, false, false)
             buoyant = instance.organScores.getOrDefault(new ResourceLocation('chestcavity', 'buoyant'), 0)
+            if(magicData.getMana() < (buoyant - 4) * 100){
+                return
+            }
+            magicData.setMana(magicData.getMana() - (buoyant - 4) * 100)
             instance.organScores.put(new ResourceLocation('chestcavity', 'buoyant'), new $Float(0))
             organ.tag.putFloat('buoyant_factor', buoyant)
         }else{

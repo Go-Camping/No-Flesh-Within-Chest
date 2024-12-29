@@ -1652,6 +1652,7 @@
     "kubejs.tooltips.cloud_pyramid.2":"按下主动技能按键后获得短暂的缓降效果，",
     "kubejs.tooltips.cloud_pyramid.3":"并使你胸腔的漂浮属性在§6正常值§7与§6零§7之间切换",
     "kubejs.tooltips.cloud_pyramid.4":"切换为§6正常值§7时获得跳跃提升",
+    "kubejs.tooltips.cloud_pyramid.5":"切换为§6零§7时若漂浮属性大于4则需要额外消耗法力值",
     "kubejs.tooltips.armor_with_gaze.1":"专注！",
     "kubejs.tooltips.armor_with_gaze.2":"注视的敌人对你的近战和弹射物伤害大幅降低",
     "kubejs.tooltips.armor_with_gaze.3":"其他敌人对你的近战和弹射物伤害伤害提高",

@@ -515,9 +515,11 @@ const organActiveOnlyStrategies = {
                 if(!enchantOnlyMap.has(enchantName)){
                     enchantOnlyMap.set(enchantName, lvl)
                 }else enchantOnlyMap.set(enchantName, Math.max(enchantOnlyMap.get(enchantName), lvl))
-            }
-            if (enchantList.length >= 2){
-                cdReduction -= 0.05 * (enchantList.length - 1)
+                // 贪得无厌
+                if (j >= 1){
+                    cdReduction -= 0.05 * (j - 1)
+                    buoyant += 0.1 * lvl
+                }
             }
             buoyant += 0.1
         }
