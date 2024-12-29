@@ -1,4 +1,6 @@
 {
+    "tip.chestopener.fail.obstructed": "无法对穿戴护甲的目标开胸",
+    "tip.chestopener.fail.healthy": "无法对过于健康的目标开胸",
     "death.attack.ccHeartbleed": "%1$s成为了献给太阳的祭品",
     "death.attack.ccHeartbleed.player": "%2$s见证了%1$s的献祭过程",
     "death.attack.ccOrganRejection": "%1$s死于器官移植并发症",
