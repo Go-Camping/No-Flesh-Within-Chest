@@ -27,6 +27,6 @@ ItemEvents.foodEaten('kubejs:colorful_candy', event => {
     let targetChunk = targetLevel.getChunk(chunkX, chunkZ, $ChunkStatus.SURFACE, true)
     let y = targetChunk.getHeight('motion_blocking', blockX, blockZ) + 2
     player.teleportTo(dim, x, y, z, player.yaw, player.pitch)
-    player.setStatusMessage(Text.translatable('kubejs.statusmsg.colorful_candy_tp.1', Text.translatable(dim.toLanguageKey()).lightPurple()))
+    player.setStatusMessage(Text.translatable('kubejs.status_msg.colorful_candy_tp.1', Text.translatable(dim.toLanguageKey()).lightPurple()))
     player.addItemCooldown(item.id, 20 * 5)
 })

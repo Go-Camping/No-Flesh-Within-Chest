@@ -80,7 +80,7 @@ StartupEvents.registry('item', event => {
     event.create('lucky_cookie').texture('kubejs:item/organs/food/lucky_cookie').food(food => {
         food.hunger(1).saturation(1).alwaysEdible().eaten(event => {
             if (!event.player) return
-            event.server.runCommandSilent(`/title ${event.player.name.getString()} title {"text":"${randomGet(luckyCookieSentence)}"}`)
+            event.server.runCommandSilent(`/title ${event.player.name.getString()} title {"text":"${Text.translatable(randomGet(luckyCookieSentence)).getString()}"}`)
             if (Math.random() < 0.02) {
                 event.player.give(Item.of('kubejs:lucky_cookie_organ'))
             }

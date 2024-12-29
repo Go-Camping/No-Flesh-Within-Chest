@@ -78,7 +78,7 @@
 					type: "item"
 				}
 				{
-					count: 2
+					count: 3
 					id: "68F68EEA900B54B3"
 					item: {
 						Count: 1b
@@ -669,7 +669,7 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["3FED9C9227FC9CD5"]
+			dependencies: ["040207B33E2FEBFF"]
 			description: [
 				"如果你要和你的朋友开始旅程，却苦于没有互相传送的方式，不如试试&6约定誓约&r。"
 				""
@@ -1841,11 +1841,19 @@
 				}
 			}
 			id: "28A03FA0404404DA"
-			rewards: [{
-				id: "73D4161941FC5D99"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "73D4161941FC5D99"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78DB3AC947C966A6"
+					item: "kubejs:eye_of_dragon"
+					type: "item"
+				}
+			]
 			subtitle: "写下属于你自己的传说"
 			tasks: [{
 				id: "2D93EEA58973F48D"

@@ -1,6 +1,6 @@
 // priority: 500
 ServerEvents.recipes(event => {
-    event.recipes.custommachinery.custom_machine("kubejs:organ_recycler", 20 * 30)
+    event.recipes.custommachinery.custom_machine("kubejs:organ_recycler", 20 * 20)
         .requireFunctionOnEnd(ctx => {
             let machine = ctx.machine
             let organ = machine.getItemStored("organ_slot")
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
                 let playerBankAccount = $BankSaveData.GetBankAccount(false, ctx.machine.ownerId)
                 playerBankAccount.depositMoney(ConvertMainMoneyValue(worth))
                 if (machine.owner && machine.owner.isAlive()) {
-                    machine.owner.setStatusMessage(Text.translatable('kubejs.statusmsg.organ_sell.1', Text.gold(worth.toFixed(0))))
+                    machine.owner.setStatusMessage(Text.translatable('kubejs.status_msg.organ_sell.1', Text.gold(worth.toFixed(0))))
                 }
             }
             machine.removeItemFromSlot("organ_slot", 1, false)

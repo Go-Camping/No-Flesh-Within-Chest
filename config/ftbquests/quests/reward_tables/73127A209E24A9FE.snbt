@@ -1,78 +1,78 @@
 {
-	icon: "kubejs:secret_of_origin"
+	icon: "kubejs:eye_of_dragon"
 	id: "73127A209E24A9FE"
 	loot_size: 1
 	order_index: 2
 	rewards: [
 		{
 			command: "/nfwc difficult @p 1"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：1"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 2"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：2"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 3"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：3"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 4"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：4"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 5"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：5"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 6"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：6"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 7"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：7"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 8"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：8"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 9"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：9"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 10"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：10"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 11"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：11"
 			type: "command"
 		}
 		{
 			command: "/nfwc difficult @p 12"
-			icon: "kubejs:secret_of_origin"
+			icon: "kubejs:eye_of_dragon"
 			title: "基准难度：12"
 			type: "command"
 		}

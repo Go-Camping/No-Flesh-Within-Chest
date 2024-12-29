@@ -1,15 +1,4 @@
 // priority: 500
-const TetraEffectFunctionalization = TetraEffect.createItemEffect(new ResourceLocation('kubejs:functionalization'))
-const TetraEffectFunctionalizationEffectGetter = TetraStatGetter.createStatGetterEffectLevel(TetraEffectFunctionalization, 1)
-
-const TetraEffectSilicosis = TetraEffect.createItemEffect(new ResourceLocation('kubejs:silicosis'))
-const TetraEffectSilicosisEffectGetter = TetraStatGetter.createStatGetterEffectLevel(TetraEffectSilicosis, 1)
-
-global.TetraEffect = {
-    'kubejs:functionalization': TetraEffectFunctionalization,
-    'kubejs:silicosis': TetraEffectSilicosis
-}  
-
 ClientEvents.init(event => {
     TetraGui.addGuiStatBar(
         TetraGui.createGuiStatBar(0, 0, 59,

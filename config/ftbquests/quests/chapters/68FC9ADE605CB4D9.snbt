@@ -214,16 +214,24 @@
 			]
 			icon: "create:goggles"
 			id: "47B5B3FBC91E73D7"
-			rewards: [{
-				count: 3
-				id: "601207478EFFD3B5"
-				item: {
-					Count: 1b
-					id: "lightmanscurrency:coin_iron"
-					tag: { }
+			rewards: [
+				{
+					count: 3
+					id: "601207478EFFD3B5"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "294603C5ED8EF1B5"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
 			subtitle: "注意你的应力"
 			tasks: [
 				{

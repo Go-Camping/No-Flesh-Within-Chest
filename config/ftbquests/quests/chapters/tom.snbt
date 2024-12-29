@@ -53,11 +53,18 @@
 			]
 			icon: "refinedstorage:disk_drive"
 			id: "0E097279FE764E16"
-			rewards: [{
-				id: "42C4119935AE8B4B"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "42C4119935AE8B4B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "093F899A9C3054E1"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "02CAB380C2980F87"

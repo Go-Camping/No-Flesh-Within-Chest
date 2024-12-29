@@ -161,8 +161,9 @@ ServerEvents.recipes(event => {
         });
 
     event.shapeless('kubejs:lucky_cookie', ['minecraft:paper', 'minecraft:cookie'])
-    event.shapeless('kubejs:eye_of_village', ['minecraft:ender_pearl', 'minecraft:emerald'])
-    event.shapeless('kubejs:eye_of_fortress', ['minecraft:ender_pearl', 'minecraft:magma_cream'])
+    event.shapeless(Item.of('kubejs:eye_of_village', 3), ['minecraft:ender_pearl', 'minecraft:emerald'])
+    event.shapeless(Item.of('kubejs:eye_of_fortress', 3), ['minecraft:ender_pearl', 'minecraft:magma_cream'])
+    event.shapeless(Item.of('kubejs:eye_of_dragon', 3), ['minecraft:ender_pearl', 'iceandfire:dragonbone'])
     event.shapeless('kubejs:mosquito_repellent', ['irons_spellbooks:magic_cloth', 'chestcavity:cooked_alien_organ_meat'])
 
     event.shapeless('chestcavity:sausage_skin', ['#kubejs:intestine'])
