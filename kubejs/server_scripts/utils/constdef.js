@@ -9,7 +9,7 @@ const organActive = 'organActive'
 const criticalPunch = 'criticalPunch'
 const criticalPunchMaxCount = 10
 
-const bossTypeList = [
+let bossTypeList = [
     'somebosses:aesegull',
     'somebosses:prismarine_watcher',
     'somebosses:froverlord',
@@ -156,7 +156,7 @@ const difficultLevelDef = [
     { healthMulti: 1000, attackMulti: 8, armorMulti: 3, toughnessMulti: 3 },
 ]
 
-const curseEnchantList = [
+let curseEnchantList = [
     'cursery:curse_electrified',
     'cursery:curse_switchy',
     'cursery:curse_illusion',
@@ -252,7 +252,7 @@ const treasureDetectorTableMap = {
 
 const machineChestLootTable = ['kubejs:platelet_dispatcher', 'kubejs:lowlight_vision', 'kubejs:revolution_relay', 'kubejs:revolution_delay', 'kubejs:rose_quartz_muscle', 'kubejs:revolution_cable', 'kubejs:revolution_gear', 'kubejs:rose_quartz_dialyzer', 'kubejs:rose_quartz_liver', 'kubejs:rose_quartz_heart', 'kubejs:revolution_steam_engine', 'kubejs:lava_life_cycle_system', 'kubejs:energy_bottle_max', 'kubejs:aegis', 'kubejs:mace', 'kubejs:machine_clockwork', 'kubejs:tamagotchi', 'kubejs:jet_propeller', 'kubejs:platelet_dispatcher', 'kubejs:compressed_oxygen_implant']
 
-const warpFoodMap = {
+let warpFoodMap = {
     'cataclysm:blessed_amethyst_crab_meat': {
         count: -3,
         chance: 1,
@@ -271,7 +271,7 @@ const warpFoodMap = {
     },
 }
 
-const tagWorth = {
+let tagWorth = {
     '#kubejs:organ': 1,
     '#kubejs:stomach': 10,
     '#kubejs:eat_effect': 30,
