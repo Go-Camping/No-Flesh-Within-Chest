@@ -1,4 +1,6 @@
 {
+	"title.name.suffix": "的",
+	"title.chestcavity": "胸腔",
     "tip.chestopener.fail.obstructed": "无法对穿戴护甲的目标开胸",
     "tip.chestopener.fail.healthy": "无法对过于健康的目标开胸",
     "death.attack.ccHeartbleed": "%1$s成为了献给太阳的祭品",

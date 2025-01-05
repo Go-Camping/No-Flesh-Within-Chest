@@ -28,3 +28,5 @@ const $ChunkStatus = Java.loadClass("net.minecraft.world.level.chunk.ChunkStatus
 const $BankSaveData = Java.loadClass('io.github.lightman314.lightmanscurrency.common.bank.BankSaveData')
 const $WalletItem = Java.loadClass('io.github.lightman314.lightmanscurrency.common.items.WalletItem')
 const $CoinValue = Java.loadClass("io.github.lightman314.lightmanscurrency.api.money.value.builtin.CoinValue")
+
+const $CommonForgeEventBusSubscriber = Java.loadClass("net.tigereye.chestcavity.forge.events.CommonForgeEventBusSubscriber")

@@ -129,7 +129,6 @@ ItemEvents.rightClicked('kubejs:advanced_chest_opener', event => {
     let painlessOper = event.item.enchantments.containsKey('kubejs:painless_operation')
     let creativeOper = event.item.enchantments.containsKey('kubejs:creative_operation')
 
-    let invName = target.getDisplayName().getString() + "'s "
     let optional = $ChestCavityEntity.of(target)
     if (optional.isPresent()) {
         let chestCavityEntity = optional.get()
@@ -139,13 +138,27 @@ ItemEvents.rightClicked('kubejs:advanced_chest_opener', event => {
                 target.attack(DamageSource.GENERIC, 4)
             }
             if (target.isAlive()) {
+				$CommonForgeEventBusSubscriber.addToCheckMap(player, cc)
                 cc.ccBeingOpened = cc
                 let inv = $ChestCavityUtil.openChestCavity(cc)
                 player.getChestCavityInstance().ccBeingOpened = cc
+				
+				let invName = Text.of(target.getDisplayName().getString())
+					.append(Text.translate("title.name.suffix"))
+					.append(Text.translate("title.chestcavity"));
+		
                 player.openMenu(new $SimpleMenuProvider((i, playerInventory) => {
                     return new $ChestCavityScreenHandler(i, playerInventory, inv)
-                }, Text.translatable(invName + "Chest Cavity")))
+                }, invName))
             }
-        }
+        } else {
+            if (!target.getEquipment('chest').isEmpty()) {
+                player.setStatusMessage(Text.translate("tip.chestopener.fail.obstructed"))
+                player.playSound("minecraft:chain_hit", 0.75, 1.0)
+            } else {
+                player.setStatusMessage(Text.translate("tip.chestopener.fail.healthy"))
+				player.playSound("minecraft:armor_equip_turtle", 0.75, 1.0)
+            }
+		}
     }
 })

@@ -1,4 +1,6 @@
 {
+	"title.name.suffix": "'s ",
+	"title.chestcavity": "Chest Cavity",
     "tip.chestopener.fail.obstructed": "Target's chest is obstructed",
     "tip.chestopener.fail.healthy": "Target is too healthy to open",
     "death.attack.ccHeartbleed": "%1$s's sacrifice has nourished the sun",
