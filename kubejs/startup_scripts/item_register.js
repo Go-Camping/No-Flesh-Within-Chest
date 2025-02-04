@@ -287,7 +287,7 @@ StartupEvents.registry('item', event => {
         .use((level, player, hand) => {
             return true
         })
-        .useDuration(itemStack => 20)
+        .useDuration(itemStack => 30)
         .finishUsing((itemstack, level, entity) => {
             if (level.isClientSide()) return itemstack
             if (!entity.isPlayer()) return itemstack
@@ -313,7 +313,38 @@ StartupEvents.registry('item', event => {
                 entity.persistentData.putInt(organActive, 1)
             }
             entity.tell($Serializer.fromJsonLenient({ translate: 'kubejs.msg.operation_box.1' }))
+            entity.addItemCooldown(itemstack, 10)
             return itemstack
+        })
+        .releaseUsing((itemstack, level, entity, tick) => {
+            if (level.isClientSide()) return itemstack
+            if (!entity.isPlayer()) return itemstack
+            let itemInv = itemstack?.nbt?.inventory
+            if (!itemInv) return itemstack
+            let itemList = new Array(27).fill(Item.of('minecraft:air'))
+            let container = new $SimpleContainer(itemList)
+            for (let i = 0; i < itemInv.length; i++) {
+                let slot = itemInv[i].getInt('Slot')
+                let itemId = itemInv[i].getString('id')
+                let itemCount = itemInv[i].getInt('Count')
+                let itemNBT = itemInv[i].get('tag')
+                container.setItem(slot, Item.of(itemId, itemCount, itemNBT))
+            }
+            container.addListener((newContainer) => {
+                let tag = []
+                for (let i = 0; i < 27; i++) {
+                    let item = newContainer.getItem(i)
+                    if (item.isEmpty()) continue
+                    let itemTag = item.save(new $CompoundTag())
+                    itemTag.putInt('Slot', i)
+                    tag.push(itemTag)
+                }
+                itemstack.nbt.put('inventory', tag)
+            })
+            let player = entity
+            player.openMenu(new $SimpleMenuProvider((i, playerInventory) => {
+                return new $ChestMenu.threeRows(i, playerInventory, container)
+            }, Text.translatable('item.kubejs.operation_box')))
         })
 
     event.create('advanced_chest_opener').texture('kubejs:item/advanced_chest_opener')

@@ -12,3 +12,7 @@ const $EntityLightningDragon = Java.loadClass('com.github.alexthe666.iceandfire.
 const $RangedAttribute = Java.loadClass('net.minecraft.world.entity.ai.attributes.RangedAttribute')
 const $EntityType = Java.loadClass('net.minecraft.world.entity.EntityType')
 const $Serializer = Java.loadClass('net.minecraft.network.chat.Component$Serializer')
+const $SimpleMenuProvider = Java.loadClass('net.minecraft.world.SimpleMenuProvider')
+const $ChestMenu = Java.loadClass('net.minecraft.world.inventory.ChestMenu')
+const $SimpleContainer = Java.loadClass('net.minecraft.world.SimpleContainer')
+const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
