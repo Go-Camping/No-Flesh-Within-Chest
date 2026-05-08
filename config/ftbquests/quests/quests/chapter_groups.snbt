@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "2358ECA720E3F23E", title: "About the Modpack" }
+		{ id: "4E02CBDD9D86D249", title: "Main Quest：Id, Ego, Superego" }
+		{ id: "0F9EA9FA28C88D03", title: "Tech : Modern Living" }
+		{ id: "0241B51B931E1ED2", title: "Weapon：Higher DPS" }
+		{ id: "0BA6B2DC983B31FC", title: "Magic : Uncover the Truth of the World" }
+		{ id: "4F4F4EA8CE67985B", title: "Collection : Not in Vain" }
+	]
+}

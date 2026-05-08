@@ -1,0 +1,1011 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "4E02CBDD9D86D249"
+	icon: "cataclysm:burning_ashes"
+	id: "074AE67620B22558"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 26.91358024691358d
+		hover: [ ]
+		image: "kubejs:textures/task/chapter2.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 6.75d
+		y: 3.25d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03B3A54BEDB85320"]
+			description: [
+				"At this point, most of the mods in this modpack have been &2fully introduced&r, and the “questline” within the pack can be considered &dcomplete&r."
+				""
+				"Try defeating &2various bosses&r and collecting &2a wider variety of organs&r, only then will you be able to"
+				""
+				"&8uncover the secret hidden within your memories.&r"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "2EBB4C697D81D42A"
+			rewards: [{
+				count: 2
+				id: "61D2E13ED3514B25"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5C7476AF066BA1E3"
+				title: "开始你的旅途吧！"
+				type: "checkmark"
+			}]
+			title: "Start Your Journey"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [
+				"In normal dungeon exploration, you may occasionally obtain a special trinket known as the &6Uncharged Divine Grace Necklace&r. While carrying it, defeating a &2boss with high destructive power and strong regeneration&r will fully charge it."
+				""
+				"At the same time, in the special desert-themed instance of the Dimensional Dungeon, you can find a summoning altar built upon command blocks. By using this altar and consuming a Charged Divine Grace Necklace as the summoning catalyst, you can randomly summon a &cDivine Grace Boss&r."
+				""
+				"The &cDivine Grace Boss&r is not inherently extremely powerful, as its abilities are similar to the original boss. However, it places a relatively high demand on player DPS. Throughout all phases, it has a constant regeneration rate of &61% of max health per second&r, and &2at every 33% health threshold, it randomly gains a type of damage immunity&r. In the final 33% of its health, it will also &2enter a 180-second DPS check&r. If it is not defeated before the buff expires, it will &4fully restore its health&r and gain an additional immunity type."
+				""
+				""
+				"{@pagebreak}"
+				"To successfully defeat the Divine Grace Boss, you will need effective means of attack in all three types: &2magic, ranged, and melee&r."
+				""
+				"After defeating the Divine Grace Boss, you will obtain a Divine Fragment corresponding to its soul type, which can be used in the crafting of the legendary organ &b“Eden Reborn”&r."
+			]
+			icon: "dimdungeons:item_blank_theme_key"
+			id: "5EB8592EEE08BF45"
+			rewards: [{
+				id: "170703F1786429BB"
+				item: {
+					Count: 1b
+					id: "dimdungeons:item_blank_theme_key"
+					tag: {
+						theme: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "An &4EXTREMELY&r dangerous summoning ritual"
+			tasks: [{
+				id: "27FEE67CC6FF3B6C"
+				item: "kubejs:god_bless_empty_necklace"
+				type: "item"
+			}]
+			title: "Divine Ritual"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EB8592EEE08BF45"]
+			description: ["Defeat three different &6Divine Grace Bosses&r and use three &4Divine Fragment&r types from different souls to obtain &6Eden Reborn&r."]
+			id: "0DCDFAD4C3288FCD"
+			rewards: [
+				{
+					count: 3
+					id: "4F5386D4974572C8"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "157A6DFC58E24CDF"
+					item: "kubejs:lucky_block"
+					type: "item"
+				}
+			]
+			subtitle: "The Paradise Shall Reborn"
+			tasks: [{
+				id: "646B8C1B39DCF1C0"
+				item: {
+					Count: 1b
+					id: "kubejs:paradise_regained"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Eden Reborn"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DCDFAD4C3288FCD"]
+			description: ["After defeating the &cTrial of Divine Will&r, you can use the final drop, &bDivine Approval&r to upgrade Eden Reborn into &4Lost Eden&r."]
+			id: "31943A7BAB8816B5"
+			rewards: [{
+				id: "18BFE49141AA5EAD"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "Thus, humanity was cast out from Eden"
+			tasks: [{
+				id: "4559F00C65B3FB78"
+				item: {
+					Count: 1b
+					id: "kubejs:lost_paradise"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Lost Eden"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DCDFAD4C3288FCD"]
+			description: ["Defeat three waves of Divine Grace Boss encounters, to obtain a special fragment, &bDivine Approval&r, used to upgrade Eden Reborn."]
+			id: "491936134333160E"
+			rewards: [{
+				id: "432D9AF05E8F32B4"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "Overcome three waves of the &4TRAILS&r"
+			tasks: [{
+				id: "71B0F459CFE155DD"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "kubejs:god_challenge"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Trial of Divine Will"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DCDFAD4C3288FCD"]
+			description: [
+				"Besides the Trial of Divine Will, there are also other Challenge Gate contents such as &6Elemental Carnival&r and &6Boss Rush&r."
+				""
+				"Among them, the most difficult is the &9Final Onslaught&r, which consists of 17 waves of raid-related enemies, culminating in the final boss,the &cBlade Emperor&r."
+			]
+			id: "6C3D3B9EBA65B44D"
+			rewards: [{
+				id: "3E4BF7CDF46FBBC9"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "Beyond every person, there is another greater one"
+			tasks: [{
+				id: "3C21E3193EB6D145"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "kubejs:final_raid"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "The Final Onslaught"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03B3A54BEDB85320"]
+			description: [
+				"By crafting a Personal Dimension Key, &2you can access your own pocket dimension&r. In this dimension, you can edit the allowed player list for your portals using various items."
+				""
+				"Hold the following items and &eright-click a portal block inside the pocket dimension&r to trigger their effects:"
+				""
+				"&6Book&r: View the current visitor list"
+				"&6White Dye&r: Switch to whitelist mode"
+				"&6Black Dye&r: Switch to blacklist mode"
+				"&6Paper&r: Rename it via an anvil to a player’s name, then use it to add that player to the visitor list"
+				"&6Grindstone&r: Clear the current visitor list"
+				""
+				"Private dimensions are often used to store personal items or simply as a superflat space for building."
+			]
+			id: "5255A65B18FE588A"
+			rewards: [{
+				id: "474C5603581AF6D5"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "A pocket dimension"
+			tasks: [{
+				id: "53C3F084DD6F041A"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			title: "Personal Dimension"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03B3A54BEDB85320"]
+			description: [
+				"To better explore dungeons, you can use two special items: the Bell of Secret and the Homeward Pearl."
+				""
+				"The &6Bell of Secret&r can be used to detect whether a room contains hidden chests. If any are present, it will emit a sequence of 8 musical notes. &7(The Secret Bell can be obtained from special chests in Dimensional Dungeons, which are often found in rooms with traps and puzzles.)&r"
+				""
+				"The &6Homeward Pearl&r allows you to quickly return back to the dungeon entrance."
+			]
+			icon: "dimdungeons:item_secret_bell"
+			id: "738F8D1CEDC020F1"
+			rewards: [{
+				id: "65B0A76807157940"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Become the Master of Dungeons"
+			tasks: [
+				{
+					id: "33343BF20AC4B52E"
+					item: "dimdungeons:item_secret_bell"
+					type: "item"
+				}
+				{
+					id: "1B3FB946CEE7C187"
+					item: "dimdungeons:item_homeward_pearl"
+					type: "item"
+				}
+			]
+			title: "Dungeon Explorer"
+			x: 4.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03B3A54BEDB85320"]
+			description: [
+				"In the loot chests of basic dungeons, you may occasionally find an item known as the &2Advanced Portal Key&r."
+				""
+				"The Advanced Portal Key can be used to activate an &6Advanced Portal&r, granting access to higher tier dungeon. Inside these advanced dungeons, chest loot is significantly better, and you may even encounter enchanted books that exceed normal enchantment level limits!"
+				""
+				"To activate the key, you must construct an &dAdvanced Portal&r. This is done by placing &6Dimensional Crown Blocks&r on both sides of the &6Portal Keystone&r, and &2hanging white or purple banners on the tops of the two side pillars&r. &7(As shown below; Dimensional Crown Seats are obtained from dungeon chests.)&r"
+				"{image:kubejs:textures/task/dimensiona_3.png width:160 height:80 align:1}"
+			]
+			icon: "dimdungeons:block_portal_crown"
+			id: "45AB5B1831B0AACF"
+			rewards: [{
+				id: "005036E6044961EE"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "To a higher tier dungeon"
+			tasks: [{
+				count: 2L
+				id: "7598190369BC5AB7"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			title: "Advanced Dimension Dungeon"
+			x: 3.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["4452DA9A1D3D80A0"]
+			description: [
+				"A basic portal consists of 9 &6Stone Bricks&r, 2 &6Gilded Portal Blocks&r, and 1 &6Portal Keystone&r, all of which can be crafted using a crafting table."
+				""
+				""
+				"{image:kubejs:textures/task/dimensiona_2.png width:160 height:80 align:1}"
+				""
+				""
+				"{@pagebreak}"
+				"Hold a blank Portal Key and &eright-click&r the center of an &6End Portal Frame&r (as shown in the red box in the image) to obtain a randomly generated new Portal Key. Place this key into the &6Portal Keystone&r to activate the portal."
+				""
+				"&7(The portal may experience lag or delay during activation; please be patient.)&r"
+				""
+				"{image:kubejs:textures/task/dimensiona_1.png width:100 height:100 align:1}"
+			]
+			icon: "dimdungeons:block_portal_keyhole"
+			id: "03B3A54BEDB85320"
+			rewards: [
+				{
+					count: 3
+					id: "6E85D0F5766263AA"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "53D7670BAAC410CB"
+					item: "kubejs:lucky_block"
+					type: "item"
+				}
+			]
+			subtitle: "A gate to a new dimension"
+			tasks: [
+				{
+					id: "20A7A4F511AE4836"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4375DF9051967D1D"
+					item: "dimdungeons:block_gilded_portal"
+					type: "item"
+				}
+			]
+			title: "Dimensional Dungeon"
+			x: 4.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["4452DA9A1D3D80A0"]
+			description: [
+				"You can craft your own Key Inscribing Table following its recipe. It functions similarly to an End Portal activation mechanism, allowing you to activate portal keys at home."
+				""
+				"&7(Selenite Cluster generates in Selenite geodes found underground in jungles and swamps.)&r"
+			]
+			id: "4264FBF118BE08EA"
+			rewards: [{
+				id: "6C1107835A5473E2"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Active the key at home！"
+			tasks: [{
+				id: "0378C5A5729CEBDB"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			title: "Craft a Key Inscribing Station！"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["45AB5B1831B0AACF"]
+			description: [
+				"If you obtain a &6Portal Hall Key&r, you can access a highly unique dungeon through a portal. This dungeon contains no monsters at all, but instead consists of a &2hall filled with multiple portals&r."
+				""
+				"Inside, you can collect the corresponding portal keys at different portal locations. You can then return to the world and set up dimensional portals at various locations, inserting the matching keys into them. In this way, different portals can all lead to the same portal hall."
+				""
+				"This effectively allows you to build a multi-dimensional, multi-location &6transit hub&r!"
+			]
+			id: "055755574AC4697C"
+			rewards: [{
+				id: "2EE671725DCF58A6"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Sometimes, you will find some special teleporter key"
+			tasks: [{
+				id: "794A75FE1032AE76"
+				item: "dimdungeons:item_blank_teleporter_key"
+				type: "item"
+			}]
+			title: "Portal Hall？！"
+			x: 2.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [
+				"In this world, the power of ancient cataclysm still lingers. Within certain structures, you will encounter special monsters infused with &4Cataclysm Power&r."
+				""
+				"When a creature empowered by &4Cataclysm Power&r successfully hits you, it will temporarily &2prevent you from placing blocks, using items, or performing any form of attack&r."
+			]
+			icon: "cataclysm:altar_of_fire"
+			id: "22F081213B71190E"
+			rewards: [{
+				count: 2
+				id: "7E5896F32AE42749"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "In the world hidden corner..."
+			tasks: [{
+				id: "16F82F5206B69D49"
+				type: "checkmark"
+			}]
+			title: "Cataclysm"
+			x: 9.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["22F081213B71190E"]
+			description: ["You can use the various &6Eyes&r provided by the Cataclysm mod itself to locate its generated structures."]
+			id: "54D9CCA0E085E647"
+			rewards: [{
+				id: "5C23AD1FF738A81F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Find the Cataclysm mod's structure"
+			tasks: [{
+				id: "4B64AB81FF9995BC"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "Find the Source of cataclysm"
+			x: 12.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["15A36D9385499A77"]
+			description: [
+				"Soon, exploring the Overworld will no longer satisfy all your needs—nearby structures will have already been fully looted, while distant regions are simply too inconvenient to reach."
+				""
+				"At this point, you can craft the &6Dimensional Dungeon Gate&r at home and venture into the dungeons for exploration! The difficulty of Dimensional Dungeon exploration is relatively low, but each area offers its own unique charm. In addition, its reward chests often contain more useful items than those found in the Overworld！"
+			]
+			id: "4452DA9A1D3D80A0"
+			rewards: [
+				{
+					id: "4C1AB80049C082EB"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DF8378BB6EF11A6"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Explore the new dimension"
+			tasks: [{
+				id: "0C77FA41D567BA94"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			title: "Dimensional Dungeon"
+			x: 4.75d
+			y: 7.0d
+		}
+		{
+			description: [
+				"This modpack includes many boss battles originating from different mods, with varying levels of difficulty. You can find them in the &cBoss Compedium&r on the left side of the FTB quest menu."
+				""
+				"The modpack does not strictly require you to fight any specific boss at a given time. However, it might be worth reminding you that it may be time to test your strength against them！"
+			]
+			icon: "minecraft:creeper_head"
+			id: "6FB9DA46381FBCB6"
+			rewards: [{
+				id: "73CC5B1D06BBEC73"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "More battles awaits you"
+			tasks: [{
+				id: "616FC1A5907518C1"
+				type: "checkmark"
+			}]
+			title: "More Challenges"
+			x: 7.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["6FB9DA46381FBCB6"]
+			description: [
+				"&dMeet Your Fight&r mod provides &d4 bosses&r, each with their own unique loot. Their drops can be used to craft equipment such as useful trinkets, or cool weapons and tools."
+				""
+				"These bosses only appear when &esummoned&r. You will need to &dcraft the appropriate summoning item following its recipe&r, and then &ehold right-click&r while holding it to summon the boss."
+			]
+			icon: "meetyourfight:haunted_bell"
+			id: "6C5EDA1DE6024879"
+			rewards: [{
+				count: 2
+				id: "034F30E48D52B171"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45EFD3D48C383CCE"
+				type: "checkmark"
+			}]
+			title: "Meet Your Fight"
+			x: 8.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6FB9DA46381FBCB6"]
+			description: [
+				"&dBosses of Mass Destruction&r provides &d4 bosses&r that spawn in different structures and must be located by the player."
+				""
+				"Some bosses offer ways to help you find them, please refer to &eChallenges : Boss Compedium&r for more details."
+				""
+				"After defeating a boss, you can use &dBrimstone Nectar&r to reset the structure and &erechallenge the boss&r. (&eBrimstone Nectar can be crafted&r)"
+			]
+			hide_dependency_lines: true
+			icon: "bosses_of_mass_destruction:brimstone_nectar"
+			id: "0779F9E4FD2E0EA0"
+			rewards: [{
+				count: 2
+				id: "2435FA4D27AA4018"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6884E3C73795E24D"
+				type: "checkmark"
+			}]
+			title: "BODM"
+			x: 9.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6FB9DA46381FBCB6"]
+			description: ["To reach The End, you will need to obtain a certain number of Ender Pearls in order to open the gateway to The End."]
+			id: "2311CA3EEABF0250"
+			rewards: [
+				{
+					count: 6
+					id: "55F6B1260F29938F"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "73D1892CF94ACAF6"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Essentials for reaching The End"
+			tasks: [{
+				id: "355748BEB59386AF"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Encounting an Enderman"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2311CA3EEABF0250"]
+			description: ["When you enter The End, your vanilla Minecraft experience comes to a close, but for this modpack, reaching The End is only a small milestone. There are still countless &5incredible wonders&r in this world waiting for you to explore."]
+			icon: "minecraft:end_portal_frame"
+			id: "1D8929E0CE7CE0AB"
+			rewards: [{
+				id: "2AF64ED78935D661"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Soon, your vanilla Minecraft journey will come to an end"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2AF9850C10D5391F"
+				type: "dimension"
+			}]
+			title: "Arrive to The End"
+			x: 9.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D8929E0CE7CE0AB"]
+			description: [
+				"If all nearby End Ships have already been looted, you can use Phantom Membranes and Banana Slug slime to &2craft your own Elytra&r."
+				""
+				"Banana Slugs only spawn in cold Old Growth spruce Taiga biomes."
+			]
+			id: "7936F1A8DE4AF2E8"
+			rewards: [{
+				id: "443AEBF90B9CD82C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "You can find elytras in End City"
+			tasks: [{
+				id: "4EC33C7DB69FF161"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Elytra"
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D8929E0CE7CE0AB"]
+			description: ["As the final boss of vanilla Minecraft, defeating it still holds a very special meaning."]
+			icon: "minecraft:dragon_head"
+			id: "15A36D9385499A77"
+			rewards: [{
+				count: 5
+				id: "68E182F2D59A4C2B"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "The End?"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "7F3DBDA404445DC7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Ender Dragon！"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6FB9DA46381FBCB6"]
+			description: [
+				"You will need to play through the &dHexerei&r mod in order to craft one of the modpack’s more &eessential&r items—the &6Summoning Altar&r. &7(The creation of the Summoning Altar also requires some components from Create.)&r"
+				""
+				"&r&2—The Summoning Altar can be used to craft various items and organs, as well as to summon all 21 bosses from the someBosses mod.&r"
+				""
+				"In general, since some later recipes depend on the Hexerei's &6Mixing Cauldron&r, we recommend prioritizing progression in this mod."
+				""
+				"The Hexerei progression path is &eshort&r and mainly serves to enhance immersion with some &eoptional content&r, so there is no need to worry about heavy progression requirements. In fact, Hexerei can also provide useful conveniences for your exploration journey. &7(Who wouldn’t love a flying broom?)&r"
+				""
+				"Place the &dBook of Shadows&r on a altar, and begin your journey of discovery."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:book_of_shadows"
+				tag: {
+					bookmarks: { }
+					chapter: 0
+					opened: 0b
+					page: 0
+				}
+			}
+			id: "00E3E147FC750C90"
+			rewards: [
+				{
+					id: "69A47379C6E0551E"
+					item: {
+						Count: 1b
+						id: "hexerei:book_of_shadows"
+						tag: {
+							bookmarks: { }
+							chapter: 0
+							opened: 0b
+							page: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AB96012391DCB55"
+					item: "hexerei:book_of_shadows_altar"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Sorcery? Magic? Or Science?"
+			tasks: [{
+				id: "3342C5E8A28DC165"
+				title: "探寻魔法的秘密"
+				type: "checkmark"
+			}]
+			title: "Uncover the Secrets of Magic"
+			x: 5.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00E3E147FC750C90"]
+			description: [
+				"Although this modpack provides guidance for the &dHexerei&r mod, we still strongly encourage you to read its &ce&bxtre&dmely&ecool&r guidebook, the Book of Shadows."
+				""
+				"Now, we need to craft a &6Mixing Cauldron&r, which serves as the crafting station for Hexerei."
+				""
+				"Once again, for unfamiliar “workstation” recipes, it is recommended to &ehover your mouse over the item&r, press &eU (Show Uses)&r, and then switch to the recipe view at the top of the interface. This allows you to &2clearly see all craftable items and their recipes&r. &7(As shown below.)&r"
+				""
+				"&r{image:kubejs:textures/task/hexerei_1.png width:120 height:100 align:1}"
+				""
+				"{@pagebreak}"
+				"Some tips:"
+				""
+				"1. Although the Mixing Cauldron has an interaction interface, adding water requires you to &2pour it directly in&r using a water bucket."
+				""
+				"2. Some recipes require a &6heat source block&r placed &ebelow&r the cauldron. Recommended heat sources include &ecampfires&r or &emagma block&r. You can find more heat sources in the previous page under &2“Show Uses”&r."
+				""
+				"3. You can place items into the cauldron through its interface, or simply stand beside it and &2throw items directly into it&r."
+			]
+			id: "5B62D052AA6FF2D3"
+			rewards: [{
+				id: "077E1F89F281FD85"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Witch's Treasure"
+			tasks: [{
+				id: "5343118C1A6F92EB"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B62D052AA6FF2D3"]
+			description: [
+				"Another important feature of &dHexerei&r is the magical broom system. There are different types such as the &6Willow Broom&r and the &6Mahogany Broom&r, allowing you to easily travel and explore various locations."
+				""
+				"Brooms &2can be decorated and upgraded using items such as satchels, trinkets, and other accessories&r, giving them strong &6DIY potential&r."
+				""
+				"However, in terms of practicality, if you find Hexerei’s broom system too cumbersome, you may instead craft the &6Witch’s Broom&r. &7(You can find its recipe via JEI.)&r"
+				""
+				"&7Mahogany trees generate in jungles, while willow trees generate in swamps. For other basic resources from this mod, it is recommended to refer to the “Structures” section in the Book of Shadows and search within structures.&r"
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:mahogany_broom"
+				tag: { }
+			}
+			id: "7AAEA01D27277498"
+			rewards: [{
+				id: "3CE66056F389FA4D"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_keychain"
+					tag: {
+						Items: [{
+							Count: 1b
+							Slot: 0b
+							id: "kubejs:full_mark"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "I believe i can fly"
+			tasks: [{
+				id: "390FA83F430207D7"
+				type: "checkmark"
+			}]
+			title: "Magic and Flying Broom"
+			x: 3.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["5B62D052AA6FF2D3"]
+			description: [
+				"&6Dipper&r is a device with limited uses, but it is required to craft &6candles&r in the &dHexerei&r mod. &2(Hold Shift while hovering over the Dipper to view detailed information.)&r"
+				""
+				"Now, follow the recipe to craft the Dipper!"
+				""
+				"After crafting, if you want to pour out lava from the Mixing Cauldron, move your cursor to the fluid container area. A pop-up panel will appear—simply click it to drain the fluid. &7(As shown below.)&r"
+				""
+				"{image:kubejs:textures/task/hexerei_2.png width:100 height:60 align:1}"
+			]
+			id: "5DD1124BDBF1D5EC"
+			rewards: [{
+				count: 2
+				id: "5C85989EF8D5705C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Mixing Caudron's DLC"
+			tasks: [{
+				id: "7B63C80FB38C48CE"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			title: "A More Precise Device"
+			x: 3.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["5DD1124BDBF1D5EC"]
+			description: [
+				"First, you need to obtain animal fat by killing cows, pigs, or sheep."
+				""
+				"Once you have collected 8 pieces of animal fat, place them into a Mixing Cauldron filled with water to produce tallow."
+				""
+				"Hold the &6Dipper&r and sneak-right-click the Mixing Cauldron to place it on top. Make sure the cauldron contains tallow, then use string on the Dipper (right-click while holding string) to begin dipping candles."
+				""
+				"A single Dipper can process up to three candles at the same time."
+				""
+				"&7If the cauldron contains a potion instead of tallow, the dipped candles will gain the corresponding potion effect. Once lit, the candles will grant that effect within a certain area.&r"
+			]
+			id: "17612117FFCB6D00"
+			rewards: [{
+				count: 2
+				id: "606BAC53708BAC2B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5EA69CBB141D86"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			title: "Preparing for the Summoning Altar"
+			x: 2.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["17612117FFCB6D00"]
+			description: [
+				"The guidance for &dHexerei&r ends here after crafting the essential “Candles” required for the main progression. The mod will not be mandatory for further gameplay."
+				""
+				"However, Hexerei offers much more content beyond this point. You can explore all of its items by typing &d“&n@Hexerei&r”&r in the JEI search bar to better experience the mod."
+				""
+				"In addition, the mod’s guidebook, the Book of Shadows has provides detailed explanations of its mechanics and is also recommended reading to help you further understand and enjoy the mod."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "766CACCF2C6C4E14"
+			rewards: [{
+				count: 5
+				id: "17B473535604BF92"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D4B3EE92412B8C"
+				title: "我已知晓"
+				type: "checkmark"
+			}]
+			title: "Hexerei : Tutorial Completed"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["17612117FFCB6D00"]
+			description: [
+				"&7The Summoning Altar not only requires support from the &dHexerei&r mod, but also a bit of &bCreate&r&7 content. Since Create has quite a lot of content, please refer to the FTB Create section for details.&r"
+				""
+				"The Summoning Altar is mainly used for summoning entities, but that does not mean it is limited to that. In fact, it can also be used for &6special recipes&r, granting various &2items&r or even &2effect-based&r rewards."
+				""
+				"Summoning rituals will be used frequently throughout your journey. If you are planning to &2locate and defeat specific bosses&r, it may be worth checking the altar recipes, you might discover an easier way."
+			]
+			id: "49BD99DDA8F8454A"
+			rewards: [{
+				id: "0DD6F90701F5DBCC"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "The Summoning Altar will guide you to a new path"
+			tasks: [{
+				id: "3B5DBF68920C4ED0"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			title: "Summon What you Want"
+			x: 1.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["49BD99DDA8F8454A"]
+			description: [
+				"&dSomebosses&r provides &d21 bosses&r, which can be summoned in two ways:"
+				""
+				"1. Obtain boss summoning items through &6Delivery Agreement&r and summon them directly."
+				""
+				"2. Place specific items into the &6Summoning Altar&r to perform a summon."
+				"(You can &eright-click the Summoning Altar in JEI&r, or &ehover over it in your inventory and press U (Show Uses)&r to view the &esummoning recipes&r.)"
+				""
+				"For more details, please refer to the &cBoss Compedium&r on the left side of the FTB interface."
+			]
+			icon: "summoningrituals:altar"
+			id: "3F1ED49F7451CD1E"
+			rewards: [{
+				count: 2
+				id: "4F28AE51354BF59D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E1643CC3F198152"
+				type: "checkmark"
+			}]
+			title: "Somebosses"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49BD99DDA8F8454A"]
+			description: [
+				"In this modpack, all summoning rituals must be completed with a &6Ritual Catalyst&r, placed on the Summoning Altar to initiate the ritual."
+				""
+				"Therefore, when crafting Ritual Catalysts, it is recommended to &2produce them in larger quantities&r to meet the needs of repeated summoning rituals over time."
+			]
+			id: "2E04900BA7E16DF0"
+			rewards: [{
+				id: "6AC6FB9DC22CD220"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Basic of the summoning rituals"
+			tasks: [{
+				id: "0A9E7D934E060F6E"
+				item: "kubejs:ritual_catalyst"
+				type: "item"
+			}]
+			title: "Ritual Catalyst"
+			x: 2.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["03B3A54BEDB85320"]
+			description: [
+				"If you have extra coins, you can use the Trading Terminal to trade in Ebuy or with other players."
+				""
+				"The Ebuy is a place for &6expensive goods&r trading. But after all, isn’t spending money for convenience exactly what we set out to do in the first place?"
+			]
+			id: "04B034D2CF2DA900"
+			rewards: [{
+				id: "6EE1EB8484D97BBC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "More place to spend your coins！"
+			tasks: [{
+				id: "49392C421B406830"
+				item: "lightmanscurrency:terminal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+	]
+	title: "Chapter 2：Awakening"
+}

@@ -1,0 +1,81 @@
+{
+	icon: "kubejs:secret_of_origin"
+	id: "73127A209E24A9FE"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			command: "/nfwc difficult @p 1"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：1"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 2"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：2"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 3"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：3"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 4"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：4"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 5"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：5"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 6"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：6"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 7"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：7"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 8"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：8"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 9"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：9"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 10"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：10"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 11"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：11"
+			type: "command"
+		}
+		{
+			command: "/nfwc difficult @p 12"
+			icon: "kubejs:secret_of_origin"
+			title: "Base Difficulty：12"
+			type: "command"
+		}
+	]
+	title: "Base Difficulty"
+}

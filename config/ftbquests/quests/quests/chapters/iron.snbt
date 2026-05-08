@@ -1,0 +1,2956 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "iron"
+	group: "0BA6B2DC983B31FC"
+	icon: {
+		Count: 1b
+		id: "irons_spellbooks:diamond_spell_book"
+		tag: {
+			ISB_spellbook: {
+				activeSpellIndex: -1
+				spellSlots: 8
+				spells: [ ]
+			}
+		}
+	}
+	id: "71788747161A7134"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 45.0d
+		hover: [ ]
+		image: "kubejs:textures/task/isb_background_1.png"
+		rotation: 0.0d
+		width: 45.0d
+		x: -0.5d
+		y: -3.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"Becoming a powerful mage is not about staying at home and studying endlessly, it is about traveling across the world in search of traces of magic. This means you may need a reliable means of transportation to make your journey easier."
+				""
+				"The brooms from the &2Hexerei&r mod is a great option. It not only allows you to fly for travel, but also supports extensive customization. Equipping different types of backpacks, replacing broom heads, or adding decorations can greatly enhance your travel experience."
+				""
+				"Of course, if you find it too complex, you can also craft a more affordable &6“Majo’s Broom”&r instead."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_hazel_broom"
+				tag: { }
+			}
+			id: "5B335FBB31D1A11E"
+			min_required_tasks: 1
+			rewards: [{
+				id: "6A333AC7938D027B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "786770AB592F97D2"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_hazel_broom"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0712F256DAE7303E"
+					item: {
+						Count: 1b
+						id: "hexerei:mahogany_broom"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2295D8D35D2A5134"
+					item: {
+						Count: 1b
+						id: "hexerei:willow_broom"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5FB9CE6A6B957B4C"
+					item: "majobroom:broom_item"
+					type: "item"
+				}
+			]
+			title: "Fly！Magic Broom"
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["37BCA277F892BBB0"]
+			hide_dependency_lines: false
+			id: "77EBA7DEDBAE54BC"
+			rewards: [{
+				id: "0F9F27A0A30B04B0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF0B2605E35163B"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["635394443D21A635"]
+			hide_dependency_lines: false
+			id: "64FAEC94C3F491EC"
+			rewards: [{
+				id: "0464A2A0229DFB7F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0395682570271BE2"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6B94559E3B5CA88E"]
+			hide_dependency_lines: false
+			id: "37D4F48241A35F28"
+			rewards: [{
+				id: "058A2FFC3FDB091E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A1EADED0D497880"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C2CEEA69AA36789"]
+			hide_dependency_lines: false
+			id: "48F38A4EEC29B813"
+			rewards: [{
+				id: "2B8EC1691D7AA0A7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BA256B62084242C"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: ["Use to craft Mana Upgrade Orb"]
+			hide_dependency_lines: true
+			id: "54447CE2FB2EB3FB"
+			rewards: [{
+				id: "52964AEE50E86E04"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4723A618D7B39683"
+				item: "irons_spellbooks:arcane_rune"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: ["Use to craft Cooldown Upgrade Orb."]
+			hide_dependency_lines: true
+			id: "5E1DBC8E808C2404"
+			rewards: [{
+				id: "4F6792F53DC15BE8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B19541C90BC0E88"
+				item: "irons_spellbooks:cooldown_rune"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6E151A3224E43D99"]
+			hide_dependency_lines: false
+			id: "2E04B7D75F40FA60"
+			rewards: [{
+				id: "46762B261E28FCB3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0575BFFDA0DD59F7"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: ["Use to craft Protection Upgrade Orb"]
+			hide_dependency_lines: true
+			id: "17413FA76A005283"
+			rewards: [{
+				id: "2D8BA387D97C3737"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52A30ADE53C2C4F2"
+				item: "irons_spellbooks:protection_rune"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43A34214A50911F2"]
+			hide_dependency_lines: false
+			id: "792BD0BFA2189110"
+			rewards: [{
+				id: "1B4747663F5AC3CF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2140388DE02D8B65"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17A5CD928AD140DB"]
+			hide_dependency_lines: false
+			id: "40C82776583AFB70"
+			rewards: [{
+				id: "72F2B6349DD93BA8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01DD44CD54DD033A"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EE3679FD3BD92B0"]
+			hide_dependency_lines: false
+			id: "539AD15617908DBF"
+			rewards: [{
+				id: "7859CE098557DEDA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "311621F6D31E38C1"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"The basic material used to craft all other runes. Small amounts can be found in some &6vanilla structures&r, and are more commonly found in structures added by this mod."
+				""
+				"Each type of mage drops one rune corresponding to its school upon death (except Necromancers)."
+			]
+			id: "03BBFD0234857AF9"
+			rewards: [{
+				id: "3F49902D031CF2AE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E34F397F55B1B65"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: [
+				"The material of the &9Lightning School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."
+				""
+				"Obtained by using a glass bottle on a Charged Creeper. Each extraction deals 5 damage to the creeper, but it will not revert to a normal creeper."
+				""
+				"During thunderstorms, you can transform a creeper into a Charged Creeper by striking it with a trident enchanted with “Channeling”."
+			]
+			hide_dependency_lines: false
+			id: "0EE3679FD3BD92B0"
+			tasks: [{
+				id: "5603F7BB58849F4A"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			title: "Lightning School"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: [
+				"The material of the &eHoly School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."
+				""
+				"Obtained from crafting."
+			]
+			hide_dependency_lines: false
+			id: "635394443D21A635"
+			tasks: [{
+				id: "1B75D6F884473CCC"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			title: "Holy School"
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: [
+				"The material of the &bIce School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."
+				""
+				"Dropped by &cStrays&r."
+				""
+				"Strays are a variant of skeletons that only spawn in snowy biomes such as snowy plains, ice spikes, and snowy taiga."
+			]
+			hide_dependency_lines: false
+			id: "17A5CD928AD140DB"
+			tasks: [{
+				id: "3D604363E7803535"
+				item: "irons_spellbooks:frozen_bone"
+				type: "item"
+			}]
+			title: "Ice School"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F70A0CC05B25A91"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The material of the &4Blood School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."
+				""
+				"Place a Cauldron or a Alchemist Caudron filled with water above a lit campfire. When any living entity is inside the cauldron, it will take 2 damage per second, and there is a 1/2 chance to gain one layer of blood."
+				""
+				"Right-click a blood-filled cauldron with a glass bottle to obtain &6Blood Vial&r. Each layer of blood yields one bottle of Blood Vial."
+			]
+			hide_dependency_lines: false
+			id: "6873532EB79AB6E1"
+			tasks: [{
+				id: "375718D87891FE86"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: ["The material of the&6 Fire School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."]
+			hide_dependency_lines: false
+			id: "43A34214A50911F2"
+			tasks: [{
+				id: "01622344E9487B0E"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Fire School"
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: ["The material of the &2Nature School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."]
+			hide_dependency_lines: false
+			id: "6E151A3224E43D99"
+			tasks: [{
+				id: "641C18EF0B0240B4"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			title: "Nature School"
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: ["The material of the &aEvocation School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."]
+			hide_dependency_lines: false
+			id: "5C2CEEA69AA36789"
+			tasks: [{
+				id: "6C03B580D17E3AF6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Evocation School"
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: ["The material of the End School, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."]
+			hide_dependency_lines: false
+			id: "37BCA277F892BBB0"
+			tasks: [{
+				id: "4AC4A6A09E4CE77E"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Ender School"
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: ["You have discovered fragments of forgotten ancient knowledge."]
+			id: "2FCB9E361DF2289F"
+			rewards: [{
+				id: "14B6A78C89C30BE6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55AC135E815D7A5D"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			title: "Dust-Sealed Awe"
+			x: 10.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5BCFF4453AC3F1D2"]
+			hide_dependency_lines: false
+			id: "5155EF46F65C49DF"
+			rewards: [{
+				count: 3
+				id: "5A2E2D09006F166A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CE6AF2819AAF846"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"62ED518C8459FCDF"
+				"7B2BB14AF56EBB12"
+			]
+			description: ["Is your Hogskin enough?"]
+			hide_dependency_lines: false
+			id: "0C1B1564082F6663"
+			rewards: [{
+				id: "1385C861DD27D283"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D6F3811015970DF"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 8
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -12.75d
+		}
+		{
+			dependencies: [
+				"794B9227FD9A06BC"
+				"17889F915BEB2F91"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"It’s time to head into the Nether and hunt Hoglins to obtain &6Hogskin&r. Make sure to kill several, as another spellbook also requires it for crafting."
+				""
+				"Crafting this spellbook marks the end of the beginner phase and serves as a milestone for entering the mid-game stage."
+			]
+			hide_dependency_lines: true
+			id: "62ED518C8459FCDF"
+			rewards: [{
+				id: "0179C8C76D882D3E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BCBC76E2BE0C82E"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"It has a higher quality and more spell slots than the Flimsy Journal, and does not require modded materials to craft."
+				""
+				"&7Crafting either the Flimsy Journal or the Ironbound Tome will unlock the subsequent spellbook progression quests.&r"
+			]
+			hide_dependency_lines: true
+			id: "794B9227FD9A06BC"
+			rewards: [{
+				id: "4A8545587014B543"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C8D0B1F85FD8BAA"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"A spellbook that requires no modded items to craft, but can only cast the most basic spells."
+				""
+				"&7Crafting either the Flimsy Journal or the Ironbound Tome will unlock the subsequent spellbook progression quests.&r"
+			]
+			id: "17889F915BEB2F91"
+			rewards: [{
+				count: 5
+				id: "0E3A4BB5F85ABC37"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27B28F6E521F5C47"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: ["Can be found in the chests within Ancient Cities, can be crafted into other spellbooks"]
+			id: "5BCFF4453AC3F1D2"
+			rewards: [{
+				count: 2
+				id: "4024835C107EC118"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13D10D77D6663578"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -14.0d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: ["&cBlaze&r has a chance to drop it."]
+			id: "61C2BFE7C8DE8011"
+			rewards: [{
+				id: "5211426E74E5E055"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02278302772EC71B"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["5BCFF4453AC3F1D2"]
+			hide_dependency_lines: false
+			id: "48FE396B4D24A0D6"
+			rewards: [{
+				count: 3
+				id: "45306F8FABACB98B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BFD2539A727C76"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"794B9227FD9A06BC"
+				"17889F915BEB2F91"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Although it increases natural spell power, even without that effect, it remains a solid mid-game choice."]
+			hide_dependency_lines: true
+			id: "7B2BB14AF56EBB12"
+			rewards: [{
+				id: "61C03353199596DF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6D23B13A68F5E9"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: [
+				"Obtained by exchanging a &6Translated Written Book&r with a &bPriest&r."
+				""
+				"&7To translate the Written Book, you will need a captive Wandering Trader from the Evoker Fort.&r"
+			]
+			id: "58ABC08E7A88EB8F"
+			rewards: [{
+				id: "47C716E7E68DFD79"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CA8148B999AB4DC"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: -13.75d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: ["&cArchevoker&r has a chance to drop it."]
+			id: "0BBDE45DA334A415"
+			rewards: [{
+				count: 3
+				id: "4424B543D3CEB530"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0501A9DC46AE599D"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 3
+							spells: [
+								{
+									level: 6
+									sid: "irons_spellbooks:fang_strike"
+									slot: 0
+								}
+								{
+									level: 4
+									sid: "irons_spellbooks:fang_ward"
+									slot: 1
+								}
+								{
+									level: 4
+									sid: "irons_spellbooks:summon_vex"
+									slot: 2
+								}
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: -14.75d
+		}
+		{
+			dependencies: ["4BD339C63D7E830A"]
+			description: ["&7When your spell wheel contains castable spells, you can hold this weapon (in either main hand or off-hand) and right-click to cast spells directly. Spells cast in this way will benefit from the weapon’s bonuses.&r"]
+			hide_dependency_lines: false
+			id: "770BAE3DE6CD61A3"
+			rewards: [{
+				id: "5CA8673E5EC148A9"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E4DACF2FC4CCD93"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:blood_staff"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 5
+							spells: [
+								{
+									level: 6
+									sid: "irons_spellbooks:wither_skull"
+									slot: 0
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:ray_of_siphoning"
+									slot: 1
+								}
+								{
+									level: 3
+									sid: "irons_spellbooks:blood_step"
+									slot: 2
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blood_slash"
+									slot: 3
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blaze_storm"
+									slot: 4
+								}
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Defeat The Dead King！"
+			x: -2.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: ["Rare drop by the &cVindicator&r in the second floor of Archevoker Forts. "]
+			id: "1F76965B858D5C7E"
+			rewards: [{
+				count: 3
+				id: "14D0489F7DA087AA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B7484412ADA3051"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:magehunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.25d
+			y: -13.75d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: ["A rare drop obtained when defeating the &cAncient Knight&r."]
+			id: "296C4B13FA829A52"
+			rewards: [{
+				count: 3
+				id: "26ECF2522FFA0768"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E9C477999E67EC7"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.25d
+			y: -12.75d
+		}
+		{
+			dependencies: ["55DEF616688BC8BD"]
+			description: [
+				"Arcane Essence can be infused into leather armor to create the Wandering Magician set, granting you additional mana in the early game."
+				""
+				""
+				"Don’t forget to &2hover over the equipment while holding Shift + Ctrl&r to view the &edetailed set bonus&r."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:wandering_magician_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E4A4389B31EEC59"
+			rewards: [{
+				count: 5
+				id: "3009A65C3D2FC22E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49115A5B47B54AA9"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A61D16FC1DF4515"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14AFFE4B6C85B1F8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B0BFE8148A87A08"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wandering Magician Set"
+			x: -6.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["10E0E4D042282773"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Perhaps you need armor stronger than that of the Wandering Magician Set."
+				""
+				"The Scarecrow set provides higher armor values, increased mana, and a stylish appearance."
+				""
+				"Don’t forget to &2hover over the equipment while holding Shift + Ctrl&r to view the &edetailed set bonuses&r."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D5ED876A6971B6B"
+			rewards: [{
+				id: "01EDCFBE293452BA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "60940A10C87FF128"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DAFDC60CB008A26"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D61F44650C6F36E"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52546D03FD1CAB2A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Scarecrow Set"
+			x: -9.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["792BD0BFA2189110"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:pyromancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B879791521CAF70"
+			rewards: [{
+				count: 5
+				id: "2956AD359B737B29"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "334E65C0B91EB4DA"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15F8BC0783FA0209"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FB5F2C2CD051CBE"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D4CEED202FE364D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pyromancer Set"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["539AD15617908DBF"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:electromancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BA198AE9D9CE827"
+			rewards: [{
+				count: 5
+				id: "1FF4A4B1C43FD57E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40045F2B2E95CBEC"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51EEA41E9BC5552D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CEAC691033E1037"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47954006DC8A11AD"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Electromancer Set"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37D4F48241A35F28"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:cultist_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "769EEDA1B673E230"
+			rewards: [{
+				count: 5
+				id: "11A057EEBFF3627F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39F1E9CAA00469F1"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "417B25090E91B053"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7818923EFB945461"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28A1DA28ED396F60"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cultist Set"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48F38A4EEC29B813"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:archevoker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76C3130D1D194098"
+			rewards: [{
+				count: 5
+				id: "65F514971BC0E1D5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A2D4ECDF301D752"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "714005FA1ECF42D8"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F06DA456951182"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CA04B878C6DE7AA"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Archevoker Set"
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["77EBA7DEDBAE54BC"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:shadowwalker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E1DA1898F94E815"
+			rewards: [{
+				count: 5
+				id: "167363343C4B6B9A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7C91DBC1BD6268E9"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BE696BF6E175B6D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34FAF529AFF3AB44"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1955AD1C031150BD"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shadow-Walker Set"
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["40C82776583AFB70"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:cryomancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2AE42CAD3EBC2714"
+			rewards: [{
+				count: 5
+				id: "16F753D6482A9C18"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7051278F6FDAE6DE"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55059B6480820506"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E1F6C88790280A5"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EA0300B8CD7E61E"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cryomancer Set"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64FAEC94C3F491EC"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:priest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "443E1D1F09F8515D"
+			rewards: [{
+				count: 5
+				id: "2902074E3AE0C8C3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F170583173A1C76"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59BFD3EF01B6B1F3"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "699B2284A991882F"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AE9F86A7C3E3FF3"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Priest Set"
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2E04B7D75F40FA60"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:plagued_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "259465137A5C1002"
+			rewards: [{
+				count: 5
+				id: "262F54AF00BD8FC1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D31A1C6779AC0ED"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F00FBD2FC751AC1"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B59F38CB81CA43A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "742E4FF54A371350"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "PLauged Set"
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: ["&cNecromancer&r has a chance to drop it."]
+			id: "43D0E66F310F5F03"
+			rewards: [{
+				count: 3
+				id: "1280C15E04FD6B96"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D7A1792B4B288A8"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.25d
+			y: -14.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "073FAF010FC76CCD"
+			rewards: [{
+				id: "340DEE9D0FEFD8C5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39BE96DEC21671A2"
+				item: "irons_spellbooks:frostward_ring"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"It is worth emphasizing again that &dIron’s Spells ’n Spellbooks&r is a mod centered around exploration and discovery, and therefore only provides a limited number of craftable accessories."
+				""
+				"These items are all inexpensive, but may offer valuable assistance at the very beginning of your journey."
+			]
+			icon: "irons_spellbooks:amethyst_resonance_charm"
+			id: "5870336B632EEE78"
+			min_required_tasks: 1
+			rewards: [{
+				count: 2
+				id: "3E000AFC5DD34E82"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D35B9B1715AA588"
+					item: "irons_spellbooks:silver_ring"
+					type: "item"
+				}
+				{
+					id: "16B76F3DB4CC8727"
+					item: "irons_spellbooks:mana_ring"
+					type: "item"
+				}
+				{
+					id: "2855422D2683F020"
+					item: "irons_spellbooks:amethyst_resonance_charm"
+					type: "item"
+				}
+			]
+			title: "Beginner Accessories"
+			x: -2.25d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "014E60A0AEB948F6"
+			rewards: [{
+				id: "2C363E80AFA35B40"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60AE4D2BF19695E7"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "5F625C5D72F837BE"
+			rewards: [{
+				id: "14ADBA35E1908B05"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B44375FEE5B9435"
+				item: "irons_spellbooks:cast_time_ring"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -13.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "7180FA5F43CDA3F2"
+			rewards: [{
+				id: "54BDE2F15126A13F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "473F1C0B39B8A352"
+				item: "irons_spellbooks:heavy_chain_necklace"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -14.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "4A58F3A50C08F6CB"
+			rewards: [{
+				id: "0ED4ACD2AA8AC728"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "195EE936DD88259A"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "1D8E1B03ED3D29A3"
+			rewards: [{
+				id: "77FAA83F31EDF213"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70B6BF9B03FD69BD"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -12.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "516E872ADEEEA566"
+			rewards: [{
+				id: "01D2E0B41BEB516C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71236321EB4BFA02"
+				item: "irons_spellbooks:poisonward_ring"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "2C96058FE81C7EA9"
+			rewards: [{
+				id: "7322E9DC316582FF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0889901276E034A0"
+				item: "irons_spellbooks:conjurers_talisman"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -9.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "61B1D658047C9B4C"
+			rewards: [{
+				id: "61B409D8FA5790F1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "183E018EF0E76AB5"
+				item: "irons_spellbooks:affinity_ring"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -14.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "7734E0C707D3A504"
+			rewards: [{
+				id: "00DB9611FF5C0393"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F48485D4FAE7BF0"
+				item: "irons_spellbooks:concentration_amulet"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -13.75d
+		}
+		{
+			dependencies: ["5870336B632EEE78"]
+			id: "0D0EBFCBEEF7BD72"
+			rewards: [{
+				id: "78F714E1A00DCE19"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45501C6DBFE528D7"
+				item: "irons_spellbooks:invisibility_ring"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -10.75d
+		}
+		{
+			description: [
+				"The &dIron’s Spells ’n Spellbooks&r mod is a magic mod inspired by classic RPG games, designed to bring traditional spellcasting mechanics into Minecraft."
+				""
+				"You can obtain magical power by fighting dangerous wizards, raiding various naturally generated structures, delving into dungeons, collecting resources, and discovering powerful magical artifacts."
+				""
+				"The magic in &dIron’s Spells ’n Spellbooks&r focuses more on &6tangible, spell-based abilities&r that can be directly observed and used in combat."
+				""
+				"At the same time, &conly magical attacks from Iron’s Spells ’n Spellbooks are recognized as magical damage within this modpack&r, which is highly important for defeating certain bosses later on."
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "49001B4F8FF6A5D9"
+			rewards: [{
+				id: "2D59030191E686D5"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3496F0D6C39CFE0A"
+				title: "开启铁魔法之旅"
+				type: "checkmark"
+			}]
+			title: "Start Your Iron Spells Journey"
+			x: -2.25d
+			y: -7.25d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"Function 1 :"
+				""
+				"You can imprint a &6Spell Scroll&r onto a weapon, allowing the spell to become the weapon’s right-click ability. (Enhancements can be removed at a smithing table using a Shriving Stone)"
+				"&7(Note: This will disable other right-click interactions of the item.)&r"
+				""
+				"{image:kubejs:textures/task/isb_1_1.png width:170 height:70 align:1}"
+				""
+				""
+				"{@pagebreak}"
+				"Function 2 :"
+				""
+				"Use Upgrade Orbs to &2upgrade your gears&r. (The upgrades can also be removed at a smithing table using a Shriving Stone)"
+				""
+				"{image:kubejs:textures/task/isb_1_2.png width:170 height:70 align:1}"
+				""
+				"{@pagebreak}"
+				"Function 3 :"
+				""
+				"Combine two identical scrolls to create a higher-tier version of the scroll."
+				""
+				"{image:kubejs:textures/task/isb_1_3.png width:170 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			id: "4E574A8D228115B3"
+			rewards: [{
+				id: "5B5ED1B7BD177958"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "59CF2BFFFA748B93"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"{image:kubejs:textures/task/isb_2.png width:170 height:108 align:1}"
+				""
+				"You can use the Inscription Table to inscribe spell scrolls into your spellbook, or extract spells from your spellbook back into scrolls."
+				""
+				"1. Place the &6Spellbook&r"
+				""
+				"2. Place the &6Scroll&r"
+				""
+				"3. Start inscribing"
+				""
+				"4. Choose the slot where the spell will be inscribed"
+				""
+				"5. Extract the selected spell back into a spell scroll"
+				""
+				"Note: The quality of the scroll cannot exceed the quality of the spellbook; otherwise, the inscribing process will fail."
+			]
+			hide_dependency_lines: false
+			id: "14479C9FE223E066"
+			rewards: [{
+				id: "2DAF7F70EBB22EC9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "213D4C815E209DBB"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"{image:kubejs:textures/task/isb_3.png width:160 height:120 align:1}"
+				""
+				"1: Place &6Ink&r, the quality of the ink determines the quality of the scroll."
+				""
+				"2: Place &6Paper&r, each scroll requires one sheet of paper to write."
+				""
+				"3: Place the &2school specific material&r, this determines the spell school of the scroll."
+				"After placing the required school material, available spells will be displayed. Some spells may appear as question marks. Try using higher tier ink to reveal and write them."
+				""
+				"4: The completed scroll will appear here. Note that materials are only consumed when you &eleft-click&r to take the scroll."
+			]
+			hide_dependency_lines: false
+			id: "45DA2A8404C7AEC8"
+			rewards: [{
+				id: "73591A515AC765D9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "413B003BD547523A"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["357BD9BCD5907C1A"]
+			hide_dependency_lines: false
+			id: "7F70A0CC05B25A91"
+			rewards: [{
+				id: "2155D7501A265633"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "066772A93041B5D2"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55DEF616688BC8BD"]
+			description: [
+				"A rare ore that generates in the Overworld."
+				""
+				"Arcane Debris are best mined between Y -46 and Y -50 in the Overworld. A Netherite Pickaxe or any higher tier mining tool is required to harvest it."
+				""
+				"It must be smelted in a Blast Furnace to obtain Arcane Salvage."
+			]
+			icon: "irons_spellbooks:arcane_debris"
+			id: "0C5CCA339527129E"
+			rewards: [{
+				count: 5
+				id: "20779F5A434ADF09"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37DD3A30C7EC5C16"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			title: "Arcane Debris"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C63BD62985C447B"]
+			hide_dependency_lines: false
+			id: "2E8549C0F0CA0674"
+			tasks: [{
+				id: "13C12A2827928C14"
+				item: "irons_spellbooks:oakskin_elixir"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E8549C0F0CA0674"]
+			hide_dependency_lines: false
+			id: "6B3444EBDE01DB71"
+			tasks: [{
+				id: "022DF75E7E191066"
+				item: "irons_spellbooks:greater_oakskin_elixir"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C63BD62985C447B"]
+			hide_dependency_lines: false
+			id: "6603C0C8CC073808"
+			tasks: [{
+				id: "50E41895B900503F"
+				item: "irons_spellbooks:greater_healing_potion"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1755D59102E39435"]
+			hide_dependency_lines: false
+			id: "7FB1863112150AD1"
+			tasks: [{
+				id: "560380A77BECEBFE"
+				item: "irons_spellbooks:invisibility_elixir"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FB1863112150AD1"]
+			hide_dependency_lines: false
+			id: "670690775F4F0400"
+			tasks: [{
+				id: "1442CB4580105EC4"
+				item: "irons_spellbooks:greater_invisibility_elixir"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B88261CC7F5D7FC"]
+			hide_dependency_lines: false
+			id: "5C6441C603D92CB8"
+			tasks: [{
+				id: "3085A720F0F46ABC"
+				item: "irons_spellbooks:evasion_elixir"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C6441C603D92CB8"]
+			hide_dependency_lines: false
+			id: "04ACDD30B29A1279"
+			tasks: [{
+				id: "78518BDCFEF839E4"
+				item: "irons_spellbooks:greater_evasion_elixir"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "6BBEC992679DEA2B"
+			tasks: [{
+				id: "7409A319DD63657E"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "09EB5BBA2E63E869"
+			tasks: [{
+				id: "41F5279D14194E02"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "1CAF0A72DAF3C60B"
+			tasks: [{
+				id: "28254ECD5ABBB67E"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "01536722BD24EAC0"
+			tasks: [{
+				id: "14DD894BEDAAAFBC"
+				item: "irons_spellbooks:mana_upgrade_orb"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "335DC7DDC79EE510"
+			tasks: [{
+				id: "1D542F13A6F3C33C"
+				item: "irons_spellbooks:cooldown_upgrade_orb"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "21B0D29A647EB55C"
+			tasks: [{
+				id: "64A7C64D4FB636C3"
+				item: "irons_spellbooks:protection_upgrade_orb"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "3A65F5B2BC61ADB1"
+			tasks: [{
+				id: "7B779714B307B6A3"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "5B011BB4A7A89493"
+			tasks: [{
+				id: "70A567AE9742E9F5"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["537496294B53CF7E"]
+			description: [
+				"A crafting material used to create other &6Upgrade Orbs&r."
+				""
+				"Once crafted, Upgrade Orbs can be placed in an &6Arcane Anvil&r to enhance equipment."
+			]
+			hide_dependency_lines: false
+			id: "1B90A8C768315CA6"
+			rewards: [{
+				id: "5A66BC6B74BB6B65"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63D2AD5A40874D50"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "1D83B033F6A028AE"
+			tasks: [{
+				id: "4CF1BEF7F95F709C"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "1ECFCB14E5960057"
+			tasks: [{
+				id: "14BE3C878F78114E"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B90A8C768315CA6"]
+			id: "521659E188225BE8"
+			tasks: [{
+				id: "2897FA1A165267D4"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"Arcane Essence is a common and important magical material in this mod."
+				""
+				"It can be found within structures added by the mod, or dropped by hostile mages."
+				""
+				"Its primary use is crafting various magical items and other arcane materials."
+			]
+			id: "55DEF616688BC8BD"
+			rewards: [
+				{
+					count: 3
+					id: "66B77E81633FCAAB"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3C487B0B3020D032"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "349CD2EEB3EEFC0C"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["55DEF616688BC8BD"]
+			dependency_requirement: "one_completed"
+			description: ["A basic crafting material"]
+			hide_dependency_lines: false
+			id: "10E0E4D042282773"
+			progression_mode: "linear"
+			rewards: [{
+				count: 5
+				id: "25EA83BB9D5EFD79"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C29FFBDF0001F81"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["55DEF616688BC8BD"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			id: "537496294B53CF7E"
+			rewards: [{
+				id: "3F4AFA0FD7170DDA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC4F78D7148DDEE"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			id: "41AA6E07B7844839"
+			rewards: [{
+				id: "1D49F1EA011A5D4E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E31FACD2131DA44"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41AA6E07B7844839"]
+			id: "297604F669BE0601"
+			rewards: [{
+				count: 2
+				id: "60B916B8EFE635C5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B5A48A22FA1CFF8"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["297604F669BE0601"]
+			id: "3A671DE2C2A0198D"
+			rewards: [{
+				count: 5
+				id: "2C682CC008813B3D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68A85F9C7B8469CE"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3A671DE2C2A0198D"]
+			id: "245EC9DDA4A0DB57"
+			rewards: [{
+				id: "7D5143E992910B9F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B580488CD5B3462"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["245EC9DDA4A0DB57"]
+			id: "1BD3CED4F63F0F60"
+			rewards: [{
+				count: 2
+				id: "5158DF8B92C38166"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FF08ADF677D2B09"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["03BBFD0234857AF9"]
+			description: [
+				"The material of the &4Blood School&r, an essential ingredient for crafting its scrolls, runes, equipment, and other related items."
+				""
+				"Place a Cauldron or a Alchemist Caudron filled with water above a lit campfire. When any living entity is inside the cauldron, it will take 2 damage per second, and there is a 1/2 chance to gain one layer of blood."
+				""
+				"Right-click a blood-filled cauldron with a glass bottle to obtain &6Blood Vial&r. Each layer of blood yields one bottle of Blood Vial."
+			]
+			hide_dependency_lines: false
+			id: "6B94559E3B5CA88E"
+			tasks: [{
+				id: "48FE339BCF70CF36"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			title: "Blood School"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"It can be obtained from &2Ancient Cities&r."
+				""
+				"&7Ancient Cities generate in the Deep Dark biome at a fixed Y-level of -52. The main structures are composed of deepslate and similar blocks, and the entire area is enclosed by large walls.&r"
+			]
+			id: "27723D7410ADC066"
+			rewards: [{
+				id: "210450A20D381FEC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67D355B679146D08"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 10.25d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2FCB9E361DF2289F"
+				"27723D7410ADC066"
+			]
+			description: ["By using manuscripts obtained from Ancient Cities, you can comprehend spells of the &6Eldritch School&r."]
+			hide_dependency_lines: false
+			id: "3D0FC8A60343E3B2"
+			rewards: [{
+				count: 3
+				id: "240DA0BBA89B0DC0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F3D708D7EF7EFA3"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			title: "Fade into the Void.."
+			x: 12.75d
+			y: -7.0d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"Are you ready to explore the &cCatacombs&r and challenge the The Dead King？He is extremely powerful, it will be a tough fight！"
+				""
+				"Right-click the &6Wayward Compass&r to be guided toward Catacomb. If no Catacomb exists within a large radius, the compass will spin uncontrollably and point in a random direction."
+			]
+			id: "5DF4641AEE65118C"
+			rewards: [{
+				id: "09A53F65397EB35F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5872B5B75DAE699A"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:wayward_compass"
+					tag: {
+						isInInventory: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Search for Catacombs"
+			x: -2.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DF89A3AD4B2F1A7"]
+			hide_dependency_lines: false
+			id: "357BD9BCD5907C1A"
+			tasks: [{
+				id: "3A1E737E1D7311F0"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			id: "3C63BD62985C447B"
+			tasks: [{
+				id: "5481F7948CDA43BC"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			id: "21C6162B6040FD3C"
+			tasks: [{
+				id: "4F98BF2D1BCD3D4C"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_one"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21C6162B6040FD3C"]
+			hide_dependency_lines: false
+			id: "233D5A37370FC0B8"
+			tasks: [{
+				id: "6FDF1676B6E8329E"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_two"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["233D5A37370FC0B8"]
+			hide_dependency_lines: false
+			id: "7B88261CC7F5D7FC"
+			tasks: [{
+				id: "6D2072660ECADBAF"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_three"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B88261CC7F5D7FC"]
+			hide_dependency_lines: false
+			id: "07BFA8CD7B444BA7"
+			tasks: [{
+				id: "1C6A51E0F42B4CE6"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_four"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			id: "1755D59102E39435"
+			tasks: [{
+				id: "224B86122C8567E5"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:invisibility"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DF4641AEE65118C"]
+			description: [
+				"A multi-level structure similar to a stronghold, generated in the Overworld. It is a randomly generated dungeon-like complex that also contains a boss. This was once the magical stronghold of a king who died long ago, and it can be found deep underground."
+				""
+				"You can use the &2Wayward Compass&r to locate the structure. Many rooms within the Catacombs contain traps, so proceed with caution."
+				""
+				"The &cThe Dead King&r generates in the boss room within this structure."
+			]
+			hide_dependency_lines: false
+			id: "4BD339C63D7E830A"
+			rewards: [{
+				id: "2630E91C60B718E2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DFEBB72078A402F"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			title: "Discover Catacombs！"
+			x: -2.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: ["The Evoker Fort, which can be found in forests, plains, deserts, and savannas. Camps will generate randomly in the surrounding area."]
+			id: "1BE4F216934747A4"
+			rewards: [{
+				id: "6D9C1B91341536C9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550B5BFF13B13DF5"
+				structure: "irons_spellbooks:evoker_fort"
+				type: "structure"
+			}]
+			title: "Find Evoker Fort"
+			x: -7.25d
+			y: -14.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: ["A solitary frost magic tower, which can be found in mountain and snowy biome regions."]
+			id: "4A437BA1EF8514AE"
+			rewards: [{
+				id: "7997185EB6CDEE9E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BD69C59F1C7A79B"
+				structure: "irons_spellbooks:mountain_tower"
+				type: "structure"
+			}]
+			title: "Montain Tower"
+			x: -7.25d
+			y: -12.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: ["Home of the apothecarist, can be found in swamp biomes"]
+			id: "6C16CC9AF296F649"
+			rewards: [{
+				id: "4E443ED97B19AE1C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ADF95FAEFB16AFA"
+				structure: "irons_spellbooks:mangrove_hut"
+				type: "structure"
+			}]
+			title: "Mangrove Hut"
+			x: -7.25d
+			y: -13.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"{image:kubejs:textures/task/isb_4.png width:150 height:111 align:1}"
+				""
+				"名字很久以前就被遗忘了的战斗地点。在下界生成，其中生成的散落的盔甲是获取灰烬源质的唯一来源。"
+				""
+				"特征是巨大的传送门框架，散落的深板岩石砖柱和散落的盔甲。"
+			]
+			id: "2DF89A3AD4B2F1A7"
+			rewards: [{
+				id: "673FA2FF6EC6F4A7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "124F864FD6DC6533"
+				structure: "irons_spellbooks:ancient_battleground"
+				title: "发现远古战场"
+				type: "structure"
+			}]
+			title: "Discover Ancient Battleground"
+			x: -6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"Now, in plains villages, a Priest Tower may generate, where a Priest will naturally spawn."
+				""
+				"Priests are neutral mobs that protect villages and attack hostile entities. As mage of the Holy school, they primarily use holy spells in combat."
+			]
+			id: "7C27BF864690DBFC"
+			rewards: [{
+				id: "421644ADA6E6FB05"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D222F5469F147D7"
+				structure: "minecraft:village_plains"
+				type: "structure"
+			}]
+			title: "Discover Priest Tower"
+			x: -7.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["10E0E4D042282773"]
+			description: [
+				"The &dIron’s Spells ’n Spellbooks&r mod introduces a new equipment set in the &enew version&r, which may allow you to become a melee mage."
+				""
+				"Don’t forget to &2hover over the equipment while holding Shift + Ctrl&r to view the &edetailed set bonus&r."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:netherite_mage_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "34519804DB746BAC"
+			rewards: [{
+				count: 5
+				id: "28009F8F1C5BA056"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "79D415414E38AEF6"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63483826C26F9E5A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51EC642E4F09AE74"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "737ABFF065C496EF"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Battlemage Sset"
+			x: -8.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["4E4A4389B31EEC59"]
+			description: ["&7When your spell wheel contains castable spells, you can hold this weapon (in either main hand or off-hand) and right-click to cast spells directly. Spells cast in this way will benefit from the weapon’s bonuses.&r"]
+			id: "331B5EA606E89D12"
+			rewards: [{
+				count: 5
+				id: "205DB108F6DB5CAF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Perhaps you need to have a trip to the Nether"
+			tasks: [{
+				id: "5FBA53D61262A931"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4E4A4389B31EEC59"]
+			description: ["&7When your spell wheel contains castable spells, you can hold this weapon (in either main hand or off-hand) and right-click to cast spells directly. Spells cast in this way will benefit from the weapon’s bonuses.&r"]
+			hide_dependency_lines: false
+			id: "3BF30A4F1530EF30"
+			rewards: [{
+				id: "172C6266A5CCB3D9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "An early-game staff"
+			tasks: [{
+				id: "70E7383C09709665"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			description: ["&7When your spell wheel contains castable spells, you can hold this weapon (in either main hand or off-hand) and right-click to cast spells directly. Spells cast in this way will benefit from the weapon’s bonuses.&r"]
+			hide_dependency_lines: true
+			id: "681A3C436C25D963"
+			rewards: [{
+				count: 2
+				id: "054496F9236C00F6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C5646C72E6AA18B"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: -10.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["17889F915BEB2F91"]
+			hide_dependency_lines: true
+			id: "6A954AE0E8723CAB"
+			rewards: [{
+				count: 5
+				id: "1979E584398EF040"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39240DF9EF883713"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:hither_thither_wand"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.25d
+			y: -10.75d
+		}
+		{
+			dependencies: ["49001B4F8FF6A5D9"]
+			description: [
+				"1. You can directly hold a scroll and &eright click&r to cast the spell."
+				""
+				"Casting spells this way will &econsume the scroll&r."
+				""
+				"{@pagebreak}"
+				"2. After inscribing the scroll into a spellbook, equip the spellbook in the &eaccessory slot&r. Then use the &2default R key&r to &eswitch between spells&r, and the &2default V key&r to &ecast the selected spell&r. You can also configure &2quick cast hotkeys&r in the keybind settings."
+				""
+				"{image:kubejs:textures/task/isb_5.png width:200 height:56 align:1}"
+				"{@pagebreak}"
+				"3. You can &eimprint spell scroll onto a weapon&r. When holding the weapon, the spell will appear in the spell wheel."
+				""
+				"For the scroll imprinting, please refer to the &3Arcane Anvil quest&r."
+			]
+			id: "3E782CF67A2C4B47"
+			rewards: [{
+				count: 2
+				id: "2AC7392D4D5AD515"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C575C46F5492495"
+				type: "checkmark"
+			}]
+			title: "How to Release Magic"
+			x: -1.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["5BCFF4453AC3F1D2"]
+			description: [
+				"After using a &6Disenchantment Book&r to remove the enchantments from a Enchanted Command Block Book, the remaining essence is bound into a Command Block Spell Book."
+				""
+				"The Command Block Spell Book provides a significant bonus to spell power and comes with &6Grand Spell : Ore Genesis&r by default."
+			]
+			id: "1394156BB4395D93"
+			rewards: [{
+				count: 2
+				id: "6BFAA513B339B001"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "One of the remnants of the Wither Storm’s will"
+			tasks: [{
+				id: "428D141E2A3C2B0B"
+				item: {
+					Count: 1b
+					id: "kubejs:command_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "kubejs:earth_without_earth"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 15
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Command Block Spell Book"
+			x: -1.0d
+			y: -13.5d
+		}
+	]
+	title: "Iron's Spells：Magic and Arcane"
+}

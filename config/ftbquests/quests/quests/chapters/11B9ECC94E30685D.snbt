@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "11B9ECC94E30685D"
+	group: "2358ECA720E3F23E"
+	icon: "minecraft:book"
+	id: "11B9ECC94E30685D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 6.32258064516129d
+		hover: [ ]
+		image: "kubejs:textures/task/brief_introduction.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 0.0d
+		y: -0.25d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"No Flesh Within Chest (or Brittle Bone Syndrom, its translated name) "
+				"is a themed modpack centered around &cbiological organs&r. By integrating adventure and technology elements, it guides players to experience the gameplay of the &6Chest Cavity Mod&r, along with its expanded modded mechanics."
+				""
+				"Within the modpack, a wide variety of &2unique gameplay modes&r are introduced, leading players through an entirely new gameplay experience. At the same time, through the design of the modpack, players are given ample opportunities to explore and understand most of the content designed by the creator."
+				"{@pagebreak}"
+				"Finally, this modpack also hopes to demonstrate to current modpack creators that:"
+				"Even without relying on &cmod stacking&r, it is still possible to create gameplay that is both unexpected and highly engaging."
+			]
+			hide_dependent_lines: true
+			icon: "chestcavity:kidney"
+			id: "72D090FF4C44DAAD"
+			shape: "rsquare"
+			subtitle: "Beginning"
+			tasks: [{
+				id: "6BB639ACDD430937"
+				type: "checkmark"
+			}]
+			title: "Introduction"
+			x: -0.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"The entire modpack is base around organs. To modify your own organs and harvest those of other creatures, the &2Chest Opener&r becomes an essential tool you cannot do without."
+				""
+				"Once a creature’s health drops below a certain &5threshold&r, you can right-click it with the Chest Opener to open its chest cavity."
+				""
+				"Be aware that opening a chest will deal damage, meaning some neutral creatures may become hostile toward you as a result."
+				""
+				"If you need to open your own chest, simply &5right-click the air&r."
+				""
+				"&2Developing organs is not a required progression path, but it can provide massive boosts to your attributes.&r"
+			]
+			icon: "chestcavity:chest_opener"
+			id: "223B674D5878BF14"
+			subtitle: "Use the Chest Opener to modify your organs"
+			tasks: [{
+				id: "374D70042AFB2C64"
+				type: "checkmark"
+			}]
+			title: "Chest Cavity"
+			x: -0.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"To match the overall style of the modpack, almost all content is related to themes like &2witchcraft and magic&r."
+				""
+				"For example, to obtain more advanced organs, you’ll need to use alchemical processes from witchcraft to enhance them. To acquire rare creatures, you may need to perform certain rituals to summon them."
+			]
+			icon: "hexerei:mixing_cauldron"
+			id: "4F3935E1F6952D24"
+			subtitle: "An unavoidable topic of witchcraft"
+			tasks: [{
+				id: "31847ABE24F228A2"
+				type: "checkmark"
+			}]
+			title: "Witchcraft and Magic"
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: ["Although all organs originate from biological lifeforms, it is possible to replicate their functions through technological means. By mimicking their behavior, mechanical devices can be created to simulate organ functions, thereby producing &2mechanical organs&r"]
+			icon: "create:wrench"
+			id: "2A21CFD22EBD8054"
+			subtitle: "Love, Machine and Create"
+			tasks: [{
+				id: "7809BE2FCAD98331"
+				type: "checkmark"
+			}]
+			title: "Machinery and Steam"
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"&rIn some servers, the game difficulty may feel &etoo low&r for you (this modpack is not difficult by default). In such cases, you can adjust your personal difficulty through a series of &2customizable options&r."
+				""
+				"At the same time, this modpack welcomes players of all types to challenge its various difficulty levels."
+				""
+				"It is worth noting that many bosses deal &emechanic-based damage&r, which is not affected by damage multipliers. The only factor that influences their damage is the &edifficulty setting&r."
+				""
+				"&cIt is recommended to play on &dHard Mode&r&c to experience the full gameplay of this modpack！！！！！！！&r"
+			]
+			icon: "minecraft:crimson_fungus"
+			id: "0C769BB94D282CC6"
+			subtitle: "Choose what suits you"
+			tasks: [{
+				id: "630A170F7FDD662D"
+				type: "checkmark"
+			}]
+			title: "Custom difficulty Settings"
+			x: -0.25d
+			y: 1.75d
+		}
+	]
+	title: "Info"
+}

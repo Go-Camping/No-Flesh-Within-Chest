@@ -1,0 +1,1455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5732E8BABFC7D570"
+	group: "0BA6B2DC983B31FC"
+	icon: {
+		Count: 1b
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "goety:black_book"
+		}
+	}
+	id: "5732E8BABFC7D570"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 24.3d
+		hover: [ ]
+		image: "kubejs:textures/task/goety_background.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 1.5d
+		y: 5.25d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &dGoety&r mod is a &bmagic&r mod designed to enhance the Minecraft experience by adding a wide range of new features, including mobs, structures, and methods of harnessing arcane power."
+				""
+				"&2Summon various minions&r, &5brew legendary potions&r, &3perform rituals&r, &4master the Illagers' Magic&r, and uncover the world’s secrets, legends, and treasures!"
+				""
+				"The mod’s &6guidebook&r will &2gradually unlock new entries as you progress through the mod&r, so be sure to check it from time to time for &2newly added content&r."
+				""
+				"&7——For a long time, you have been curious about the dark magic of Illagers, especially Evokers. What inspires their power? Beyond granting a way to cheat death, what else can their Totems do? How does one achieve such feats?&r"
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:black_book"
+				}
+			}
+			id: "39A1A046832960CC"
+			rewards: [{
+				id: "25C36F05EB7EC240"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "We know very little about their power"
+			tasks: [{
+				id: "2576554D1A4F255C"
+				type: "checkmark"
+			}]
+			title: "Origin of the Illagers' Magic"
+			x: 1.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["38C7544366E690D9"]
+			description: [
+				"The &6Totem of Roots&r is an early-game item in the mod used to store and utilize &bSoul Energy&r."
+				""
+				"When placed in your hotbar or accessory slot, it will accumulate &bSoul Energy&r whenever you &ekill mobs&r."
+				""
+				"The &6Totem of Roots&r can hold up to &2100 Soul Energy&r."
+				""
+				"&7Different mobs contain different amounts of Soul Energy. Villagers, in particular, contain relatively high amounts.&r"
+				""
+				"{@pagebreak}"
+				"The &6Totem of Roots&r can be used in a &6Crafting Table&r to create &2Haunted Saplings, Empty Focuses, Awakened Emeralds, Cursed Metal Ingots, Savage Tooth, and Shade Stones.&r"
+				""
+				"&7Hover over the Totem of Roots and press U (Show Uses) to view related recipes.&r"
+			]
+			id: "38E0930B64874596"
+			rewards: [{
+				id: "5CAC76DDA55E46F5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Hunt for souls"
+			tasks: [{
+				id: "2D7682B930A92B64"
+				item: {
+					Count: 1b
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["38E0930B64874596"]
+			description: [
+				"Once you obtain the &6Totem of Roots&r, you can use the &bSoul Energy&r stored within it to craft special items—such as the &aAwakened Emerald&r."
+				""
+				"Using the &2Awakened Emerald&r as a crafting ingredient, you can create a replica of the Totem of Undying, the &6Totem of Souls&r."
+				""
+				"It has a storage capacity of &e10,000 Soul Energy&r and can function like a vanilla Totem of Undying, &esaving you from a fatal blow once&r. &7(It only works when fully charged, and will be completely drained upon activation.)&r"
+			]
+			id: "2E3C5A01C7C079C0"
+			rewards: [{
+				id: "2FE5AB17C6996C58"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "More soul energy"
+			tasks: [{
+				id: "341804E4A14147C2"
+				item: {
+					Count: 1b
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 10000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39A1A046832960CC"]
+			description: [
+				"&7Although using the Totems to craft cursed items is convenient, you now have a more cheaper method.&r"
+				""
+				"The &6Cursed Infuser&r is crafted using vanilla materials. It must be placed &2above any mob spawner&r to function. When activated, right-click the &6Cursed Infuser&r with specific items, and after a few seconds it will produce the corresponding cursed output."
+				""
+				"If the center of the Cursed Infuser is glowing, it means it is activated and ready for use. &7(As shown, the left infuser is inactive, while the right one is successfully activated.)&r"
+				""
+				"{image:kubejs:textures/task/goety_2.png width:72 height:50 align:1}"
+				""
+				"{@pagebreak}"
+				"The relationships between items and their cursed infused counterparts are as follows:"
+				""
+				"Stone and its variants — &5Shade Stone&r"
+				"Bone Block — &5Savage Tooth&r"
+				"Amethyst Shard — &5Empty Focus&r"
+				"Any Sapling — &5Haunted Sapling&r"
+				"Emerald — &5Awakened Emerald&r"
+				"Iron Ingot — &5Cursed Metal Ingot&r"
+				"Iron Block — &5Block of Cursed Metal&r"
+				"Witch Hat / Illusive Robe / Warlock Robe / Witch Robe — &5Their corresponding cursed variants&r"
+			]
+			id: "4717C67580F37824"
+			rewards: [{
+				id: "2BDFA8D3D122088A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Cheaper way for curse infusion"
+			tasks: [{
+				id: "29B8FCA6003ACBCF"
+				item: "goety:cursed_infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["37315B135F29355E"]
+			description: [
+				"Now you can attempt to perform rituals to gain new powers. You will need a &6Dark Altar&r and several &6Pedestals&r."
+				""
+				"First, prepare a &6Cursed Cage&r containing &esoul energy&r, then place the &6Dark Altar&r directly &2above the Cursed Cage&r."
+				""
+				"If the &6Dark Altar&r &2lights up with a green glow&r and emits dark particles, it means the ritual has been successfully activated and is ready for use. (as shown below)"
+				""
+				"{image:kubejs:textures/task/goety_3.png width:70 height:60 align:1}"
+			]
+			icon: "goety:dark_altar"
+			id: "249B296A3CB17779"
+			rewards: [{
+				count: 3
+				id: "6BDC89223CDF05F0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Prepare for the rituals"
+			tasks: [
+				{
+					id: "26B6F29622EC3A99"
+					item: "goety:dark_altar"
+					type: "item"
+				}
+				{
+					id: "01A1EC83A4A67CB7"
+					item: "goety:pedestal"
+					type: "item"
+				}
+			]
+			title: "Performing Rituals"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2E3C5A01C7C079C0"]
+			description: [
+				"&3Introduction —&r"
+				""
+				"The &bArca&r is obtained through a Forge Ritual. Players can &6retrieve their Rca&r by &esneaking and right-clicking it with an empty hand&r. &7(If you attempt to break it with bare hands or a pickaxe the Arca will not drop.)&r"
+				""
+				"The Arca has a maximum capacity of &2100000 Soul Energy&r. &7(You can inspect its status by sneaking.)&r"
+				""
+				"{@pagebreak}"
+				"&3Soul Energy Storage and Soul Hunger —&r"
+				""
+				"When the &bArca&r is placed, it becomes bound to the player. At the same time, the player &2can no longer use Soul Energy via Soul Totems, nor access internal soul storage directly&r."
+				""
+				"If there is no &2player-bound Soul Ark&r in the world, the player’s Soul Energy will not disappear; however, they will suffer from &cSoul Hunger&r."
+				""
+				"This effect gradually drains Soul Energy from the Arca, while also &ereducing the player’s movement and attack speed&r, and causing &ccontinuous damage&r."
+				""
+				"The effect cannot be removed unless &2Soul Energy is fully depleted&r or the player &2binds a Arca again&r."
+				""
+				"{@pagebreak}"
+				"&3Resurrection —&r"
+				""
+				"If your Arca contains more than &210000 Soul Energy&r, taking fatal damage will teleport you to the location of your &6last placed Arca&r. &7(Triggering this will consume Soul Energy equivalent to one full Totem of Souls.)&r"
+			]
+			icon: "goety:arca"
+			id: "247AED1D908E67BD"
+			rewards: [{
+				count: 5
+				id: "722266CF57F46934"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Soul Energy storing"
+			tasks: [{
+				id: "616E5BFB735D3F01"
+				item: "goety:arca"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C66968C7259F120"]
+			description: [
+				"&dCustom Brewing&r is a modded mechanic based on Witchery's brewing system, which is an interesting part of &dGoety&r. It allow you to craft &2a wide variety of potions&r, many of which have &eunique effects&r and &epowerful properties&r, making them extremely useful in both &2combat&r and &2daily gameplay&r."
+				""
+				"The &6guidebook&r can help players &2look up recipes&r."
+				""
+				"But that’s not all, the modpack also offers &2detailed step-by-step tutorials&r. By following the questline, you can fully master brewing."
+			]
+			id: "5ECDE24F7C16B68D"
+			rewards: [{
+				id: "12DA1087C8C729CC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "It seems you might need a finely brewed potion？"
+			tasks: [{
+				id: "4330A21FE1D41216"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			title: "The Brewer"
+			x: -0.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5ECDE24F7C16B68D"]
+			description: [
+				"The Witch’s Cauldron is the core block for making Witch's Brews, but several preparations are required before you can begin:"
+				""
+				"&6Heat source :&r Place a &2campfire, soul campfire, or magma block&r &ebelow&r the &6Witch’s Cauldron&r to provide &eheating&r."
+				""
+				"&bSoul Energy source :&r Prepare a &6Cursed Cage&r and a &6Soul Candlestick&r around the cauldron. The Soul Candlestick must be placed on top of a Cursde Cage containing soul energy."
+				""
+				"&9Water source :&r Use a &6water bucket&r to fill the cauldron with water."
+				""
+				"&7(If needed, turn the page to view the example diagram.)&r"
+				""
+				"{@pagebreak}"
+				"Example setup of a Witch’s Cauldron:"
+				""
+				"{image:kubejs:textures/task/goety_6.png width:150 height:96 align:1}"
+			]
+			id: "3CB4A421BFE6A3BC"
+			rewards: [{
+				id: "0B074A4F964AC58C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Production of Witch's Brews"
+			tasks: [{
+				id: "4FA2DF68288B1671"
+				item: "goety:witch_cauldron"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["37315B135F29355E"]
+			description: [
+				"&7Please note, Focuses is not enhanced by the modpack’s magical damage bonuses. It is not considered true “magic” in that system.&r"
+				""
+				"With a stable source of soul energy, you can now begin experimenting with &6Focus&r."
+				""
+				"Unlike spells from &dIron’s Spells ’n Spellbooks&r, the Focuses consumes soul energy as a cost to cast. It includes many utility-based spells that play crucial roles in different scenarios."
+			]
+			icon: "goety:empty_focus"
+			id: "2CE8C11D4D2C773F"
+			rewards: [{
+				count: 3
+				id: "3D2952163EDBDFE9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The first steps into Focus"
+			tasks: [
+				{
+					id: "47745E2BE700CB46"
+					item: "goety:empty_focus"
+					type: "item"
+				}
+				{
+					id: "4A01677C1FB7EA6D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:dark_wand"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+							cap: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+							goety-dirty: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Focuses"
+			x: 3.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37315B135F29355E"]
+			description: [
+				"Used for &emoving&r &6spawners&r."
+				""
+				"Right-click a spawner while holding this item to capture the mob inside it, after which the spawner will be destroyed."
+				""
+				"Once a mob has been captured, right-click an empty &6Cursed Cage&r with the Fire Spawn Cage. The mob will be transferred into it, and the &6Cursed Cage&r will be transformed into the original spawner of the captured mob."
+				""
+				"After the captured mob is successfully transferred into the Cursed Cage, the &eFire Spawn Cage will be consumed&r."
+			]
+			id: "6CE6F35C7131162F"
+			rewards: [{
+				id: "47BB15D0C03D829C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F110B3D721D0AD5"
+				item: "goety:flame_capture"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["593605806D412895"]
+			description: ["After traveling to the Nether, you will unlock information about Adept Nether Rituals and Expert Level Nether rituals."]
+			icon: "goety:nether_brick_brazier"
+			id: "48CA5C5BE42B6D3C"
+			subtitle: "A place rich with soul energy"
+			tasks: [{
+				id: "2CD93C45F7235979"
+				type: "checkmark"
+			}]
+			title: "Perform Rituals in the Nether"
+			x: 1.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["7153D245425EC002"]
+			description: [
+				"The &6Soul Absorber&r must be crafted through a &4Forge Ritual&r."
+				""
+				"It is placed on a &6Arca&r and is used to transfer soul energy into the Arca. The &6Soul Absorber&r can &edrain and destroy&r certain items to increase the player’s &bSoul Energy&r."
+				""
+				"&7If a Totem of Souls is placed on it, the absorber will slowly consume its energy. Once the Soul Energy reaches zero, the totem will be destroyed.&r"
+				""
+				"&7It can interact with hoppers from both above and the sides.&r"
+			]
+			id: "12D3937844B0302D"
+			rewards: [{
+				id: "1BD4D6891F14D842"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Soul Energy = mc2"
+			tasks: [{
+				id: "6FD291FCC1D3DB2D"
+				item: "goety:soul_absorber"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7153D245425EC002"]
+			description: [
+				"If there are &2nearby mob deaths&r, they will release soul particles and directly transfer Soul Energy to the player who placed the block."
+				""
+				"This block can be enchanted with &5Soul Eater&r and &5Radius&r to improve its performance."
+				""
+				"&7If the owner has neither the Totems nor a Arca, the Sculk Devourer has no function at all.&r"
+			]
+			id: "58D4C38764206571"
+			rewards: [{
+				id: "25338F7853FA8793"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The soul eater"
+			tasks: [{
+				id: "1A50C77C52752743"
+				item: "goety:sculk_devourer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["58D4C38764206571"]
+			description: [
+				"It can convert Soul Energy back into sculk. When placed beneath a &6Cursed Cage&r and activated with redstone, it will &2spread sculk&r."
+				""
+				"If there are Sculk Relay devices nearby, this sculk-conversion effect will spread to the areas around those relays."
+			]
+			hide_dependency_lines: true
+			id: "074F0A4966CAA5DE"
+			rewards: [{
+				id: "3E42B56B0A4D6CE4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "mc2 = Soul Energy"
+			tasks: [{
+				id: "2971B88E8DBAC2FC"
+				item: "goety:sculk_converter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["58D4C38764206571"]
+			description: [
+				"A &2device that uses Soul Energy to accelerate crop growth&r. Placing it beneath a &6Cursed Cage&r will speed up the growth of nearby crops."
+				""
+				"It can be enchanted with &5Potency&r to reduce the time required to grow crops while the Soul Energy consumption remains the same."
+			]
+			hide_dependency_lines: true
+			id: "1AFD89518183949E"
+			rewards: [{
+				id: "58DA9692E1CB0BEB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Using souls to accelerate crop growth？"
+			tasks: [{
+				id: "34AAD76F201B5323"
+				item: "goety:sculk_grower"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37315B135F29355E"]
+			description: [
+				"A &6Soul Candlestick&r placed above a &6Cursed Cage&r &2can supply soul energy to certain devices&r, such as the &6Necrotic Brazier&r or the &6Witch's Cauldron&r."
+				""
+				"A &6Soul Candlestick&r provides energy within a &216×16×16&r area."
+				""
+				"&7When successfully activated, the Soul Candlestick will emit light, as shown below.&r"
+				"{image:kubejs:textures/task/goety_5.png width:122 height:56 align:1}"
+			]
+			id: "2C66968C7259F120"
+			rewards: [{
+				id: "1F82BA5905762C2E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Suplying soul energy for specific device"
+			tasks: [{
+				id: "6DE5E5F29B3F5BE4"
+				item: "goety:soul_candlestick"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41FAE73E20B6D72F"]
+			description: [
+				"In loot chests found within certain structures, you may discover various types of scrolls."
+				""
+				"By reading these scrolls, new sections will be unlocked in your &dGoety Guidebook&r, allowing you to summon more powerful minions."
+				""
+				"&2Once unlocked, you should refer to the Guidebook for further details.&r"
+			]
+			hide_dependency_lines: true
+			icon: "goety:buried_scroll"
+			id: "7768DA1835EA65B6"
+			min_required_tasks: 1
+			rewards: [{
+				id: "460B3B7122E59138"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "Yor warrior crave for new strength"
+			tasks: [
+				{
+					id: "7B6C96B429E2E7B4"
+					item: "goety:ravaging_scroll"
+					type: "item"
+				}
+				{
+					id: "5353AF6DADA054D2"
+					item: "goety:warred_scroll"
+					type: "item"
+				}
+				{
+					id: "0A51C15B70378D13"
+					item: "goety:buried_scroll"
+					type: "item"
+				}
+				{
+					id: "08769BA49B558AB6"
+					item: "goety:haunting_scroll"
+					type: "item"
+				}
+				{
+					id: "61AD96F8B7CF317F"
+					item: "goety:front_scroll"
+					type: "item"
+				}
+				{
+					id: "219150C19C9BEA1F"
+					item: "goety:mistral_scroll"
+					type: "item"
+				}
+				{
+					id: "7891F800E82E4C95"
+					item: "goety:floral_scroll"
+					type: "item"
+				}
+			]
+			title: "Scrolls and Strories"
+			x: -5.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["41FAE73E20B6D72F"]
+			description: [
+				"To obtain &6Ruby of Souls&r for crafting certain items, you may need to create a &6Dark Scroll&r in order to summon the &4Vizier&r."
+				""
+				"Use it inside a &2Woodland Mansion&r, and Vizier will appear. Defeating it will grant you a Ruby of Souls."
+			]
+			hide_dependency_lines: true
+			icon: "goety:soul_ruby"
+			id: "7DC6ADF38293C21B"
+			rewards: [{
+				count: 3
+				id: "1E850E7E3ECB38E6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Obtain Ruby of Souls"
+			tasks: [{
+				id: "6DDBC4FCF8D9EA03"
+				item: "goety:dark_scroll"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2C66968C7259F120"]
+			description: [
+				"The &6Necrotic Brazier&r must be crafted through a &4Forge Ritual&r."
+				""
+				"It can only operate in the &3Deep Dark&r &7(the same place where Wardens is)&r and requires soul energy provided by a &6Soul Candlestick&r to function properly."
+				""
+				"With it, you can forge &2advanced metals&r such as the &6Dark Metal&r."
+			]
+			id: "0DFC8BCCE5CA0F08"
+			rewards: [{
+				count: 8
+				id: "1A23A9F1D0E3025F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The flame deep within the soul"
+			tasks: [{
+				id: "4BCC3BFF740D8FF9"
+				item: "goety:necro_brazier"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48CA5C5BE42B6D3C"]
+			description: [
+				"By performing the Sabbath Ritual, you can summon the mod’s finale boss, the &6Apostle&r."
+				""
+				"If the ritual is conducted in the Nether, environmental conditions will empower the Apostle, altering some of its abilities and changing its loot drops."
+				""
+				"The Apostle is an &6extremely powerful boss&r, stronger than any enemy you have encountered so far. It is highly recommended to prepare thoroughly before facing it."
+				""
+				"Upon defeat, it will always drop &4Unholy Blood&r, a key material used in several endgame crafting recipes."
+			]
+			icon: "goety:unholy_blood"
+			id: "537E1732782ABF04"
+			rewards: [{
+				count: 3
+				id: "346FDAE26FEFE6AD"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "571C59EDF79EE5D7"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Face the Apostle"
+			x: 3.75d
+			y: 10.25d
+		}
+		{
+			dependencies: ["537E1732782ABF04"]
+			description: [
+				"Defeating the Apostle in the Nether grants additional rewards, including &5Forbidden Fragments&r and &5Night Beacon&r."
+				" "
+				"&5Forbidden Fragments&r can be used to craft Forbidden Scrolls, which unlocks the &6Master Necroturgy Ritual&r."
+				""
+				"&5Night Beacon&r can be used to bring &6permanent night&r across the entire world when it is placed on top of a Nether Portal."
+			]
+			id: "352835A8D47C5829"
+			rewards: [{
+				count: 3
+				id: "3CA18716571AE6B2"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "Additional rewards"
+			tasks: [{
+				advancement: "goety:goety/kill_a_apostle"
+				criterion: ""
+				icon: "goety:night_beacon"
+				id: "4DA10199FAF283DA"
+				type: "advancement"
+			}]
+			title: "The Night Beckons"
+			x: 3.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["537E1732782ABF04"]
+			description: [
+				"After reading the &6Forbidden Scroll&r, you can perform the &6Master Necroturgy Ritual&r, is required to craft the &6Potion of Transformation&r."
+				""
+				"Using the Potion of Transformatio allows you to grasp the knowledge of a Lich. Under the right conditions, the player can &2transform into a Lich&r."
+				""
+				"Becoming a Lich grants many advantages: permanent night vision, no need for hunger, immunity to drowning, and no longer being targeted by undead mobs."
+				""
+				"However, in exchange, you will suffer &cunending burning&r under sunlight."
+				""
+				"{@pagebreak}"
+				"To evolve into a Lich, you must meet the following conditions:"
+				""
+				"1. Have a bound &6Arca&r."
+				"2. The time must be a full moon night."
+				"3. Drinking the Potion of Transformation will inflict 50 Wither damage. If you survive or revive after the fatal Wither damage, you will become a Lich."
+			]
+			id: "020F32F2C7347F32"
+			rewards: [{
+				id: "18EAAE2C7E916870"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "Rise"
+			tasks: [{
+				id: "7B08EEA1BDB7943E"
+				item: "goety:undeath_potion"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["020F32F2C7347F32"]
+			description: [
+				"&2Originally, the transformation into a Lich was irreversible&r, but in this fragile world, it seems that not only your chest cavity, but reality itself has been torn open."
+				""
+				"Now, you can perform a reverse necromantic ritual to brew the legendary &bHoly Elixir&r, allowing you to remove your Lich state."
+			]
+			id: "7524CD5096DAB88F"
+			rewards: [{
+				id: "5200C51F85814811"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "Soul reversal"
+			tasks: [{
+				id: "600814F456C725E6"
+				item: "kubejs:holy_potion"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3CB4A421BFE6A3BC"]
+			description: [
+				"Brewing is divided into four stages:"
+				""
+				"&bCapacity  => Catalyst => Augmentation => Completion！&r"
+				""
+				"&bCapacity :&r Determines the &ecapacity&r of the potion being brewed. Effects, duration, and other augmentation all require &2capacity&r. &4Note: If the total cost exceeds the capacity during later stages, the brewing will fail.&r"
+				""
+				"&bCatalyst :&r Determines the &eeffects&r of the potion. Different effects consume different amounts of capacity, and you can &2combine multiple effects&r into a single potion."
+				""
+				"&bAugmentation :&r Modifies how the potion functions, including duration, area of effect, lingering, etc. &7(This step can be skipped.)&r"
+				""
+				"&bCompletion :&r If all steps are done correctly, you can use a &6Cauldron Ladle&r to &2right-click&r the &6Witch’s Cauldron&r, initiating soul energy infusion and producing the final potion."
+			]
+			icon: "goety:cauldron_ladle"
+			id: "24119BB18C19CC04"
+			rewards: [{
+				count: 3
+				id: "3EAACF4CB31588B9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Learn how to brew using the guide book"
+			tasks: [{
+				id: "7C15922CE823DBD2"
+				item: "goety:cauldron_ladle"
+				type: "item"
+			}]
+			title: "Start Brewing！"
+			x: -3.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["39A1A046832960CC"]
+			description: [
+				"&bSoul Energy&r is obtained by &ckilling mobs&r, with different creatures granting different amounts."
+				""
+				"When a player kills a mob, Soul Energy will be received in the following priority order:"
+				""
+				"1. The bound &6Arca&r."
+				"2. Unfilled &6Totem of Roots &r or &6Totem of Souls&r in the inventory."
+				"{image:kubejs:textures/task/goety_1.png width:154 height:12 align:1}"
+			]
+			icon: "goety:ectoplasm"
+			id: "38C7544366E690D9"
+			rewards: [{
+				id: "12C9853EDC53B5A7"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Using soul energy as power"
+			tasks: [{
+				id: "72B969E3C5BD98BF"
+				type: "checkmark"
+			}]
+			title: "Soul Energy"
+			x: -0.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["247AED1D908E67BD"]
+			description: [
+				"If you wish to use the &bSoul Energy&r stored within the &bArca&r, you must first right-click your &6Arca&r with a &6Transfer Gem&r to establish a connection."
+				""
+				"Afterward, the &6Transfer Gem&r can serve as a substitute for the &6Totem of Souls&r, allowing it to be placed in a Cursed Cage to supply Soul Energy to devices such as the Dark Altar."
+			]
+			icon: "goety:soul_transfer"
+			id: "5CE573DE1D1692EF"
+			rewards: [{
+				id: "24C1EED5A1AD86A1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Remote connection"
+			tasks: [{
+				id: "587CB88843D51BA3"
+				item: "goety:soul_transfer"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["39A1A046832960CC"]
+			description: [
+				"&bSoul Energy&r is obtained by &ckilling mobs&r, and different mobs provide different amounts of Soul Energy."
+				""
+				"When a player kills a mob, Soul Energy will be &6received&r in the following priority:"
+				""
+				"1.The bound &6Arca&r."
+				"2. Unfilled &6Totem of Roots &r or &6Totem of Souls&r in the inventory."
+			]
+			icon: "minecraft:zombie_head"
+			id: "7153D245425EC002"
+			rewards: [{
+				id: "79B01BB04849964B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Reaping and raiding"
+			tasks: [{
+				id: "149E692754BBDFDC"
+				type: "checkmark"
+			}]
+			title: "Sources of Soul Energy"
+			x: 3.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["58D4C38764206571"]
+			description: [
+				"If there is a &6Sculk Relay&r near the &6Sculk Converter&r, sculk will spread around the relay."
+				""
+				"The converter will emit particles toward the relay to indicate which one it is connected to. If the relay is destroyed, the converter will search for a new relay within range, or begin spreading sculk around itself."
+				""
+				"The converter can be enchanted with &5Potency&r, which increases the spread amount as well as the Soul Energy consumption."
+			]
+			hide_dependency_lines: true
+			id: "772F03214427101A"
+			rewards: [{
+				id: "6AB6AD5693E77145"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Spreading sculk"
+			tasks: [{
+				id: "52F218AAFF23A3FD"
+				item: "goety:sculk_relay"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4717C67580F37824"]
+			description: [
+				"Obtained through &2crafting&r."
+				""
+				"You can place a &6Totem of Roots&r or a &6Totem of Souls&r into the &6Cursed Cage&r to &2infuse it with soul energy&r. Alternatively, inserting a &6Transfer Gem&r bound to a &2Arca&r allows the cage to &2draw and use soul energy stored within the Arca&r."
+				""
+				"Hold Shift (sneak key) while looking at the Cursed Cage to view its current soul energy."
+				""
+				"The main purpose of the &6Cursed Cage&r is to &2supply soul energy to other devices that consumes it&r."
+			]
+			id: "37315B135F29355E"
+			rewards: [{
+				id: "024F5C436AF71F7F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Soul energy supplier"
+			tasks: [{
+				id: "3C15323B9D8D94AC"
+				item: {
+					Count: 1b
+					id: "goety:cursed_cage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41FAE73E20B6D72F"]
+			description: [
+				"In the &2Swamp and Taiga biomes&r, you may come across a &3Blighted Shack&r. Inside, there will always be a &6Crystal Ball&r used to summon a &cCrone&r."
+				""
+				"Players can interact with the &6Crystal Ball&r to spawn a &ccrone&r. After summoning a crone, the Crystal Ball will enter a &2deactivated state&r and can no longer be used to summon crones."
+				""
+				"Inside a &3Blighted Shack&r, right-clicking a &2deactivated Crystal Ball&r with a &6Respawn Anchor&r will reactivate it, allowing you to &2challenge the boss again&r."
+				"{@pagebreak}"
+				"&cIf you choose to fight :&r The crone will always drop a &6Crone Hat&r upon death."
+				""
+				"&3If you choose to trade :&r The crone becomes &2neutral&r toward players wearing a &6Witch Robe&r and &6Witch Hat/Witch Hat variants&r, or a &6Warlock Robe&r, allowing you to &2trade&r with it."
+			]
+			icon: "goety:crystal_ball"
+			id: "5D8CF2E090FDE611"
+			rewards: [{
+				id: "1E4656A721B375FA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Blighted Shack, Crystal Ball and the Crone"
+			tasks: [{
+				icon: "goety:crystal_ball"
+				id: "4F5E409850F13291"
+				structure: "goety:blighted_shack"
+				type: "structure"
+			}]
+			title: "Crone"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41FAE73E20B6D72F"]
+			description: [
+				"&3The Crypt&r is a massive &2underground structure&r."
+				""
+				"In the &3main chamber&r of the Crypt, there will always be a locked &6Phitos&r. When a player attempts to open it, a &cSkeleton Lord&r will be summoned."
+				""
+				"Defeating the Skeleton Lord allows you to open the &6Phitos&r and obtain &elarge amounts of loot&r."
+				""
+				"Inside the &3Crypt&r, right-clicking the &6Phitos&r with a &6Respawn Anchor&r will relock it, allowing you to &2challenge the boss again while also regenrate the loot&r."
+				""
+				"&7It is said that certain cartographers may sell maps leading to the Tomb.&r"
+			]
+			hide_dependency_lines: true
+			icon: "goety:pithos"
+			id: "7EA07EB8BF06A8DC"
+			rewards: [{
+				count: 10
+				id: "580ABF67C65964B2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Crypt, Phitos and the Skull Lord"
+			tasks: [{
+				entity: "goety:skull_lord"
+				icon: "minecraft:skeleton_skull"
+				id: "7F42B61BE2228A70"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Underground's Lord"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41FAE73E20B6D72F"]
+			description: [
+				"&3The Mangrove Tower&r is a structure that generates in the &2Mangrove Swamp biome&r. When it spawns, a &cWarlock&r will always appear at the top, and this Warlock cannot be despawned."
+				""
+				"In addition, more &cWarlocks&r will also spawn around the &3Mangrove Tower&r."
+			]
+			hide_dependency_lines: true
+			icon: "goety:warlock_sash"
+			id: "1C8CC29AC5B06E94"
+			rewards: [{
+				count: 5
+				id: "62DD8C7115ACD626"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Mangrove Tower and the Warlock"
+			tasks: [{
+				entity: "goety:warlock"
+				icon: "goety:warlock_sash"
+				id: "05C4B9559B0941AC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cunning and Elusive Warlock"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C138A46249ACE82"]
+			description: [
+				"Aside from Illager Assault, this mod contains many naturally generated structures."
+				""
+				"This means your journey of exploring Goety will not lack challenges, make sure you are well prepared."
+				""
+				"Only structures with special mobs are listed here, many other types of structures are left for you to discover on your own."
+			]
+			icon: "goety:cursed_bars"
+			id: "41FAE73E20B6D72F"
+			rewards: [{
+				id: "3CA32C568355D154"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Goety's structure"
+			tasks: [{
+				id: "158BF51016DE358A"
+				type: "checkmark"
+			}]
+			title: "More Challenges"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E3C5A01C7C079C0"]
+			description: [
+				"&7Once your research into the dark magic of illagers reaches a certain level, you will inevitably attract their attention. Unlike normal raids, an elite illager team will be dispatched specifically to eliminate those have stolen their magic.&r"
+				""
+				"When you possess &b2500 or more Soul Energy&r, an &4Illager Assault&r will has a chanceto occur."
+				""
+				"The more Soul Energy you have, the stronger the assult will become."
+				""
+				"If you wish to &2predict and avoid Illager Assault&r, craft a &6Alarming Charm&r for early alerts, and travel to a &2dimension where Illager Assault does not occur&r."
+				""
+				"In this modpack, you can also avoid becoming a target by equipping a &2Rabbit?&r organ."
+			]
+			icon: {
+				Count: 1b
+				id: "goety:dark_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C138A46249ACE82"
+			rewards: [
+				{
+					id: "2E45B0396EF1C472"
+					item: "minecraft:player_head"
+					type: "item"
+				}
+				{
+					id: "409D85101200221A"
+					item: {
+						Count: 1b
+						id: "kubejs:is_rabbit"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A more stronger raid"
+			tasks: [{
+				id: "76C278BA76DFB84A"
+				type: "checkmark"
+			}]
+			title: "Illager Assault"
+			x: -3.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["24119BB18C19CC04"]
+			description: [
+				"This quest will guide you in brewing a &dPotion for Woodcutting&r, while also &2explaining the details and workflow of Witch’s Brewing&r throughout the process."
+				""
+				"&7(Please turn the page to view each step and its explanations.)&r"
+				""
+				"{@pagebreak}"
+				"&c——Failure is the Mother of Success · Brewing Failure&r"
+				""
+				"To successfully brew potions, you must understand what brewing failure looks like and how to handle it. If brewing fails, the liquid inside the cauldron will turn &2dark brown&r and begin &2emitting black smoke&r."
+				""
+				"Failed brews can be handled by bottling them into a &6Bottle of Refuce&r, or by sneaking and right-clicking the cauldron with a wand or wooden stick to clear it."
+				""
+				"{image:kubejs:textures/task/goety_7.png width:60 height:60 align:1}"
+				""
+				"{@pagebreak}"
+				"&c——Step 1 · Capacity&r"
+				""
+				"Capacity come in many forms and &emust be added in order&r. For this brew, we only need the &cbasics&r: &cNether Wart&r."
+				""
+				"Drop a single &cNether Wart&r into a heated, water-filled &6Witch’s Cauldron&r. &7(Only one can be added!)&r"
+				""
+				"If done correctly, the cauldron will emit &dpurple particles&r."
+				""
+				"{@pagebreak}"
+				"&c——Step 2 · Catalyst&r"
+				""
+				"Catalysts in Witch’s Brewing can vary greatly. In this case, we need a &6Stone Axe&r."
+				""
+				"Drop the &6Stone Axe&r into the cauldron."
+				""
+				"If successful, the liquid will turn &2light brown&r and continue emitting &dpurple particles&r."
+				"{@pagebreak}"
+				"&c——Completion&r"
+				""
+				"Since this potion does not require additional complexity, we &2skip the Augmentation step&r. &7(In Witch’s Brewing, only the  Augmentation step can be skipped.)&r"
+				""
+				"Use a &6Cauldron Ladle&r to right-click the Witch’s Cauldron to start brewing. Then use a &6glass bottle&r to collect the potion, and &2drink it near a tree&r, you will understand its effect！"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "28B168188F040792"
+			rewards: [{
+				count: 5
+				id: "13A6A8D1EFC3D7DC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A little test"
+			tasks: [{
+				id: "5231888AFEEE6077"
+				type: "checkmark"
+			}]
+			title: "The First Brew"
+			x: -3.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["28B168188F040792"]
+			description: [
+				"&cStep 1 · Capacity · Explanation&r"
+				""
+				"when adding the ingredients, a strict &2fixed order&r must be followed, and each one provides a set amount of capacity. "
+				""
+				"&7The value in ( ) indicates capacity provided.&r"
+				""
+				"&bNether Wart (+4) → Crimson Fungus (+2) → Snap Warts (+2) → Awakened Emerald (+2) → Concentrated Emerald (+2) → Ruby of Souls (+4)&r"
+				""
+				"You &2must add the ingredients in the exact order listed above&r. For example, if you want a potion with 6 capacity, you must first add a Nether Wart, then a Crimson Fungus. Otherwise, the brewing process will &4fail&r."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "6670071A9FBD1EF1"
+			subtitle: "The fixed order"
+			tasks: [{
+				id: "7C6FE1220A15BBFF"
+				type: "checkmark"
+			}]
+			title: "Capacity Explanation"
+			x: -3.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["28B168188F040792"]
+			description: [
+				"&c——How to View Brewing Information&r"
+				""
+				"Here we introduce &2how to view information about the potion being brewed&r. The details shown in the image below will only appear while holding the &2Shift key&r. You can check this information at any stage of the brewing process."
+				""
+				"{image:kubejs:textures/task/goety_8.png width:100 height:93 align:1}"
+				""
+				"White Area : Shows the catalysts used"
+				"&9Blue Area :&r Shows capacity usage"
+				"&cRed Area :&r Shows soul cost"
+			]
+			icon: "supplementaries:hanging_sign_oak"
+			id: "41D89F8681CF24E9"
+			rewards: [{
+				id: "02A5001089130EB4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "More detailed stats"
+			tasks: [{
+				id: "08C894DB7E3B373A"
+				type: "checkmark"
+			}]
+			title: "Every Thing Under Control"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["28B168188F040792"]
+			description: [
+				"The &dCustom Brewing System&r contains a wide variety of &2Capacites&r, &2Catalysts&r, and &2Augmentations&r, all of which can be found in the &6Guidebook&r."
+				""
+				"If you are unsure what potions you can brew, please use &2the Guidebook&r."
+				""
+				"&7Note: In Catalysts, any “additional capacity” value must be increased by 1 to reflect its actual capacity cost.&r"
+				""
+				"{image:kubejs:textures/task/goety_9.png width:100 height:83 align:1}"
+			]
+			icon: "minecraft:paper"
+			id: "2669B7A8FC8D1A59"
+			rewards: [{
+				id: "1C5FE1835CFD990E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Make good use of the guide book"
+			tasks: [{
+				id: "1F9C6B22EE998501"
+				type: "checkmark"
+			}]
+			title: "Recipe Lookup"
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"41D89F8681CF24E9"
+				"6670071A9FBD1EF1"
+				"2669B7A8FC8D1A59"
+			]
+			description: [
+				"This quest will guide you in brewing a &2rather “unique” potion&r, allowing you to learn &2all the basic mechanics&r of Witch’s Brewing through the process."
+				""
+				"&c——Preparation · Check Required Capacity&r"
+				"This potion requires two &cCatalysts&r: &6Beetroot Soup&r and &6Honeycomb&r. You can check their &2effects&r and &2capacity costs&r in the &cGuidebook&r."
+				""
+				"{@pagebreak}"
+				"&c——Step 1 · Sufficient Capacity &r"
+				""
+				"This potion must be &2thrown&r, so the &cAugmentation step&r also requires adding &6Gunpowder&r. This brings the total required capacity to 6. &7(Beetroot Soup +3, Honeycomb +2, Gunpowder +1)&r"
+				""
+				"Therefore, the basic +4 capacity from Nether Wart is not enough. You must follow the previously mentioned order and add &6Nether Wart&r followed by &6Crimson Fungus&r to reach a total capacity of &e6&r."
+				""
+				"{@pagebreak}"
+				"&c——Step 2 · Catalysts&r"
+				""
+				"In Witch’s Brewing, as long as you do not exceed the capacity limit, multiple catalysts can be added."
+				""
+				"After confirming the cauldron shows &e0/6&r capacity usage, add &6Beetroot Soup&r and &6Honeycomb&r. &7(No specific order required.)&r"
+				""
+				"{@pagebreak}"
+				"&c——Step 3 · Augmentation&r"
+				""
+				"You need to add &6Gunpowder&r to turn the potion into a &2Splash Potion&r. &7(This information can also be found in the Augmentation section of the Guidebook.)&r"
+				""
+				"{@pagebreak}"
+				"&c——Step 4 · Completion&r"
+				""
+				"If everything was done correctly, use the &6Cauldron Ladle&r to right-click the Witch’s Cauldron, infuse soul energy, and retrieve the potion."
+				""
+				"&dThrow the potion at hostile mobs to experience the true charm of Witch’s Brewing！&r"
+			]
+			icon: {
+				Count: 1b
+				id: "goety:splash_brew"
+				tag: {
+					AreaOfEffect: 0
+					CustomBrew: 1b
+					CustomBrewEffects: [
+						{
+							Amplifier: 0b
+							BrewId: "effect.goety.bats"
+							Duration: 1
+						}
+						{
+							Amplifier: 0b
+							BrewId: "effect.goety.bees"
+							Duration: 1
+						}
+					]
+					CustomPotionColor: 11045700
+					Lingering: 0.0f
+					Quaff: 0
+					Velocity: 0.0f
+				}
+			}
+			id: "2CD6687DD15557E1"
+			rewards: [{
+				id: "47450ED3C8C608AE"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Your animals friend"
+			tasks: [{
+				id: "2D7A88B5F2A04AB1"
+				type: "checkmark"
+			}]
+			title: "More Unique Potions"
+			x: -3.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2CD6687DD15557E1"]
+			description: [
+				"This concludes the tutorial for &dCustom Brewing&r."
+				""
+				"You are now free to unleash your imagination and create potions of your own."
+			]
+			icon: "simplehats:zigzagwitchhat"
+			id: "31C7BBA28C80C1B4"
+			rewards: [{
+				id: "4956E618EDE08C25"
+				item: "simplehats:zigzagwitchhat"
+				type: "item"
+			}]
+			subtitle: "Your unique brew "
+			tasks: [{
+				id: "5DFD081D89952A1B"
+				type: "checkmark"
+			}]
+			title: "Boundless Imagination"
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2CE8C11D4D2C773F"]
+			description: [
+				"The &dGoety&r mod contains many Focus, which are the &2foundation of your spellcasting&r."
+				""
+				"Most Focus must be crafted through various magical rituals, though a small number can be crafted directly using the crafting table."
+				""
+				"Please refer to the &6The Black Book&r under the &e“Focuses” category&r for more details."
+				""
+				"{@pagebreak}"
+				"Once you obtain Focuses, hold the mod’s staff and press &2Z by default&r &7(to open the Focus slot interface)&r to access the staff’s &eFocus socket system&r and equip the Focuses you own."
+				""
+				"After that, simply &eright-click&r to cast spells."
+			]
+			icon: {
+				Count: 1b
+				id: "goety:shocking_focus"
+				tag: {
+					"Soul Cost": 4
+				}
+			}
+			id: "236B608210F1F040"
+			subtitle: "Harness the power of the Focuses"
+			tasks: [{
+				id: "34704B5EA4118E9D"
+				type: "checkmark"
+			}]
+			title: "Power of the Focus"
+			x: 3.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["236B608210F1F040"]
+			description: [
+				"When a Focus Bag is placed in the &eBelt slot&r or kept in the inventory, it can be used to open the player’s Focus storage. &7(Default key: C)&r"
+				""
+				"&7By default, the bag in the belt slot will be opened. If none is equipped there, the game will prioritize the leftmost pouch in the hotbar.&r"
+				""
+				"&7If none are found, it will attempt to open the bag closest to the top-left of the inventory.&r"
+				""
+				"{@pagebreak}"
+				"When the player is &2holding any staff&r and has any &2Focus or Focus Bag&r in the inventory, they can open the &eFocus Circle&r. &7(Default key: X)&r"
+				""
+				"Holding the key will open the Focus Circle, and releasing it will close the interface."
+				""
+				"Within this interface, you can &2quickly adjust the staff’s Focus configuration&r and &2interact with Focus Bag&r."
+				""
+				"&7If the player has no Focus or Focus Bag, the Focus Circle cannot be opened.&r"
+			]
+			id: "657C4EADFC5A5BD2"
+			rewards: [{
+				id: "251B3CEE55DC52BB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A more convinient way to carry and switch focuses"
+			tasks: [{
+				id: "2F18FC4136455F26"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+							slot: 0
+						}
+					}
+					id: "goety:focus_bag"
+				}
+				type: "item"
+			}]
+			title: "Focus Bag and Focus Circle"
+			x: 6.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["249B296A3CB17779"]
+			description: [
+				"Performing different types of &dRituals&r also requires placing &2specific blocks in the correct types and quantities&r around the &6Dark Altar&r, or ensuring that the altar’s &2location meets certain conditions&r."
+				""
+				"&7If the coordinates of the Dark Altar are (X, Y, Z), the required altar bases and blocks may be placed anywhere within a cubic area from (X-8, Y-8, Z-8) to (X+8, Y+8, Z+8). (No placement order required.)&r"
+				""
+				"You may place &2multiple types of ritual-required blocks&r within the same Dark Altar detection range, allowing a single altar to support multiple rituals."
+				""
+				"{@pagebreak}"
+				"Once the placement requirements for a ritual are met, the player must first confirm the &2recipe of the item being crafted through that ritual&r."
+				""
+				"Start by right-clicking &6Pedestals&r with the required items to place them (no specific order or position required). When the type and quantity requirements are satisfied, hold the item to be placed into the &6Dark Altar&r and right-click the altar."
+				""
+				"If the &6Cursed Cage&r beneath the altar contains any Soul Energy, the ritual will begin."
+				""
+				"Each ritual consumes a different amount of Soul Energy. Be sure check the Cursed Cage beforehand to confirm whether it has enough Soul Energy. Otherwise, the &critual will fail, resulting in loss of items and Soul Energy&r."
+				""
+				"{@pagebreak}"
+				"As shown in the example, this setup combines both a &2Animation Ritual&r and a &2Forge Ritual&r."
+				""
+				"For crafting the &2Hunger Core&r, which depends on the Animation Ritual, you must first place the required items : &6Rotten Flesh&r, &6Meat items&r, &6Pufferfish&r, &6Soul Sand&r, and &6Savage Tooth&rinto the surrounding &6Pedestals&r. &7(as shown, no placement order required)&r"
+				""
+				"Then place the required &6Empty Focus&r into the central &6Dark Altar&r to begin the ritual crafting process."
+				""
+				"{image:kubejs:textures/task/goety_4.png width:100 height:79 align:1}"
+			]
+			icon: "minecraft:paper"
+			id: "593605806D412895"
+			rewards: [{
+				count: 3
+				id: "448263C72A5CC429"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Make good use of the guide book"
+			tasks: [{
+				id: "1AE5A94B7AC7BD2E"
+				type: "checkmark"
+			}]
+			title: "Explanation about the Rituals"
+			x: 1.5d
+			y: 7.25d
+		}
+	]
+	title: "Goety：The Dark Arts"
+}

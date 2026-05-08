@@ -1,0 +1,2628 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "tetra"
+	group: "0241B51B931E1ED2"
+	icon: {
+		Count: 1b
+		id: "tetra:modular_double"
+		tag: {
+			Damage: 0
+			"double/basic_hammer_left_material": "basic_hammer/oak"
+			"double/basic_hammer_right_material": "basic_hammer/oak"
+			"double/basic_handle_material": "basic_handle/stick"
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+			id: "d28113b6-1cb8-4adc-b03b-0260820f3327"
+		}
+	}
+	id: "69A9CF68FED068D9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the Tetra tutorial series！If this quest cannot be submitted properly, it is most likely because you have selected &dQuick Mode&r. In Quick Mode, this quest will not be hidden."
+				""
+				"You may have already noticed that this modpack does not include convenience mods such as vein mining. The reason is similar to the relationship between TPA and teleport stones—wherever immersion can be enhanced through mods, it should not be replaced by overly direct mechanics."
+				""
+				"Tetra allows you to &eslightly freely&r (to some extent) modify your tools, giving you a tool assembly experience similar to &dTinkers’ Construct&r. In addition, various &6Ancient Schematics&r enable you to craft ancient components, granting powerful effects such as 3×3 mining."
+				""
+				"Mastering Tetra can significantly improve both your efficiency in combat and resource gathering. Since its progression is not overly complex, it is strongly recommended to explore Tetra early in your journey."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "939840db-7443-43fc-a98c-3ef255263d48"
+				}
+			}
+			id: "674E912F6FFC7F67"
+			rewards: [{
+				count: 5
+				id: "34A91804EA15901C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Why Tetra "
+			tasks: [{
+				id: "25AD86CC24B524AA"
+				type: "checkmark"
+			}]
+			title: "Intro : Tetra"
+			x: -5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["72DE02C58750DFA9"]
+			description: [
+				"Hold a &6Hammer&r and right-click a &6Crafting Table&r to obtain the core item of this mod—the &6Workbench&r."
+				""
+				"Any vanilla tool that is modified once in the &6Workbench&r becomes a Tetra tool, gaining Tetra-specific attributes and systems."
+				"{@pagebreak}"
+				"{image:kubejs:textures/task/tetra_1.png width:180 height:100 align:1}"
+				""
+				"As shown above, the Workbench interface is divided into several sections:"
+				""
+				"&aGreen Area:&r Displays the tool’s overall stats. Hold Shift to view detailed descriptions of each attribute."
+				""
+				"&4Red Area:&r Shows the tool’s parts. Clicking a component will open the blue section for further interaction."
+				""
+				"&bBlue Area:&r Used to enchant, honing, upgrade, or replace the selected component from the red area."
+				""
+				"&5Purple Area:&r Used to switch the content displayed in the blue area."
+			]
+			hide_dependency_lines: false
+			id: "312A09022249980F"
+			rewards: [{
+				id: "524D750A2FB330D2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Familiarize Yourself with the Workbench"
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "115950E130CCDA28"
+				type: "advancement"
+			}]
+			title: "Understand the Workbench, Master the Workbenc"
+			x: -1.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["72DE02C58750DFA9"]
+			description: [
+				"When you &e craft a Hammer for the first time&r, the system will grant you a &6Holographic Orb&r."
+				""
+				"The &6Holosphere&r is a comprehensive but not very intuitive manual."
+				""
+				"While holding it, you can &eright-click&r to project a dedicated interface that displays information about &etool types, components, and material properties&r."
+				""
+				"&3If you have previously obtained a Holosphere in another save, a progression detection bug may prevent you from receiving the system’s automatic reward. &r&cIn that case, please obtain a new one from the quest below. &r"
+				""
+				"{@pagebreak}"
+				"The Holosphere also has two &eupgrade slots&r. In later progression, it can be enhanced by installing an &eEye of Ende&r, allowing you to &dlocate ancient forging ruins underground&r."
+				""
+				"It can also be used to &esearch for ancient debris&r. When carried in the off-hand, if these structures are nearby and the direction indicator aligns with them, the HUD will display an orange ripple effect."
+			]
+			hide_dependency_lines: false
+			id: "4632D20D50741511"
+			rewards: [{
+				count: 5
+				id: "037566F6FB6F211C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "The uses of the Holosphere"
+			tasks: [{
+				consume_items: false
+				id: "48AC0E74C64294E0"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "core/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "frame/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+						id: "9503de92-046c-4d61-8afe-8c0d71c6afae"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 26.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"Tools can be broadly classified into &ebelts, double headed tools, and single headed tools&r."
+				""
+				"Sometimes, modifying tools can provide convenience beyond resource gathering, extending into general gameplay and quality-of-life improvements."
+				""
+				"The following sections will briefly describe possible modification paths for certain tools, offering players guidance and inspiration for customization."
+			]
+			hide_dependency_lines: false
+			icon: "witherstormmod:command_block_pickaxe"
+			id: "6DCBC9E0C68FCAB4"
+			rewards: [{
+				id: "6BDFC618DC2F0E48"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Customise your own tool"
+			tasks: [{
+				id: "59AA9027D31D388F"
+				type: "checkmark"
+			}]
+			title: "Modify Your Tools"
+			x: 1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6DCBC9E0C68FCAB4"]
+			description: [
+				"Double-headed tools are known for their two head sections, which enable a wide range of functionality."
+				""
+				"The hammer serves as the foundational modification tool, and its upgrades are a core progression element throughout Tetra."
+				""
+				"For a pickaxe-type tool, large-scale excavation becomes an important option. Installing the &6Chthonic Extractor&r which obtained from &cForge ruins&r on the right head section grants a &e3×3 mining area&r. (Any double-headed tool can equip this component to gain this ability.)"
+				""
+				"Axe-pick combinations: replacing one of the head sections with an &eaxe or hand axe&r results in a &emulti-purpose mining tool&r."
+				""
+				"To open crates or forging containers found in ruins, you need a tool with a claw hammer-like function, which provides the ability to &epry objects open&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "5b2ed0ce-8106-41d6-b4f1-afea3fbcd46b"
+				}
+			}
+			id: "17089D979EC38CDC"
+			subtitle: "A choice of resource gathering"
+			tasks: [{
+				id: "2141DDBF689CFC72"
+				type: "checkmark"
+			}]
+			title: "Double Headed Tools"
+			x: 2.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6DCBC9E0C68FCAB4"]
+			description: [
+				"Modifying a single-head tool’s head into a &6Walking Cane&r grants a mobility bonus, holding it increases your movement speed."
+				""
+				"Changing the handle to a &6Light Handle&r gives the tool a &athrowable property&r. When combined with the &aLoyalty enchantment&r, it can function similarly to a trident."
+				""
+				"If the head is instead modified into a &6Earthpiercer&r, it gains the ability to &ebreak blocks at range&r."
+				""
+				"Switching the handle to a &6Long Handle&r provides extended reach, allowing you to interact with objects from a greater distance."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40963D22AEB8D200"
+			subtitle: "Convenience over resource gathering"
+			tasks: [{
+				id: "5FAEF4B3E0904DD4"
+				type: "checkmark"
+			}]
+			title: "Single Headed Tools"
+			x: 3.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"Modifying traditional weapons can grant them new attack properties or even tool-like functionality."
+				""
+				"Some of these new combat characteristics may help players rediscover their appreciation for certain weapons and inspire new approaches to gameplay."
+				""
+				"This section will briefly outline possible &emodification directions&r for various weapons, providing players with ideas and inspiration for customization."
+			]
+			hide_dependency_lines: false
+			icon: "witherstormmod:command_block_sword"
+			id: "7E7580FC10C7CB80"
+			rewards: [{
+				id: "0C159F9217B99977"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Customise your own weapon"
+			tasks: [{
+				id: "6420FB47095E5FBE"
+				type: "checkmark"
+			}]
+			title: "Modify Your Weapons"
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: [
+				"Install a &6Quick Latch&r on the bow to turn it into an &eautomatic firing mode&r."
+				""
+				"Modify the &6Scope&r to zoom in while holding Shift, and combine it with &ehigh-damage upgrades&r to enable &asniping capabilities&r."
+				""
+				"Using different materials for the &6Arrow Extension rest&r grants the bow &ascatter shooting&r. Using &6Screws&r as the material allows you to adjust both the number of arrows fired and the spread angle."
+				""
+				"The &6Planar Stabilizer&r can &eminimize ballistic deviation&r, making your arrows &esignificantly more accurate&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "205DAFF285CC8BD6"
+			subtitle: "A choice of combat"
+			tasks: [{
+				id: "6AEEE4B353A7500C"
+				type: "checkmark"
+			}]
+			title: "Bows"
+			x: 5.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: [
+				"Modifying the &6Shield Boss&r grants the ability to &estun enemies with shield bashes&r."
+				""
+				"The &6Aerodynamic Trim&r upgrade allows the shield to gain a &athrowable property&r. By holding Shift while right-clicking to block and then releasing, you can throw the shield to strike enemies with force."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2FD26BBB879361AB"
+			subtitle: "A choice of combat"
+			tasks: [{
+				id: "47355B4FB029895B"
+				type: "checkmark"
+			}]
+			title: "Shields"
+			x: 3.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: [
+				"Weapons, but also can be as tools, modifying the &eBlade Head&r into a &6Saber Blade&r or &6Shortblade&r can increase its &ecutting level&r."
+				""
+				"Modifying the guard becomes available after obtaining the &6Schematic: Sturdy Guard&r scroll, which unlocks &esword blocking&r, restoring the blocking mechanic in old verion of Minecreaft."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54717A16315DF06A"
+			subtitle: "A choice of combat "
+			tasks: [{
+				id: "15B6190B3665B463"
+				type: "checkmark"
+			}]
+			title: "Blades"
+			x: 2.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7E7580FC10C7CB80"]
+			description: ["&7Modifications to the crossbow are relatively minimal; the author did not significantly alter its core mechanics or behavior.&r"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04049DFDF6E42D72"
+			subtitle: "A choice of combat"
+			tasks: [{
+				id: "6CAFE370EEF1BD3A"
+				type: "checkmark"
+			}]
+			title: "Crossbows"
+			x: 4.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6DCBC9E0C68FCAB4"]
+			description: [
+				"Rope can be modified to store items or transformed into mobility tools."
+				""
+				"&cPortable Storage&r: Use various storage upgrades to allow the belt to &estore potions, arrows, and other items&r."
+				""
+				"&cLevitation&r: With a Planar Stabilizer upgrade, within the range of an activated Beacon, pressing the jump key mid-air allows &eindefinite hovering&r."
+				""
+				"&cDash&r: Install boosters to gain abilities similar to rocket boots, enabling &erapid bursts of movement and dashing&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_toolbelt"
+				tag: {
+					id: "1000ee52-eb9c-413d-841a-efbf39550eb5"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/belt_material": "belt/rope"
+					"toolbelt/slot1": "toolbelt/strap_slot1"
+					"toolbelt/strap_slot1_material": "strap1/leather"
+				}
+			}
+			id: "3B9FE77A184BAFBC"
+			rewards: [{
+				count: 2
+				id: "4B8401F626DE850F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Choice of easy living"
+			tasks: [{
+				consume_items: false
+				id: "300F9A94892FAEFD"
+				item: {
+					Count: 1b
+					id: "tetra:modular_toolbelt"
+					tag: {
+						id: "27441eea-8dd4-4b95-a6d5-5a7c35cbd58d"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			title: "Belt or Rope?"
+			x: 4.25d
+			y: 22.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"Tetra-fied tools can only be repaired using the &6Workbench&r."
+				""
+				"In essence, repairing is the &ereconstruction of individual components&r, so it will require &emultiple types of materials&r. You can view the required repair material in the &dRepair Cycle&r section at the bottom-left of the repair interface."
+			]
+			id: "5BA7E809A7B3037B"
+			rewards: [{
+				id: "3922CD1D0436EEED"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Repairing"
+			tasks: [{
+				id: "6870823584208C2D"
+				type: "checkmark"
+			}]
+			title: "How to Repair"
+			x: -1.25d
+			y: 22.75d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"Place a vanilla tool into the Workbench, and depending on its type, the &eavailable moddable components&r will be displayed. By selecting different components, you can &ecustomize the material of each part&r."
+				""
+				"Tools that you have been using since the early game can be continuously refined by upgrading key components, changing both their materials and part types, thereby altering their properties and functionality."
+				""
+				"Crafting high-tier components requires a &chigher-level hammer&r."
+				""
+				"Simply using high-tier materials will not automatically make your tools stronger—&ecareful and balanced combinations are far more important&r."
+			]
+			id: "47A7AEEFD24F1D7A"
+			rewards: [{
+				id: "4E5A51FF9BB20304"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Customise parts"
+			tasks: [{
+				id: "72B2A6B7FD5FFB12"
+				type: "checkmark"
+			}]
+			title: "How to Modify Tools"
+			x: -1.25d
+			y: 21.75d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"Tool upgrades in Tetra can be divided into two categories:"
+				""
+				"1. Enhancement through accumulated &6Hone&r during use"
+				"2. Additional &6Modification&r upgrades"
+				""
+				"During usage, the tool accumulates overall Hone progress. When the Honing bar is full, a notification will appear in the top-right corner of the screen. At this point, you can go to the Workbench and select a component to perform a &6Honing Upgrade&r on its attributes."
+				""
+				"Each parts is treated as an independent component. Different parts can be &eenchanted&r separately, or &eremodified&r individually to further refine their performance."
+			]
+			id: "6F6EA56EB887392B"
+			rewards: [{
+				id: "07DD8167FBB671A0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Make it stronger"
+			tasks: [{
+				id: "1370A7D6D3F44CCC"
+				type: "checkmark"
+			}]
+			title: "How to Upgrade Tools"
+			x: -1.25d
+			y: 20.75d
+		}
+		{
+			dependencies: ["6F6EA56EB887392B"]
+			description: [
+				"&dUsing the “Double Headed Tool” section as an example&r"
+				""
+				"The mining level of an &eDouble Headed Tool&r is determined by the &ehighest tier plus one level&r among its head components when they differ."
+				""
+				"&dExample:&r"
+				"When the head section contains &eonly one Diamond Pickaxe component&r, the tool is treated as having the &eIron Pickaxe mining level (one tier above Diamond Pickaxe)&r."
+				""
+				"When both head components in the head section are &eDiamond Pickaxe components&r, the tool reaches the &eDiamond Pickaxe mining level&r."
+			]
+			id: "56C75C9FAD3CEC66"
+			rewards: [{
+				id: "54C886646E87D6C8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Many effects do not necessarily mean mastery."
+			tasks: [{
+				id: "0B6873F9FA299058"
+				type: "checkmark"
+			}]
+			title: "Level of the Double Headed Tools"
+			x: -2.25d
+			y: 21.75d
+		}
+		{
+			dependencies: ["4632D20D50741511"]
+			description: [
+				"The &dForge Ruins&r are the only naturally generated structures added by Tetra. They contain the Tetra &6Forge Hammer&r as well as various special items."
+				""
+				"The Forge Ruins come in two variants: one is the &6standard Forge Ruin&r, and the other is a &cForge Ruin containing a Core Extractor&r."
+				""
+				"You may need to take some devices and blocks from within the ruins, but note that only a &6Hammer enchanted with &bSilk Touch&r can fully preserve and collect them."
+				""
+				"{@pagebreak}"
+				"These structures can generate in &eall biomes&r, most commonly within the &edeep slate layer&r. Testing shows that most ruins tend to generate near &eLush Caves&r, which themselves are frequently found underground beneath &espruce forests and jungles&r. Therefore, these two biome types are recommended as starting points when searching for ruins."
+			]
+			hide_dependency_lines: false
+			icon: "tetra:forged_workbench"
+			id: "35E219B64C68FB53"
+			rewards: [
+				{
+					count: 2
+					id: "13423AA2EA03D680"
+					item: "tetra:forged_bolt"
+					type: "item"
+				}
+				{
+					id: "330924A495EDD1CD"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Advanced Modification Techniques"
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "6966D5E9CC42536C"
+				title: "踏入锻造遗迹"
+				type: "advancement"
+			}]
+			title: "Find the Ancient Forge Ruins"
+			x: -1.25d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6F6EA56EB887392B"]
+			description: [
+				"Setting aside the more intuitive stats such as &amining speed&r and &amining level&r—values already present in vanilla Minecraft—"
+				""
+				"the following will focus on the &especial stats introduced by the Tetra mod&r, which give tools their &eunique behaviors and advanced properties&r."
+				""
+				"{@pagebreak}"
+				"After a vanilla tool is &emodified&r once in the &6Workbench&r, it gains a new attribute called &6Honing Value&r."
+				""
+				"By &eusing the tool for its intended function&r, its overall Honing value will gradually increase."
+				""
+				"When the Honing progress bar is full, the tool can be returned to the Workbench, where you may select one of its components to receive an &eupgrade attribute&r."
+				""
+				"These upgrade attributes themselves have &elimits&r, and selecting certain upgrades may consume &aIntegrity usage&r."
+				""
+				""
+				""
+				"{@pagebreak}"
+				"As each component is used over time, it gradually becomes &aSettle&r, eventually gaining the &e“Settled”&r property."
+				""
+				"{@pagebreak}"
+				"Setting aside the fact that upgrade attributes themselves have an &elevel cap&r, selecting a &aHoning Attribute Upgrade&r will consume &aIntegrity usage&r."
+				""
+				"&aIntegrity&r can be understood as the &elimit of components&r that a single tool can support."
+				""
+				"The &ematerial and type of each component&r will affect the tool’s overall integrity usage."
+				""
+				"You can &eremodify the modification section&r to expand a tool’s integrity, or adjust it by &echanging the materials of its components&r."
+				""
+				"At the same time, each component will gradually become &efixed&r through usage, eventually gaining the &a“Stable”&r property."
+				""
+				"Each level of &aSettled&r grants the tool additional &eintegrity usage&r."
+			]
+			id: "48BD60FBFEC2896A"
+			rewards: [{
+				id: "714D7A94A0CA67CB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Explanation about the stats"
+			tasks: [{
+				id: "5B07B4A7545C89A9"
+				type: "checkmark"
+			}]
+			title: "Tool Stats"
+			x: -2.25d
+			y: 22.75d
+		}
+		{
+			dependencies: ["6F6EA56EB887392B"]
+			description: [
+				"Tetra-fied tools cannot be repaired or enchanted using an anvil, but they &ecan still be enchanted at an enchanting table&r."
+				""
+				"By placing the tool into the enchanting table, under ideal conditions, each component of the tool can receive &aenchantments&r."
+				""
+				"&aDisenchanting&r is also simple: replace the enchanted material of a component with another material to remove its enchantments."
+				""
+				"{@pagebreak}"
+				"Similarly, tools can also be enchanted using enchanted books."
+				""
+				"However, doing so consumes the tool’s &aMagic Capacity&r."
+				""
+				"The more magic capacity is consumed, the lower its value becomes. If it drops too low or becomes negative, &acurses&r are more likely to appear."
+				""
+				"Curses can be removed using lapis lazuli and experience levels."
+			]
+			id: "0326579D60162FF6"
+			rewards: [{
+				id: "58260BA7D19BD428"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Enchanting"
+			tasks: [{
+				id: "16A60EFC0B93E493"
+				type: "checkmark"
+			}]
+			title: "Tools Enchantments"
+			x: -2.25d
+			y: 20.75d
+		}
+		{
+			dependencies: ["4632D20D50741511"]
+			description: [
+				"During mining, you may occasionally encounter &estone blocks&r that are visually indistinguishable from surrounding stone in terms of material appearance."
+				""
+				"Breaking them will yield &6Geode&r instead of normal stone blocks."
+				""
+				"By placing &6Geode&r into the &6Workbench&r and using a &eHammer&r to break them open, there is a chance to obtain &6Pristine Gems&r."
+				""
+				"These gems can provide &ebetter effects than basic gems&r when used for &eSocketing&r in tools."
+			]
+			hide_dependency_lines: false
+			icon: "minecraft:diamond"
+			id: "409F00833C4425EB"
+			rewards: [{
+				count: 10
+				id: "594C9F04E316D33A"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			subtitle: "Pristine gems"
+			tasks: [{
+				consume_items: false
+				id: "0AF57ACDD8AB15C9"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			title: "New Gems"
+			x: -4.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"The components and attributes crafted in the &6Workbench&r are influenced by &6Scrolls&r."
+				""
+				"By placing scrolls within a 3×3 area around the Workbench, their effects will apply to it."
+				""
+				"Ways to obtain scrolls:"
+				""
+				"&6Yellow Treatise Scroll&r: obtained through &evillager trading&r"
+				""
+				"&6Blue Shcematic Scroll&r: found in various &edungeons and structures&r in the Overworld"
+				""
+				"&6Tools of War Scroll&r: obtained by &etrading with Piglins&r"
+				""
+				"&6Gilded Scroll&r: found in &eNether structures&r"
+				""
+				"&6Some scrolls&r can also be crafted"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							effects: ["tetra:gem_expertise"]
+							glyphs: [
+								14
+								13
+								14
+								15
+							]
+							intricate: 0b
+							key: "gem_expertise"
+							material: 0
+							ribbon: "2bffee"
+						}]
+					}
+				}
+			}
+			id: "615C6A1DA6AEA1A4"
+			rewards: [{
+				id: "6D704884866EEBA8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6489B4B2522076B5"
+				type: "checkmark"
+			}]
+			title: "Scrolls"
+			x: -1.25d
+			y: 18.0d
+		}
+		{
+			dependencies: ["674E912F6FFC7F67"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The Hammer is the most &ebasic tool&r used in Tetra for modifying other tools. Its functions include:"
+				""
+				"1. Using the hammer to obtain the &6Workbench&r."
+				"2. Providing tool support for &eparts modification&r within the workbench."
+				""
+				"The hammer has a &elevel&r attribute; upgrading to higher-tier materials requires higher-level hammers."
+				""
+				"If you find that a certain material cannot be used to craft the tool parts, check whether your hammer level meets the requirement."
+				""
+				"{@pagebreak}"
+				"You can craft &6Tier 1 – Wooden Hammer&r and &6Tier 2 – Cobblestone Hammer&r using the &evanilla crafting table&r."
+				""
+				"Higher-tier hammers must be crafted using the &6Workbench&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/stone"
+					"double/basic_hammer_right_material": "basic_hammer/stone"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "b0e824bf-fc0f-48eb-b7d6-6c6a4d664a1c"
+				}
+			}
+			id: "72DE02C58750DFA9"
+			rewards: [{
+				id: "32397277F9C616CE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Tool that helps in modification"
+			tasks: [
+				{
+					id: "01464A7037DB229A"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "98727dcb-b07f-430c-a178-c10ed89bed6a"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5707B4238BE55E0D"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/stone"
+							"double/basic_hammer_right_material": "basic_hammer/stone"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "b0e824bf-fc0f-48eb-b7d6-6c6a4d664a1c"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Start of Tetra : Hammer"
+			x: -3.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0D7F6FF46D41943E"]
+			dependency_requirement: "all_started"
+			description: [
+				"After learning about the &6Workbench&r, let’s do &esimple practise&r！"
+				""
+				"&dMake sure you have two hammers&r. Place one into the Workbench, then click &eHead [Left]&r, select &eHammer Head&r. Next, place an &eIron Ingot&r to replace the material."
+				""
+				"&dIn Tetra, the level of a double headed tool is determined by the lower-tier head&r, so you’ll need to repeat the process and replace the material for &eHead [Right]&r as well."
+				""
+				"&eFollow the example shown&r, and with these steps, you will obtain a Tier 3 Iron Hammer！"
+				""
+				"{image:kubejs:textures/task/tetra_2.png width:160 height:101 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "eb24bf4f-8a57-47f4-a509-875638f87caa"
+				}
+			}
+			id: "31A758E7762FE591"
+			rewards: [{
+				id: "6E30F60A47236F78"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Obtain tier 3 hammer : Iron Hammer"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "031F42071CB722A3"
+				type: "advancement"
+			}]
+			title: "A Simple Practise"
+			x: 3.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["31A758E7762FE591"]
+			description: [
+				"Let’s obtain a &eTier 4 Hammer&r in the same way!"
+				""
+				"Of course, when placing a hammer into the &6Workbench&r, make sure you still have a &eTier 3 Hammer&r in your inventory or on your rack."
+				""
+				"To further advance your forging progression, your next step is to seek out ancient forge ruins and obtain the &6Forge Hammer&r."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "1f057e79-e56a-4d7a-8804-c458d2d0860c"
+				}
+			}
+			id: "79B3E0CB8757E049"
+			rewards: [{
+				count: 5
+				id: "00C84C90189ADDCD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Obtained tier 4 hammer : Blackstone Hammer"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "1CE84AC48BACA215"
+				type: "advancement"
+			}]
+			title: "A Step Further"
+			x: 5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["26164F1BD1D98A74"]
+			description: [
+				"A Tier 5 Hammer requiring Tier 6 crafting conditions? That sounds counterintuitive, but now we have a way to solve it！"
+				""
+				"With a &6Forge Hammer&r equipped with at least one &eCombustion Chamber&r installed, you can now craft your Tier 5 hammer！"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					"double/basic_hammer_right_material": "basic_hammer/obsidian"
+					"double/basic_handle_material": "basic_handle/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "a3ce4dea-6cfe-445a-9c79-95eecf0c528f"
+				}
+			}
+			id: "0324A0217FD048DF"
+			rewards: [{
+				id: "358FB8AD3453FDD5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Obtained tier 5 hammer : Obsidian Hammer"
+			tasks: [{
+				id: "006D8ACFE88298D8"
+				type: "checkmark"
+			}]
+			title: "Complec Tier Requirement"
+			x: 5.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0324A0217FD048DF"]
+			description: [
+				"When you have two &eCombustion Chamber&r installed, you can upgrade the &6Forge Hammer&r to Tier 7, allowing you to craft this &eTier 6 Hammer&r."
+				""
+				"(Repeatedly &eHonning a Netherite Hammer&r grants one opportunity to increase its hammer tier by 1. Additionally, &esocketing a Nether Star&r into it will also raise its tier by 1. At this point, you will possess an &eTier 8 Hammer&r.)"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/netherite"
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					"double/basic_handle_material": "basic_handle/forged_beam"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "0f816875-a6fb-4adf-9368-a0543d945e0c"
+				}
+			}
+			id: "218618254BAD5391"
+			rewards: [{
+				id: "0AC600BAF6710E35"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Obtained tier 6 hammer : Netherite Hammer"
+			tasks: [{
+				id: "1B0EED37B836B0B6"
+				type: "checkmark"
+			}]
+			title: "The Final Hammer"
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72DE02C58750DFA9"]
+			description: ["If you accidentally lose your Holosphere, you will need to pay a small price to obtain a new one before exploring Tetra’s ruins."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:holo"
+				tag: {
+					"holo/core": "holo/core"
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "core/ancient"
+					"holo/repo": "holo/repo"
+					"holo/repo_material": "repo/default"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner_material": "scanner/default"
+				}
+			}
+			id: "6B5199EEFAC47D47"
+			rewards: [{
+				id: "49ED0D9173702CEE"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				disable_toast: true
+				id: "2B8813A2F4F6043C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Lost and Found"
+			x: -3.25d
+			y: 27.5d
+		}
+		{
+			dependencies: ["312A09022249980F"]
+			description: [
+				"It must be noted that when using the Workbench, you need to have multiple tools prepared."
+				"For example, replacing wooden materials requires an &eaxe of sufficient level&r."
+				"When upgrading your hammer, you &ecannot use the same hammer to upgrade itself&r, so you will usually need to carry &dan extra hammer&r in your inventory. &d(Yes, this means you need at least two hammers!)&r"
+				""
+				"Of course, you can also craft a &6Rack&r and place it next to the &6Workbench&r. By hanging different tools on it, &ethe Workbench will automatically use the tools from the rack&r."
+			]
+			hide_dependency_lines: false
+			id: "0D7F6FF46D41943E"
+			rewards: [{
+				id: "7286A91F53B6A97D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Workbench partner"
+			tasks: [{
+				id: "3F42B208CF2CFCB7"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			title: "Within Reach"
+			x: 1.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["35E219B64C68FB53"]
+			dependency_requirement: "one_completed"
+			description: [
+				"In the ruins, you will find &6Forged Crates&r and &6Forged Containers&r."
+				""
+				"You can use either a &6Claw Hammer&r or a &6Hammer&r to right-click specific points and open &6Forged Crates&r."
+				""
+				"Forged Containers require you to first break all &ebrown locks&r using a &6Hammer&r, then pry them open with a &6Claw Hammer&r. Once opened, a page switch button will appear on the left, with a total of three pages of storage."
+				""
+				"If you wish to take a Forged Container with you, you must use a &eTier 6 Hammer with Silk Touch&r. Breaking it with a hammer below Tier 6 yields no drops, while breaking it with a hammer above Tier 6 will drop a certain amount of &6Metal Scraps&r."
+			]
+			hide_dependency_lines: true
+			id: "4162CE0B91DD7618"
+			rewards: [{
+				id: "7496D64C70145CB1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:spelunking/containers"
+				criterion: ""
+				icon: "tetra:forged_crate"
+				id: "6E5E17943DC0339E"
+				type: "advancement"
+			}]
+			title: "Treasure Within the Ancient Forge Ruins"
+			x: 0.25d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"Cannot be crafted, can only be obtained from &dForge Ruins&r by opening &6Forged Containers/Crates&r."
+				""
+				"Its function is to provide power for the &6Forge Hammer&r. Two &eThermal Cells&r are required to operate one Forge Hammer."
+			]
+			hide_dependency_lines: false
+			id: "32832120541D04F5"
+			rewards: [{
+				count: 3
+				id: "2F2C1B1ED6E0AD2C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Thermal Cell"
+			tasks: [{
+				advancement: "tetra:spelunking/find_cell"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "33C4431F0FE86F94"
+				type: "advancement"
+			}]
+			title: "Power Source of the Forge Hammer"
+			x: 1.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"Cannot be crafted, can only be obtained in &dForge Ruins&r by opening &6Forged Containers/Crates&r."
+				""
+				"It can be installed onto the &6Forge Hammer&r to increase its &eHammer Tier by 1&r. However, it has a side effect: while operating, the forging hammer will randomly ignite blocks within a 3-block radius."
+			]
+			hide_dependency_lines: true
+			id: "4ABB90F2D8E0635E"
+			rewards: [{
+				count: 3
+				id: "332322D44DFE293E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Combustion Chamber"
+			tasks: [{
+				id: "0782A8779A7BE325"
+				item: "tetra:combustion_chamber"
+				type: "item"
+			}]
+			title: "Higher Tier Hammer"
+			x: 2.75d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"35E219B64C68FB53"
+				"79B3E0CB8757E049"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"A &ecomplete Forge Hammer system&r consists of a &6Forge Hammer&r and a &6Forged Workbench&r. Both generate within &dForge Ruins&r, and you must locate and retrieve them."
+				""
+				"Note that only a &6Hammer enchanted with &bSilk Touch&r can fully preserve and collect these structures."
+				""
+				"{image:kubejs:textures/task/tetra_3.png width:192 height:108 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "tetra:forged_workbench"
+			id: "18C215BF94AC8C3F"
+			rewards: [{
+				id: "309E4D043AF5AADF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "A Better Hammer"
+			tasks: [
+				{
+					id: "41E76D90E0EF61B4"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+				{
+					id: "40C088743A6D0F57"
+					item: "tetra:forged_workbench"
+					type: "item"
+				}
+			]
+			title: "Finding the Forge Hammer"
+			x: 1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["18C215BF94AC8C3F"]
+			description: [
+				"&dThe default Forging Hammer is equivalent to a Tier 5 Hammer.&r"
+				""
+				"The Forging Hammer requires two &6Thermal Cells&r (square slots) installed on the sides to function properly, along with two &ePlugins&r (rectangular slots). A &6Forged Workbench&r must also be placed one block directly below it, leaving a one-block air gap."
+				""
+				""
+				"{image:kubejs:textures/task/tetra_4.png width:192 height:102 align:1}"
+				""
+				"{@pagebreak}"
+				"After the Forging Hammer completes a cycle, there is a chance it may malfunction and become jammed. To fix it, you must hold a &eTier 4 or higher Hammer&r and &eright-click the lower edge of the hammer head&r to repair it."
+				""
+				"{image:kubejs:textures/task/tetra_5.png width:190 height:107 align:1}"
+			]
+			hide_dependency_lines: false
+			id: "26164F1BD1D98A74"
+			rewards: [{
+				id: "37E1E3B502FF4E5D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Art of forging"
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_fix"
+				criterion: ""
+				id: "077275E4CA721619"
+				type: "advancement"
+			}]
+			title: "Complete the Forge Hammer Setup"
+			x: 3.25d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"Cannot be crafted, can only be obtained in &dForge Ruins&r by opening &6Forged Containers/Crates&r."
+				""
+				"It can be installed onto the &6Forge Hammer&r. Each installed Planar Stabilizer adds one level of “&eGood Quality&r” to newly crafted components."
+				""
+				"It can also be used as a modification component for equipment upgrades."
+			]
+			hide_dependency_lines: true
+			id: "07C45CBBE954D541"
+			rewards: [{
+				count: 3
+				id: "2437C300B9956886"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A6B7C992106BED"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"Cannot be crafted, can only be obtained in &dForge Ruins&r by opening &6Forged Containers/Crates&r."
+				""
+				"Can be installed on the &6Forge Hammer&r. Each Lubricant Dispenser reduces the jamming rate by 50%."
+			]
+			hide_dependency_lines: true
+			id: "5325963A2FC77573"
+			rewards: [{
+				count: 3
+				id: "75D7229C7428DC6C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71AF4FF77A47A091"
+				item: "tetra:lubricant_dispenser"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4162CE0B91DD7618"]
+			description: [
+				"Cannot be crafted, can only be obtained in &dForge Ruins&r by opening &6Forged Containers/Crates&r."
+				""
+				"Can be installed on both the &6Forge Hammer&r and the &6Transfer Unit&r to increase machine efficiency (when installed on the forge hammer, it also reduces energy consumption)."
+				""
+				"It can also be used as a component on &eshield plate&r (tower shield only)."
+			]
+			hide_dependency_lines: true
+			id: "084A541B2D70B595"
+			rewards: [{
+				count: 3
+				id: "543EA665ED4436B0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E70CAFB548B3353"
+				item: "tetra:vent_plate"
+				type: "item"
+			}]
+			x: 4.75d
+			y: 24.5d
+		}
+		{
+			dependencies: ["35E219B64C68FB53"]
+			description: [
+				"The &eThermal Cells&r installed on the &6Forge Hammer&r are consumable. If you do not want them to be single-use, you will need a &eCharging Device&r."
+				""
+				"{image:kubejs:textures/task/tetra_6.png width:150 height:102 align:1}"
+				"As shown, a full charging setup consists of &6Extractor pipes&r, a &6Core Extractor&r, and a &6Transfer Unit&r combined into a single system."
+				""
+				"The &6Extractor Pipes&r must be placed above &6Seeping Bedrock&r. Do not worry, &6Seeping Bedrock&r can be found within &dForge Ruins equipped with Core Extractor components&r. (Multiple Extraction Pipes can be connected between the &6Core Extractor&r and the &6Seeping Bedrock&r to extend the system.)"
+				""
+				"It is important to note that the &6Transfer Unit&r must be placed on the &eprotruding face&r of the &6Core Extractor&r. After placing a &6Thermal Cell&r above the Transfer Unit, you must use a &eHammer&r to strike the switch on the Transfer Unit until it is set to the &ecentral position&r, thereby activating the charging process."
+			]
+			hide_dependency_lines: true
+			id: "76BEE3F046554382"
+			rewards: [{
+				id: "2C21E23B468B23FD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Device to charge the Thermal Cell"
+			tasks: [{
+				advancement: "tetra:spelunking/refill_cell"
+				criterion: ""
+				id: "208B3E22C248F072"
+				type: "advancement"
+			}]
+			title: "Extract Enery from the Core！"
+			x: 1.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["4632D20D50741511"]
+			description: [
+				"When searching for different biomes, you often need to check their generation rules one by one. However, in a modded environment with many additions, natural generation becomes highly complex and unpredictable. At this point, you may need the &2Nature Compass&r to assist in locating biomes or structures."
+				""
+				"By right-clicking the compass, you can use its search interface to specifically locate and search for the desired biome."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "37897967041E6CBB"
+			rewards: [{
+				id: "1CA2BD719C14AF46"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Point to your destination"
+			tasks: [{
+				id: "7EF56E6086EA3533"
+				type: "checkmark"
+			}]
+			title: "Compass"
+			x: -2.25d
+			y: 27.5d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			description: [
+				"The Tetra addon &6“Art of Forging”&r introduces a crossover with &9Alex’s Mobs&r."
+				""
+				"The Void Worm lives in the void beneath the &eEnd dimension&r. Throwing a &3Mysterious Worm&r into the void will lure it out."
+				""
+				"&8The most effective way to deal damage to the Void Worm is to directly attack its head.&r"
+			]
+			hide_dependency_lines: true
+			icon: "alexsmobs:void_worm_mandible"
+			id: "64B168E393C5948F"
+			rewards: [{
+				id: "68AADEF0BB899229"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52E29EA2B1D14BE4"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 18.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "067FBDC89CB52166"
+			rewards: [{
+				id: "78FA9D95ACB17CAD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59DC30D2690715E4"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:gem_expertise"]
+									glyphs: [
+										14
+										13
+										14
+										15
+									]
+									intricate: 0b
+									key: "gem_expertise"
+									material: 0
+									ribbon: "2bffee"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "26D9F38B934B2264"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:metal_expertise"]
+									glyphs: [
+										4
+										6
+										6
+										5
+									]
+									intricate: 0b
+									key: "metal_expertise"
+									material: 0
+									ribbon: "ffffff"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0A3CF30AF0EF5098"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:wood_expertise"]
+									glyphs: [
+										2
+										1
+										2
+										1
+									]
+									intricate: 0b
+									key: "wood_expertise"
+									material: 0
+									ribbon: "bf934b"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5675D1661E06A3A0"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:stone_expertise"]
+									glyphs: [2]
+									intricate: 0b
+									key: "stone_expertise"
+									material: 0
+									ribbon: "9a9a9a"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1223CE0EDD884056"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fibre_expertise"]
+									glyphs: [
+										5
+										10
+										11
+										4
+									]
+									intricate: 0b
+									key: "fibre_expertise"
+									material: 0
+									ribbon: "a88054"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BC7C41CAD9C2188"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:skin_expertise"]
+									glyphs: [
+										0
+										1
+										1
+										1
+									]
+									intricate: 0b
+									key: "skin_expertise"
+									material: 0
+									ribbon: "bf6930"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5B28EB7C316879D8"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:bone_expertise"]
+									glyphs: [
+										12
+										14
+										12
+										14
+									]
+									intricate: 0b
+									key: "bone_expertise"
+									material: 0
+									ribbon: "fff193"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3B2620B2714FC51B"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fabric_expertise"]
+									glyphs: [
+										5
+										3
+										6
+										4
+									]
+									intricate: 0b
+									key: "fabric_expertise"
+									material: 0
+									ribbon: "ff3333"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "27598F12E54043AE"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:scale_expertise"]
+									glyphs: [
+										6
+										7
+										6
+										8
+									]
+									intricate: 0b
+									key: "scale_expertise"
+									material: 0
+									ribbon: "75a03e"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Scroll Collection I"
+			x: -3.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "09F6CD9B6C21C62A"
+			rewards: [{
+				id: "4EEA2FDA132792CF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0BD2125C8FF72D22"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:hammer_efficiency"]
+									glyphs: [
+										6
+										7
+										6
+										11
+									]
+									intricate: 0b
+									key: "hammer_efficiency"
+									material: 0
+									ribbon: "ff6666"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "13508A85F80EB628"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:axe_efficiency"]
+									glyphs: [
+										0
+										1
+										3
+										3
+									]
+									intricate: 0b
+									key: "axe_efficiency"
+									material: 0
+									ribbon: "66ff66"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0254615577339280"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:cut_efficiency"]
+									glyphs: [
+										4
+										0
+										3
+										5
+									]
+									intricate: 0b
+									key: "cut_efficiency"
+									material: 0
+									ribbon: "6666ff"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Scroll Collection II"
+			x: -2.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "171DCA044736B211"
+			rewards: [{
+				id: "712843D5B56BB13B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1AB5456EEBF925C4"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										3
+										2
+										2
+										1
+									]
+									intricate: 0b
+									key: "sword/sturdy_guard"
+									material: 1
+									ribbon: "bcb8b5"
+									schematics: ["tetra:sword/sturdy_guard"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "08DD874650830868"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										4
+										1
+										0
+										5
+									]
+									intricate: 0b
+									key: "sword/throwing_knife"
+									material: 1
+									ribbon: "b8ced9"
+									schematics: ["tetra:sword/throwing_knife"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6D5B23248F25316B"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										8
+										9
+										10
+										5
+									]
+									intricate: 0b
+									key: "sword/howling"
+									material: 1
+									ribbon: "faf396"
+									schematics: ["tetra:sword/howling"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Scroll Collection III"
+			x: -1.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "2E65173380E2A751"
+			rewards: [{
+				id: "57C4F8089BB6B867"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "160F3DF650A9EA8E"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										5
+										10
+										8
+										9
+									]
+									intricate: 0b
+									key: "warforge/axe"
+									material: 2
+									ribbon: "b35973"
+									schematics: ["tetra:warforge/axe"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "76F7B14892902448"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										9
+										8
+										11
+										10
+									]
+									intricate: 0b
+									key: "warforge/hammer"
+									material: 2
+									ribbon: "3d4299"
+									schematics: ["tetra:warforge/hammer"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "11BD588FB76271D6"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										6
+										11
+										8
+										7
+									]
+									intricate: 0b
+									key: "warforge/pickaxe"
+									material: 2
+									ribbon: "508cb3"
+									schematics: ["tetra:warforge/pickaxe"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "77C79F2EA7FB3093"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										11
+										5
+										8
+										9
+									]
+									intricate: 0b
+									key: "warforge/butt"
+									material: 2
+									ribbon: "b33636"
+									schematics: ["tetra:warforge/butt"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "20466B8C087AF591"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										8
+										10
+										5
+										11
+									]
+									intricate: 0b
+									key: "warforge/claw"
+									material: 2
+									ribbon: "1d262f"
+									schematics: ["tetra:warforge/claw"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7ED5F0F02D53AFE2"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										10
+										7
+										9
+										5
+									]
+									intricate: 0b
+									key: "warforge/hoe"
+									material: 2
+									ribbon: "93b350"
+									schematics: ["tetra:warforge/hoe"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "26B116DB09B70990"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										5
+										9
+										6
+										10
+									]
+									intricate: 0b
+									key: "warforge/sickle"
+									material: 2
+									ribbon: "d99e4c"
+									schematics: ["tetra:warforge/sickle"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BB218480783ED74"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										6
+										7
+										11
+										7
+									]
+									intricate: 0b
+									key: "warforge/adze"
+									material: 2
+									ribbon: "8559b3"
+									schematics: ["tetra:warforge/adze"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Scroll Collection IV"
+			x: -3.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "5C4107D56B8FC9BD"
+			rewards: [{
+				id: "240A89795AE2AEDB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35E2AC05C9CE0741"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										15
+										14
+										15
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_1"
+									material: 2
+									ribbon: "c9ae69"
+									schematics: ["tetra:hone/gild_1"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6300D0CB68CF260B"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										15
+										14
+										13
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_2"
+									material: 2
+									ribbon: "d4b057"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0FF4B172441D012D"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										13
+										14
+										14
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_3"
+									material: 2
+									ribbon: "deb243"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "54EB7434C54CCDBD"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										12
+										13
+										14
+										13
+									]
+									intricate: 1b
+									key: "hone/gild_4"
+									material: 2
+									ribbon: "e8b32c"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+										"tetra:hone/gild_4"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "32D522EFA1267730"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										12
+										12
+										12
+										12
+									]
+									intricate: 1b
+									key: "hone/gild_5"
+									material: 2
+									ribbon: "f2b313"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+										"tetra:hone/gild_4"
+										"tetra:hone/gild_5"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Scroll Collection V"
+			x: -2.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "5311D7868466906C"
+			rewards: [{
+				id: "23B6772AC3606753"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5080F70972F8E172"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										6
+										15
+										4
+										7
+									]
+									intricate: 0b
+									key: "tetra/flamberge_blade"
+									material: 2
+									ribbon: "ff9612"
+									schematics: ["tetra:sword/flamberge_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "46748828DDDA3158"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										1
+										4
+										5
+									]
+									intricate: 0b
+									key: "single/head/halberd_head/halberd_head"
+									material: 1
+									ribbon: "444aff"
+									schematics: ["tetra:single/head/halberd_head/halberd_head"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "61FD528F7D82E6E9"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										0
+										1
+										9
+										4
+									]
+									intricate: 0b
+									key: "sword/key_guard"
+									material: 1
+									ribbon: "fae409"
+									schematics: ["tetra:sword/key_guard"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "59DE05F463089BE9"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										9
+										3
+										6
+										2
+									]
+									intricate: 0b
+									key: "single/head/mace_head/mace_head"
+									material: 1
+									ribbon: "560060"
+									schematics: ["tetra:single/head/mace_head/mace_head"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BEC833033A08AAE"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										7
+										9
+										2
+									]
+									intricate: 0b
+									key: "tetra/crucible_blade"
+									material: 2
+									ribbon: "ff1e00"
+									schematics: ["tetra:sword/crucible_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6D934466A88F7020"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										8
+										1
+										9
+										5
+									]
+									intricate: 0b
+									key: "bow/stave/dreadnought_stave"
+									material: 1
+									ribbon: "f3b31f"
+									schematics: [
+										"tetra:bow/stave/dreadnought_stave"
+										"tetra:bow/stave/dreadnought_cross_stave"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "011B5C7B382B04B0"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										5
+										10
+										13
+										2
+									]
+									intricate: 0b
+									key: "sword/katana/katana_blade"
+									material: 2
+									ribbon: "dbff10"
+									schematics: [
+										"tetra:sword/katana/katana_blade"
+										"tetra:sword/tsuba_guard"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7FB343A23E74AD96"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										15
+										13
+										12
+										14
+									]
+									intricate: 0b
+									key: "bow/string/compound_string"
+									material: 1
+									ribbon: "19e588"
+									schematics: [
+										"tetra:bow/string/compound_string"
+										"tetra:crossbow/string/compound_cross_string"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "68BEC7E7BDBCBD66"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										1
+										15
+										12
+										8
+									]
+									intricate: 0b
+									key: "utilize/hammer"
+									material: 2
+									ribbon: "fa97e9"
+									schematics: ["tetra:utilize/hammer"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "706894F9181E4523"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [
+										6
+										7
+										13
+										15
+									]
+									intricate: 0b
+									key: "sword/katana/murasama_blade"
+									material: 2
+									ribbon: "c52323"
+									schematics: ["tetra:sword/katana/murasama_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Scroll Collection VI"
+			x: -1.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["615C6A1DA6AEA1A4"]
+			id: "1B3243E248E0467C"
+			rewards: [{
+				id: "1437A5F7DF76A0B9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "574958639D451353"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "true_crucible"
+									glyphs: [
+										8
+										7
+										9
+										2
+									]
+									intricate: 1b
+									key: "sword/crucible/architects_crucible_blade"
+									material: 2
+									ribbon: "ff0042"
+									schematics: [
+										"tetra:sword/crucible_blade"
+										"tetra:sword/crucible/architects_crucible_blade"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4FD1CC2922312154"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "art_of_forging"
+									glyphs: [
+										3
+										5
+										6
+										9
+									]
+									intricate: 0b
+									key: "sword/tonal_blade"
+									material: 1
+									ribbon: "daf7a6"
+									schematics: ["tetra:sword/tonal_blade"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7BA3D72D27922CF1"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [
+										7
+										8
+										14
+										13
+									]
+									intricate: 1b
+									key: "sword/thousand_cold_nights"
+									material: 2
+									ribbon: "5c7c80"
+									schematics: [
+										"tetra:sword/katana/murasama_blade"
+										"tetra:sword/thousand_cold_nights"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "73A1585788F4CCB6"
+					item: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "otherworldly"
+									glyphs: [
+										1
+										15
+										2
+										13
+									]
+									intricate: 0b
+									key: "tetra/rending_scissor_complete"
+									material: 2
+									ribbon: "e32182"
+									schematics: [
+										"tetra:sword/scissor_blade_left"
+										"tetra:sword/scissor_blade_right"
+										"tetra:sword/rending_scissor_complete"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Scroll Collection VI"
+			x: -3.25d
+			y: 18.0d
+		}
+	]
+	title: "Tetra：Modular Tool"
+}

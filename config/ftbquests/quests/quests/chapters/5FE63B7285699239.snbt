@@ -1,0 +1,696 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "5FE63B7285699239"
+	group: "4F4F4EA8CE67985B"
+	icon: "kubejs:mysterious_trinket"
+	id: "5FE63B7285699239"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 12.58d
+		hover: [ ]
+		image: "kubejs:textures/task/collection_3.png"
+		rotation: 0.0d
+		width: 16.5d
+		x: 3.75d
+		y: 2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "725B6FE9824EE9B7"
+			rewards: [{
+				id: "25A6241624737B2E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19E7494A48B31465"
+				item: "nameless_trinkets:experience_battery"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "6799EBA4381F73A1"
+			rewards: [{
+				id: "5FBB6A81F9612C9E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72069CC716BD633B"
+				item: "nameless_trinkets:what_magnet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "74D994F3DE6EAD1C"
+			rewards: [{
+				id: "5C7D8477217C60AF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "779460B504FD07C8"
+				item: "nameless_trinkets:fertilizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "2B38D82D0BD91C84"
+			rewards: [{
+				id: "37A20CDE2182C638"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24E50B9F43EC6A77"
+				item: "nameless_trinkets:broken_magnet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "3364F886EE2477A6"
+			rewards: [{
+				id: "30273B9A29E20955"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F1551D6733191C5"
+				item: "nameless_trinkets:tick"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "139568E37BA85F76"
+			rewards: [{
+				id: "50ACF85A1EA30C25"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38F4D573C55EABF1"
+				item: "nameless_trinkets:cracked_crown"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "2F7A1FAB163BBEB3"
+			rewards: [{
+				id: "29A216C85B31BFD8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7762AD61D63B0011"
+				item: "nameless_trinkets:blaze_nucleus"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "153BC32DE13A3439"
+			rewards: [{
+				id: "201AE2BF3CCE206B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "186633F7CF2E865F"
+				item: "nameless_trinkets:fractured_nullstone"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "315C8B4E4C57C364"
+			rewards: [{
+				id: "3D98EF8A77B26D68"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "263D73E013CFD1C8"
+				item: "nameless_trinkets:electric_paddle"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "33420A8F6AF70A4E"
+			rewards: [{
+				id: "037271A351152CBF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0224DD2D2D09B4CB"
+				item: "nameless_trinkets:reverse_card"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "70487E9599289248"
+			rewards: [{
+				id: "5FF5D5B555D56C79"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1916A2A87C538BE3"
+				item: "nameless_trinkets:experience_magnet"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "1F2315E61B9729B1"
+			rewards: [{
+				id: "717997965D0C2F62"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BC3F1FD7EE3FEAA"
+				item: "nameless_trinkets:callus"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "4DDE2D42223ACAD1"
+			rewards: [{
+				id: "0B502BCA98D0497E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29CFB7D2AB2AB30F"
+				item: "nameless_trinkets:puffer_fish_liver"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "14313986F8BEAEDB"
+			rewards: [{
+				id: "3F271FA8C0721258"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6196EF1374AAF8C2"
+				item: "nameless_trinkets:rage_mind"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "3B761272C4A9C474"
+			rewards: [{
+				id: "2152A288AF5E9401"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "497621811D811637"
+				item: "nameless_trinkets:blindfold"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "052C4E52895787B5"
+			rewards: [{
+				id: "3CDEF1113F5EC5C1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11AF6897340497CF"
+				item: "nameless_trinkets:ghast_eye"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "1E8FF83362AAA7B6"
+			rewards: [{
+				id: "5F23F2ECCE5F3381"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69BA5FA5D98CBE35"
+				item: "nameless_trinkets:wooden_stick"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "44A126B92239AE27"
+			rewards: [{
+				id: "2A4DE18752D1E996"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66F7D45AC217BEBB"
+				item: "nameless_trinkets:ice_cube"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "28E705C54F0C2873"
+			rewards: [{
+				id: "4EE484F7ED720B20"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A23066AC96DF097"
+				item: "nameless_trinkets:moon_stone"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "7707EF4E3F48CAEB"
+			rewards: [{
+				id: "50D701AA99DAE1C1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A1D03E01B421DAD"
+				item: "nameless_trinkets:spider_legs"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "02F3E3A5E91CE5AF"
+			rewards: [{
+				id: "152C818910D6A1A4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CA75FD90954988D"
+				item: "nameless_trinkets:reforger"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "7E3C7F87FCF9BACB"
+			rewards: [{
+				id: "2FEA3F6965963E5A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "582781D6FFC2A08F"
+				item: "nameless_trinkets:missing_page"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "7264B72B86ED1DAD"
+			rewards: [{
+				id: "7F4A117A0EC20CBF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D2BFEF5D1F38128"
+				item: "nameless_trinkets:speed_force"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "2E81BEA546E9ADA7"
+			rewards: [{
+				id: "30603D0DA57BD214"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70014699EFC51052"
+				item: "nameless_trinkets:lucky_rock"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "540326816AF6EE52"
+			rewards: [{
+				id: "2DAEED169669963D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "685518699165560B"
+				item: "nameless_trinkets:gods_crown"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "0DA4944976ED32AC"
+			rewards: [{
+				id: "62341A90C6EC10D4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4157566942C09618"
+				item: "nameless_trinkets:sleeping_pills"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "4557773575B66FE7"
+			rewards: [{
+				id: "4DB01836FDF1AD04"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EDCD90DD06BAEAE"
+				item: "nameless_trinkets:super_magnet"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "5C8E398E989ED1CE"
+			rewards: [{
+				id: "65B650B67F9A376A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "073BC7005E558834"
+				item: "nameless_trinkets:sigil_of_baphomet"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "14B693B96A52522B"
+			rewards: [{
+				id: "66436C270A5B46BA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5443E6820AA2AD99"
+				item: "nameless_trinkets:amphibious_hands"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "556BE44F02934E64"
+			rewards: [{
+				id: "234A5ED81D8CAD1A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43DADFFD063A8095"
+				item: "nameless_trinkets:true_heart_of_the_sea"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "58D242EFBA64B302"
+			rewards: [{
+				id: "629EC06D11CCB45B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "007A004A145FF722"
+				item: "nameless_trinkets:tear_of_the_sea"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "0E5BCDFED6945C97"
+			rewards: [{
+				id: "4308604F0384461E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D2047FAEEF0E7AE"
+				item: "nameless_trinkets:pocket_lightning_rod"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "5159FF309613E7AF"
+			rewards: [{
+				id: "346EC6C51CA4C050"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "376B1E16EE8BB481"
+				item: "nameless_trinkets:fragile_cloud"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "04FF16AAC0353F26"
+			rewards: [{
+				id: "6089E4ECA3F3D6A6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "457128E1B95AF638"
+				item: "nameless_trinkets:scarab_amulet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "4EF1AEA1EDA10D3F"
+			rewards: [{
+				id: "293EE5B3574F28DE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E89DED2952954F7"
+				item: "nameless_trinkets:light_gloves"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "11228645492FEA35"
+			rewards: [{
+				id: "770EF9DCAAFD392A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44A55F45F6454BBC"
+				item: "nameless_trinkets:fate_emerald"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "5F0BACD180CF187B"
+			rewards: [{
+				id: "35EFB3C69BE26BD1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F008AE5A2AE605"
+				item: "nameless_trinkets:ethereal_wings"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "62CF6FC8D5E8B10F"
+			rewards: [{
+				id: "11D89AA4FE2A9813"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E67A088153CDBBF"
+				item: "nameless_trinkets:dragons_eye"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "6ADF12FAED215B19"
+			rewards: [{
+				id: "014E018B5224E51D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DBF74214A574294"
+				item: "nameless_trinkets:dark_nelumbo"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "4A2BFBBE28B4B50E"
+			rewards: [{
+				id: "310387E8EE2BBA2A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74060FCCE75D04B0"
+				item: "nameless_trinkets:nelumbo"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.5d
+		}
+		{
+			description: ["When any boss dies, there is a high chance it will drop a Mysterious Trinket."]
+			icon: "kubejs:mysterious_trinket"
+			id: "6E502CA178ED4148"
+			shape: "rsquare"
+			subtitle: "Trinkets and organs mirror each other"
+			tasks: [{
+				id: "75ED69D2A7131EBB"
+				item: "kubejs:mysterious_trinket"
+				type: "item"
+			}]
+			title: "Nameless Trinkets"
+			x: -2.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6E502CA178ED4148"]
+			id: "5736E43FE8089027"
+			rewards: [{
+				id: "46A0EB4D9E608D7D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D979CF92274742E"
+				item: "kubejs:bunny_hoppers"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.25d
+		}
+	]
+	title: "Trinkets：Occasional Small Rewards"
+}

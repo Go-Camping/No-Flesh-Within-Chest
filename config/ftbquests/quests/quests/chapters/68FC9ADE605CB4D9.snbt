@@ -1,0 +1,1015 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "68FC9ADE605CB4D9"
+	group: "0F9EA9FA28C88D03"
+	icon: "create:wrench"
+	id: "68FC9ADE605CB4D9"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "kubejs:textures/task/create_background.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -0.25d
+		y: 1.25d
+	}]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"For &eCreate&r, the design of this modpack is as follows:"
+				""
+				"&31. Discover that certain items require Create machinery to craft&r"
+				"&3↓&r"
+				"&32. Use JEI to look up the required Create components, and craft them step by step&r"
+				"&3↓&r"
+				"&33. For any mechanical contraptions, always “press W to think” carefully&r"
+				""
+				"As long as you follow this approach, the Create content in this modpack will be more than sufficient to enjoy. &4(Full automation is not required to complete or enjoy the modpack.)&r"
+				""
+				"&cFor all Create's contraptions, always remember to “Hold [W] to ponder”！！&r"
+				"&cFor all Create's contraptions, always remember to “Hold [W] to ponder”！！&r"
+				"&cFor all Create's contraptions, always remember to “Hold [W] to ponder”！！&r"
+				""
+				""
+				"{image:kubejs:textures/task/create_2.png width:70 height:50 align:1}"
+			]
+			hide_dependent_lines: true
+			icon: "create:wrench"
+			id: "4EB8FE041AB6DA8E"
+			rewards: [{
+				count: 3
+				id: "48512F3696E650D8"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Hold [W] to ponder"
+			tasks: [{
+				id: "17AACB586D5E3EB9"
+				type: "checkmark"
+			}]
+			title: "Intro : Create"
+			x: -0.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C7A1C7252229459"]
+			description: [
+				"Achieve a higher degree of automation: &2mining, smelting, and sorting&r."
+				""
+				"The &2Minecart Assembler&r can, assemble any structure above it that has been bonded into a single entity using &6Super Glue&r into a minecart, when a &6redstone signal&r was recieve by the Minecart Assembler. Once assembled, the minecart can be picked up using a &6Wrench&r."
+			]
+			hide_dependent_lines: true
+			icon: "create:cart_assembler"
+			id: "10A1552945CF569F"
+			rewards: [{
+				id: "49A9BD3EE97EA2C0"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Automate Mining"
+			tasks: [
+				{
+					id: "24D6F095BD47D240"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "030C3A3E61E3AE0F"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					id: "18E5417E35AC5226"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					id: "7E6B361C6964CB6A"
+					item: "minecraft:rail"
+					type: "item"
+				}
+			]
+			title: "More Automation"
+			x: -1.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10A1552945CF569F"]
+			description: ["When you have everything you need, you can begin building more complex systems, such as &9trains&r."]
+			hide_dependent_lines: true
+			id: "10E8E39F44A11EC0"
+			rewards: [
+				{
+					count: 16
+					id: "37007CB7E64B1E77"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "7A6490BC104F622F"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Trains"
+			tasks: [{
+				id: "6EEABD728E810079"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "New Challenge"
+			x: -0.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A98FA709F0DEA42"]
+			description: [
+				"As you can see, Create, as a technology-based mod, has its own form of energy. Unlike other mods that rely on electricity or heat, Mechanical Power uses a concept known as &6Stress&r. &2It cannot be stored and must be consumed in real time as it is generated&r."
+				""
+				"Similar to the concepts of voltage and current, &2Torque&r and &2Rotational Speed&r are used to describe stress. Torque can be understood as rotational force, while speed represents how fast the rotation occurs. Different machines require different values of these parameters, so when a machine does not function properly, it is often necessary to check whether the stress supply itself is insufficient."
+				"{@pagebreak}"
+				""
+				"To generate stress, the simplest method is using a &6Hand Crank&r to manually produce it. Of course, this is only a temporary solution."
+				""
+				"Another commonly used method is powering a &6Water Wheel&r, which is compact and can be modularly placed anywhere within an automation setup."
+				""
+				"If these options are not enough for your large-scale machinery, then using &6Steam Engine&r may be the only viable solution (or alternative power sources from Create's addons)."
+			]
+			hide_dependent_lines: true
+			id: "24EEB667413FCADC"
+			rewards: [{
+				id: "1E095763EC83A366"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Most common souce for rotational force"
+			tasks: [{
+				id: "24C67EC8810E98BB"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "Water Wheel, Windmill and Rotational Force (Stress)"
+			x: 0.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EB8FE041AB6DA8E"]
+			description: [
+				"The main ores used in Create are copper, iron, and the mod’s own ore, &6Zinc Ore&r. These play a important role throughout all stages of Create progression."
+				""
+				"However, you do not need to stockpile large amounts of these ores, as Create does not consume resources at a particularly high rate (unless you are building extremely large-scale structures). In fact, as mentioned earlier, &2Andesite&r is actually one of the scarcest early-game resources in this mod (iron can also be tight at the beginning)."
+				""
+				"With these materials, you can craft one of the most commonly used early-game alloys—&6Andesite Alloy&r."
+			]
+			hide_dependent_lines: true
+			icon: "create:zinc_ingot"
+			id: "3A98FA709F0DEA42"
+			rewards: [{
+				count: 3
+				id: "6D9415D934A5ECBE"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Sometimes, you'll find some special resource undergound"
+			tasks: [
+				{
+					count: 16L
+					id: "41B90ADEBBD5C50A"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "22E30FBE0EDB536D"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			title: "Special Ore?"
+			x: -0.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1112F6121BC5A1E5"]
+			description: [
+				"Whether it is pressing or mixing, manual operation is inevitably tedious."
+				""
+				"Therefore, we turn to automation, freeing our hands and immersive in the romance of industrialization."
+				""
+				"Use a &6Shaft&r to power &6Conveyor Belts&r, setting them into motion."
+				""
+				"Thus, the &2assembly line factory&r of Create is born."
+			]
+			hide_dependent_lines: true
+			id: "0C5511D51B5FF508"
+			rewards: [
+				{
+					count: 16
+					id: "0D3884127515F3BE"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0F999BC21146C6CB"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Mechanical romance"
+			tasks: [{
+				id: "40BF67FF7A40E7F8"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Automation"
+			x: -1.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["0FC81607771D0F71"]
+			description: [
+				"To further progress in Create, you will need some basic machines used to produce materials commonly required in various recipes."
+				""
+				"One of the most important is the &5Mechanical Press&r, which is used for various &6pressing&r operations, such as producing iron sheets. This process must be performed on either a &6conveyor belt&r or a &6depot&r."
+			]
+			hide_dependent_lines: true
+			icon: "create:mechanical_press"
+			id: "1112F6121BC5A1E5"
+			rewards: [
+				{
+					count: 3
+					id: "6FD0B745E9EA9D96"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "59E5912C784B0BD4"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			subtitle: "Bonk！"
+			tasks: [{
+				id: "66321679712B0464"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "First Machine！"
+			x: -0.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0C5511D51B5FF508"]
+			description: [
+				"The &6Mechanical Crafter&r allows crafting recipes larger than 4×4. Some machines (such as the Crushing Wheel) specifically require it to be assembled using a Mechanical Crafter."
+				""
+				"When powering the Mechanical Crafter, you must pay attention to the order in which items are arranged, as this affects its efficiency. If a recipe contains empty slots, a &6Crafting Slot Cover&r must be used as a placeholder."
+			]
+			hide_dependent_lines: true
+			id: "6C7A1C7252229459"
+			rewards: [{
+				count: 3
+				id: "4E981F248B0DD603"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Crafting"
+			tasks: [{
+				id: "0F7653EE36653D62"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "More Complex Contrptions"
+			x: -1.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10E8E39F44A11EC0"]
+			description: [
+				"You’ve built a train system！"
+				""
+				"Pair it with &bshaders&r and enjoy the scenery along the way."
+				""
+				"&6With this, the basic Create tutorial comes to an end. The countless possibilities it still holds are now yours to explore！&r"
+			]
+			icon: "create:track_station"
+			id: "7A4FBB4ACFA8D7A9"
+			rewards: [
+				{
+					count: 16
+					id: "10B9AA36D940B988"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "0249E062FC6F31CA"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5E544490A7B7B353"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "37E5711B262A41B9"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			title: "A BIG Project"
+			x: -0.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["10A1552945CF569F"]
+			description: [
+				"The &9Mechanical Plough&r can clear non-solid, non-collidable entities (such as torches). It can also function as a harvester, beside that it can gently push entities away without causing damage."
+				""
+				"The &9Mechanical Drill&r is used for mining blocks, functioning the same way as a player’s manual mining."
+				""
+				"Combined with ropes, the Mechanical Drill can be used for &6vertical shaft drilling&r."
+				""
+				"A &1Minecart Contraption&r is essential for &6horizontal tunneling&r operations."
+			]
+			hide_dependent_lines: true
+			icon: "create:mechanical_drill"
+			id: "379527B5B5A9C653"
+			rewards: [
+				{
+					id: "66BB8629BCD2B9A8"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "796F88E974E65CC4"
+					item: "minecraft:furnace_minecart"
+					type: "item"
+				}
+			]
+			subtitle: "+1"
+			tasks: [
+				{
+					id: "1AE4BDE2B715142E"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "3F17B0347A3C20A6"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "1BA73419E437DC4A"
+					item: "create:gearshift"
+					type: "item"
+				}
+				{
+					id: "505C4C615A6A8B0A"
+					item: "create:rope_pulley"
+					type: "item"
+				}
+			]
+			title: "Automate Mining"
+			x: -2.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["6C7A1C7252229459"]
+			description: [
+				"The &6Crushing Wheels&r yield more resources when processing &6ore blocks&r."
+				"When crushing ores, they also provide additional &aexperience&r compared to a &6Blaze Burner&r setup."
+				""
+				"Although they are slightly slower than a just smelting using &6Encased Fan&r, they produce higher overall output."
+			]
+			id: "0677F6E36035E869"
+			rewards: [{
+				id: "1FD834BF071FF75B"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Crush them"
+			tasks: [{
+				id: "7B002EA517C35438"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "More Choice"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C5511D51B5FF508"]
+			description: [
+				"Build a logistics-based sorting system."
+				""
+				"Items on a &6Conveyor Belt&r may vary greatly. Depending on your needs, you can route different items into separate production lines or simply discard them."
+				""
+				"Use two types of &6Filters&r to assign tags, enabling automated item sorting."
+			]
+			hide_dependent_lines: true
+			id: "55FAA1463318A7BA"
+			rewards: [
+				{
+					id: "62266B941F196194"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					id: "68565AFB2093D37C"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01A81D336E06A490"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Tunnel"
+			tasks: [{
+				id: "59F53789EB97294A"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			title: "Item Filtering"
+			x: -2.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0677F6E36035E869"]
+			description: [
+				"The &6Encased Fan&r can be combined with &cLava&r for smelting, with &9Water&r for washing, with a&e Campfire&r for smoking food, and with a &bSoul Campfire&r to infuse items with souls."
+				""
+				"In practical production setups, conveyor belts are often used for washing and smelting processes. It is important to note that &2higher rotational speed only increases the blowing range&r, but does not accelerate the processing speed itself. Only when &2multiple Encased Fan operate on the same item simultaneously&r, the efficiency can be stacked."
+			]
+			id: "379139EF81A5A1E1"
+			rewards: [
+				{
+					id: "13BFABF67545F640"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "4A3BC30BAAE3962B"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Wind maker"
+			tasks: [{
+				id: "4A86569940D0D4A6"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Smelting ores"
+			x: -4.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1112F6121BC5A1E5"]
+			description: [
+				"Craft a &6Stressometer&r to monitor remaining stress in your system."
+				"At the same time, creating &6Engineer's Goggles&r will allow you to observe stress information in greater detail."
+				""
+				"&6Water Wheels&r generate &2256 SU&r of stress, with a maximum output of &2320 SU&r."
+				"Each sail on a &6Windmill&r produces &2512 SU&r of stress, and with 128 sails, it reaches its maximum output of &28192 SU&r."
+			]
+			icon: "create:goggles"
+			id: "47B5B3FBC91E73D7"
+			rewards: [{
+				count: 3
+				id: "601207478EFFD3B5"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Mind your stress"
+			tasks: [
+				{
+					id: "7A60A76B6DFCD5B2"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "459373F37572317D"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "Oberving Stress"
+			x: -0.375d
+			y: 2.25d
+		}
+		{
+			dependencies: ["24EEB667413FCADC"]
+			description: [
+				"Similar to mechanical blocks in other mods, Create machines often require casings of different tiers."
+				""
+				"The most basic casing is the &6Andesite Casing&r. In the absence of other processing methods, you can obtain it by &2right-clicking stripped logs while holding Andesite Alloy&r."
+			]
+			hide_dependent_lines: true
+			id: "44E0A5B43FB1506F"
+			rewards: [{
+				count: 4
+				id: "1A7151E5CD3818F0"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "The first casing"
+			tasks: [{
+				id: "5D8E66420272179A"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Andesite Casing"
+			x: 1.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D9604AADEFFED29"]
+			description: ["Even while working, you should take a break—though even that is still part of the job."]
+			id: "2A1490F82D8F6F10"
+			subtitle: "It's tea time"
+			tasks: [{
+				id: "00EF8D55EEF4806E"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			title: "Take a Short Rest"
+			x: 1.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2A1490F82D8F6F10"]
+			description: ["The &5Blaze&r indicates that coal tastes bad, please switch to cake instead."]
+			id: "194EA398E0D794B4"
+			rewards: [{
+				id: "51DF2BCF581B8B4E"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "A Blaze's favourite"
+			tasks: [{
+				id: "534140A6B0DD97C0"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Blaze Cake"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			description: [
+				"Right-click a &4Blaze&r while holding an &9Empty Blaze Burner&r to capture it. You can also right-click a &5Blaze Spawner&r directly."
+				""
+				"Placed under a &9Basin&r, it can provide higher temperatures for processing."
+				""
+				"The &9Blaze Burner&r requires fuel to operate."
+			]
+			id: "75EA9654A6522F50"
+			rewards: [{
+				count: 16
+				id: "0B0AD734D96D55E8"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Greater Heat"
+			tasks: [{
+				id: "77A262CC27D75967"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Better Mixing"
+			x: -3.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["75EA9654A6522F50"]
+			description: ["How can you work without replenishing starch and sugar?"]
+			id: "0D9604AADEFFED29"
+			rewards: [{
+				count: 16
+				id: "2781CD3DCE208356"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			subtitle: "Sweet Roll, noice "
+			tasks: [{
+				id: "48727862FFDD61E6"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			title: "A 50k Mark bread?"
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3A98FA709F0DEA42"]
+			dependency_requirement: "all_started"
+			description: [
+				"Once again, Create provides a tutorial system known as &6Ponder&r. You can find traces of it on various machines and items."
+				""
+				"Follow the prompt by &2hovering over an item and holding [W]&r to view a highly detailed &2interactive explanation&r. In most cases, your questions can be resolved through Ponder alone."
+				""
+				""
+				"{image:kubejs:textures/task/create_1.png width:80 height:45 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16AC61A6416FD6E0"
+			rewards: [
+				{
+					count: 3
+					id: "06990D6C075B3A81"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6465E2C4034B2CFF"
+					item: "simplehats:hatbag_rare"
+					type: "item"
+				}
+			]
+			subtitle: "The best interactive tutorial in history"
+			tasks: [{
+				id: "084898E67FC7EAD0"
+				type: "checkmark"
+			}]
+			title: "Ponder"
+			x: 2.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["44E0A5B43FB1506F"]
+			description: [
+				"By using a combination of &6Small Cogwheels + Large Cogwheels&r, you can &2decrease or increase&r rotational speed. You can learn the specific placement method by pressing &2W (ponder) on the cogwheel&r."
+				""
+				"This is the most commonly used method of speed conversion in the early game. Note that if there is a mismatch between rotational speeds, the gears will break！"
+				""
+				"Once Brass is obtained, you can instead use a &6Rotation Speed Controller&r to freely adjust rotational speed, which becomes one of your main mid-to-late game goals."
+			]
+			hide_dependent_lines: true
+			icon: "create:cogwheel"
+			id: "0FC81607771D0F71"
+			rewards: [{
+				count: 3
+				id: "11C35EEE96EACBCC"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			subtitle: "Clock up"
+			tasks: [
+				{
+					id: "2F02EF0447479539"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "09C57E7AB2D4FB3A"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Gear Shifting"
+			x: 1.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["0FC81607771D0F71"]
+			description: [
+				"The &6Mechanical Mixer&r requires at least &530 RPM (rotations per minute)&r to operate properly. This means you will need at least one set of &2large and small cogwheel gearing&r to achieve the required speed."
+				""
+				"In addition, most mixing recipes require a &6Basin&r to hold the ingredients. Some recipes may also require heating, which means you will need to place a &6Blaze Burner&r beneath the Basin and supply it with the appropriate fuel."
+				""
+				"Of course, you may not be able to craft the Blaze Burner yet, but in the course of your journey, it will become almost inevitable."
+			]
+			icon: "create:mechanical_mixer"
+			id: "79DE01B778B14C0E"
+			rewards: [{
+				count: 3
+				id: "45B4ACF639BBC879"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "First step to obtain brass"
+			tasks: [
+				{
+					id: "66CEA69C2C1AAE68"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "2E37258D630F4D14"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Mixing It Up！"
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55FAA1463318A7BA"]
+			id: "4F9AA857AEB0C0AE"
+			rewards: [
+				{
+					id: "0F27F0837234FA93"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "1026B2B5F7FB7240"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
+			subtitle: "Advanced item filtering"
+			tasks: [{
+				id: "66683DB6DC8C8C95"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "An Upgrade"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C5511D51B5FF508"]
+			description: ["Normally, Chute always transport item vertically down, but using a &6Encased Fan&r, the items can be transport upward."]
+			id: "38B27FBD44641B53"
+			rewards: [{
+				id: "6FCB2BA3FEA80C6F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Transfer item vertically"
+			tasks: [{
+				id: "06D9CE0D0B4713A6"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Vertical Logistics"
+			x: -3.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38B27FBD44641B53"]
+			description: ["Chute but smart"]
+			id: "4D631051E9BE0F50"
+			rewards: [{
+				count: 3
+				id: "302A384EDFAA1710"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Advanced item filtering"
+			tasks: [{
+				id: "3545374EA749C19A"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24EEB667413FCADC"]
+			description: [
+				"&6Wool&r or &6Windmill Sails&r can both increase the stress capacity of a Windmill. Any blocks other than sails must be connected using &1Super Glue&r, forming a single contraption before being driven by the windmill."
+				""
+				"Of course, you can also attach completely unrelated objects—if you wish. As long as they are connected, they will all rotate together with the windmill."
+			]
+			id: "2CF3F1871D1C18D1"
+			rewards: [{
+				count: 3
+				id: "22ADB4C6F8D44660"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Sticking the blocks together"
+			tasks: [{
+				id: "4D15DDD7748E75AD"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Super Glue"
+			x: 2.25d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"379139EF81A5A1E1"
+				"379527B5B5A9C653"
+			]
+			description: [
+				"Now you can quickly obtain large amounts of ores, and with the &6Encased Fan&r you can efficiently smelt the items you need."
+				""
+				"It’s time to ponder and build a massive fully automated mining production line."
+			]
+			icon: "minecraft:iron_block"
+			id: "01B508A9355C8265"
+			rewards: [{
+				count: 3
+				id: "496E95480C4E258A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Cobblestone--The Origin of All Things"
+			tasks: [
+				{
+					id: "02E3B2107DC3FEFF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					title: "Any #forge:sand"
+					type: "item"
+				}
+				{
+					id: "2277711CD33C6727"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			title: "Unlimited Ores"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10A1552945CF569F"]
+			description: ["The &1Mechanical Saw&r has the special property of destroying nearby plants when harvesting. Use your imagination. See if you can fell even towering trees in a single sweep."]
+			icon: "create:mechanical_saw"
+			id: "2AA85BAD484D978F"
+			subtitle: "Effortless farming"
+			tasks: [
+				{
+					id: "64B896572E306275"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "2147C0C049CE5496"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "7D02129ECD88DDA4"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "71808807DF605444"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
+			title: "Automated Farm"
+			x: -3.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EB8FE041AB6DA8E"]
+			description: [
+				"Now you can use Create to &2craft various golems to assist you in combat. They are powerful and can be carried and deployed at will&r."
+				""
+				"The in-game guidebook for this mod is very detailed, so no further guidance is needed. Please &2refer to the guidebook yourself&r, and get started by searching &e“@modular”&r in JEI."
+			]
+			icon: {
+				Count: 1b
+				id: "modulargolems:metal_golem_holder"
+				tag: {
+					golem_materials: [
+						{
+							material: "create:railway"
+							part: "modulargolems:metal_golem_arm"
+						}
+						{
+							material: "create:railway"
+							part: "modulargolems:metal_golem_body"
+						}
+						{
+							material: "create:railway"
+							part: "modulargolems:metal_golem_arm"
+						}
+						{
+							material: "create:railway"
+							part: "modulargolems:metal_golem_legs"
+						}
+					]
+				}
+			}
+			id: "6E7B608B774A9A72"
+			rewards: [
+				{
+					id: "521DA50B5AF38CD5"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "modulargolems:golem_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59599659EA3D1340"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Use modular golem to help you fight"
+			tasks: [{
+				id: "604FE934774717CB"
+				type: "checkmark"
+			}]
+			title: "Deus Ex Machina"
+			x: 3.0d
+			y: -0.75d
+		}
+	]
+	title: "Create：You Spin Me right Round"
+}

@@ -1,0 +1,441 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3"
+	group: "4E02CBDD9D86D249"
+	icon: "witherstormmod:withered_bone"
+	id: "37DC06F829B60ADC"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 19.565217391304348d
+		hover: [ ]
+		image: "kubejs:textures/task/chapter3.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.5d
+		y: 1.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [
+				"When you are under a &5thunderstorm night&r and &5Glowing&r effect, you can perform the &6Rain Summoning Ritual&r to obtain this secret."
+				""
+				"Right-click while holding the secret to unveil its hidden mysteries."
+				""
+				"&7You may also share this secret with others who are still struggling to uncover it.&r"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "70762EF9F974FA05"
+			rewards: [{
+				id: "4AD6BA78F14C67C3"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The secret of rain lies within the fiercest storms and flashes of mortal."
+			tasks: [{
+				id: "4B7BA57BBCD4247D"
+				item: "kubejs:secret_of_rain"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [
+				"After obtaining the &9Secret of Rain&r, the &bSecret of Bloom&r, and the &dSecret of the Heart&r, you catch a fleeting glimpse of one of the rare &6Three World-Altering Magics&r that exist in this world."
+				""
+				"&6World-Altering Magic&r, as the name suggests, refers to grand-scale magic capable of reshaping entire dimensions—even worlds themselves. Unlike complex rituals, the casting of world-altering magic is more like a chain of &5coincidental events&r unfolding in perfect alignment. When everything falls into place at the right moment, the magic manifests."
+				""
+				"What you have now come to understand is a form known as &6Verdant Flow&r. Its activation conditions are extremely strict. Once completed, it grants you the ability to &5delve into the world’s memories&r"
+				""
+				"{@pagebreak}"
+				"The casting conditions for &6Verdant Flow&r are as follows:"
+				""
+				"1. Obtain a &6rare treasure&r while mining coal."
+				""
+				"2. When using bone meal on grass blocks, encounter a &6flower that blooms in the darkness&r."
+				""
+				"3. While fishing during a rainy night, the &6rain suddenly stops&r."
+				""
+				"4. After all the above conditions are met, release the spell using a scroll."
+			]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_spellbook: {
+						activeSpellIndex: -1
+						spellSlots: 8
+						spells: [ ]
+					}
+				}
+			}
+			id: "2F700F7D0269B839"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "alexsmobs:acacia_blossom"
+					id: "1A4268A9DB9C427E"
+					ignore_reward_blocking: true
+					stage: "flos_magic_stage_0"
+					title: "曲水润丰图：准备阶段"
+					type: "gamestage"
+				}
+				{
+					count: 3
+					id: "0B686B55AA201E0A"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "“In this world, there seem to be secrets that are impossible to uncover.”"
+			tasks: [
+				{
+					icon: "kubejs:secret_of_rain"
+					id: "732AACBCB1FA8085"
+					stage: "secret_of_rain"
+					title: "Secret of Rain"
+					type: "gamestage"
+				}
+				{
+					icon: "kubejs:secret_of_bloom"
+					id: "1FB1E9A0C65CE2FB"
+					stage: "secret_of_bloom"
+					title: "Secret of Bloom"
+					type: "gamestage"
+				}
+				{
+					icon: "kubejs:secret_of_heart"
+					id: "1BD89D5031615E8D"
+					stage: "secret_of_heart"
+					title: "Secret of Bloom"
+					type: "gamestage"
+				}
+			]
+			title: "The Three Great World-Altering Magics"
+			x: 1.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [
+				"Locate the hiding place of the &5Voidbloosom&r and defeat it to obtain the &bSecret of Bloom&r."
+				""
+				"Right-click while holding the secret to unveil its hidden mysteries."
+				""
+				"&7You may also share this secret with others who are still struggling to uncover it.&r"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "7FA1D3EB4B2FDC95"
+			rewards: [{
+				id: "74A3259C68265E7D"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The secret of bloom lies within the savage flora"
+			tasks: [{
+				id: "5249768715F6657B"
+				item: "kubejs:secret_of_bloom"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [
+				"When you increase your &5maximum health above 50&r through any means (excluding temporary health granted by activation effects), and sleep while havinf &5Sweet Dreams&r effect, you will obtain the &dSecret of the Heart&r."
+				""
+				"Right-click while holding the secret to unveil its hidden mysteries."
+				""
+				"&7You may also share this secret with others who are still struggling to uncover it.&r"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "7F46087AE069353B"
+			rewards: [{
+				id: "603236169079A3C3"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The secret of the heart lies in boundless vitality and a descent into pink illusion."
+			tasks: [{
+				id: "1DC4E4012DD1AD67"
+				item: "kubejs:secret_of_heart"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2F700F7D0269B839"]
+			description: [
+				"When in a &2Preparation Phase&r, mining coal ore has a 10% chance to drop a &5Lucky Stone&r."
+				""
+				"When this condition is triggered, your Preparation Phase will be removed, and the first-stage status will be applied."
+			]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			icon: "nameless_trinkets:lucky_rock"
+			id: "6910E549F8D4A9A0"
+			rewards: [{
+				id: "73449E1E09781EFF"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Obtain a &6rare treasure&r while mining coal"
+			tasks: [{
+				icon: "alexsmobs:acacia_blossom"
+				id: "29B68CBFC7CC7186"
+				stage: "flos_magic_stage_1"
+				title: "Verdant Flow : Phase 1"
+				type: "gamestage"
+			}]
+			title: "Verdant Flow : Phase 1"
+			x: 8.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6910E549F8D4A9A0"]
+			description: [
+				"When in &2Phase One&r, using bone meal on grass blocks has a 20% chance to generate &5Wither Roses&r in the surrounding area."
+				""
+				"When this condition is triggered, your Phase One status will be removed, and the second-stage status will be applied."
+			]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			icon: "minecraft:wither_rose"
+			id: "65427C12F230F5DC"
+			rewards: [{
+				id: "0AF73554B8C6612D"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "When using bone meal on grass blocks, encounter a &6flower that blooms in the darkness&r."
+			tasks: [{
+				icon: "alexsmobs:acacia_blossom"
+				id: "4E9AC193D00D112C"
+				stage: "flos_magic_stage_2"
+				title: "Verdant Flow : Phase 2"
+				type: "gamestage"
+			}]
+			title: "Verdant Flow : Phase 2"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65427C12F230F5DC"]
+			description: [
+				"When in &2Phase Two&r, fishing during a rainy night has a 50% chance to &bbring the rain to a halt&r."
+				""
+				"When this condition is triggered, your Phase Two status will be removed, and the third-stage status will be applied."
+			]
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			icon: {
+				Count: 1b
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E03433F8ED6CA99"
+			rewards: [{
+				id: "282B74C50E2E0728"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "While fishing during a rainy night, the &6rain suddenly stops&r."
+			tasks: [{
+				icon: "alexsmobs:acacia_blossom"
+				id: "4B749F3396CA626B"
+				stage: "flos_magic_stage_3"
+				title: "Verdant Flow : Phase 3"
+				type: "gamestage"
+			}]
+			title: "Verdant Flow : Phase 3"
+			x: 8.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2E03433F8ED6CA99"]
+			description: [
+				"You can directly craft &6Grand Magic&r scrolls using a Nether Star. However, the scroll cannot be used properly until its corresponding secret tasks have been completed."
+				""
+				"After finishing a series of objectives (all steps must be completed sequentially), you will be able to cast the magic inscribed on the scroll, allowing you to freely travel between two dimensions."
+			]
+			hide_dependency_lines: true
+			icon: "alexsmobs:acacia_blossom"
+			id: "789A88270498ED92"
+			rewards: [
+				{
+					count: 5
+					id: "0A286171B2B1A138"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6F37C8775213206B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "kubejs:to_the_lost"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "By chasting the spell, I journey forth into the World of Memories"
+			tasks: [{
+				dimension: "kubejs:lost_memory"
+				icon: "alexsmobs:acacia_blossom"
+				id: "13047C708C716A92"
+				title: "Enter the World Within Memories"
+				type: "dimension"
+			}]
+			title: "Enter the world within memories"
+			x: 5.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [""]
+			icon: "kubejs:secret_of_origin"
+			id: "67C4133ADB6C62AF"
+			subtitle: "Working in progress..."
+			tasks: [{
+				id: "19E9B14C7BD59793"
+				item: "kubejs:secret_of_origin"
+				type: "item"
+			}]
+			title: "More Secret..."
+			x: -1.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["789A88270498ED92"]
+			description: [
+				"You may have already guessed it—after all, in the original Overworld, a similar &5ruin&r exists round the &2world origin&r, yet summoning the &2Wither Storm&r is always blocked by a mysterious force."
+				""
+				"However, in this dimension, that mysterious force seems to have lost its effect. By placing Wither Skeleton Skulls on top of the command block structure located at (0, 0), you can summon the &5Wither Storm&r."
+				""
+				"But the power of the &5Wither Storm&r is extraordinarily overwhelming. Combined with the various &5curses of this dimension&r, defeating it seems almost impossible."
+				""
+				"If you are playing on a server, &2please confirm with the host before attempting to summon the Wither Storm&r, as it may cause significant lag and performance issues. It is important to &2notify the server owner&r."
+				"{@pagebreak}"
+				"If the Wither Storm has already been defeated by other players on your server, you can summon it again in the Memory Dimension using the &6Summoning Altar&r."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "22A8C953424C8FD9"
+			rewards: [{
+				id: "79FBDBD6239CD166"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "I am the storm that is approching！"
+			tasks: [{
+				id: "61FC5F89156879A6"
+				type: "checkmark"
+			}]
+			title: "The Calm Before the Storm"
+			x: 3.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EBB4C697D81D42A"]
+			description: [
+				"If you are confident enough in your own strength, you may attempt the Boss Rush, a challenge composed of dozens of bosses."
+				""
+				"Compared to individually summoned bosses, the bosses in Boss Rush have reduced health, but you are limited to a 2-minute time window to defeat them."
+			]
+			id: "755E4A472C9A7A0A"
+			subtitle: "Exceptionally arduous"
+			tasks: [{
+				id: "1E9415A2CEBA9C27"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "kubejs:boss_rush"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Boss Rush！"
+			x: -1.75d
+			y: 0.75d
+		}
+	]
+	title: "Chapter 3：Secret"
+}

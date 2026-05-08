@@ -1,0 +1,949 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65555BE14CFC58FD"
+	group: "2358ECA720E3F23E"
+	icon: "minecraft:paper"
+	id: "65555BE14CFC58FD"
+	images: [{
+		alpha: 200
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "kubejs:textures/task/go_camping_logo.png"
+		rotation: 0.0d
+		width: 14.9d
+		x: -0.75d
+		y: -4.25d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"&6The Dev Team：GoCampingTeam ( or：Camping Team ) &r"
+				""
+				"{\"text\":\"Bilibili Main Page\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/3493263256324592\"}}"
+				""
+				"{\"text\":\"About the Team\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mcmod.cn/author/31248.html\"}}"
+				""
+				"{\"text\":\"Github link\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Yorunina/No-Flesh-Within-Chest\"}}"
+				""
+				"{\"text\":\"Contact us！\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://kook.top/3IFPA5\"}}"
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:go_camping"
+				tag: { }
+			}
+			id: "0E3B5BC6A471679E"
+			shape: "rsquare"
+			subtitle: "Dev Team：GoCamping！"
+			tasks: [{
+				id: "517BC679DC3C0E6C"
+				title: "制作团队"
+				type: "checkmark"
+			}]
+			title: "Dev Team"
+			x: -1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"The tutorials in this modpack heavily reference materials and articles from pioneers on Chinese MC modding sites such as McMod."
+				""
+				"The KubeJS scripting and modification aspects are largely inspired by discussions, questions, and examples from other researchers in the KubeJS Discord community."
+				""
+				"Some mod modifications benefit from the open and public code shared generously by mod developers. Their commitment to open-source principles is sincerely appreciated."
+				""
+				"Certain textures used in this modpack are referenced from other mods. However, their original purposes have been preserved as much as possible to help players recognize their origins. These textures will be gradually replaced in future updates to avoid potential conflicts. Special thanks to the creators of these assets and mods for their excellent ideas and artistic design."
+				""
+				"The modpack also leverages broader media exposure and certain psychological effects to gain recognition. We appreciate the opportunity provided."
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:flower_heart"
+				tag: { }
+			}
+			id: "64EA255C062BB895"
+			shape: "rsquare"
+			subtitle: "External thanks"
+			tasks: [{
+				id: "1B62C7838335B033"
+				title: "额外鸣谢"
+				type: "checkmark"
+			}]
+			title: "Special Thanks"
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E3B5BC6A471679E"]
+			description: [
+				"&6Core Feature Implementation :&r"
+				""
+				"1. Basic organ system implemented"
+				"2. Fast registration of organs supported"
+				"3. Decoupled organ strategy system"
+				"4. Injury event proxy system"
+				"5. Activation effects, special effects, and synergy effects implemented"
+				"6. Support for extended events from addons such as MoreJs"
+				"7. Resource organs and Forbidden organs implemented"
+				"8. Organ trinket growth system implemented"
+				"9. Partial mod integration organ effects"
+				""
+				"{@pagebreak}"
+				"&6GUI and Texture :&r"
+				""
+				"1. Chest cavity GUI textures"
+				"2. Quest page UI design"
+				"3. Widget and background replacement"
+				"4. Partial pages configured with FancyMenu"
+				"5. Removed unused buttons and optimized default interactions"
+				""
+				"{@pagebreak}"
+				"&6Gameplay Content and Balancing :&r"
+				""
+				"1. Minimal biological compatibility organs added (future focus area)"
+				"2. Wares and mod currency system initially completed"
+				"3. Main storyline Grand Spell #1 completed"
+				"4. Trial of Divine Will completed"
+				"5. Majority (70%) of tutorial quests completed"
+				"6. Initial main progression completed (40%)"
+			]
+			hide_dependency_lines: true
+			icon: "alexsmobs:potted_flutter"
+			id: "37A0FA236DF85027"
+			shape: "rsquare"
+			subtitle: "Overview of early release version progress status"
+			tasks: [{
+				id: "248868AC9E4DAAF6"
+				type: "checkmark"
+			}]
+			title: "Current overall development progress：40%"
+			x: -3.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["37A0FA236DF85027"]
+			description: [
+				"&6Core Feature Implementation:&r"
+				""
+				"1. Add compatibility-focused organs"
+				"2. Strengthen build-oriented design and enhance organ synergy systems"
+				"3. Further improve organ functionality and mod integration"
+				"4. Allow organs to be obtainable at earlier progression stages"
+				"5. Implement distortion effects"
+				""
+				"{@pagebreak}"
+				"&6UI and Texture :&r"
+				""
+				"1. Further optimize in-game texture "
+				"2. Attempt full replacement of GUI interfaces"
+				""
+				"{@pagebreak}"
+				"&6Gameplay Content and Balancing :&r"
+				""
+				"1. Complete organ compatibility settings for most modded creatures (70%)"
+				"2. Add more dynamic difficulty scaling systems"
+				"3. Introduce Tetra materials to better match in-game build progression"
+				"4. Refine quest system for smoother and better progression flow"
+				"5. Add more checkpoint-style quests to create layered progression"
+				"6. Introduce additional challenge content"
+				"7. Extend main storyline and design additional Grand Magic events"
+				""
+				"{@pagebreak}"
+				"Most importantly: &6complete non-native localization&r"
+			]
+			id: "1F2A2EB40A0386CE"
+			shape: "rsquare"
+			subtitle: "ecessary Progress for Non-Chinese Release (CurseForge Release)"
+			tasks: [{
+				id: "15FD667B8A05CA80"
+				item: "fruitsdelight:lychee_cherry_tea"
+				type: "item"
+			}]
+			title: "Released Version Goals：60%"
+			x: -1.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1F2A2EB40A0386CE"]
+			description: [
+				"Plans often change faster than expected. The content of this modpack is almost &6infinitely expandable&r (at least for this theme), so its development timeline may extend far beyond what I originally anticipated."
+				""
+				"Any new mod or technical breakthrough could reshape the entire direction and content of the pack. Therefore, the &2“final goal” is not a static endpoint&r, but an ever-evolving unknown that changes almost daily."
+				""
+				"If you are truly interested in the so-called &6final version&r, you can visit our Github page to view current plans and a more user-friendly Markdown interface."
+				""
+				"{\"text\":\"Click here to view progress on Github\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Yorunina/No-Flesh-Within-Chest\"}}"
+			]
+			hide_dependent_lines: true
+			id: "5D4966C4D48F6E5E"
+			shape: "rsquare"
+			subtitle: "The expansion of this modpack is limitless, but in the short term, it can be considered complete"
+			tasks: [{
+				id: "1B6A2462D4392535"
+				item: "kubejs:full_mark"
+				type: "item"
+			}]
+			title: "Long-Term Iteration Goals：100%"
+			x: 1.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"In the Chinese version, the modpack is named “Brittle Bone Disease”, which corresponds to a real-world condition known as &6Osteogenesis Imperfecta&r."
+				""
+				"This is a very rare inherited bone disorder, with an incidence of approximately &23 per 100,000&r. Depending on the type of the disease, symptoms can vary: in milder cases, patients may simply experience &cfrequent fractures&r in daily life, while in severe cases, they may suffer &cserious disability&r or even face a &crisk of death&r."
+				""
+				"As a congenital genetic condition, there are no preventive measures, some cases may even result in death in the womb or during childbirth. After diagnosis, patients can only rely on safe, guided physical activity to increase bone and muscle mass in order to maintain independent daily living. However, there is currently no complete cure. Depending on the causative gene, treatments may include medications such as bisphosphonates, estrogen, calcitonin, and vitamin D3."
+				""
+				"At present, &6stem cell therapy&r is considered one of the more advanced approaches under study, but it remains in the research stage and is not yet available for clinical use in the near term."
+				""
+				"This quest encourages players, while enjoying the game, to also pay attention to people living with &2rare diseases&r, and to help reduce their burdens and suffering in any way they can."
+				""
+				"{@pagebreak}"
+				""
+				"{\"text\":\"If you would like to learn more about this disease, click here to proceed to Wiki\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://en.wikipedia.org/wiki/Osteogenesis_imperfecta\"}}"
+				""
+				"&6If you are interested in making a donation, you may contact relevant medical institutions.&r"
+				""
+				"GoCampingTeam sincerely thanks every player for taking the time to read this."
+			]
+			icon: "irons_spellbooks:frozen_bone"
+			id: "4B490AD5A08F9EB0"
+			rewards: [{
+				id: "50ED9DFF5A80BFC8"
+				item: {
+					Count: 1b
+					id: "kubejs:hard_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "What does the modpack's name means?"
+			tasks: [{
+				id: "1A346A0654B7301B"
+				type: "checkmark"
+			}]
+			title: "A Story"
+			x: 1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			icon: "kubejs:sponsor_badge"
+			id: "16112F2E4A2F8B3C"
+			subtitle: "1st Patron！Thank you！"
+			tasks: [{
+				id: "69D69646955DEDE0"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "白子翎羽"
+			x: -3.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "37BF78CED63FC2DA"
+			subtitle: "2nd Patron！Name not disclosed！"
+			tasks: [{
+				id: "6CEE217B384012BA"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_kSCc"
+			x: -2.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "3D8902783ABF246B"
+			subtitle: "3rd Patron！Also helped with testing and locating issues！"
+			tasks: [{
+				id: "03065D2DF653D533"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "This is my cat"
+			x: -1.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			description: [""]
+			id: "031B8B205A742A9D"
+			subtitle: "4th Patron, one of the major sponsors"
+			tasks: [{
+				id: "2DEB7E9B0DBB6326"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "erha10086"
+			x: -0.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "136D5A09F880A51F"
+			subtitle: "5th Patron, thank you！"
+			tasks: [{
+				id: "0FB8253F62A839A9"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "闲仭"
+			x: 0.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "6F70EA0951BD48F1"
+			subtitle: "6th Patron, sponsorship frequency too high"
+			tasks: [{
+				id: "6624673A16692024"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "COSXIAN"
+			x: 1.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "312CF2309E5C43EF"
+			subtitle: "7th Patron, thanks for your support. There will be more high-quality modpacks in the future"
+			tasks: [{
+				id: "3577D4C65C77DC34"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "安慕希大蛇"
+			x: 2.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "791FBB663A548AF4"
+			subtitle: "8th Patron, thank you, I also think the modpack is very fun"
+			tasks: [{
+				id: "0AABD1B8F82D8FB8"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "番茄炒西红柿拌西北风"
+			x: -4.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "50337230FDEBC3C3"
+			subtitle: "th Patron, Happy New Year 2024 to you as well"
+			tasks: [{
+				id: "3838AF59E135E215"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_18e04"
+			x: -3.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "684ABDC66AEF728A"
+			subtitle: "10th Patron, The Major Sponsor"
+			tasks: [{
+				id: "0F49A4BA874EE97D"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "晔胩"
+			x: -2.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "207353EB590D6D18"
+			subtitle: "11th Patron, I will keep working on updates"
+			tasks: [{
+				id: "715B79C23BA11282"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "离水"
+			x: -1.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "2EE80097CD943FA7"
+			subtitle: "12th Patron, Thank you for your support, but Twilight Forest probably won’t be added"
+			tasks: [{
+				id: "4614EB6603951363"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_adf67"
+			x: -0.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "19C0041C66731F41"
+			subtitle: "13th Patron, thank you for your happiness！"
+			tasks: [{
+				id: "0AFE62D24AAA05AC"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "xu"
+			x: 0.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "63C879E41615B548"
+			subtitle: "14th Patron, one of the major sponsors"
+			tasks: [{
+				id: "59CA7453C1B650CA"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "遗忘，黑暗的化身"
+			x: 1.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "71ABDDDE028E2CE8"
+			subtitle: "15th Patron, We will keep doing our best"
+			tasks: [{
+				id: "244893F4810F2433"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "gunkingt"
+			x: -3.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "6FFBEEAD74BC9947"
+			subtitle: "16th Patron, one of the major sponsors"
+			tasks: [{
+				id: "4C15499977ABCE05"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "素质君"
+			x: -2.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "2E0CC73EC6F5ED3B"
+			subtitle: "17th Patron, updates will still take time"
+			tasks: [{
+				id: "15CD178AE13821B7"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "饿梦"
+			x: -1.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "49202F9E676ABD8C"
+			subtitle: "18th Patron, update pusher +1"
+			tasks: [{
+				id: "316F545A4F177734"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "fumo"
+			x: -0.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			description: [""]
+			id: "073320CE5256F22A"
+			subtitle: "19th Patron, double major sponsor！Thank you very much！"
+			tasks: [{
+				id: "2F2E98005A89031F"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "原型智能-v1.3.3387v"
+			x: 0.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "3104107D695678F9"
+			subtitle: "20th Patron, 1.54x major sponsor!！"
+			tasks: [{
+				id: "413D06C269C69EFA"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "DynamiCo Nya"
+			x: 1.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "42F564D88FAD1A39"
+			subtitle: "21st Patron, we’ve received your blessing."
+			tasks: [{
+				id: "76EAFC80619DA65F"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "sisi_da"
+			x: 2.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "432ADA4293EB36A6"
+			subtitle: "22nd Patron, one of the major sponsors"
+			tasks: [{
+				id: "474A37C5EB4A6CE4"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "神圣古树"
+			x: -4.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "4D6D3CAEAE1BDE6B"
+			subtitle: "23rd Patron, thank you！"
+			tasks: [{
+				id: "561BCDD2FE4A4750"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_aeb5a"
+			x: -3.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "1AC54BDCB1A40768"
+			subtitle: "24th Patron, you spins my chest cavity right round"
+			tasks: [{
+				id: "12D31B010076D250"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_Uj4H"
+			x: -2.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "149978DA42EB8248"
+			subtitle: "25th Patron, thanks for the encouragement！"
+			tasks: [{
+				id: "3A62A7DC54B9C235"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "归零"
+			x: -1.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "403658EB623B943D"
+			subtitle: "26th Patron, keep it up！"
+			tasks: [{
+				id: "12324ECEA5458F0D"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_NYRC"
+			x: -0.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "4F3FA1E2BA71511C"
+			subtitle: "27th Patron, thank you for your help, it means a lot to us！"
+			tasks: [{
+				id: "20BF771CA116E503"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "三不才才子"
+			x: 0.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "520857965CC5E152"
+			subtitle: "28th Patron, one of the major sponsors"
+			tasks: [{
+				id: "5CC0C8B87F1CD154"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_fb3f3"
+			x: 1.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["37A0FA236DF85027"]
+			description: ["Support is also part of sponsorship！"]
+			hide_dependency_lines: true
+			icon: "kubejs:sponsor_badge"
+			id: "1F3B70FA4B3D185D"
+			rewards: [
+				{
+					id: "0AB571E3C6A316B2"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_keychain"
+						tag: {
+							Items: [{
+								Count: 1b
+								Slot: 0b
+								id: "kubejs:sponsor_badge"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1223237E02536E68"
+					item: {
+						Count: 1b
+						id: "kubejs:go_camping"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			subtitle: "From the 50th Patron to countless others"
+			tasks: [{
+				id: "401562D1207835A9"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "Patron：YOU！"
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "13B0430374486729"
+			subtitle: "29th Patron, a big thanks to you"
+			tasks: [{
+				id: "798776F4DE8BEB0F"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "feastiful"
+			x: -3.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "193F0A0E8F0C1AA5"
+			subtitle: "30th Patron, many thanks"
+			tasks: [{
+				id: "2D413DAED86FE54D"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "羖Kaa"
+			x: -2.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "2B60839A78FB4B4D"
+			subtitle: "31st Patron, thank you！"
+			tasks: [{
+				id: "4825C06001A5C71E"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "COSXIAN"
+			x: -1.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "6E717EAE76FDB3CF"
+			subtitle: "32nd Patron, thank you for liking it"
+			tasks: [{
+				id: "5D4F41D57C236E29"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "三不才才子"
+			x: -0.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "3572F5D966B85456"
+			subtitle: "33rd Patron, one of the major sponsors"
+			tasks: [{
+				id: "699936F4A7B4E442"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "HGeorin"
+			x: 0.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "46FA608A4EA83F2B"
+			subtitle: "34th Patron, thank you!"
+			tasks: [{
+				id: "0065269DF4354047"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "guguge"
+			x: 1.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "681962881310ACC6"
+			subtitle: "35th Patron, thank you for your blessings！"
+			tasks: [{
+				id: "317CC3C6188B01D7"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "Hatter"
+			x: 2.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "4B3BC687622FA884"
+			subtitle: "36th Patron, thank you！"
+			tasks: [{
+				id: "0BB2B6762D94F41B"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "月之咲洛璃"
+			x: -4.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "30D22419FB287F49"
+			subtitle: "37th Patron, one of the major sponsors"
+			tasks: [{
+				id: "0FB084C877FA1D02"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "爱发电用户_jXAb"
+			x: -3.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "05DE0F24FA769160"
+			subtitle: "38th Patron, thank you for your support!"
+			tasks: [{
+				id: "3523F0C58D381C1F"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "坐上"
+			x: -2.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "350EE0C4B49B00DE"
+			subtitle: "39th Patron, thank you for your sponsorship！"
+			tasks: [{
+				id: "4A4CF168AC0E62F4"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "槛花笼鹤"
+			x: -1.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			description: [""]
+			id: "27C5D05F23C6E3D8"
+			subtitle: "40th Patron, thank you for the sponsorship！"
+			tasks: [{
+				id: "0E1659ED35EF8446"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "大大大脑斧鸭"
+			x: -0.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "1A9500BEC0755110"
+			subtitle: "41st Patron, thank you for the sponsorship！"
+			tasks: [{
+				id: "172190C6519206DC"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "SuzumiOvO"
+			x: 0.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "14EBADABBE77D0F8"
+			subtitle: "2nd Patron, one of the major sponsors"
+			tasks: [{
+				id: "460000858AEF4741"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "GetSomeDarius"
+			x: 1.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "0539E57A62BDB01C"
+			subtitle: "43rd Patron, thank you for your sponsorship！"
+			tasks: [{
+				id: "265FFC175A6CC5D9"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "Wax5508"
+			x: -3.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "24BB225C8C30B03F"
+			subtitle: "44th Patron, thank you very much！"
+			tasks: [{
+				id: "602E76389385BCEC"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "莱伊·卡尔恩德"
+			x: -2.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "5960DDBAE2CF6B1B"
+			subtitle: "45th Patron, one of the major sponsors"
+			tasks: [{
+				id: "6D38749041AFD141"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "一只小袋鼠"
+			x: -1.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			description: [""]
+			id: "387C7A1A3E668A98"
+			subtitle: "46th Patron, the largest sponsor so far — deeply appreciated！"
+			tasks: [{
+				id: "55C0C4D860553896"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "良辰\\&星"
+			x: -0.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "375460CC2ED3122E"
+			subtitle: "47th Patron, thanks for your support！"
+			tasks: [{
+				id: "2C6F9BA54B0C29E3"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "leavatian"
+			x: 0.25d
+			y: 10.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			description: [""]
+			id: "2372715C604BCD15"
+			subtitle: "8th Patron, one of the major sponsors!！ Deeply appreciated！ "
+			tasks: [{
+				id: "3113F1C765E1D1AF"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "惑月幻星"
+			x: 1.25d
+			y: 10.75d
+		}
+		{
+			dependencies: ["5D4966C4D48F6E5E"]
+			id: "38484F8B45052BBD"
+			subtitle: "49th Patron, thank you for your sponsorship, thank you！"
+			tasks: [{
+				id: "5D1EC7861F6936D7"
+				item: "kubejs:sponsor_badge"
+				type: "item"
+			}]
+			title: "至高无上微笑"
+			x: 2.25d
+			y: 10.75d
+		}
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"The translation progression of this modpack has reach about 95%. In other words, most playable content has been tranlsated to english. But still, there might be some content I didn't translate and having some spelling or grammer errors in the modpack. I sincery apolagies for that.  "
+				""
+				"If you encounter any untranslated content(except the images) or weird localisation while playing this modpack, please leaves comment in &6Curseforge&r to notify me the errors."
+				""
+				"The original modpack has stopped updating since Jun 6, 2024(Information from Github), probably no content updates in the future as the creator (YouruNina) is busy working on No Flesh Within Chest 2."
+			]
+			id: "1E5619822B9E87F6"
+			shape: "rsquare"
+			subtitle: "Translator here"
+			tasks: [{
+				id: "2222696DBB7A69A5"
+				title: "Translator Here"
+				type: "checkmark"
+			}]
+			title: "Just for Your Information"
+			x: -1.25d
+			y: 2.75d
+		}
+	]
+	title: "Credits"
+}

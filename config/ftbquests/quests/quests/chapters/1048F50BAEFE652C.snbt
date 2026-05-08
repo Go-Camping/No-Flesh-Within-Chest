@@ -1,0 +1,4062 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "1048F50BAEFE652C"
+	group: "4F4F4EA8CE67985B"
+	icon: "kubejs:infinity_beats"
+	id: "1048F50BAEFE652C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 23.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 26.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.75d
+			y: 29.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.75d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.75d
+			y: 23.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_2.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.75d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.75d
+			y: 19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.75d
+			y: 26.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 5.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 8.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 11.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_0.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.25d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 14.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 17.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.3d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_7.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 12.5d
+			y: 20.75d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Why is this guide necessary?"
+				""
+				"Some organs in this modpack are obtained through fairly complicated processes. Without guidance, learning how to craft &6advance organs&r can be very overwhelming for players, especially in singleplayer."
+				""
+				"This guide is meant to help players understand how to obtain some of the more advanced organs step by step."
+				""
+				"At the same time, it also introduces several classic and popular &2organ builds&r from the modpack, giving players examples to learn from or use as inspiration for their own setups."
+			]
+			icon: "chestcavity:chest_opener"
+			id: "6794388AA5357126"
+			rewards: [{
+				count: 5
+				id: "097FD920C0C1B7B5"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Purpose of this guide"
+			tasks: [{
+				id: "255647E12D0F44DC"
+				type: "checkmark"
+			}]
+			title: "Intro : Organ Guide"
+			x: -2.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["795DE8D8EF4D3A01"]
+			description: [
+				"&5The cornerstone of everything, the core organ of this series.&r"
+				""
+				"The effect of &dSweet Dreams&r only functions properly when &5Candy Heart&r is present."
+				""
+				"&dSweet Dream&r Effect:"
+				"When the player takes damage from non-fire sources, the damage is nullified and instead converted into a reduction of buff duration."
+			]
+			id: "7C6A372F5D824085"
+			rewards: [
+				{
+					id: "43F99A327E4ACF07"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "43F1F3062D7A0195"
+					item: "kubejs:candy_canes_wand"
+					type: "item"
+				}
+			]
+			subtitle: "Candy heart overflow"
+			tasks: [{
+				id: "19951308476CE6BD"
+				item: "kubejs:candy_heart"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"The &d[CANDY]&r series revolves around the &6Sweet Dreams&r effect."
+				""
+				"This series primarily focuses on maintaining the duration of the &6Sweet Dreams&r buff through various methods, ensuring protection from incoming damage."
+				""
+				"At the same time, the series synergizes extremely well with the Ceremonial Knife, whose self-inflicted damage can trigger &6Sweet Dreams&r while also restoring mana for Iron's Spells."
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:candy"
+			id: "795DE8D8EF4D3A01"
+			rewards: [{
+				count: 8
+				id: "6B412A595AC7357B"
+				item: "kubejs:candy"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Magician and candy"
+			tasks: [{
+				id: "35D77B1435E1B7BC"
+				type: "checkmark"
+			}]
+			title: "&d[CANDY]"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained by defeating the &6Frost Magma&r"
+				"reatly increases &bIce&r / &4Fire&r spell damage"
+			]
+			id: "1EEB166103F7058F"
+			rewards: [{
+				id: "49B6BBD79E03243D"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "A powerful Boss Relic Organ"
+			tasks: [{
+				id: "7FF280AF66489CB9"
+				item: "kubejs:love_between_lava_and_ice"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"When certain Bosses are &2on the brink of death&r, you can use the &2Chest Opener&r to open their chest cavities and obtain extremely rare &6Boss Relic Organs&r."
+				""
+				"These organs often possess &2exceptionally powerful standalone effects&r, granting players tremendous boosts in strength. In some cases, a single organ can even form the core of a &2unique build&r on its own."
+			]
+			icon: "minecraft:nether_star"
+			id: "6662469DC72EA384"
+			shape: "rsquare"
+			subtitle: "Boss Rlic Organs has exceptionally powerful standalone effects"
+			tasks: [{
+				id: "21C2FA1C32FC15A5"
+				type: "checkmark"
+			}]
+			title: "&6[RELIC]&r"
+			x: -8.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["795DE8D8EF4D3A01"]
+			description: [
+				"When &dSweet Dreams&r is consumed due to damage, this organ grants you &6Absorption V&r and"
+				"&6Health Boost V&r."
+				""
+				"This often provides a crucial window of survival."
+				""
+				"The Candy Pancreas is regarded as a treasured item by the &2Ancient Wizard&r, who favors sweets, perhaps clues to its origin can be found through him."
+			]
+			id: "0AA6C02B13BD7CEC"
+			rewards: [{
+				id: "22C2328AF0E97312"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "They good enough to eat"
+			tasks: [{
+				id: "56D90117F0A8DF2D"
+				item: "kubejs:candy_pancreas"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["795DE8D8EF4D3A01"]
+			description: ["&5Candy Stomach&r provide &dSweet Dreams&r effect when consuming &2Candy&r."]
+			id: "45CD78BAE9F4B186"
+			rewards: [{
+				id: "1189918799852F1C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Sweet Ffowing syrup"
+			tasks: [{
+				id: "25F7ABA59BEA11AB"
+				item: "kubejs:candy_stomach"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["795DE8D8EF4D3A01"]
+			description: ["Every &62&r &5Magic Spines&r increase the level of the &dSweet Dreams&r provided by the Magic Hippocampus by &61&r."]
+			id: "6E3A0891841A4603"
+			rewards: [{
+				id: "08B7D5C3D726FD6F"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "A more robust mana conduction system？"
+			tasks: [{
+				id: "2B9DFCAEF94FFDA4"
+				item: "kubejs:magic_spine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["795DE8D8EF4D3A01"]
+			description: [
+				"When taking ≥5 damage, it may trigger &dSweet Dreams&r based on other organs present."
+				""
+				"Each trigger has a 5s cooldown."
+			]
+			icon: "kubejs:magic_hippocampus"
+			id: "0B70995B04FD8E9A"
+			rewards: [{
+				id: "6CA1F903669BF0E3"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "The second heart of a magician"
+			tasks: [
+				{
+					id: "4A1C1EBE7527CAD9"
+					item: "kubejs:magic_hippocampus"
+					type: "item"
+				}
+				{
+					id: "3E92B6DE3F6C03B0"
+					item: "kubejs:ceremonial_knife"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["795DE8D8EF4D3A01"]
+			description: ["Every &61&r &5Magic Muscle&r increase the duration of the &dSweet Dreams&r provided by the Magic Hippocampus by &610&rs."]
+			id: "2C985498D77F62E4"
+			rewards: [{
+				id: "7C9E76EF605EA50E"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Mana fiber optics！"
+			tasks: [{
+				id: "1C6FCC1FA600BE65"
+				item: "kubejs:magic_muscle"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"The &5Infinity&r series of organs revolves around overwhelming single-target power, granting &2almost limitless&r scaling bonuses. However, these organs often demand extremely brutal costs in order to create the conditions necessary for their growth and accumulation."
+				""
+				"The &5Infinity&r series is designed as a set of organs obtained during the very late stages of the modpack. Its effects focus more on the strength of individual organs rather than synergy across the entire series."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:amethyst_shard"
+			id: "24E73A64F055728A"
+			shape: "rsquare"
+			subtitle: "Powerful yet dangerous organ effect"
+			tasks: [{
+				id: "586110AC47445585"
+				type: "checkmark"
+			}]
+			title: "&d[INFINITY]"
+			x: -8.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24E73A64F055728A"]
+			description: [
+				"Infinity Beats allows you to &2temporary increase your attack damage&r by 4 while using bare hand to attack, this bonus can &6stack infinitely&r"
+				""
+				"But, you will take damage equal to the attack bonus gained "
+				""
+				"This organ has low chance to be found in Nether loot chests."
+			]
+			id: "57A1BF07E4937852"
+			rewards: [{
+				id: "17F97723C16683CB"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Heart of infinite beats"
+			tasks: [{
+				id: "2988F6623DF4874E"
+				item: "kubejs:infinity_beats"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"The &6[REVOLUTION]&r series revolves around the &cHeartfire Combustion&r and &eBlastfire Combustion&r states. Combined with active use of certain held items, it can unleash tremendous destructive power."
+				""
+				"The &6[REVOLUTION]&r series also works exceptionally well with &6[RESOURCE]&r series, allowing for highly scalable builds with enormous expansion potential."
+			]
+			hide_dependent_lines: true
+			icon: "somebosses:burning_volcanic_rock"
+			id: "7CFE03E2610EA31B"
+			shape: "rsquare"
+			subtitle: "机械的出现是革命性的"
+			tasks: [{
+				id: "5EB6899990975685"
+				type: "checkmark"
+			}]
+			title: "&6[REVOLUTION]"
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: [
+				"The &6Core Organs&r of the Revolution series, consumes coal to grant temporary buff."
+				""
+				"Each level of &cBlastfire Combustion&r effect grants an additional &6+4&r fixed attack damage"
+			]
+			id: "55C12BA0AF6395BA"
+			rewards: [{
+				id: "5805F720AB0034D2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The heat of the furnace warms your body"
+			tasks: [{
+				id: "0A06133224D37B30"
+				item: "kubejs:furnace_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: [
+				"The &6Core Organs&r of the Revolution series, consumes coal to grant temporary buff."
+				""
+				"When the duration of &cHeartfire Combustion&r reaches its final 5s, it triggers a Heartfire Critical. During this state, damage is converted to &2[Base Damage * (1.0 * Effect Level + 1.5)]"
+			]
+			id: "5A21F4A601331B62"
+			rewards: [{
+				id: "3E0BB55225790C5D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The Heartfire burns fiercely, surging out from your chest"
+			tasks: [{
+				id: "370448F04E7517CB"
+				item: "kubejs:burning_heart"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: ["Based on the number placed in the chest cavity determines the additional &cHearfire Combustion / Blastfire Combustion&r levels."]
+			id: "7C75261D5B3850A1"
+			rewards: [{
+				id: "243A2555A0DF3169"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Gears creak and grind"
+			tasks: [{
+				id: "4E8DA24D4EEE3859"
+				item: "kubejs:revolution_gear"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: ["Based on the number of &6Revolution&r organ to provide bonus health"]
+			id: "2B68E92732922528"
+			rewards: [{
+				id: "176B9BBF7B56D612"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Cables connect everything within the chest cavity"
+			tasks: [{
+				id: "22E7533783E26139"
+				item: "kubejs:revolution_cable"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: ["Based on the number placed in the chest cavity, increase the duration of &cHearfire Combustion / Blastfire Combustion&r."]
+			id: "0D1CC41165B1B371"
+			rewards: [{
+				id: "36C77B5564DBE9C2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Flames burn without end"
+			tasks: [{
+				id: "424673065E35B4CD"
+				item: "kubejs:revolution_relay"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: ["Based on the number placed in the chest cavity, decrease the duration of &cHearfire Combustion / Blastfire Combustion&r."]
+			id: "407F877FE481FDB5"
+			rewards: [{
+				id: "2CC8039C7335A716"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The fire grows brighter"
+			tasks: [{
+				id: "59DBDD2FBCCD8B21"
+				item: "kubejs:revolution_delay"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6What you begin with is not necessarily the best.&r"
+				""
+				"Through &2crafting&r or evolution using &2Organ Container&r, organs can evolve into more advanced forms. Certain organs may even evolve toward entirely different enhancement paths depending on the route chosen."
+				""
+				"When upgrading organs, it may be worthwhile to consult this page’s evolution trees before deciding."
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:telescopic_attack_arm"
+			id: "437705D28D92B135"
+			rewards: [{
+				id: "5D47BBADBCFA005D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Grow into what I desire"
+			tasks: [{
+				id: "5375B1C61A990743"
+				item: "kubejs:empty_organ_charm"
+				type: "item"
+			}]
+			title: "&a[EVOLVE]&r"
+			x: -8.75d
+			y: 18.25d
+		}
+		{
+			dependencies: ["437705D28D92B135"]
+			description: [
+				"By placing a &2Template Organ&r into an Organ Container, you can uncover its commonly shared evolution paths."
+				""
+				"All template organs can evolve to the &6T1&r stage through the Organ Container. After evolution, their base attributes will receive moderate improvements."
+				""
+				"This upgrade process can be performed &2three times&r in total, eventually upgrading the organ to &6T3&r. At that point, its &aEVOLVE&r trait will disappear."
+			]
+			id: "4898BEAD775D98A1"
+			rewards: [{
+				id: "18D04D2BC9470552"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "The possabilites of the container"
+			tasks: [{
+				id: "4E93989EA4B4A1C2"
+				item: "kubejs:muscle_iron"
+				type: "item"
+			}]
+			title: "Template Organ Evolution"
+			x: -6.75d
+			y: 19.25d
+		}
+		{
+			dependencies: ["437705D28D92B135"]
+			description: [
+				"The Extendo Arm can evolve to &6Extendo Attack Arm&r using the Organ Container"
+				""
+				"At the same time, you can use deployer recipe to craft a &6Extendo Tool Arm&r"
+			]
+			id: "4C0C8599A1FA78DB"
+			rewards: [{
+				id: "3D9759FFDEF7926B"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Extendo grip implants？"
+			tasks: [{
+				id: "284A2D61D2179AAA"
+				item: "kubejs:telescopic_arm"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 19.25d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"The Shard Series organs revolve around the theme of &4The Seven Sins&r. If all shards are &6fully collected&r, perhaps something unexpected may occur…"
+				""
+				"&7Now, they have awaken…&r"
+			]
+			icon: "minecraft:amethyst_shard"
+			id: "235753780EE3782C"
+			shape: "rsquare"
+			subtitle: "The Shards and the Seven Sins "
+			tasks: [{
+				id: "1410D2144D11B1A6"
+				type: "checkmark"
+			}]
+			title: "The Shards"
+			x: -8.75d
+			y: 21.75d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of the &2Merciles Assasin&r. Reflects powerful damage back at weaker enemies."
+				""
+				"Can be placed into an Organ Container to evolve into the &6Blade of Heart&r"
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:heart_of_blade"
+				tag: { }
+			}
+			id: "6A617A9DCFEB9F9F"
+			rewards: [{
+				id: "50B147575C892569"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Thorns"
+			tasks: [
+				{
+					id: "61FD79848FE6A4E4"
+					item: {
+						Count: 1b
+						id: "kubejs:heart_of_blade"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1F20460DF372E0F4"
+					item: {
+						Count: 1b
+						id: "kubejs:blade_of_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["The Vulnerable effect increases damage taken by &210% per stack&r. It can produce surprisingly strong results in team combat"]
+			id: "27E486C76949F7DA"
+			rewards: [{
+				id: "36461A3070DA0DAE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Steel is my Body and Fire is my Blood"
+			tasks: [{
+				id: "7E712447E89A05DE"
+				item: {
+					Count: 1b
+					id: "kubejs:bone_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["Dropped by the Void Blossom, granting a degree of &6Photosynthesis&r. Its base stats can also help alleviate water allergy symptoms"]
+			id: "501E9E1A842A2706"
+			rewards: [{
+				id: "4E675E10146937C4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Photosynthesis"
+			tasks: [{
+				id: "5A7843098A0D3CF8"
+				item: {
+					Count: 1b
+					id: "kubejs:flower_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["A rib extracted from the chest cavity of the &2Aesegull&r. It seacrches for its other half"]
+			id: "7EA2E7BD4AFF2041"
+			subtitle: "It searches for its other half"
+			tasks: [{
+				id: "797AE1FFE2C1589C"
+				item: {
+					Count: 1b
+					id: "kubejs:aesegull_rib_left"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["A rib extracted from the chest cavity of the &2Aesegull&r. It seacrches for its other half"]
+			id: "4093F99C826B6D4A"
+			subtitle: "It searches for its other half"
+			tasks: [{
+				id: "4B87E3A06A2B3C13"
+				item: {
+					Count: 1b
+					id: "kubejs:aesegull_rib_right"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of the &2Skeleton Demon&r."
+				"Capable of reversing the negative effects of the &4Unholy Grail&r."
+			]
+			id: "64558EB42DBD89A2"
+			rewards: [{
+				id: "3894458FA41A4949"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The story of Eden"
+			tasks: [{
+				id: "0C0F6D1FCFA311A0"
+				item: {
+					Count: 1b
+					id: "kubejs:forbidden_fruit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["When the &4Executed&r effect is applied, attacks have a chance to deal additional damage based on the target's &2lost health&r. This means the lower the enemy’s HP, the stronger the bonus damage becomes."]
+			id: "04EA969EDB862A01"
+			rewards: [{
+				id: "1A4801AA9EF3DAD1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Excecution time"
+			tasks: [{
+				id: "4B255AE58F55BC38"
+				item: {
+					Count: 1b
+					id: "kubejs:executioner_blade_pieces"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Damage is determined by the player's viewing angle at the exact moment the attack is calculated."
+				"When looking completely downward, perpendicular to the ground, the attack can deal up to &6x2 the original damage&r."
+				""
+				"Obtained from the chest cavity of Nether Gaunlet."
+			]
+			id: "2C015981504A9704"
+			rewards: [{
+				id: "603AE325CF6F471D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "KNEEL AND ADORE"
+			tasks: [{
+				id: "1781DF0940904B8C"
+				item: {
+					Count: 1b
+					id: "kubejs:demon_eyeball"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["Grants stable critical strike chance and critical damage bonuses. The amount of critical strike chance gained scales with the number of &6Mech organs&r equipped."]
+			id: "4301C43F6E85C664"
+			rewards: [{
+				id: "36D367A972AD9544"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "You see, i see"
+			tasks: [{
+				id: "74B0977272A41ACF"
+				item: {
+					Count: 1b
+					id: "kubejs:redstone_chipset"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["Melee attacks have a Luck-based chance to inflict &62s Stuned&r, which can be extremely effective in certain Boss fights"]
+			id: "0D2D3619083928ED"
+			rewards: [{
+				id: "4BE8BF36EC7A56FD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Luck stun！"
+			tasks: [{
+				id: "6CF981A7867EDECA"
+				item: {
+					Count: 1b
+					id: "kubejs:heavy_hammer_muscle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &6Dame Fortuna&r"
+				""
+				"When arrows hit a target, there is a chance to extend the duration of all &4negative effects&r"
+			]
+			id: "77B4BDEBD8D59C7B"
+			rewards: [{
+				id: "7BC92D3CAECC5076"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Effect extension"
+			tasks: [{
+				id: "1D1329CDBD73CA6B"
+				item: {
+					Count: 1b
+					id: "kubejs:parasitic_elf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["Obtained from the chest cavity of The Leviathan."]
+			icon: {
+				Count: 1b
+				id: "kubejs:leviathan_spine"
+				tag: { }
+			}
+			id: "034A6F5A590F4CF5"
+			rewards: [{
+				id: "1B21CC741965C672"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Provide swimming speed"
+			tasks: [
+				{
+					id: "22870C4045AF8154"
+					item: {
+						Count: 1b
+						id: "kubejs:leviathan_spine"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "684439BAB9FCFB86"
+					item: {
+						Count: 1b
+						id: "kubejs:leviathan_rib"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -7.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["24E73A64F055728A"]
+			description: [
+				"Has a low chance to be found in Advanced Dimensional Dungeon &6loot chests&r."
+				""
+				"While carrying &6Infinity Force&r, defeating any &cBoss&r has a chance which scaled by Luck to drop a &2Lower tier Infinity Force&r."
+				""
+				"&6Infinity Force&r of the same level can be combined at a Crafting Table."
+			]
+			id: "11EB4F6B69D9DA6F"
+			rewards: [{
+				id: "6C9096FE0136B68D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Origin of ifinite force "
+			tasks: [{
+				id: "32C06177A15FC76E"
+				item: {
+					Count: 1b
+					id: "kubejs:infinity_force"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			id: "5700C1D66F61B5E0"
+			rewards: [{
+				id: "48D3956A311294E2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B52886345AC89C9"
+				item: {
+					Count: 1b
+					id: "kubejs:wrath_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			id: "361C5AA4C6C86167"
+			rewards: [{
+				id: "6A8B0EE94504F34C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74E23ADEE40B9561"
+				item: {
+					Count: 1b
+					id: "kubejs:sloth_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			id: "35606C57F204A9AB"
+			rewards: [{
+				id: "25C512B408B536F4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "313CFF957861879F"
+				item: {
+					Count: 1b
+					id: "kubejs:envy_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			id: "785079C06B7A8AE1"
+			rewards: [{
+				id: "0B7853E833A067C4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F99A4E065DE2195"
+				item: {
+					Count: 1b
+					id: "kubejs:gluttony_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			id: "132A93177D12F5B9"
+			rewards: [{
+				id: "5C3549B8C39FF2EF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "780586C9DAA4E150"
+				item: {
+					Count: 1b
+					id: "kubejs:lust_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			id: "5B868D14B2F73C1D"
+			rewards: [{
+				id: "28DAAED8526E1C45"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "154A4D6E39B78FFC"
+				item: {
+					Count: 1b
+					id: "kubejs:greed_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			id: "667AC1E3364E6FAC"
+			rewards: [{
+				id: "438273AF455F5D20"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "311B9DA567C17C5A"
+				item: {
+					Count: 1b
+					id: "kubejs:pride_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["235753780EE3782C"]
+			description: [
+				"The organ skill of the Nether Star Fragment increases the growth stage of the targeted Wither Storm."
+				""
+				"In some situations, this can skip major portions of the Wither Storm progression. Before using it, make sure you understand the Wither Storm’s current stage and what the next phase requires."
+			]
+			id: "41B89386FBDB06AE"
+			rewards: [{
+				id: "6CF03D0FB70139FD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A part of the Wither's body"
+			tasks: [{
+				id: "516CD9AA8B9190CA"
+				item: {
+					Count: 1b
+					id: "kubejs:nether_star_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 22.75d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: ["A positional &2detection-type&r organ that grants additional maximum health based on the number of nearby food organs."]
+			id: "0CEDF28C965FF8E5"
+			rewards: [{
+				id: "5B71184543C55AD8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Food and Health"
+			tasks: [{
+				id: "1A4C6BC3E715C638"
+				item: {
+					Count: 1b
+					id: "kubejs:hamimelon_organ"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: ["A basic Food Organ"]
+			id: "5B73C3290177E214"
+			rewards: [{
+				id: "705550EB3EC4F754"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The most common Food Organ"
+			tasks: [{
+				id: "0D12A6E81A52DDB4"
+				item: {
+					Count: 1b
+					id: "kubejs:watermelon_organ"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: ["Has a chance to obtained while eating a Fortune Cookie"]
+			id: "50BC3F4DA0F1BC9D"
+			rewards: [{
+				id: "2455F73E408EC695"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The lucky one"
+			tasks: [{
+				id: "58136D83DEE74095"
+				item: {
+					Count: 1b
+					id: "kubejs:lucky_cookie_organ"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: ["Eating &2Cookies&r and &2Cream&r will grants you some long-lasting effect"]
+			id: "450518C1E9B5DBCB"
+			rewards: [{
+				id: "705B51E06059840D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Cheap cream item"
+			tasks: [{
+				id: "2D0238D40E8300B0"
+				item: {
+					Count: 1b
+					id: "kubejs:cream_cookie_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: ["&e[FOOD]&r organs are a uniquely specialized category. Their mechanics focus primarily on activation effects, triggered through specific arrangements inside the chest cavity."]
+			icon: "minecraft:golden_apple"
+			id: "309791281FE1F06A"
+			shape: "rsquare"
+			subtitle: "Is the organ ate the food or is the food ate the organ"
+			tasks: [{
+				id: "456D14071F761DCD"
+				type: "checkmark"
+			}]
+			title: "&e[FOOD]&r"
+			x: -8.75d
+			y: 25.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["Generates Resource Points while sprinting. When the player has high movement speed, equipping multiple Clockwork organs can provide extremely substantial Resource Point generation."]
+			id: "2A8B1C05CF6801A8"
+			rewards: [{
+				id: "233C5A031F4E96F9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Hamster wheel？"
+			tasks: [{
+				id: "7A124C6421679BDE"
+				item: {
+					Count: 1b
+					id: "kubejs:machine_clockwork"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["An organ capable of converting Resource Points into damage, serving as a &6core component&r in &6Resource organ Builds&r."]
+			id: "209E99AA8A803BE9"
+			rewards: [{
+				id: "6524369466C4750B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The fuel of a factory"
+			tasks: [{
+				id: "2580EB7EF132E366"
+				item: {
+					Count: 1b
+					id: "kubejs:lava_life_cycle_system"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: [
+				"Holding a &bWater Bottle&r and right-clicking grants a small amount of Resource Points."
+				""
+				"While under &cHearfire Combustion / Blastfire Combustion&r, the effect will convert into the opposite state, extending duration in the process. Higher effect levels grant significantly more Resource Points."
+			]
+			id: "4C96584263F15A3C"
+			rewards: [{
+				id: "49CF05D92EB40594"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "First Techonogical Revolution: Steam Power"
+			tasks: [{
+				id: "1AA74E7782D8ABCF"
+				item: {
+					Count: 1b
+					id: "kubejs:revolution_steam_engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: ["The farther from the center position in your chest cavity, the more max health it provide"]
+			id: "40DE4D7FB506EEF7"
+			rewards: [{
+				id: "30383E8596B92F36"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Its slimey"
+			tasks: [{
+				id: "38F7A9F12962699A"
+				item: {
+					Count: 1b
+					id: "kubejs:mini_slime"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6[RESOURCE]&r organs are defined by their connection to a unique secondary stat, which is &2Resource Points&r."
+				""
+				"By equipping the &6Archivist Monocle&r in an accessory slot, you can view your current Resource Points and Warp Points."
+				""
+				"Resource Points are often tied to item acquisition, for example, certain mining rewards only occur when enough Resource Points are available. In other cases, Resource Points can also directly enhance combat capabilities."
+			]
+			icon: "minecraft:diamond"
+			id: "27BC9CE4043A3FEC"
+			shape: "rsquare"
+			subtitle: "Maybe you need a monocle"
+			tasks: [{
+				id: "18EA73DED0A25061"
+				type: "checkmark"
+			}]
+			title: "&6[RESOURCE]"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27BC9CE4043A3FEC"]
+			description: [
+				"Obtained through &2evolving&r Stomach Tumors inside an Organ Container."
+				""
+				"When activated, it provides a stable +100 Resource Point Cap. Once Resource Points reach 150 or higher, each mining action has a 5% chance to trigger &6The Midas Touch&r, forcing drops to convert into gold blocks (or occasionally coins), at the cost of 150 Resource Points."
+			]
+			id: "77AA2FDAEE799E7A"
+			rewards: [{
+				id: "0B624AE301029750"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "And so, everything has become gold"
+			tasks: [{
+				id: "4F2034F3B0F4D033"
+				item: {
+					Count: 1b
+					id: "kubejs:desire_of_midas"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27BC9CE4043A3FEC"]
+			description: [
+				"During thunderstorm weather, right-click a diamond block while holding a Water Bottle to summon lightning and obtain a &bCrystalline Storm Bottle&r."
+				""
+				"This item provides a stable source of Resource Points during mining activities."
+			]
+			id: "6E69342ACE49927A"
+			rewards: [{
+				id: "0A22BB0B10CC3F08"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The essence of thunderstorms and diamonds"
+			tasks: [{
+				id: "4CBAAA5416B637B9"
+				item: {
+					Count: 1b
+					id: "kubejs:diamond_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27BC9CE4043A3FEC"]
+			description: [
+				"手持肺脏右键沙子即可转变成为&6矿石肺&r。"
+				""
+				"其作为早期能够获得的资源类器官，能够在拥有较少资源点数的情况下，凭空生产矿物。在Create倍产之后，收益相当可观。"
+				"Right-click sand with a lung organ to transform it into a &6Mineral Lung&r."
+				"Dust inside the lungs condenses into solid spheres."
+				"As an early-game Resource organ, it allows the passive generation of minerals even with low Resource Points."
+				"When paired with Create-style multipliers, its output becomes highly efficient."
+			]
+			id: "7F3FB7A718B1BE72"
+			rewards: [{
+				id: "12B0DA9A6571DD1E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Dust inside the lungs condenses into solid spheres"
+			tasks: [{
+				id: "4756593B9413C3B5"
+				item: {
+					Count: 1b
+					id: "kubejs:ore_lung"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27BC9CE4043A3FEC"]
+			description: [
+				"Can found from any loot chest in the Nether or loot chests in Dimensional Dungeon."
+				""
+				"When activated, it provides a stable &2+100 Resource Point Cap&r, and allows instant conversion of redstone blocks into 100 Resource Points."
+			]
+			id: "514236B73891412F"
+			rewards: [{
+				id: "57FB43729284B453"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It wheezes. It burns fiercely"
+			tasks: [{
+				id: "4703E92720DC0B64"
+				item: {
+					Count: 1b
+					id: "kubejs:redstone_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6[MECH]&r organs are currently the &2most widespread&r category of organs, encompassing multiple sub-series such as &6[REVOLUTION]&r and &4[ROSE]&r."
+				""
+				"At the same time, &6[MECH]&r organs often interact with &6Resource Points&r, enabling unexpected and powerful effects."
+			]
+			icon: "create:cogwheel"
+			id: "4F074296A3A9D918"
+			shape: "rsquare"
+			subtitle: "The second miracle created by humanity"
+			tasks: [{
+				id: "01E93282D5711745"
+				type: "checkmark"
+			}]
+			title: "[MECH]"
+			x: -8.75d
+			y: 14.25d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["Forged within the biomancy's &cBio-Forge&r, this organ provides stable health regeneration while your health remains high."]
+			id: "4822AD05D26617B9"
+			rewards: [{
+				id: "59558E4D5C0F94B0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The bleeding wounds are closing"
+			tasks: [{
+				id: "0C80B89195E2B077"
+				item: {
+					Count: 1b
+					id: "kubejs:platelet_dispatcher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["Greatly enhances breathing efficiency… though it serves little purpose beyond that."]
+			id: "487F865668983381"
+			rewards: [{
+				id: "2CD645DCF3C8596B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Heavy oxygen tank"
+			tasks: [{
+				id: "43EE8B41A3777ED2"
+				item: {
+					Count: 1b
+					id: "kubejs:compressed_oxygen_implant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["Grants defense comparable to Tier 3 organs, though at the cost of reduced movement speed."]
+			id: "5FBF5D70BCFBD9AF"
+			rewards: [{
+				id: "742CB0CBEAB0D9C5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Heavy plate armor piece"
+			tasks: [{
+				id: "3E854109E065E1DB"
+				item: {
+					Count: 1b
+					id: "kubejs:lamellar_armor_piece"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["Grants defense comparable to Tier 3 organs, though at the cost of reduced movement speed."]
+			id: "2608FB8AF6185F62"
+			rewards: [{
+				id: "18B74994CE09656B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A less heavy chainmail piece"
+			tasks: [{
+				id: "1329FB77EAEB679D"
+				item: {
+					Count: 1b
+					id: "kubejs:chain_armor_piece"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["Can be obtained from the chest cavity of the &cSand Giant&r. Grants the player bonus movement buffs while on sand"]
+			id: "69E1AE4B87F60DF1"
+			rewards: [{
+				id: "3DA2DCCAFBBEA9F9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Sand speed?"
+			tasks: [{
+				id: "41751E18A3F5220D"
+				item: {
+					Count: 1b
+					id: "kubejs:sand_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cBell Ringer&r. ."
+				""
+				"Though most players will already obtain it during the &2early-game Wares questline&r"
+				""
+				"Provides players with a reliable way to recover dropped items after death."
+			]
+			id: "24C231712698A9F9"
+			rewards: [{
+				id: "4AA4D03C984924D8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "魂归亡土"
+			tasks: [{
+				id: "762F546E2E88C2A4"
+				item: {
+					Count: 1b
+					id: "kubejs:ring_for_home"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cEnder Guardian&r."
+				""
+				"The negative effects inflicted are not comprehensive, only a &2small selection of debuffs&r are included in the random pool:"
+				"Slowness, Poison, Abyssal Burend, Weakness, Wither, Stun, Bleeding, and Cursed."
+			]
+			id: "2B254AA97849DC42"
+			rewards: [{
+				id: "5A782F5AED7699E3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It brought knowlwdge from another dimension"
+			tasks: [{
+				id: "5E1186883A31A9E9"
+				item: {
+					Count: 1b
+					id: "kubejs:ender_guard_eyeball"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of&cIgnis&r."
+				""
+				"While the player is burning, gradually accumulates up to &28 levels of Strength&r, allowing for extremely high bonus damage output. However, the Strength duration is very short, and the effect only updates every 2 seconds, making the buff somewhat unstable."
+			]
+			id: "271802F527EBA289"
+			rewards: [{
+				id: "496B81283CED3C68"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A powerful organ for dealing damage"
+			tasks: [{
+				id: "513EB3734EF98ED4"
+				item: {
+					Count: 1b
+					id: "kubejs:embers_liver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cNetherite Monstrosity&r."
+				""
+				"Allows attack damage to spread to nearby enemies. However, the spread damage is not considered player damage and does not affected by other organ effects."
+			]
+			id: "070F4AA2D5E3671F"
+			rewards: [{
+				id: "462B23FB914833DA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The Crusher"
+			tasks: [{
+				id: "79A55241EBF146D3"
+				item: {
+					Count: 1b
+					id: "kubejs:netherite_muscle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["Also classified as both a &6Mech&r and &6Resource&r organ. Provides resource-focused builds with a way to obtain massive damage reduction, though sometimes at a very high cost"]
+			id: "6E082577F9B3D5B0"
+			rewards: [{
+				id: "5491E3B6B2D55DEC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Choked breaths, voiced in pain."
+			tasks: [{
+				id: "229D5814E728D022"
+				item: {
+					Count: 1b
+					id: "kubejs:harbinger_lung"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"The closer your arrows land to the upper part of an entity, the higher the damage dealt, up to &cx1.5 damage&r."
+				"&7(However, due to differences in entity hitboxes, not all creatures can actually reach the x1.5 multiplier.)&r"
+			]
+			id: "3F95DAB6801AC2E3"
+			rewards: [{
+				id: "077C253EDA62C0CD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It's ancient. . ."
+			tasks: [{
+				id: "5494E890A50E5838"
+				item: {
+					Count: 1b
+					id: "kubejs:ancient_chip"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"&m&7A generic organ template used to fill Boss organ slots.&r&r"
+				""
+				"Decent all-around stats, useful when you're unsure what to equip."
+			]
+			id: "748B8B95691F809B"
+			subtitle: "Over vast eaons...the muscles dissolve and turned metal"
+			tasks: [{
+				id: "6296C205331927D1"
+				item: {
+					Count: 1b
+					id: "kubejs:relic_metal_plate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: [
+				"Obtained from the evolution of &6Doppelganger&r in the Organ Container"
+				""
+				"When your &2health falls below 30%, grants Vampiric effect&r, when below 20% the effect increases to lv2, below 10% increases to lv3."
+			]
+			id: "54066B06BF4DCAD7"
+			rewards: [{
+				id: "429274F36E753A6F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It seems somewhat anxious"
+			tasks: [{
+				id: "420FCE6733A36FDA"
+				item: {
+					Count: 1b
+					id: "kubejs:mini_vampire"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["An important compatibility organ linking the &cRose&r, &2Revolution&r, and &6Resource&r organ builds. Once fully developed, it can provide players with enormous amounts of Resource Points."]
+			id: "0843824CD5F1C712"
+			rewards: [{
+				id: "236031DF7F51994E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Best Match！"
+			tasks: [{
+				id: "20B01C7DD0952A2C"
+				item: {
+					Count: 1b
+					id: "kubejs:energy_bottle_max"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: ["By increasing maximum mana, it also enhances the damage amplification provided by magical equipment such as the Colour Palette. Additionally, it allows you to store more mana for casting larger amounts of spells."]
+			id: "791313D02F7F09EC"
+			rewards: [{
+				id: "1B5E2C1F4E11CD53"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Raise your max Mana！"
+			tasks: [{
+				id: "6EF047F37402A123"
+				item: {
+					Count: 1b
+					id: "kubejs:bad_ink"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: [
+				"When &6Tamagotchi&r is placed inside the chest cavity, it performs a check every 30 seconds and may apply the &6Hungry Tamagotchi&r status effect."
+				""
+				"Eating while affected by this status converts it into a relatively powerful positive effect."
+			]
+			id: "49CD243E381398F3"
+			rewards: [{
+				id: "63673F4B0E704931"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Tamagotchi likes you !"
+			tasks: [{
+				id: "052EAE4978FAEEBC"
+				item: {
+					Count: 1b
+					id: "kubejs:tamagotchi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6[MAGIC]&r organs are organs that interact with spells from Iron’s Spells ’n Spellbooks."
+				"They are generally associated with &bMana&r, &bMaximum Mana&r, and Iron’s spell system."
+				""
+				"Other magic systems, such as Goety, are excluded from this category. Damage from those excluded systems is instead treated as &etrue damage&r, capable of bypassing magical immunity effects for Divine Grace Bosses."
+			]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_spellbook: {
+						spellSlots: 8
+						spells: [ ]
+					}
+				}
+			}
+			id: "7FF071C02D97C693"
+			shape: "rsquare"
+			subtitle: "We regroup our beliefs and name them magic"
+			tasks: [{
+				id: "78AB372F3D53863A"
+				type: "checkmark"
+			}]
+			title: "&b[MAGIC]"
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7FF071C02D97C693"]
+			description: [
+				"Converts &2Mana directly into damage&r, enabling extremely explosive output when paired with the &6Artist Wand&r."
+				""
+				"The &eColorful&r effect granted by the Artist Wand further enhances the damage amplification provided by this organ. You can find the Artist Wand inside loot chests in Ancient Cities."
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:color_palette"
+				tag: { }
+			}
+			id: "09F6678D39F5060C"
+			rewards: [{
+				id: "739E81EB17007102"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Painting the world with three primaries"
+			tasks: [
+				{
+					id: "092C7C9F26139539"
+					item: {
+						Count: 1b
+						id: "kubejs:color_palette"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "55A4C803363203E6"
+					item: {
+						Count: 1b
+						id: "kubejs:artist_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7FF071C02D97C693"]
+			description: ["Provides Blood Spell Power and some Nerves"]
+			id: "79FB1CAFE0739A03"
+			rewards: [{
+				id: "272EC834CA1EB1E3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It is both a staff and an organ at the same time"
+			tasks: [{
+				id: "050CFF9EA9F5E020"
+				item: {
+					Count: 1b
+					id: "kubejs:blood_moon_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7FF071C02D97C693"]
+			description: ["Restores mana based on damage taken. The amount of mana restored scales with the number of &bMagic&r organs equipped. In certain &6damage-tank (hurt-based) builds&r, this organ can be particularly useful."]
+			id: "2765573B3F088673"
+			rewards: [{
+				id: "6CC1DE3D63A2A651"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Mana on Hit！"
+			tasks: [{
+				id: "389CCF12EC28716C"
+				item: {
+					Count: 1b
+					id: "kubejs:red_ink"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6[LEGEND]&r organs often originate from divine myths… or incomprehensible powers."
+				""
+				"Their effects are chaotic yet overwhelmingly powerful, making them difficult to classify under any single archetype."
+				""
+				"Meanwhile, &5[FORBIDDEN]&r organs are closely tied to the concept of &dWarp&r. Certain actions in the world will increase your Warp Value."
+				""
+				"High Warp Values can cause &6Elite Monsters&r to appear. These elites possess unique mechanics and can become deadly threats under specific circumstances."
+				""
+				"Warp Points can be rapidly reduced by consuming foods such as Enchanted Golden Apples or Blessed Amethyst Crab Meats."
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:pandora_active"
+				tag: { }
+			}
+			id: "3910C8340AB4ECE9"
+			rewards: [{
+				id: "5FBCBABF5E40B5BB"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Ignorance，Boundlessness，Worthlessness"
+			tasks: [{
+				id: "7D116E1405FE5397"
+				type: "checkmark"
+			}]
+			title: "&f[LEGEND]&r and &5[FORBIDDEN]"
+			x: 6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"When using Opened Pandora Box to enchant, additional 5 level-0 &4Curse Enchantment&r are inserted into the current enchantment pool."
+				""
+				"Then, one enchantment is randomly selected from the cursed pool and all the enchantment levels are summed into the selected enchantment."
+				"Example, if the original result is &6Fortune III&r and &6Unbreaking I&r. After processing, the result may become &cFortune IV&r, &cUnbreaking IV&r or a &cLevel IV curse enchantment&r"
+				""
+				"It can occasionally produce extremely high-level enchantments. However, it often comes at a severe and unpredictable cost."
+			]
+			id: "14EF14B7DA565B51"
+			rewards: [{
+				id: "709E3CCDE20D018F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Darkness falls"
+			tasks: [{
+				id: "792DA7E218F2F172"
+				item: {
+					Count: 1b
+					id: "kubejs:pandora_active"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"Under certain special conditions, it can enhance enchantments to &2higher levels&r."
+				""
+				"However, when the enchantment is already capable of reaching higher tiers, this effect cause negative effect."
+			]
+			id: "689C37F70BA23D7C"
+			rewards: [{
+				id: "550374E6BEE82943"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Enhance. . . enchantments"
+			tasks: [{
+				id: "28F0A628AB10D65A"
+				item: {
+					Count: 1b
+					id: "kubejs:pandora_inactive"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: ["One of the Endgame-tier organs of the modpack. Designed specifically for contering Divine Grace Bosses."]
+			id: "06B55C5879547085"
+			rewards: [{
+				id: "6B3A652AB587390E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Lost paradise"
+			tasks: [{
+				id: "5092EE368DF18232"
+				item: {
+					Count: 1b
+					id: "kubejs:lost_paradise"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: ["Used to craft Lost Eden, it can doubles entity loot drops."]
+			id: "059F707F9E9F151E"
+			rewards: [{
+				id: "2F39A62E324CF399"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Paradise regained"
+			tasks: [{
+				id: "3D8843E75DD7C6BE"
+				item: {
+					Count: 1b
+					id: "kubejs:paradise_regained"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: ["Found in Nether loot chests. Provides a high-frequency damage output method for &2negative effect bow builds&r"]
+			id: "136631343CC30217"
+			rewards: [{
+				id: "5EABEF43588C652B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "He is watching"
+			tasks: [{
+				id: "0AA206A9E9D14538"
+				item: {
+					Count: 1b
+					id: "kubejs:the_third_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: ["Can be used to negate &6fatal damage&r, with no cooldown between triggers."]
+			id: "38E593AFA26ED74F"
+			rewards: [{
+				id: "0A9B9BB883582CD8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It will save you. . .but not much"
+			tasks: [{
+				id: "6EF2316670539531"
+				item: {
+					Count: 1b
+					id: "kubejs:doppelganger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"Can be found in &7The Graveyard's&r structure loot chests."
+				""
+				"Activated using the active skill key (default: X), targeting a creature to applies &cWild Rage&r effect. Affected entities will &2attack any nearby units indiscriminately, ignoring friend or foe&r."
+				""
+				"Cooldown: 60s."
+			]
+			id: "7587D294016E6A81"
+			rewards: [{
+				id: "2DFC15DAE10610AD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It drives all livings into madnes"
+			tasks: [{
+				id: "06237B34790A5896"
+				item: {
+					Count: 1b
+					id: "kubejs:illithids"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"When equipped with D8, opening loot chests has a high chance to obtain &cShapeless Tumors&r."
+				"This organ has randomized base stats such as Strength, Speed, Digestion."
+				""
+				"Higher Luck results in a wider stat range, meaning higher luck produces more better organ rolls."
+			]
+			id: "67A03C4E8449D8C7"
+			rewards: [{
+				id: "19A52D377ACA642B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Leave your fate in it hands"
+			tasks: [{
+				id: "75A27682EC229AF7"
+				item: {
+					Count: 1b
+					id: "kubejs:d8"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["795DE8D8EF4D3A01"]
+			description: ["Drops with a chance from battles against &cMan of water&r. Increases all spell power."]
+			id: "77FD36002BC9A7FE"
+			rewards: [{
+				id: "0AD72A62D960AC70"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "魔法使独到的见解"
+			tasks: [{
+				id: "39DDDF3952B012CF"
+				item: {
+					Count: 1b
+					id: "kubejs:magic_vision"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"A worm contaminated by &cUnholy Blood&r. While holding an enchanted item, pressing the organ key removes one curse enchantment from it."
+				""
+				"But it will give small amount of &5Warp Point&r. 600s of cooldown."
+				""
+				"To obtain the Mysterios Worm, place a &cCrimson Mosquito Larva&r into the &2Caspid&r"
+			]
+			id: "33DC3C993B5E5DA4"
+			rewards: [{
+				id: "0E6A2F087DF20A84"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It can cleanse you curses"
+			tasks: [{
+				id: "26119E56C0D0579C"
+				item: {
+					Count: 1b
+					id: "kubejs:disenchantment_paper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: [
+				"One of the organs from the &cRose Series&r."
+				""
+				"Provides a small amount of health, and when activated, grants a considerable increase to maximum health."
+			]
+			id: "20385C663BC4CBAD"
+			rewards: [{
+				id: "77CC3E3AE7144A69"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It called itself a rose, and so it became one"
+			tasks: [{
+				id: "03A1A43A388E670E"
+				item: {
+					Count: 1b
+					id: "kubejs:rose_quartz_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: [
+				"One of the organs from the &cRose Series&r."
+				""
+				"Provides a small amount of detoxification, and when activated, grants a considerable increase to maximum mana."
+			]
+			id: "4609B0E23FB50956"
+			rewards: [{
+				id: "6433A046712A54DB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "I become the rose, and it becomes the rose"
+			tasks: [{
+				id: "3F1D67A9F318E86F"
+				item: {
+					Count: 1b
+					id: "kubejs:rose_quartz_liver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: [
+				"One of the organs from the &cRose Series&r."
+				""
+				"Provides a small amount of strength, and when activated, grants a considerable increase to your attack damage."
+			]
+			id: "5704DDF15A4710BF"
+			rewards: [{
+				id: "369205CE27AF7D37"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "I fulfill the rose, and the rose in turn seeks to fulfill me"
+			tasks: [{
+				id: "689E1EB7F97DED09"
+				item: {
+					Count: 1b
+					id: "kubejs:rose_quartz_muscle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 15.0d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: [
+				"Obtained from &6evolution&r of &3Stomach-T3&r using the Organ Container. It grants fixed bonuses to maximum health and attack power based on the total hunger and saturation values of all food stored within the chest cavity."
+				""
+				"Repeated foods provide diminishing returns. Using a wider variety of foods yields stronger stat bonuses."
+			]
+			id: "56BD2840AD4B9C68"
+			rewards: [{
+				id: "39A57E16F730EBB2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It is hungry. It has never been this hungry before"
+			tasks: [{
+				id: "212C9B389338024C"
+				item: {
+					Count: 1b
+					id: "kubejs:king_of_stomach"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cWarden&r. "
+				""
+				"Allows the player to unleash a Sonic Boom attack using the organ skill key. The playe's experience level increases the damage dealt by the Sonic Boom."
+				""
+				"The more enemies hit by the Sonic Boom, the shorter its cooldown becomes."
+			]
+			id: "7A054EC9B9091345"
+			rewards: [{
+				id: "537ABB3CFEABA68D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "There's a creepy echo coming from the core..."
+			tasks: [{
+				id: "45618761569DDA6F"
+				item: {
+					Count: 1b
+					id: "kubejs:warden_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cFroverlord&r."
+				""
+				"When attacked, the attacker is inflicted with the Snowskin effect, causing them to take damage from things like flowing water just like a Snow Golem, while also generating snow layers beneath their feet."
+			]
+			id: "01F1485270864C19"
+			rewards: [{
+				id: "2A5608318AD0A44B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Its, freezing, so as you"
+			tasks: [{
+				id: "0618C275CE7F5983"
+				item: {
+					Count: 1b
+					id: "kubejs:freezing_intestine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: [
+				"The organs of small animals are perfectly suited for making a McChicken combo meal."
+				""
+				"By arranging them properly within the chest cavity, you can achieve a maximized Luck setup."
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:chicken_strip"
+				tag: { }
+			}
+			id: "494CC4D745FB4B92"
+			rewards: [{
+				count: 4
+				id: "03374923FA9C0A51"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Lucky Chicken Set！"
+			tasks: [
+				{
+					id: "41855308F7541D3D"
+					item: {
+						Count: 1b
+						id: "kubejs:chicken_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0687142B2327A43B"
+					item: {
+						Count: 1b
+						id: "kubejs:chicken_kidney"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "40DE11B32767A562"
+					item: {
+						Count: 1b
+						id: "kubejs:chicken_lung"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "76315CF02807B8A7"
+					item: {
+						Count: 1b
+						id: "kubejs:chicken_strip"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "McChicken Combo Set！"
+			x: -0.75d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cSwampjaw&r."
+				""
+				"While inside the chest cavity, bow damage from longbows(Tetra) is calculated based on the distance between shooter and target at the moment of impact."
+				""
+				"Below 20 blocks, damage decreases in a &csquared decay&r."
+				"Beyond 20 blocks, damage increases in a &6squared scaling&r."
+				"Damage can reach up to x5."
+			]
+			id: "0A9C7FE4A4E11D23"
+			rewards: [{
+				id: "1B393E241E049C92"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A boneheaded Shark"
+			tasks: [{
+				id: "3D78F57AB00EFCFF"
+				item: {
+					Count: 1b
+					id: "kubejs:bloody_bone_arrow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Dropped from defeating the &dObsidilithh&r"
+				""
+				"When equipped in the chest cavity, pressing the active skill key (default X) consumes all current mana to cast the &6Transcendent: Magic Arrow&r."
+				""
+				"The spell level scales with the amount of mana consumed."
+			]
+			id: "0F9C204D570E1601"
+			rewards: [{
+				id: "59C0991598FC8020"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It is always on the verge of shattering"
+			tasks: [{
+				id: "6BEB4CDE60A33C76"
+				item: {
+					Count: 1b
+					id: "kubejs:amethyst_magic_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cVulkan&r."
+				""
+				"While &cBlastfire Combustion / Heartfire Combustion&r states are active, it continuously generates large amounts of Resource Points."
+				""
+				"The amount generated depends on the remaining duration / effect level of those buffs"
+			]
+			id: "209ECD988658572E"
+			rewards: [{
+				id: "678E1C3F4F18279B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A forge that burns eternally"
+			tasks: [{
+				id: "0F962208EB06DF56"
+				item: {
+					Count: 1b
+					id: "kubejs:vulcan_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cKnight Garent&r."
+				""
+				"Converts your extra temporary health into damage."
+			]
+			id: "3DEFAC7D9ECACE04"
+			rewards: [{
+				id: "55EEA4D07289184A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Its still alive...waiting for someone"
+			tasks: [{
+				id: "4844783204781FA7"
+				item: {
+					Count: 1b
+					id: "kubejs:origin_knight_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cPrismarine Watcher&r."
+				""
+				"Can be repaired into the &6Prismarine Crown&r"
+			]
+			id: "6CFD4B15BBC3AE7D"
+			rewards: [{
+				id: "7439EBFFF0DAA91B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Nothing proves a king’s past power like the shards of his crown"
+			tasks: [{
+				id: "7B2B32A7AB75FDAD"
+				item: {
+					Count: 1b
+					id: "kubejs:broken_prismarine_crown"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"Obtained through repairing the &6Broken Prismarine Crown&r."
+				""
+				"Makes negative chest attributes become 1"
+			]
+			id: "0127B35736599543"
+			rewards: [{
+				id: "709281020A0D9529"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The Descent of the Divine"
+			tasks: [{
+				id: "3379B7D27A69CE09"
+				item: {
+					Count: 1b
+					id: "kubejs:prismarine_crown"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["575ADA02AEE66047"]
+			description: [
+				"A powerful organ originating from within the &bIce Dragon&r, serving as the source of its frozen might."
+				""
+				"Grants the &dCrystallization&r effect, allowing even End Crystals to recharge your power."
+				""
+				"You can expend mana to activate the organ skill, &bTranscendent: Cone of Cold&r. The higher the user’s maximum health, the higher the level of &eTranscendent Spell&r."
+			]
+			id: "5784F57C0810747F"
+			rewards: [{
+				id: "68975D76407EFF17"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Have you ever heard... the biting winter gale"
+			tasks: [{
+				id: "7C95771351B964E1"
+				item: {
+					Count: 1b
+					id: "kubejs:ice_dragon_bead"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["575ADA02AEE66047"]
+			description: [
+				"A powerful organ originating from within the &4Fire Dragon&r, serving as the source of its flaming might."
+				""
+				"Grants the &dCrystallization&r effect, allowing even End Crystals to recharge your power."
+				""
+				"You can expend mana to activate the organ skill, &4Transcendent: Fire Breath&r. The higher the user’s maximum health, the higher the level of &eTranscendent Spell level&r."
+			]
+			id: "7AA8D25C679C5531"
+			rewards: [{
+				id: "4AEA942C351C274B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "O Raging Flames, reduce all of to cinders！"
+			tasks: [{
+				id: "114923DFFBB40689"
+				item: {
+					Count: 1b
+					id: "kubejs:fire_dragon_bead"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["575ADA02AEE66047"]
+			description: [
+				"A powerful organ originating from within the &5Lightning Dragon&r, serving as the source of its lightning might."
+				""
+				"Grants the &dCrystallization&r effect, allowing even End Crystals to recharge your power."
+				""
+				"You can expend mana to activate the organ skill, &5Transcendent: Electocute&r. The higher the user’s maximum health, the higher the level of &eTranscendent Spell&r."
+			]
+			id: "51B95DC783E4F9D6"
+			rewards: [{
+				id: "5B00FF6DFE39FF72"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "With thunder, I shatter the dark"
+			tasks: [{
+				id: "394E2D3D632B27A6"
+				item: {
+					Count: 1b
+					id: "kubejs:lightning_dragon_bead"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"When dragons are on the brink of death, you may open their chest cavities and seize their &e[DRAGON]&r organs."
+				""
+				"Different dragon species grant different powers:"
+				"&4Fire Dragon organs&r provide unparalleled &4Strength&r"
+				"&bIce Dragon organs&r grant indestructible &bDefense&r"
+				"&5Lightning Dragon organs&r bestow lightning-fast &5Speed&r"
+				""
+				"Within a dragon’s body, you may also discover the source of their immense power, the &eDragon Gem&r."
+			]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragon_skull_fire"
+				tag: {
+					DragonAge: 75
+					Stage: 4
+				}
+			}
+			id: "575ADA02AEE66047"
+			shape: "rsquare"
+			subtitle: "The powers from the dragons"
+			tasks: [{
+				id: "6C1E41C836C7813A"
+				type: "checkmark"
+			}]
+			title: "&5[DRAGON]"
+			x: 6.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["575ADA02AEE66047"]
+			description: [
+				"&cDraconic Organs&r are created by bathing &eTemplate Organs&r in any type of dragon blood inside a &eDragon Forge&r."
+				""
+				"Among them, the &cDraconic Heart&r grants the organ skill for player to enter &cDragon Form&r. While in the Dragon Form, &5Dragon&r organs will provide income damage reduction. If the damage reduction exceeds its limit, the excess is converted into extra temporary health instead."
+				""
+				"The duration of Dragon Form is affected by your Nerves, while the strength of the effect depends on the number and types of &5dragon&r organs you possess"
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:dragon_blood_heart"
+				tag: { }
+			}
+			id: "4E5E0F7CE3150DCF"
+			rewards: [{
+				id: "0BB2C1D411983AF5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Organs bathed in dragon blood pulses with new life"
+			tasks: [{
+				id: "02417E9496B389CA"
+				item: {
+					Count: 1b
+					id: "kubejs:dragon_blood_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Draconic Organs"
+			x: 10.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cAncient Wizard&r."
+				""
+				"Increases the level of all &bTranscendent Spells&r released through organs, making it extremely useful in builds centered around Transcendent magic."
+			]
+			id: "445067B21A9D25A9"
+			rewards: [{
+				id: "364F7BD63EECD010"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It's still beating"
+			tasks: [{
+				id: "189552414B4F2355"
+				item: {
+					Count: 1b
+					id: "kubejs:plastic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cApostle&r."
+				""
+				"Reduces &emelee and projectile damage&r recieve based on the number and level of Curse enchantments on your equipment, up to &650% damage reduction&r."
+				""
+				"As a tradeoff, it greatly increases the &eother types of damage&r you receive."
+			]
+			id: "57F8576015302D03"
+			rewards: [{
+				id: "51C9425FEF13B3F6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Turning blade and shaft with pure, unadulterated malice"
+			tasks: [{
+				id: "4A665ADCA4387524"
+				item: {
+					Count: 1b
+					id: "kubejs:cursed_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cMan of Water&r."
+				""
+				"Multiplies the base stats of all organs based on the &enumber&r of organs inside the chest cavity. The more organs you have, the lower the multiplier; the fewer organs you have, the higher the multiplier."
+				""
+				"Notably, all &b“items”&r are not considered &4“organs”&r, enabling some highly unusual build possibilities."
+			]
+			id: "4F158B7BE4B8ED42"
+			rewards: [{
+				id: "6DC275E755E1F423"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "'Fish' requires a vast expanse, yet it still need some unique ornament"
+			tasks: [{
+				id: "4D39D6D138800422"
+				item: {
+					Count: 1b
+					id: "kubejs:fish_in_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7FF071C02D97C693"]
+			description: ["Upon activation, it grants &b5%Crtical Strike Chance&r and &e30% Holy Spell Power&r"]
+			id: "2DDE82092A265AD9"
+			rewards: [{
+				id: "12B95770A8AE1C73"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A piece of sacred flesh exudes a disturbing sense of wrongness"
+			tasks: [{
+				id: "5AE0EBB3B258B85E"
+				item: {
+					Count: 1b
+					id: "kubejs:holy_eyeball"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Sunbird&r"
+				""
+				"Press the organ skill key to grant yourself &bSunbird's Blessing&r, and remove &bSunbird's Curse&r."
+				""
+				"Attacking &eundead creatures&r &cignites&r them and increases the &cburn damage&r they take"
+			]
+			id: "0ADE78497C79553D"
+			rewards: [{
+				id: "17E4FAD24050C738"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Otherworldly"
+			tasks: [{
+				id: "01D06926CAD06A28"
+				item: {
+					Count: 1b
+					id: "kubejs:sunbird_crystals"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Enderiophage&r"
+				""
+				"Use the organ skill key to apply &bEnder Flu&r to a target."
+				""
+				"Can be used to more conveniently clone Enderiophage, or simply serve as a form of offensive output"
+			]
+			id: "1F6C73B5DA08138B"
+			rewards: [{
+				id: "5D5D5E0024D7DF67"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Burst from forth"
+			tasks: [{
+				id: "4390C334267414F4"
+				item: {
+					Count: 1b
+					id: "kubejs:enderiophage_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["4EDC05BC7B3BB700"]
+			description: [
+				"Press the organ skill key and gain Explosive effect"
+				""
+				"&eCreepy organ attributes&r increase effect duration, while &eexplosive attributes&r increase effect level (max Level 3)"
+				""
+				"For each slot of &egunpowder or TNT inside the chest cavity&r, you gain additional &bskill cooldown reduction&r."
+			]
+			id: "7978787EA7DA5F9D"
+			rewards: [{
+				id: "122C5A466D4E223C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Art is an explosion！"
+			tasks: [{
+				id: "5E798E01E9D2BE3D"
+				item: {
+					Count: 1b
+					id: "kubejs:excited_appendix"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 29.25d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: [
+				"One of the organs from the &cRose Series&r."
+				""
+				"All &6Mech&r organs are counted as &cRose&r. If an organ has both &6Mech&r and &cRose&r, it will be counted as 2 &cRose&r organ."
+			]
+			id: "7E589F9002AC7D92"
+			rewards: [{
+				id: "6F83AEC801ECC4EB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Isolates impurities"
+			tasks: [{
+				id: "0DA5A4968165DE74"
+				item: {
+					Count: 1b
+					id: "kubejs:rose_quartz_dialyzer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: [
+				"Increases &eattack damage&r based on falling height. The greater the fall distance, the larger the bonus, up to &ex5 damage&r."
+				""
+				"Once you touch the ground, the accumulated fall distance is reset."
+			]
+			id: "3FAAA0CA520EC4E5"
+			rewards: [{
+				id: "1B954C1ADACD18C8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Jump, and strike straight through the skull"
+			tasks: [{
+				id: "63D2F20257E16E1C"
+				item: {
+					Count: 1b
+					id: "kubejs:mace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["Upon activation, grants &6Armor&r based on the total &bDefense Attributes&r of all organs. Every 2 points of Defense grant 1 Armor, up to a maximum of &630 Armor&r."]
+			id: "4D64258340E3F762"
+			rewards: [{
+				id: "5F2F87D9DCDFF341"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Generate defensive field"
+			tasks: [{
+				id: "1BF81189953BD97C"
+				item: {
+					Count: 1b
+					id: "kubejs:aegis"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: ["Active the organ skill consumes &b60 Resource Points&r to grant &6240 seconds&r of Night Vision."]
+			id: "01437DF1F8978DC2"
+			rewards: [{
+				id: "5BDDB5C2E9AE1674"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Power restored！"
+			tasks: [{
+				id: "46B505C586A668F0"
+				item: {
+					Count: 1b
+					id: "kubejs:lowlight_vision"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4F074296A3A9D918"]
+			description: [
+				"Active the organ skill consumes &6Resource Points&r to grant a short duration of &bSpeed Boost&r."
+				""
+				"The more &6Resource organs&r in your chest cavity, the longer the speed effect lasts, the higher its level becomes, and the shorter the cooldown, though at the cost of consuming more Resource Points."
+				""
+				"Useful not only for exploration, but also surprisingly effective in combat."
+			]
+			id: "2B03695632E3D7A2"
+			rewards: [{
+				id: "793C05A2687BA68D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Deja-vu！"
+			tasks: [{
+				id: "1DB752C87475FCFF"
+				item: {
+					Count: 1b
+					id: "kubejs:jet_propeller"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 16.0d
+		}
+		{
+			dependencies: ["10A83C18E396D17E"]
+			description: [
+				"If the chest cavity contains a &6Origin of Tumors&r, consuming a Shapeless Tumor allows its &bdominant attribute&r to transfer into another Shapeless Tumor inside the chest cavity."
+				""
+				"Transfer conditions: "
+				"The target Shapeless Tumor must possess the same attribute type as the consumed tumor. The resulting attribute value becomes the higher value between the two tumors for that attribute."
+			]
+			id: "1B8E16CB19BDDCF9"
+			rewards: [{
+				id: "0D371E7521C97EF0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Devouring to evolve"
+			tasks: [{
+				id: "43FDF21F36371350"
+				item: {
+					Count: 1b
+					id: "kubejs:origin_of_tumor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cCrimsom Vampire&r."
+				""
+				"Activating the organ skill halves the duration of all &enegative effects&r, but &4+1 effect level&r."
+				""
+				"At the same time, all &epositive effects&r have their duration doubled, but &4-1 effect level&r. Effects below level 1 disappear entirely."
+				""
+				"In special situations, this can prevent deadly debuffs or greatly extend important buffs."
+			]
+			id: "2481E5444AB2CA1E"
+			rewards: [{
+				id: "62154A41719028C2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "I reject my humanity, Steve"
+			tasks: [{
+				id: "6CDEE920D731103B"
+				item: {
+					Count: 1b
+					id: "kubejs:blood_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cRosalyne, Blade of Dusk&r."
+				""
+				"Use the organ skill to reduce your health to 1HP"
+				""
+				"If your maximum health is &ebelow 20&r, you gain &6Absorption&r equal to x2.5 the difference between your max health and 20."
+				"If your maximum health is &eabove 20&r, you instead gain &6experience points&r equal to the difference from 20."
+				""
+				"Can be used to convert HP into temporary health, or simply as a method of farming experience."
+			]
+			id: "490143EF6C3179F8"
+			rewards: [{
+				id: "4B28F83F3230B99F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Only through death comes rebirth… or perhaps merely an ordinary bloom"
+			tasks: [{
+				id: "3C92BB5E6CDF86CC"
+				item: {
+					Count: 1b
+					id: "kubejs:wither_and_fall"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"The Left Mask Fragment of the Black-and-White Mask can be obtained from the chest cavity of the &cDark Mask&r."
+				""
+				"When symmetrically activated, it grants &6Armor&r and distributes the &6damage you receive&r across a range based on your &bLuck&r."
+			]
+			id: "0BB7BB1CF9441A8E"
+			rewards: [{
+				id: "6285D515AAD279F1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The mockery is aimed at the enemy… or perhaps at yourself?"
+			tasks: [{
+				id: "18C6AAEAC37947B2"
+				item: {
+					Count: 1b
+					id: "kubejs:sarcasm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"The Right Fragment of the Black-and-White Mask can also be obtained from the chest cavity of the &cDark Mask&r."
+				""
+				"When symmetrically activated, it grants &6Damage&r and distributes the &6damage you deal&r across a range based on yo"
+			]
+			id: "58F43033EED45D69"
+			rewards: [{
+				id: "70468339DF56D4A9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Is the sarcasm directed at yourself… or at others?"
+			tasks: [{
+				id: "59B60BF9C2F3B40B"
+				item: {
+					Count: 1b
+					id: "kubejs:mockery"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cGashslit&r."
+				""
+				"Deals massive damage based on your &bLuck&r. The higher your Luck, the greater the &echance&r to trigger the effect and the higher the &edamage multiplier&r."
+				""
+				"While dealing this massive damage, the player is also get &4stunned&r for a period of time."
+				"Higher Luck also increases the duration of the &4stun&r"
+			]
+			id: "0EA781613AEACEDF"
+			rewards: [{
+				id: "068CB473614C23AF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A blade thirst for blood, even the wielder's is no exception"
+			tasks: [{
+				id: "6B1617F53964C445"
+				item: {
+					Count: 1b
+					id: "kubejs:melty_blood"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cBlazing Berserker&r."
+				""
+				"If you are in a &6burning state&r, you deal additional damage equal to &cx2 your lost health&r."
+			]
+			id: "49CFA9DBC6DCF03E"
+			rewards: [{
+				id: "29FD066B644A8AA1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It's flames make your blood boils"
+			tasks: [{
+				id: "710BDD22397573A7"
+				item: {
+					Count: 1b
+					id: "kubejs:frenzy_blast_furance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6662469DC72EA384"]
+			description: [
+				"Obtained from the chest cavity of &cVolcanium&r."
+				""
+				"Player is always considered to be &6burning&r, without relying on Minecraft’s normal fire mechanics."
+				""
+				"This makes it much easier to trigger the special effects of certain organs"
+			]
+			id: "74BC328468CC0C1C"
+			rewards: [{
+				id: "3A4558E5B04EF4F8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Even without fire, you yourself are already burning"
+			tasks: [{
+				id: "4A8EB0920E9C7946"
+				item: {
+					Count: 1b
+					id: "kubejs:immortal_volcanic_rock"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EDC05BC7B3BB700"]
+			description: ["When you eat, each Greedy Stomach will grants you 30 &bexperience&r."]
+			id: "404A0458EEA1C22D"
+			rewards: [{
+				id: "359D381EBD304B44"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Greed can never be satisfied...."
+			tasks: [{
+				id: "73AFAA7DC1D3A3DB"
+				item: {
+					Count: 1b
+					id: "kubejs:greedy_stomach"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 29.25d
+		}
+		{
+			dependencies: ["4EDC05BC7B3BB700"]
+			description: ["After activation, if there are at least &b3&r Stomach Tumors within the surrounding 8 slots of a Stomach Tumor, it grants an additional &68&r maximum health health"]
+			id: "5221CD9AE43CA777"
+			rewards: [{
+				id: "18F4CA47BD62A1B5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Looks a little bloated？"
+			tasks: [{
+				id: "5468CF17D04A059D"
+				item: {
+					Count: 1b
+					id: "kubejs:stomach_tumor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 29.25d
+		}
+		{
+			dependencies: ["4EDC05BC7B3BB700"]
+			description: ["When chest cavity contains this organ, player can silk touching glass"]
+			id: "37A85E9B0DDFFDCA"
+			rewards: [{
+				id: "30B698CD8B0A45AB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Exquisite cutting techniques"
+			tasks: [{
+				id: "25E1726256AAD7BC"
+				item: {
+					Count: 1b
+					id: "kubejs:silk_for_cutting"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 29.25d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6[INFECTED]&r organ are a special category of flesh-based organs, currently centered around the Shapeless Tumor system."
+				""
+				"By filtering and fusing the &eShapeless Tumors&r found in loot chests, you may obtain power that is both &6immensely strong&r and &4deeply forbidden&r…"
+			]
+			icon: "biomancy:creator_mix"
+			id: "10A83C18E396D17E"
+			shape: "rsquare"
+			subtitle: "Born from flesh, be the flesh"
+			tasks: [{
+				id: "49C365F849143F81"
+				type: "checkmark"
+			}]
+			title: "&2[INFECTED]"
+			x: 6.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["10A83C18E396D17E"]
+			description: [
+				"When D8 is present in the chest cavity, Shapeless Tumors can be obtained from loot chests."
+				""
+				"The higher the player’s &bLuck&r, the greater the &6stat variance&r of Shapeless Tumors obtained. However, the benefit gained from Luck gradually diminishes as Luck increases."
+				""
+				"High-stat Shapeless Tumors serve as excellent organ fillers, providing large amounts of base attributes."
+			]
+			id: "1AECC8F5579C0728"
+			rewards: [{
+				id: "68C36D4DF7FBC051"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Panning for tumors"
+			tasks: [{
+				id: "4BF3EFB83DF42779"
+				item: "kubejs:random_tumor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6Alex’s Mobs organs&r are organs extracted from creatures in the Alex’s Mobs mod."
+				""
+				"These organs are highly unusual, and some possess exceptionally strong utility effects."
+				""
+				"Try collecting them for fun, you might stumble upon an unexpected surprise."
+			]
+			icon: "alexsmobs:void_worm_eye"
+			id: "07080DC68B62B221"
+			shape: "rsquare"
+			subtitle: "Vibrant ecosystem, versatile features"
+			tasks: [{
+				id: "79F94302BD12DF63"
+				type: "checkmark"
+			}]
+			title: "Alex's Mobs Organ"
+			x: 6.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: [
+				"&6Miscellaneous Special Organs&r are organs that do not belong to any specific system, yet possess unique and unusual effects."
+				""
+				"Their abilities tend to focus more on utility and support rather than direct power, but they still have their own moments to shine, waiting only to be discovered and put to use…"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "4EDC05BC7B3BB700"
+			shape: "rsquare"
+			subtitle: "Though unremarkable, it still has its uses"
+			tasks: [{
+				id: "6BE46B32C69C6AE3"
+				type: "checkmark"
+			}]
+			title: "Micellaneous Special Organs"
+			x: -8.75d
+			y: 28.25d
+		}
+		{
+			dependencies: ["4EDC05BC7B3BB700"]
+			description: [
+				"It’s just a rabbit. Who could bear to harm such a cute little rabbit?"
+				""
+				"Place it inside your chest cavity, and you will no longer be targeted by Illager Assaults. However, Illager Assaults that target your friends may still affect you."
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:is_rabbit"
+				tag: { }
+			}
+			id: "3772E8A85AD5D276"
+			rewards: [{
+				id: "3ABC6E84B8433017"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Is this a real rabbit？"
+			tasks: [{
+				id: "1AD6378FE8C6E353"
+				item: {
+					Count: 1b
+					id: "kubejs:is_rabbit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 29.25d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"Obtained by &5warped evolution&r of a &6Gas Bladder&r inside an Organ Container."
+				""
+				"When the bearer is attacked, the bubble shatters and spreads all &dnegative effects&r from the player to nearby enemies"
+			]
+			id: "3FCCDA897459C2F7"
+			rewards: [{
+				id: "6EAEEA39770E86CE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It's on the verge of popping"
+			tasks: [{
+				id: "51FF121FC385B7A1"
+				item: {
+					Count: 1b
+					id: "kubejs:warp_bubble"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3910C8340AB4ECE9"]
+			description: [
+				"Obtained by &5warped evolution&r of a &6Inner Fish Tank&r inside an Organ Container. (under sufficient &5Warp Point&r and drink an Unholy Grail)"
+				""
+				"The Warped Fish Tank can makes the organs that &2count organ quantities&r to not include the count of &5Forbidden&r organs."
+			]
+			id: "4F7841C5C82C20E1"
+			rewards: [{
+				id: "4E2945B56D03792C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Looks like an octopus？"
+			tasks: [{
+				id: "205EC3E49949F013"
+				item: {
+					Count: 1b
+					id: "kubejs:fish_in_warp"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["10A83C18E396D17E"]
+			description: [
+				"Obtained from caspid Transformation of &4Malignant Flesh Veins&r"
+				""
+				"Every 30 seconds, the Worm Neuron attempts to spawn a tumor at a random empty location within the chest cavity. The tumor’s attributes depend on the number of &6empty slots&r in the chest cavity and the player’s &6metabolism&r"
+				""
+				"Tumors generated by Worm Neurons have higher affix quality and no negative health penalties."
+				""
+				"Due to extreme emptiness, Liches are unable to generate tumors in their bodies."
+			]
+			id: "3380E5D6B9B1B98A"
+			rewards: [{
+				id: "09694E633733637C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It knows your thoughts. . ."
+			tasks: [{
+				id: "155451F5B4F5867A"
+				item: {
+					Count: 1b
+					id: "kubejs:worm_neuron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: [
+				"When &cBlastfire Combustion&r has only 5s remaining, the Revolution Clock &6automatically triggers&r the Revolution Steam Engine in you chest cavity. This converts Blastfire Combustion into Heartfire Combustion. "
+				""
+				"This proces does not consume  water bottle, but will still enter the cooldown state."
+			]
+			id: "0E182B80FFCD52F4"
+			rewards: [{
+				id: "2487B546B07C684D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Crouched in the corner, waiting for the bell to toll"
+			tasks: [{
+				id: "065901BF7B379DDA"
+				item: {
+					Count: 1b
+					id: "kubejs:revolution_bell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7CFE03E2610EA31B"]
+			description: [
+				"The Blaze Pressurizer can be obtained from Vein Goblin Trader trades or Nether loot chests."
+				"It allows &6Potent Mixture&r to replace coal as activation fuel for Hearfire Combustion / Blastfire Combustion. Effects triggered this way gain an additional &6+2&r levels."
+				""
+				"&7Potent Mixture are obtained by killing creepers with a Tetra weapon with Nano-Infused modifier.&r"
+			]
+			id: "08F7376BC7085350"
+			rewards: [
+				{
+					id: "3E724A877DE9AF1F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78D401D5A87E068F"
+					item: "art_of_forging:potent_mixture"
+					type: "item"
+				}
+			]
+			subtitle: "Advanced fuel represents the driving force behind the renewal of revolution"
+			tasks: [{
+				id: "4851188C021D92C2"
+				item: {
+					Count: 1b
+					id: "kubejs:blaze_pressurizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EDC05BC7B3BB700"]
+			description: [
+				"Obtained from the chest cavity of Deepling Priest."
+				""
+				"Press the organ skill key to activate, temporarily randomizing all base attributes. All base attributes are increased by 3 for 30s."
+			]
+			id: "5581A7E09D101055"
+			rewards: [{
+				id: "5870AE835BBE9D81"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Vortex, chaos and life"
+			tasks: [{
+				id: "1A2AF00C012D784B"
+				item: {
+					Count: 1b
+					id: "kubejs:viviparous_crinoidea"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 29.25d
+		}
+		{
+			dependencies: ["309791281FE1F06A"]
+			description: [
+				"Has a 2% chance to be obtained when &2consuming the Fotune Cookie Organ&r."
+				""
+				"When attacking &6other players&r while carrying it, they receive a Luck effect equal to 20% of your Luck stat."
+			]
+			id: "005EF44B85B20755"
+			rewards: [{
+				id: "2DC1743847B106C4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Cookies, cookies, cookies, cookies…！"
+			tasks: [{
+				id: "13F7AB5E0D1FB66F"
+				item: {
+					Count: 1b
+					id: "kubejs:golden_lucky_cookie_organ"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 26.0d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: ["Obtained from the chest cavity of &6Whales&r. Upon activation, you breath capacity multiplies by 1.5"]
+			id: "7EDF95C3F9E84326"
+			rewards: [{
+				id: "54F34EBB056A7749"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Its large and powerful"
+			tasks: [{
+				id: "3B2EF525B56080EA"
+				item: {
+					Count: 1b
+					id: "kubejs:whale_lung"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Straddler&r"
+				""
+				"While carrying a Straddler Egg, there is a 1/20 chance each second to emit a harmless Stadpole toward a nearby entity. These tadpoles will automatically dies after 30 seconds."
+			]
+			id: "1FC61B8E417DA5D4"
+			rewards: [{
+				id: "58B422A6D3F0A413"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Fire！"
+			tasks: [{
+				id: "6D370B17B78D62FF"
+				item: {
+					Count: 1b
+					id: "kubejs:egg_of_straddler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &cSoul Vulture&r"
+				""
+				"Based on the amount of the debuff of a target has, increases your damage."
+			]
+			id: "28BC24592A1FDE16"
+			rewards: [{
+				id: "6493909A1E7AFD44"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The soul's destination"
+			tasks: [{
+				id: "6DA6347357987BE9"
+				item: {
+					Count: 1b
+					id: "kubejs:soul_vulture_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Tusklin&r"
+				""
+				"While equipping it, each bear-handed attack grants +1 &6Punch Counter&r. When the counter reaches 10, the next attack triggers a &cHeavy Punch&r, accompanied by the sound of shattered amethyst."
+				""
+				"If the counter exceeds 10, the damage of the Heavy Punch gains additional scaling based on the overflow amount of counters beyond 10"
+			]
+			id: "6F48435C9C9E6AF5"
+			rewards: [{
+				id: "38711361A477F9F9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Comin' through! Comin' through!"
+			tasks: [{
+				id: "230A542522B4A644"
+				item: {
+					Count: 1b
+					id: "kubejs:tusk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Mantis Shrimp&r"
+				""
+				"While the Mantis Shrimp Fist is equipped, for very 3s, gain 1 Punch Counter (max 50)"
+			]
+			id: "4097BCA76C47D8F0"
+			rewards: [{
+				id: "2B74C47BE1269311"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Like a supersonic round！"
+			tasks: [{
+				id: "1A49C97A72E8DDE8"
+				item: {
+					Count: 1b
+					id: "kubejs:mantis_shrimp_fist"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Rocky Roller&r"
+				""
+				"While carrying the Rocky Gallbladder, the bonus maximum health gained from the &5Dragon Form&r effect scales further with your &6Strength stat&r"
+			]
+			id: "57A39965B3A46AD3"
+			rewards: [{
+				id: "2CB8023BCC8D9EA4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "What flows from within is no longer bile"
+			tasks: [{
+				id: "0F0CB1F1D07124CB"
+				item: {
+					Count: 1b
+					id: "kubejs:fossil_gallbladder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Murmur&r"
+				""
+				"While carrying the Wierd Paperman, incoming damage will first be absorbed using your &bBubble Value&r (breath/oxygen gauge)."
+				""
+				"Liches cannot use the Creepy Paper Doll"
+			]
+			id: "7734BD5D42067408"
+			rewards: [{
+				id: "5FAD84B285D498E3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "You exhale a cloud of blood mist"
+			tasks: [{
+				id: "1BA7F094DB4BD1C7"
+				item: {
+					Count: 1b
+					id: "kubejs:weird_paperman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Seagull&r"
+				""
+				"Activate with the organ skill key to generate a &6Buried Treasure&r and receive its corresponding &6Treasure Map&r. The treasure rewards vary depending on the current dimension and Luck stats."
+				""
+				"Buried Treasure sites generate within a maximum distance of 1400 meters"
+			]
+			id: "6E09AD98DD379844"
+			rewards: [{
+				id: "6CD8713A545C8D5E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The seagull's tail feather always point toward treasure"
+			tasks: [{
+				id: "0EF511AF0D215F36"
+				item: {
+					Count: 1b
+					id: "kubejs:treasure_detector_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["07080DC68B62B221"]
+			description: [
+				"Obtained from the chest cavity of &6Potoo&r"
+				""
+				"Press the organ skill key to produce different sounds based on the block material you're on"
+				""
+				"It set. Only a few block types are supported by default, but more can be easily added by other Devs."
+			]
+			id: "609D94FF3722555D"
+			rewards: [{
+				id: "749D8A966FC10A2B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "It seems to mimic. . .strange sounds？"
+			tasks: [{
+				id: "2906BAD743E453E5"
+				item: {
+					Count: 1b
+					id: "kubejs:potoo_beak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 26.5d
+		}
+	]
+	title: "Chest Cavity : Organ Guide"
+}

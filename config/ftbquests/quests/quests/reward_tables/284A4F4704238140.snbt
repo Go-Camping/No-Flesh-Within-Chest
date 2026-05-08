@@ -1,0 +1,26 @@
+{
+	icon: "irons_spellbooks:greater_invisibility_elixir"
+	id: "284A4F4704238140"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			auto: "enabled"
+			icon: "irons_spellbooks:greater_invisibility_elixir"
+			ignore_reward_blocking: true
+			stage: "setting_monster_invisibility_bonus"
+			title: "&2ON&r "
+			type: "gamestage"
+		}
+		{
+			auto: "enabled"
+			icon: "minecraft:glass_bottle"
+			ignore_reward_blocking: true
+			remove: true
+			stage: "setting_monster_invisibility_bonus"
+			title: "&4OFF&r "
+			type: "gamestage"
+		}
+	]
+	title: "Invisible Hostile Mobs"
+}

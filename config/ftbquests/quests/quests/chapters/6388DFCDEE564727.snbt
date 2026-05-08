@@ -1,0 +1,1085 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6388DFCDEE564727"
+	group: "4F4F4EA8CE67985B"
+	icon: {
+		Count: 1b
+		id: "kubejs:blade_of_heart"
+		tag: { }
+	}
+	id: "6388DFCDEE564727"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 14.438356164383562d
+		hover: [ ]
+		image: "kubejs:textures/task/collection_4.png"
+		rotation: 0.0d
+		width: 17.0d
+		x: -4.25d
+		y: 0.75d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3C3D120BD3630BF0"
+			rewards: [{
+				id: "2839DC6A62E6DADB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58C5E2FC772DBC9A"
+				item: {
+					Count: 1b
+					id: "chestcavity:wooden_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.25d
+		}
+		{
+			id: "73D390DB853F715F"
+			rewards: [{
+				id: "42857DD96E5BC52E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CAF9C830D0B332C"
+				item: {
+					Count: 1b
+					id: "chestcavity:stone_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.25d
+		}
+		{
+			id: "16BB3E977FCAA2CB"
+			rewards: [{
+				id: "77AD6F6870B831D3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2023370A28B604EF"
+				item: {
+					Count: 1b
+					id: "chestcavity:gold_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.25d
+		}
+		{
+			id: "31D7A8C983288576"
+			rewards: [{
+				id: "6589FB25894A4F88"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "678307BA3D0D639D"
+				item: {
+					Count: 1b
+					id: "chestcavity:iron_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.25d
+		}
+		{
+			id: "0E2617A2E65421AB"
+			rewards: [{
+				id: "53874906AA0A7AB0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "229FEF2E6BD0FADE"
+				item: {
+					Count: 1b
+					id: "chestcavity:diamond_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.25d
+		}
+		{
+			id: "35C718248E73501C"
+			rewards: [{
+				id: "7350FD031FA68546"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58B9BBD60BFAE537"
+				item: {
+					Count: 1b
+					id: "chestcavity:netherite_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.75d
+		}
+		{
+			id: "47A6CB2D672A3ADA"
+			rewards: [{
+				id: "4C70C03641FD2B6D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56AD4B5529C93127"
+				item: "supplementaries:bomb_blue"
+				type: "item"
+			}]
+			title: "Blue Bomb"
+			x: -5.25d
+			y: -4.25d
+		}
+		{
+			id: "0D267CE3D104C71B"
+			rewards: [{
+				id: "4986799B344293F9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D425A6F92EA241C"
+				item: {
+					Count: 1b
+					id: "goety:dark_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -4.25d
+		}
+		{
+			id: "0FD52DA2A5F54771"
+			rewards: [{
+				id: "7EC9C70E552014A5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C63307A613310A0"
+				item: {
+					Count: 1b
+					id: "alexsmobs:skelewag_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.25d
+		}
+		{
+			id: "795EC7A969A2BE0B"
+			rewards: [{
+				id: "0CA8BE57B3FB993A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CD508D525DFA308"
+				item: {
+					Count: 1b
+					id: "somebosses:ender_ordnance_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -4.25d
+		}
+		{
+			id: "7D5C6992F9A399EC"
+			rewards: [{
+				id: "47F2245C26042C8A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33960F09CC21728F"
+				item: {
+					Count: 1b
+					id: "cataclysm:khopesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.25d
+		}
+		{
+			id: "460370DFCAAA8817"
+			rewards: [{
+				id: "5BAC681E9D953FC3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56F675F7A4F447CD"
+				item: "witherstormmod:command_block_sword"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -3.25d
+		}
+		{
+			id: "5A988F8268E91558"
+			rewards: [{
+				id: "475064EF2A5FDB19"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14E3D8C3AD20F7A5"
+				item: {
+					Count: 1b
+					id: "kubejs:rapier_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.25d
+		}
+		{
+			id: "348108B5446DCF16"
+			rewards: [{
+				id: "6601995FAFF94D5B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C271331E22B115A"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:magehunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -3.25d
+		}
+		{
+			id: "37E2999AB78E2194"
+			rewards: [{
+				id: "0C5719D720EEACCD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BF165B1D439F566"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.25d
+		}
+		{
+			id: "75E128CC9C6A32BA"
+			rewards: [{
+				id: "5A41BDAAE0704F85"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "512FB8BF784ABBB3"
+				item: {
+					Count: 1b
+					id: "goety:fell_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -2.25d
+		}
+		{
+			id: "3C8691A549DE8C9C"
+			rewards: [{
+				id: "01A759334F4966BE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C5FFB0668D66D71"
+				item: {
+					Count: 1b
+					id: "goety:frozen_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.25d
+		}
+		{
+			id: "05443D04049F8ADA"
+			rewards: [{
+				id: "5B703EAA17B62B53"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "600CB4C66997036B"
+				item: {
+					Count: 1b
+					id: "somebosses:vulcan_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -2.25d
+		}
+		{
+			id: "074CB9A1D7942B30"
+			rewards: [{
+				id: "361EFB070FEA7057"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F8BDF0DA71921B1"
+				item: {
+					Count: 1b
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			id: "3B31EA18FA16B810"
+			rewards: [{
+				id: "52A965F7ADB277EF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABE025D4D9452DA"
+				item: {
+					Count: 1b
+					id: "goety:dark_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -1.25d
+		}
+		{
+			id: "5705C2491B1392F5"
+			rewards: [{
+				id: "23C7E896BD20C619"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F39912B6F7A8EDC"
+				item: {
+					Count: 1b
+					id: "goety:death_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.25d
+		}
+		{
+			id: "2C5DB4C5550C9C67"
+			rewards: [{
+				id: "1B7D2998E9C6C648"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD26C6934DE47FF"
+				item: {
+					Count: 1b
+					id: "goety:rampaging_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -1.25d
+		}
+		{
+			id: "6726559CCFBA6C12"
+			rewards: [{
+				id: "2A831C36E3594F12"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "412E7E5E44A490C7"
+				item: {
+					Count: 1b
+					id: "goety:dark_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.25d
+		}
+		{
+			id: "211A6E746DACE119"
+			rewards: [{
+				id: "3D81EF760FC6835C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BDAB2FFFE9C40AA"
+				item: "witherstormmod:command_block_axe"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -0.25d
+		}
+		{
+			id: "5E5FA1DD6CDAF7CC"
+			rewards: [{
+				id: "6FBED550B5E84EF0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "367698B1A045ADC1"
+				item: {
+					Count: 1b
+					id: "unusualprehistory:handmade_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.25d
+		}
+		{
+			id: "235FF2C1FCA6222C"
+			rewards: [{
+				id: "41F61DF313F22FDE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "688A64A3EEDE1F4C"
+				item: {
+					Count: 1b
+					id: "somebosses:life_melter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.25d
+		}
+		{
+			id: "17F9E0BF29518FCA"
+			rewards: [{
+				id: "336E79C4271E4B3C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F67054EB2292A7B"
+				item: {
+					Count: 1b
+					id: "somebosses:volcanic_launcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.25d
+		}
+		{
+			id: "24D483F7C5A731D6"
+			rewards: [{
+				id: "229F74D0D3B7EE1D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D37B79C581196B6"
+				item: {
+					Count: 1b
+					id: "somebosses:reign_of_cold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.75d
+		}
+		{
+			id: "3A96D1EB5461CE99"
+			rewards: [{
+				id: "39DE4DF945AE4001"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C578ACCDDC0F634"
+				item: {
+					Count: 1b
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.75d
+		}
+		{
+			id: "43F0A0342161A04C"
+			rewards: [{
+				id: "135C1F8AABCE7BA8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BAF03A46BFC787A"
+				item: {
+					Count: 1b
+					id: "cataclysm:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.75d
+		}
+		{
+			id: "25D9057E80E04829"
+			rewards: [{
+				id: "44C54EEC070E4A1A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE531C2BA05C426"
+				item: {
+					Count: 1b
+					id: "cataclysm:coral_bardiche"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			id: "2579ECC6DA4D67F7"
+			rewards: [{
+				id: "394068B2D60947E5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42E90E9B5EA6F64C"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.75d
+		}
+		{
+			id: "3F460976D6552DB2"
+			rewards: [{
+				id: "0B0224E6E26ED04D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18EE1A44AC5A9193"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.75d
+		}
+		{
+			id: "6AF34B7EF6FB7BFE"
+			rewards: [{
+				id: "7D93384927DE0059"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "757B6B29DB72A10D"
+				item: {
+					Count: 1b
+					id: "somebosses:frost_magma_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 1.75d
+		}
+		{
+			id: "1E670A706B4EA2C0"
+			rewards: [{
+				id: "1C85F5CEF818C8D1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02EB78F64F1716BF"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.75d
+		}
+		{
+			id: "6BE5943B3AF0ABD2"
+			rewards: [{
+				id: "49C7664262FEED69"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2910F44D4759EA1A"
+				item: {
+					Count: 1b
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.75d
+		}
+		{
+			id: "604CE30C60115C1B"
+			rewards: [{
+				id: "617D86F957F24D5D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "197FEA6E6C255C8B"
+				item: {
+					Count: 1b
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.75d
+		}
+		{
+			description: ["The high-frequency damage produced by the Shredder ignores invincibility frames and is affected by certain fixed damage bonuses. When used for rapid output, it becomes an extremely powerful weapon"]
+			id: "074222359B275BC9"
+			rewards: [{
+				id: "74EAB5D984111E1D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The strongest high-frequency weapon"
+			tasks: [{
+				id: "6EA2E719266D75A1"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -2.25d
+		}
+		{
+			id: "1E3D4616ACFA42A0"
+			rewards: [{
+				id: "6F7BB8EA6FC1AFB7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E8196605AE0B80"
+				item: {
+					Count: 1b
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.75d
+		}
+		{
+			id: "1F7B8A438D0D4F93"
+			rewards: [{
+				id: "78AB1CF8A025A8A7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FD8C8F92AA36BDF"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.75d
+		}
+		{
+			id: "13F2EA08C2AD7372"
+			rewards: [{
+				id: "40538D08F89BB4EC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50DBD22CF0395CCD"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.75d
+		}
+		{
+			id: "241DE2F36AA56E6B"
+			rewards: [{
+				id: "6D8CE69DF58C4F02"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "737015C4287EEEA8"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 2.75d
+		}
+		{
+			id: "603782BF18EA8D1A"
+			rewards: [{
+				id: "1BBC4EC926A9AF47"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D061531CA03B41E"
+				item: {
+					Count: 1b
+					id: "unusualprehistory:handmade_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			id: "4A3BD3D7DA65BFEC"
+			rewards: [{
+				id: "76BC0FF72985BD29"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DC24306A264DFBF"
+				item: {
+					Count: 1b
+					id: "unusualprehistory:handmade_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.75d
+		}
+		{
+			id: "114D2D53D1DBDE04"
+			rewards: [{
+				id: "0BA7CCF9C6CCF9AB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31239562FC449067"
+				item: {
+					Count: 1b
+					id: "unusualprehistory:primal_macuahuitl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.75d
+		}
+		{
+			id: "780A7CBDEB77B219"
+			rewards: [{
+				id: "5D643C4491737CFB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5445F429203F414D"
+				item: {
+					Count: 1b
+					id: "meetyourfight:depth_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 5.75d
+		}
+		{
+			id: "6CFA790E10E8831F"
+			rewards: [{
+				id: "250ADDEA919318E7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36CBA24072AF8954"
+				item: {
+					Count: 1b
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.75d
+		}
+		{
+			id: "5E6783F582DC1C2B"
+			rewards: [{
+				id: "3A7D8C3F3FA2526C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F6AA59D383E39A5"
+				item: {
+					Count: 1b
+					id: "meetyourfight:twilights_thorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 3.75d
+		}
+		{
+			id: "5AABA140367845F4"
+			rewards: [{
+				id: "418B0CF86D2F8EE7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EAB44FEBEFFD970"
+				item: {
+					Count: 1b
+					id: "iceandfire:dread_queen_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.25d
+		}
+		{
+			id: "736F4DFF64142658"
+			rewards: [{
+				id: "3D24F4EC776656F8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "253F89415CEC2C3B"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.25d
+		}
+		{
+			id: "5076300B79520FF5"
+			rewards: [{
+				id: "2C38A9BCA83FBF71"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3437ABA752FE8DF5"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.25d
+		}
+		{
+			id: "3435AB4E79E504E7"
+			rewards: [{
+				id: "756C730938D66A41"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C69226E594D1E26"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.25d
+		}
+		{
+			id: "2075B6F78E680884"
+			rewards: [{
+				id: "049946F8D1AC2872"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC455E1E9ABC4D6"
+				item: {
+					Count: 1b
+					id: "iceandfire:tide_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.25d
+		}
+	]
+	title: "Weapons：A Man’s Romance"
+}

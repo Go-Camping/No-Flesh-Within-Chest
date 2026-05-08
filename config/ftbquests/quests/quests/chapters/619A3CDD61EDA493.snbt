@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "619A3CDD61EDA493"
+	group: "2358ECA720E3F23E"
+	icon: "minecraft:crimson_fungus"
+	id: "619A3CDD61EDA493"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.205128205128204d
+		hover: [ ]
+		image: "kubejs:textures/task/collection_1.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.0d
+		y: 2.75d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["0C769BB94D282CC6"]
+			icon: "chestcavity:blaze_core"
+			id: "2570D3742314EDC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5707D6D0BC9D0170"
+				table_id: 5590566882060648814L
+				type: "choice"
+			}]
+			subtitle: "Turn on and off keep inventory"
+			tasks: [{
+				id: "1A147F6E5822F5A1"
+				title: "Keep Inventory?"
+				type: "checkmark"
+			}]
+			title: "Keep Inventory?"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0C769BB94D282CC6"]
+			description: ["Invisible hostile mob will only appear on natural spawn, with a 50% chance"]
+			icon: "irons_spellbooks:greater_invisibility_elixir"
+			id: "18831FA279B55A25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C39988D4D7E3F7D"
+				table_id: 2903220076224414016L
+				type: "choice"
+			}]
+			subtitle: "Invisible hostile mob will be permantly invisible but its health is 1/5"
+			tasks: [{
+				id: "08AE81014468A970"
+				title: "Enable Invisible Hostile Mob Spawn?"
+				type: "checkmark"
+			}]
+			title: "Potential Threat?"
+			x: -3.25d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0C769BB94D282CC6"]
+			description: [
+				"Base Difficulty is a set of &2comprehensive difficulty options&r, including health multipliers, damage multipliers, armor multipliers, and several other settings. It is &2independent&r from the difficulty settings described later."
+				""
+				"At higher base difficulty levels, certain monsters will drop additional loot."
+				""
+				"For regular players, &6Difficulty 1&r is recommended. For players seeking specific damage-related challenges, &6Difficulty 4&r is suggested, as it allows access to certain rare and special drop items."
+				""
+				"Players are not encouraged to blindly compare damage output. This modpack simply provides a unique gameplay experience and is not intended to compare the overall strength between different mods or modpacks."
+				""
+				"From a design perspective, this modpack is intended to allow even a player with no prior calculation or knowledge of its content to &2comfortably&r complete all gameplay content."
+				""
+				"The specific base difficulty settings are shown in the following table."
+				"{@pagebreak}"
+				"1 : Normal health, normal damage, normal armor"
+				"2 : 2× health, normal damage, normal armor"
+				"3 : 3× health, normal damage, normal armor"
+				"4 : 5× health, 1.5× damage, normal armor &6(rare drops)&r"
+				"5 : 10× health, 1.5× damage, normal armor"
+				"6 : 20× health, 2× damage, 1.5× armor"
+				"7 : 30× health, 3× damage, normal armor"
+				"8 : 50× health, 4× damage, 2× armor"
+				"9 : 100× health, 5× damage, 2× armor &4(not recommended)&r"
+				"10 : 300× health, 6× damage, 2.5× armor"
+				"11 : 500× health, 7× damage, 2.5× armor"
+				"12 : 1000× health, 8× damage, 3× armor"
+			]
+			icon: "kubejs:secret_of_origin"
+			id: "1CBCFF5EB305F9CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2160155A996FC741"
+				table_id: 8291824144453249534L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			subtitle: "Base difficulty is the preset difficulty Level"
+			tasks: [{
+				id: "18751C8315E9B424"
+				type: "checkmark"
+			}]
+			title: "Base Difficulty"
+			x: -5.75d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0C769BB94D282CC6"]
+			description: [
+				"Monsters will randomly spawn wearing armor chosen from iron armor, chainmail armor, diamond armor, or netherite armor."
+				""
+				"This also means you cannot directly use the Chest Opener on them"
+			]
+			icon: {
+				Count: 1b
+				id: "unusualprehistory:sloth_pouch_armor"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "57C81F3D5541D23B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E57794D85D7B642"
+				table_id: 4145327722741839115L
+				type: "choice"
+			}]
+			subtitle: "Hostile mobs always wear armor"
+			tasks: [{
+				id: "6E0CE642C3D316F2"
+				type: "checkmark"
+			}]
+			title: "Hostile Mobs Always Wear Armor？"
+			x: -2.0d
+			y: 2.5d
+		}
+	]
+	title: "Dyanamic Difficulty Settings"
+}

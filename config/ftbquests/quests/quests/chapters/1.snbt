@@ -1,0 +1,2104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "4E02CBDD9D86D249"
+	icon: "minecraft:oak_sapling"
+	id: "6903E1989FA10D92"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 6.25d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 45.767195767195766d
+			hover: [ ]
+			image: "kubejs:textures/task/chapter1_1.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 6.75d
+			y: 9.75d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72D090FF4C44DAAD"]
+			description: [
+				"This is a &5fragile&r world. From the moment you arrived here, you realized that it is far more fragile than the one you once knew."
+				""
+				"To begin your journey, you will still need to start from the &6First Tree&r and gradually develop step by step."
+				""
+				"As for what the previous world was like—who knows?"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "3FED9C9227FC9CD5"
+			rewards: [
+				{
+					count: 3
+					id: "1CB3EF4A945C84FD"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68F68EEA900B54B3"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Timber"
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "58D53C77056E6A51"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "The First Tree"
+			x: 6.0d
+			y: 17.25d
+		}
+		{
+			dependencies: ["040207B33E2FEBFF"]
+			description: [
+				"Obtaining a stone pickaxe usually marks the start of a repetitive mining process.  "
+				""
+				"But don't be in a hurry just yet! Why not take a look at the subsequent tasks? Perhaps in this modpack, there are various &6unexpected&r ways to obtain the resources you crave!"
+			]
+			id: "0721AF9D7D5E4A7C"
+			rewards: [
+				{
+					count: 16
+					id: "155CD648B3A63247"
+					item: "kubejs:eye_of_village"
+					type: "item"
+				}
+				{
+					id: "1442011C48A589A6"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Still looking for iron... but this time, is it a little different?"
+			tasks: [{
+				id: "514D2AD3265021ED"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A Perfect Start"
+			x: 6.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["3E9DD0B78886A183"]
+			description: [
+				"In this fragile world, it seems all creatures have become different. You have found a new way to survive—&2opening the chest and removing the heart&r！ "
+				""
+				"The first &5important item&r of this modpack makes its debut. From now on, you may need to carry the &2Chest Opener&r at all times.  "
+				""
+				"Right-click the air with the Chest Opener to open your own chest cavity and modify your internal organs.  "
+				""
+				"Similarly, you can right-click other creatures to open their chests—but please note, opening a chest requires the target's health to be low enough. It doesn't mean any creature can be opened from the start！"
+				""
+				"Please do not change the organs in your chest cavity at will; you do so at your own risk!"
+			]
+			id: "50CE3ADF8E4D6426"
+			rewards: [{
+				id: "243324C3D642D9D8"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Open your &4heart&r and understand yourself"
+			tasks: [{
+				id: "368F2531CF74A900"
+				item: "chestcavity:chest_opener"
+				type: "item"
+			}]
+			title: "Knowing Yourself"
+			x: 6.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6069FC5CA00481CE"]
+			description: [
+				"The &2Ore Lung&r is likely the only &6advanced organ&r you can access in the early game. &2Right-click sand with a lung in hand to obtain it&r. You can use the R key in EMI to view the methods to obtain most of the special organs."
+				""
+				"Advanced organs refer to a series of organs that provide &6special effects&r."
+				""
+				"The &2Ore Lung&r allows you to accumulate mineral dust when you mine &2stone&r blocks. Once enough dust has been accumulated, it will grant you mineral fragments based on your current Luck value."
+				""
+				"Please note that this resource can only be accumulated by &2breaking stone blocks&r."
+			]
+			icon: "kubejs:ore_lung"
+			id: "2DD73A2CCC0054D8"
+			rewards: [{
+				count: 5
+				id: "0905D2943CB40EB0"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Inhale ore dust, accumulate minerals"
+			tasks: [{
+				id: "41C666877A44FFB2"
+				item: "kubejs:ore_lung"
+				type: "item"
+			}]
+			title: "Ore Lungs"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			description: [
+				"You can try adding new organs into your own chest cavity. Different organs provide different base attributes."
+				""
+				"For example, hearts: the more hearts you have, the more health you will typically gain."
+				""
+				"However, not all organs provide &2positive effects&r. Some organs—especially those with special effects—may even have negative base attributes."
+				""
+				"Please note! Attributes such as &2Health, Neural Efficiency, and Detox&r affect whether a player can survive properly! When removing related organs, make sure to prepare &cemergency measures&r to avoid falling into an &cunending death loop&r!"
+				""
+				"{@pagebreak}"
+				""
+				"However, when adding organs, you should note that organs that do not belong to you will cause &crejection&r."
+				""
+				"There are many ways to eliminate organ rejection, and using &6Healing Additive&r is one of the most cost-effective solutions. Hold the Healing Essence in your off-hand and the incompatible organ in your main hand to remove its ownership, thereby resolving organ rejection."
+				""
+				"Alternatively, you can also craft the organ and the Healing Additive together in a crafting table to remove rejection. (This method is often used for organs that can be eaten.)"
+			]
+			icon: "chestcavity:heart"
+			id: "6069FC5CA00481CE"
+			rewards: [
+				{
+					id: "02FFBC5A74481DDF"
+					item: "chestcavity:heart"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CD3471551081AE6"
+					item: "biomancy:healing_additive"
+					type: "item"
+				}
+				{
+					id: "783C0CA0E2FDDBFB"
+					item: {
+						Count: 1b
+						id: "wares:delivery_agreement"
+						tag: {
+							buyerAddress: "{\"color\":\"#333333\",\"text\":\"\"}"
+							buyerName: "{\"color\":\"#7f8584\",\"text\":\"黑市酿造师\"}"
+							id: "potion"
+							message: "{\"color\":\"#333333\",\"text\":\"我这里. . .有无穷尽的治愈原液。\\n不过价格嘛. . .\"}"
+							paymentItems: [{
+								Count: 1
+								id: "biomancy:healing_additive"
+							}]
+							requestedItems: [{
+								Count: 8
+								id: "lightmanscurrency:coin_gold"
+							}]
+							title: "{\"color\":\"#922706\",\"text\":\"无限疗愈\"}"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Try adding some new organs in your body"
+			tasks: [{
+				id: "020624CBE3D724FC"
+				title: "试试看"
+				type: "checkmark"
+			}]
+			title: "Redefine Your Inneer Self"
+			x: 4.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6069FC5CA00481CE"]
+			description: [
+				"&aHealth : &rAffects your &emaximum health&r. When it is negative, you will continuously lose health."
+				""
+				"&aStrength : &rAffects your &eattack damage&r and &emovement speed&r."
+				""
+				"&aSpeed : &rAffects your &emovement speed&r."
+				""
+				"&aDefense : &rReduces incoming damage."
+				""
+				"&aNerves : &rAffects your &emining speed&r and &emovement speed&r. Negative nerves will prevent you from moving."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&bBreath Recovery : &rAffects the &erecovery rate of oxygen&r."
+				""
+				"&bBreath Capacity : &rAffects your &emaximum oxygen capacity&r. Low breath capacity will cause oxygen depletion during strenuous activity."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&6Endurance : &rAffects the &econsumption rate of hunger and saturation&r."
+				""
+				"&6Digestion : &rAffects the amount of &ehunger restored&r from food."
+				""
+				"&6Nutriton : &rAffects the &esaturation value&r of food."
+				""
+				"&6Metabolism : &rAffects how fast health is restored from saturation."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&dFiltration : &rWithout sufficient filtration, you will be poisoned."
+				""
+				"&dDetoxification : &rAffects the duration of negative status effects on yourself."
+				""
+				"&dLuck : &rAffects loot tables and certain skill effects."
+			]
+			icon: "chestcavity:golem_cable"
+			id: "5BC3743958DA4B16"
+			rewards: [
+				{
+					id: "68FEB532C449F1F0"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "66E04D2E3087A85A"
+					item: "kubejs:blood_extractor"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Organ Attributes Overview"
+			tasks: [{
+				id: "14B5F67D7EC788BD"
+				type: "checkmark"
+			}]
+			title: "Basic Attribute Tooltip Explanation"
+			x: 2.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["0721AF9D7D5E4A7C"]
+			description: [
+				"Although this modpack does not require players to gather large amounts of resources for meaningless grinding, a basic level of resource collection is still necessary."
+				""
+				"Obtain a sufficient amount of iron to establish the foundation for future progression and various tasks."
+			]
+			id: "3E9DD0B78886A183"
+			rewards: [{
+				count: 3
+				id: "062C34A3636D85AA"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "For progression, you will need some basic resources"
+			tasks: [{
+				count: 8L
+				id: "0AFD986A1E17780D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Collect Iron"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			description: [
+				"This modpack provides two types of &dprogressive weapons&r. You can explore them in depth by selecting the corresponding mod introduction in the &bFTB quest menu&r on the left!"
+				""
+				"&d- Tetra and its addons:&r"
+				"This mod allows you to replace &edifferent weapon and tool components&r using various materials, letting you craft weapons that suits your own style. &7&mA new-age Tinkers’ Construct&r&r"
+				""
+				"&d- Weapon Master:&r"
+				"This mod provides &e4 distinct weapon types&r with unique styles. Weapons have a leveling system and will unlock more powerful and special abilities as you use them."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "d28113b6-1cb8-4adc-b03b-0260820f3327"
+				}
+			}
+			id: "538FC6DDC204DBFA"
+			rewards: [{
+				id: "7B5547080E9AA974"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Start Tetra by crafting a hammer"
+			tasks: [{
+				consume_items: false
+				id: "1844B4BCBC6B4602"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "d28113b6-1cb8-4adc-b03b-0260820f3327"
+					}
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Tetra"
+			x: 5.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"538FC6DDC204DBFA"
+				"4C370F7BB4E56798"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The Nether is a dimension that must be explored throughout your entire progression. It contains many new creatures, as well as &2Nether Fortresses&r, which are essential for reaching The End."
+				""
+				"It can be said that the main purpose of going to the Nether is to locate a &2Nether Fortress&r, in order to obtain the &5valuable loot&r from its treasure chests and to defeat Blazes for &5Blaze Rods&r."
+				""
+				"If you encounter difficulties while searching for a fortress, you can use the modpack-exclusive &2Eye of the Fortress&r."
+			]
+			icon: "minecraft:netherrack"
+			id: "51FA796A91E94C4D"
+			rewards: [
+				{
+					count: 5
+					id: "28E32DF01884CD57"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "01D94F7B86154DE8"
+					item: "kubejs:eye_of_fortress"
+					type: "item"
+				}
+				{
+					id: "50873EF2BEBBE29B"
+					item: {
+						Count: 1b
+						id: "kubejs:mosquito_repellent"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Going to nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "398A3506EAC58765"
+				title: "下界"
+				type: "dimension"
+			}]
+			title: "We Need to Go Deeper"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51FA796A91E94C4D"]
+			description: [
+				"The main purpose of going to a Nether Fortress is to obtain Blaze Rods, which can be crafted into Blaze Powder to progress toward The End."
+				""
+				"Of course, there is also an alternative method through Piglin bartering to obtain Blaze Powder, but this is not recommended."
+				""
+				"Once you reach a Nether Fortress, you can also collect some Nether Wart along the way for later use in potion brewing."
+			]
+			icon: "minecraft:nether_bricks"
+			id: "3FF06F6F309FAEC3"
+			rewards: [{
+				count: 5
+				id: "2396A39A3AAC9C0C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Obtain blaze rod"
+			tasks: [{
+				id: "0C2F1BC896F47A5F"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "Nether Fortress and Blazes"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			description: [
+				"This modpack provides two types of &dprogressive weapons&r. You can explore them in depth by selecting the corresponding mod introduction in the &bFTB quest menu&r on the left!"
+				""
+				"&d- Tetra and its addons:&r"
+				"This mod allows you to replace &edifferent weapon and tool components&r using various materials, letting you craft weapons that suits your own style. &7&mA new-age Tinkers’ Construct&r&r"
+				""
+				"&d- Weapon Master:&r"
+				"This mod provides &e4 distinct weapon types&r with unique styles. Weapons have a leveling system and will unlock more powerful and special abilities as you use them."
+				""
+				"&8If you need to break or move the Weapon Studio, make sure to break its central block first! Otherwise, no items will be dropped！&r"
+			]
+			icon: "weaponmaster:workstation"
+			id: "4C370F7BB4E56798"
+			rewards: [
+				{
+					count: 5
+					id: "5CC9E29E1B0EF54F"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "52EC14A63D41191E"
+					item: "weaponmaster:tutorialbook"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "A lifelong companion weapon"
+			tasks: [{
+				id: "0C6F1832BF59D8A7"
+				item: "weaponmaster:workstation"
+				type: "item"
+			}]
+			title: "Be The Weapon Master"
+			x: 7.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3E9DD0B78886A183"]
+			description: [
+				"&dCreate&r will bring you the following:"
+				""
+				"1.Some convenient machines that can &eautomatically obtain&r large amounts of natural resources."
+				""
+				"2.Some visually impressive machines that can perform certain meaningless tasks in a very stylish way."
+				""
+				"3.Certain progression that &emust&r be completed using Create machines."
+				""
+				"&2Considering that some players may not fully understand or may not want to engage deeply with Create, this modpack does not heavily lean toward automation in its design.&r Except for a few challenge-related organs, Create is also an &eoptional component&r."
+				""
+				"Therefore, &cyou do not need to go out of your way to master Create. Simply follow the tutorials in the &bCreate section&r on the left side of the FTB interface and complete them step by step.&r"
+			]
+			icon: "create:wrench"
+			id: "0861DDE9767A3E9D"
+			rewards: [{
+				count: 5
+				id: "01EC19571C8B58EF"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Aesthetic technology that empowers the player"
+			tasks: [{
+				id: "45C2644514843204"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Create"
+			x: 7.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3E9DD0B78886A183"]
+			description: [
+				"In the &2accessory slot&r of the inventory screen (opened by clicking the button at the top-right of the character UI), you can equip a &2lantern on belt slot&r to provide a constant dynamic light source."
+				""
+				"In addition, the accessory slots can be used to equip a wide variety of trinkets that significantly enhance your abilities. To obtain more useful accessories, you can craft &5Mystery Trinkets&r to receive random accessories."
+				""
+				"&3If you do not see the accessory in your inventory after opening a Mystery Trinket, it may have been automatically equipped in your accessory slots.&r"
+			]
+			icon: "minecraft:lantern"
+			id: "636CE66FFE0F6A51"
+			rewards: [
+				{
+					count: 5
+					id: "34287DAC9D5122CD"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "11CE9C63C34BD241"
+					item: "kubejs:mysterious_trinket"
+					type: "item"
+				}
+			]
+			subtitle: "Portable light source"
+			tasks: [{
+				id: "0C62AE114877E21D"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			title: "Light Source Can Be Equiped on Your Belt"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3E9DD0B78886A183"]
+			description: [
+				"In gameplay, you will often encounter situations where you need to store large quantities of the same item. In such cases, you can consider using &2Drawers&r for bulk item storage."
+				""
+				"Storage Drawers are extremely useful throughout all stages of the game. Later on, you can enhance their convenience by adding a &2Drawer Controller&r to expand their storage capabilities."
+				""
+				"You can also integrate them with Tom’s simple storage system in the later stages, eliminating the need to manually transfer items."
+			]
+			hide_dependency_lines: true
+			icon: "functionalstorage:birch_1"
+			id: "5E8F821F42C92E8A"
+			rewards: [{
+				count: 5
+				id: "36B521E50A8670A3"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Storing large amount of the same item"
+			tasks: [{
+				id: "6914A456D7A680E5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			title: "Drawers"
+			x: 7.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3E9DD0B78886A183"]
+			description: [
+				"As your base continues to grow, the number of chests will increase rapidly. At this point, you will urgently need a mod similar to AE2 or RS to &2centralize and manage your storage containers&r."
+				""
+				"This is where &dTom’s Simple Storage&r comes in. It allows you to easily integrate nearby containers and provides a unified interface for player interaction."
+				""
+				"It is not only simple and convenient to use, but most importantly—it requires no power at all！"
+			]
+			hide_dependency_lines: true
+			id: "26FE76DDA11E0026"
+			rewards: [{
+				count: 5
+				id: "4225FDCA2824DF55"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Storage system"
+			tasks: [{
+				id: "0318199998D5096F"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "Tom's Simple Storage"
+			x: 8.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3FED9C9227FC9CD5"]
+			description: [
+				"If you are about to begin a journey with your friend but lack a way to teleport to each other, you might want to try the &6Pledge of Vow&r."
+				""
+				"Hold an unengraved &6Vow Ring&r and right-click it to engrave your name onto it. Give the ring to another player, and they will then &2be able to hold it and long-press right-click to teleport to your location&r."
+				""
+				"In addition, if the ring is equipped in the accessory slot, &2it will teleport you to the engraved target when you are in a life-threatening situation&r. The Vow Ring will then degrade into a normal ring."
+			]
+			icon: "kubejs:friend_to_the_end"
+			id: "5067AA0335B2B396"
+			rewards: [{
+				id: "436C599B425F4E86"
+				item: "kubejs:friend_to_the_end"
+				type: "item"
+			}]
+			subtitle: "The vow begins here"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7D4A0E6968338355"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Journey with Friends"
+			x: 4.0d
+			y: 17.25d
+		}
+		{
+			dependencies: ["2DD73A2CCC0054D8"]
+			description: [
+				"To view the current accumulation of resources in your resource slot, you need to equip the &6Archivist Monocle&r in your &2trinket slot&r."
+				""
+				"Once the monocle is equipped in the trinket slot, whenever your &eResource Point&r changes, the corresponding &eResource Bar&r information will be displayed on the left side of the screen."
+				""
+				"In addition, to the right of the yellow &eResource Bar&r, a purple &5Warp Bar&r will appear, which is used to display your &5Warp Points&r. After performing certain special actions, this value will change accordingly."
+			]
+			id: "12D186542B18819D"
+			rewards: [{
+				id: "6C8DE8B2ADF40817"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Hidden Information"
+			tasks: [{
+				id: "2BF131E90DC87591"
+				item: "kubejs:archivist_eyeglass"
+				type: "item"
+			}]
+			title: "View Resouce Slot"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["040207B33E2FEBFF"]
+			description: ["Sometimes we need to convert currency, and in such cases, the ATM becomes an essential item."]
+			hide_dependency_lines: true
+			id: "639C1EDF7CAB7739"
+			rewards: [
+				{
+					id: "74420D25E189E767"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1739312BE9B293BF"
+					item: "lightmanscurrency:portable_atm"
+					type: "item"
+				}
+			]
+			subtitle: "For currency exchange"
+			tasks: [{
+				id: "3AB5F96A995E7216"
+				item: "lightmanscurrency:atm"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 13.25d
+		}
+		{
+			dependencies: ["5BC3743958DA4B16"]
+			description: [
+				"If you are confused about your current total base attributes, you might want to try using the &6Blood Extractor&r."
+				""
+				"After &2holding right-click&r, the Blood Extractor will generate a &6glass vial&r containing your attribute data, allowing you to clearly view your current base stats."
+			]
+			id: "7198C447D928AEEC"
+			rewards: [{
+				id: "3FDC13B702961A81"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Check your stats"
+			tasks: [{
+				id: "35C0E67EECEF42C1"
+				item: "kubejs:blood_extractor"
+				type: "item"
+			}]
+			title: "Blood Extractor"
+			x: 1.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			description: ["Craft &6Target Dummy&r to check your DPS from your weapon and organ modifications."]
+			hide_dependency_lines: true
+			id: "6A16E11C6C020F12"
+			rewards: [{
+				id: "3AB2755B40522592"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "029BCE2F509F439C"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["040207B33E2FEBFF"]
+			description: [
+				"After obtaining coins from quests, the first question is how to spend them. The answer is simple — through Wares’ &6Trading System&r."
+				""
+				"You can find Wares’ &6Delivery Agreements&r in certain dungeon chests (&eoften found in village chests&r), which contain various types of trades."
+				""
+				"1. "
+				"By using a &6Delivery Table&r, you can complete delivery agreements. (In the Delivery Table: place the &2Delivery Agreementt&r at the top, the &eitems to submit&r on the left, and a &6cardboard box&r at the bottom.)"
+				""
+				"2."
+				"The &6Delivery Table&r can also function as a &2villager workstation block&r, introducing a new villager profession: &ePackager&r."
+				"{@pagebreak}"
+				"Some details:"
+				""
+				"1."
+				"The Packager will automatically package and deliver parcels, but he will not work continuously throughout the day."
+				""
+				"2."
+				"The Packager gains experience and levels up by delivering parcels. Higher profession levels allow him to deliver more parcels at once."
+				""
+				"3."
+				"Players can also manually trade parcels, but the delivery cycle is longer and only one parcel can be processed at a time."
+			]
+			hide_dependency_lines: false
+			icon: "wares:delivery_table"
+			id: "74F1E7C9FB0D08A1"
+			rewards: [{
+				id: "15FE7C5AEC18DD75"
+				item: {
+					Count: 1b
+					id: "wares:delivery_agreement"
+					tag: {
+						experience: 0.0d
+						id: "organ_1"
+						message: "{ \"color\": \"#33333\", \"text\": \"或许你会需要. . .这个?\\n不要害怕，这已经被取出很久了. . .\" }"
+						ordered: 1.0d
+						paymentItems: [{
+							Count: 1b
+							id: "kubejs:ring_for_home"
+						}]
+						requestedItems: [{
+							Count: 1b
+							id: "lightmanscurrency:coin_gold"
+						}]
+						title: "{ \"color\": \"#33333\", \"text\": \"黑市商人\" }"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Spens you coins"
+			tasks: [
+				{
+					id: "33D374ED133AE383"
+					item: "wares:delivery_table"
+					type: "item"
+				}
+				{
+					id: "691600D9DFE212C2"
+					item: "wares:cardboard_box"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["3FED9C9227FC9CD5"]
+			description: [
+				"It looks like you’ve obtained your first coin."
+				""
+				"You can use a &6wallet&r to conveniently manage all your money!"
+				""
+				"At the moment, the only ways to &eearn coins&r in this modpack are by completing &2FTB quests&r and defeating bosses listed in the &2Boss Codex&r. The only way to &espent currency&r is through &2delivery contracts&r."
+				""
+				"Make sure to keep your money safe！"
+			]
+			icon: "lightmanscurrency:coin_iron"
+			id: "040207B33E2FEBFF"
+			rewards: [
+				{
+					id: "29EB90ADA285930A"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "46D835209BB2D91C"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ready to go"
+			tasks: [{
+				consume_items: true
+				id: "377272B3F01FA298"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "You will Need Some Supplies"
+			x: 6.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["040207B33E2FEBFF"]
+			description: [
+				"In practical use, backpacks have several inconvenient aspects, such as items not being automatically stored or limited inventory space."
+				""
+				"To address these issues, you can craft &6Backpack Upgrades&r. With various types of backpack upgrades, you can gain significant convenience in your daily adventures."
+			]
+			id: "01C0D8797395FF20"
+			rewards: [{
+				id: "4ADBCC163849498A"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			subtitle: "Craft your own backpack"
+			tasks: [{
+				id: "1949D25F1573300C"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Backpack upgrade"
+			x: 7.75d
+			y: 14.25d
+		}
+		{
+			dependencies: ["5067AA0335B2B396"]
+			description: [
+				"Press the &6party key (default: [)&r to open the party interface and invite your friends to join your team！"
+				""
+				"Players in the same party will not deal damage to each other, which is extremely useful for multiplayer adventures！"
+			]
+			icon: {
+				Count: 1b
+				id: "kubejs:love_between_lava_and_ice"
+				tag: { }
+			}
+			id: "4B547FE8ACF6EF37"
+			subtitle: "Lets Party！"
+			tasks: [{
+				id: "4657C57D8683ADA2"
+				type: "checkmark"
+			}]
+			title: "Invite Your Friends！"
+			x: 1.5d
+			y: 17.25d
+		}
+		{
+			dependencies: ["3E9DD0B78886A183"]
+			description: [
+				"Whether you are using Tom’s Simple Storage or building in your daily gameplay, you may encounter situations where a single storage unit does not provide enough capacity. By using &2higher-tier metal barrels&r, you can gain more storage options, and they are also ideal for constructing stacked Tom storage warehouses."
+				""
+				"Compared to using large numbers of chests or sophisticated backpacks, barrels can significantly reduce the client’s rendering load in that area, thereby improving your game’s frame rate!"
+			]
+			hide_dependency_lines: true
+			id: "51AE35F0C335ACA6"
+			rewards: [
+				{
+					id: "7F29952537133103"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "342B02AFCB492694"
+					item: "metalbarrels:diamond_barrel"
+					type: "item"
+				}
+			]
+			subtitle: "Foundation of a mass storage system"
+			tasks: [{
+				id: "0EB4C8F35A46DB09"
+				item: "metalbarrels:iron_barrel"
+				type: "item"
+			}]
+			title: "More Barrels！"
+			x: 8.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			description: [
+				"To further develop the art of &6Organ&r, you will need a stable and efficient source of organs. The &dFlesh Blob&r from Biomancy can meet this requirement."
+				""
+				"Flesh Blobs are a highly efficient source of organs, providing a variety of &dtemplate organs&r. These template organs have a wide range of uses, including being upgraded to Tier 3 organs when placed in an organ container, or being used to craft large quantities of advanced organs."
+				""
+				"To progress in Biomancy, you will need to obtain &6Sharp Fangs&r in order to craft a &6Primodial Cradle&r."
+				""
+				"{@pagebreak}"
+				""
+				"To find out how to obtain items such as Sharp Fangs, you can search for them in the search bar at the bottom-right corner of your &einventory screen&r. Press &6Ctrl&r to view the list of corresponding mobs that drop them."
+				""
+				"&7For example, the Sharp Fangs mentioned above can be obtained from creatures such as wolves and cats.&r"
+			]
+			id: "1884740B0724DE70"
+			rewards: [{
+				count: 3
+				id: "33A06E290DBAC70E"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "For the rebirth of your flesh, you will need the flesh of others"
+			tasks: [{
+				id: "1489BEDE37A5D2E2"
+				item: {
+					Count: 1b
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Reap Flesh"
+			x: 8.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["1884740B0724DE70"]
+			description: [
+				"The &dFlesh Blob&r is the starting point of the mod *Biomancy*. To cultivate a Flesh Blob, you need to place &esome raw meat&r into a &6Primodial Cradle&r and use a &6Potion of Healing&r. When the &deyes on the sideof the &6Primodial Cradle&r are fully lit&r, it means a Flesh Blob can be produced."
+				""
+				"Any type of Flesh Blob can be opened with a &6Chest Opener&r to extract its &dtemplate organs&r, which will become extremely useful later on."
+				""
+				"Additionally, killing a Flesh Blob will yield &dLiving Flesh&r, a type of &ebasic material&r that is widely used in later progression."
+				""
+				"&4Warning: If you accidentally right-click the Primodial Cradle while holding an item, it will be consumed and cannot be retrieved. Therefore, it is strongly recommended to keep the Primodial Cradle far away from your living area!!!!!!&r"
+				""
+				"&8There are multiple types of Flesh Blobs, each with different behaviors. Some may actively attack nearby entities, but this is not particularly important to you.&r"
+			]
+			id: "145730691E558B78"
+			rewards: [{
+				count: 5
+				id: "40B7C1A7CB7E8D46"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			subtitle: "Incubator for Flesh Blob"
+			tasks: [{
+				id: "3091B792DF78ADC6"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			title: "Crafting Primodial Cradle"
+			x: 10.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["145730691E558B78"]
+			description: [
+				"Craft a &6Decomposer&r, which can break down certain items into special &ebasic materials&r, providing crafting ingredients for various items added by this mod and the modpack."
+				""
+				"To activate the &6Decomposer&r, you need to place &efood items&r in the &eleft slot&r to supply the initial energy."
+			]
+			id: "16D415FC4B0BFB12"
+			rewards: [{
+				count: 32
+				id: "156ED0966D9CE0F5"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			subtitle: "Decompose matter to obtain resource"
+			tasks: [{
+				id: "67FCCBF084C52B14"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			title: "Flesh Resources Gathering"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F271CD6AAEC88FC"]
+			description: [
+				"Template organs are widely used in various organ recipes."
+				""
+				"In addition, template organs can be placed into an organ container to evolve into more powerful advanced organs, providing higher base attributes. They can be upgraded up to T3."
+			]
+			id: "36D9ACF35A9BD9FA"
+			rewards: [{
+				id: "44D54010BE3AE3BC"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Source of organs"
+			tasks: [{
+				id: "53C335208C07990D"
+				item: {
+					Count: 1b
+					id: "kubejs:heart_template"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Template Organs"
+			x: 11.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["145730691E558B78"]
+			description: [
+				"Through the Bio-Forge, you can craft a variety of unusual devices—such as the &6Bio-Lab&r mentioned later, which serves as an important tool for producing anti-rejection substances."
+				""
+				"In addition, the Bio-Forge can also &2directly produce template organs&r. Organs created in this way do not originate from any specific entity, meaning they &2do not trigger rejection reactions&r, making them ideal as temporary substitutes."
+				""
+				"&7It is also widely used in the production of basic materials for Biomancy, saving you the trouble of searching everywhere for material.&r"
+			]
+			id: "5F271CD6AAEC88FC"
+			rewards: [{
+				count: 3
+				id: "58518C490DB0DC05"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Biomancy's crafting table"
+			tasks: [{
+				id: "4695DAB1C60EDB3E"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			title: "Reforge Body and Soul"
+			x: 11.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["36D9ACF35A9BD9FA"]
+			description: [
+				"As your progress, you will notice that most special organs and activated organs have relatively poor base stats, and most cannot be further modified in later crafting processes."
+				""
+				"To address this, you will need to continuously improve the quality of other organs. Using an &6Organ Container&r, you can store any organ inside it, and &2some organs will reveal growth objectives&r."
+				""
+				"By equipping this accessory in your trinket slot and completing the corresponding objectives, the organ stored within the container will evolve. Once it transforms, you can retrieve it through crafting to obtain a higher-tier organ."
+			]
+			id: "52C54E42818F03EB"
+			rewards: [
+				{
+					id: "1C2DCD63D9AEE80B"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6FA172389A90DAFF"
+					item: "kubejs:organ_lucky_block"
+					type: "item"
+				}
+			]
+			subtitle: "Contains the future"
+			tasks: [{
+				id: "0108F3FD5779C18B"
+				item: "kubejs:empty_organ_charm"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5F271CD6AAEC88FC"]
+			description: [
+				"The Bio-Lab can be used to brew a series of special potions. Among them is a particularly important item for this modpack, namely &6Healing Essence&r."
+				""
+				"By holding the Healing Additive in your off-hand and an unadapted organ in your main hand, you can perform a rejection-removal process. After this process, the organ’s ownership will be cleared. This is a relatively economical method compared to the alternative enchantment-based approach."
+			]
+			id: "27AE075BC0F4376A"
+			rewards: [{
+				count: 3
+				id: "2168BCD8BEC227B2"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Bio-Lab allow you to create things once unimaginable"
+			tasks: [{
+				id: "302069DE8B31E580"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			title: "Bio-brewing"
+			x: 13.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["27AE075BC0F4376A"]
+			description: [
+				"Through the Bio-Forge, you can craft a &6Bio-Injector&r to inject substances into living organisms."
+				""
+				"One of its primary uses is injecting &6Pain Response Serum&r into the player’s body, which grants stackable bonus maximum health, as well as administering growth and breeding serums to various animals."
+				""
+				"Overall, its applications are somewhat limited, and players may choose whether to craft it based on their own needs."
+				""
+				"&7If you want to check which serums can be injected, enter “@Biomancy” in the JEI interface. (Please refer to the FTB introduction page to review how to quickly get started with mods.)&r"
+			]
+			id: "360F386989316928"
+			rewards: [{
+				id: "577CCFF891B011A7"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Injection"
+			tasks: [{
+				id: "374E3731D1E7ED65"
+				item: {
+					Count: 1b
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bio-Injector"
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["360F386989316928"]
+			description: [
+				"The Ravenous Claw has extremely high attack speed and has a chance to inflict an additional &4Bleeding&r effect on hit."
+				""
+				"However, in order to use it, you must &2feed it food to restore durability&r (right-click the item with meat-based food). At the same time, to activate its empowered state and unlock stronger abilities, you need to &2defeat monsters&r to accumulate &4blood&r for it."
+				""
+				"Once enough blood has been stored, the activation state can be triggered. While active, each attack will consume one unit of blood."
+			]
+			id: "73C9E246535AACD4"
+			rewards: [{
+				id: "3645B502D910A3E3"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "411A42BD7A137F4E"
+				item: {
+					Count: 1b
+					id: "biomancy:ravenous_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Ravenous Claw"
+			x: 13.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["27AE075BC0F4376A"]
+			description: [
+				"By now, you should have realized that most organs directly taken from creatures cannot be used immediately."
+				""
+				"When you equip organs from other living beings, you will suffer from &2Organ rejection&r, which will periodically deal damage over time."
+				""
+				"{@pagebreak}"
+				"To resolve rejection, you have three possible methods:"
+				""
+				"1."
+				"Enchant the organ with the &6O-Negative Enchantment&r to eliminate rejection. At level 2, it can even prevents organ loss."
+				""
+				"2."
+				"Use anti-rejection substances, such as &6Healing Additive&r, to remove the organ’s binding."
+				""
+				"3."
+				"Abandon the use of low-tier organs entirely and switch to crafted &6advanced organs&r."
+				""
+				""
+				"&2At the current stage, using Healing Additive is the most economical and effective solution.&r"
+			]
+			icon: "biomancy:healing_additive"
+			id: "7F0C1FA54DD6E9BC"
+			rewards: [
+				{
+					id: "4423AE850CC5D15B"
+					item: "biomancy:healing_additive"
+					type: "item"
+				}
+				{
+					id: "3B5B97406D293CA5"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "chestcavity:o_negative"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/root"
+					criterion: ""
+					id: "77DAC91B48E0F443"
+					type: "advancement"
+				}
+			]
+			subtitle: "Allow you to freely use any organs"
+			tasks: [{
+				id: "50F3304F77E735FF"
+				type: "checkmark"
+			}]
+			title: "Organ Anti-Rejection"
+			x: 15.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7F0C1FA54DD6E9BC"]
+			description: [
+				"Once you are able to freely use organs from other beings, various advanced organs will become your new goal."
+				""
+				"In the &5Chest cavity : Organ Guide&r chapter, you can learn about all currently added advanced organs and their related effects."
+				""
+				"During the process of crafting advanced organs, you will notice two special attributes:"
+				""
+				"1.&2Activation Attribute (Ctrl)&r: While having this organ equipped, consuming an activation pill will grant additional attributes."
+				""
+				"2.&2Special Effect (Alt)&r: While having this organ equipped, certain conditions can trigger special effects. For example, the early-game Ore Lung is an organ that possesses such a special effect."
+				""
+				"To ensure stable activation of these effects, you will need to &2mass-produce Activation Pills&r."
+			]
+			icon: "kubejs:active_pill"
+			id: "658FEA8E308D741C"
+			rewards: [{
+				id: "042CB92A1CFDA391"
+				item: "kubejs:active_pill"
+				type: "item"
+			}]
+			subtitle: "Essential components of specific organ"
+			tasks: [{
+				id: "04459F4683BD414F"
+				type: "checkmark"
+			}]
+			title: "Activation Pill"
+			x: 15.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["658FEA8E308D741C"]
+			description: [
+				"Due to activation effects are widely found across organs, using an activation pill every time after modification is clearly not cost-effective."
+				""
+				"Therefore, when you are certain that an activation state is required, you can craft a &6Permanant Activation Pill&r. The Permanant Activation Pill can &2automatically trigger the activation state&r each time you modify an organ."
+				""
+				"However, it is worth noting that not all organ activation effects are beneficial, and the Pill itself is not an organ with positive effects."
+				""
+				"Later on, you will be able to further process it to reverse its harmful properties."
+			]
+			id: "50D70D990312BC70"
+			rewards: [{
+				id: "476ED982F630080F"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Automatic Activation Organ"
+			tasks: [{
+				id: "16FB24D333511B3C"
+				item: "kubejs:long_lasting_pill"
+				type: "item"
+			}]
+			title: "Permanent Activation Pill"
+			x: 15.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["50D70D990312BC70"]
+			description: ["After processing, the Permanant Activation Pill can be &2fully detox&r. Although it provides relatively few attributes compared to other organs, the convenience it offers is still something that most other organs cannot match."]
+			id: "6E7491F86379BEAC"
+			rewards: [
+				{
+					id: "7A26A00DECB193D1"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "76B51B5446FF76FC"
+					item: "kubejs:organ_lucky_block"
+					type: "item"
+				}
+			]
+			subtitle: "Harmless pill"
+			tasks: [{
+				id: "3226602CB5D6A05D"
+				item: "kubejs:long_lasting_pill_gold"
+				type: "item"
+			}]
+			title: "Detoxed Permanent Activation Pill"
+			x: 15.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7198C447D928AEEC"]
+			description: ["&2Hold a glass vial and long-press right-click&r to view the corresponding attribute information in the message box. You can also &ehover your mouse over the attribute name&r to see its description text."]
+			id: "70F7BE40B3C7BBAB"
+			rewards: [{
+				count: 2
+				id: "38E0CF248BA7D2C4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Visual Interface"
+			tasks: [{
+				id: "58B4DEA9CF17BB1C"
+				item: {
+					Count: 1b
+					id: "kubejs:glass_vial"
+					tag: {
+						organSocres: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Detail Stats Inspector"
+			x: -0.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["5F271CD6AAEC88FC"]
+			description: [
+				"Now you can use the &6Bio-Forge&r to craft a &dDigestor&r, allowing you to obtain higher-quality fuel—&eNutrition Paste&r."
+				""
+				"Of course, the Digestor must first be supplied with a portion of food to provide the &eenergy required for operation&r.。"
+			]
+			id: "189AE9F605414118"
+			rewards: [{
+				count: 32
+				id: "37AA77F0DE8132B0"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			subtitle: "Useful nutrition paste"
+			tasks: [{
+				id: "5CD4644B343C2D17"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			title: "Better Nutrition"
+			x: 11.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7F0C1FA54DD6E9BC"]
+			description: [
+				"The guidance for the &dBiomancy mod has now come to an end."
+				""
+				"Of course, this mod offers much more than what has been covered here. You can view all items from this mod by typing &d“&n@Biomancy&r”&r in the JEI search bar to better explore and experience it."
+			]
+			icon: "biomancy:primordial_core"
+			id: "3BAEC954173FF2A3"
+			rewards: [{
+				count: 5
+				id: "6E51D03657171684"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BF5C93B82AE9C82"
+				type: "checkmark"
+			}]
+			title: "Biomancy : Tutorial Completed"
+			x: 17.0d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"72D090FF4C44DAAD"
+				"3FED9C9227FC9CD5"
+			]
+			description: [
+				"1.In the position indicated by the &cred box&r in the image below, we can see which mod an item  belongs to."
+				"&7— As shown, the item in the image comes from the mod “Nameless Trinkets”&r"
+				"{image:kubejs:textures/task/jei_1.png width:124 height:47 align:1}"
+				""
+				""
+				"2.If you want to see what items a mod contains, press &eE&r to open your inventory, then type &e“@+mod name”&r in the &eJEI search box in the bottom-right corner&r. For example, you can type &e“@Nameless”&r to search for the mod shown in the previous image."
+				"{image:kubejs:textures/task/jei_2.png width:160 height:15 align:1}"
+				""
+				"{@pagebreak}"
+				"3.Normally, you can directly search for an item’s name in the JEI search bar, then &eleft-click&r it to view how to craft it (or hover over the item and press &eR – Show Recipe&r)."
+				"Hovering over an item and pressing &eU (Show Uses)&r allows you to see what it can be used for. If the item has crafting functions, all supported recipes will be displayed."
+				"&7(As shown below: when hovering over the red-marked area in Image 1 and pressing U, the summoning altar provides crafting methods for other items, so its recipes are shown.)&r"
+				"{image:kubejs:textures/task/jei_3.png width:130 height:68 align:1}"
+				"{image:kubejs:textures/task/jei_4.png width:105 height:99 align:1}"
+			]
+			icon: "minecraft:writable_book"
+			id: "55A4D2A38D0297E8"
+			rewards: [{
+				id: "2F0F6E4BA49B55C1"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Getting starred to MOD"
+			tasks: [{
+				id: "1B37BAC762FD8D2F"
+				type: "checkmark"
+			}]
+			title: "If You are New to Modpack"
+			x: 7.75d
+			y: 17.25d
+		}
+		{
+			dependencies: ["6069FC5CA00481CE"]
+			description: [
+				"You will notice that, like many other adventure packs and “kitchen sink” modpacks, this modpack includes &2Alex's Mobs&r to enrich the world—but is that all?"
+				""
+				"All creatures possess unique &5organs&r that ensure their survival and reproduction in the world. As players, we can naturally learn from these creatures’ traits and make use of them."
+				""
+				"By seeking out different creatures, extracting their organs, and processing them, players can become stronger. Many advanced organs in the late game are ultimately derived from modifications of these basic biological organs."
+			]
+			icon: "alexsmobs:lobster_bucket"
+			id: "523490881F8317C7"
+			rewards: [
+				{
+					count: 5
+					id: "6A7406D6BBB8960E"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "524661C46CD6AAD1"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+			]
+			subtitle: "Fresh source of organs"
+			tasks: [{
+				id: "76CE109C8B7FF8CD"
+				type: "checkmark"
+			}]
+			title: "Search for Alex's Mobs"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["523490881F8317C7"]
+			description: [
+				"In swamps, you will encounter strange yet beautiful small creatures known as &5Bettafish&r."
+				""
+				"Bettatfish are naturally aggressive. If multiple of them are placed in the same area, they will fight each other until one of them dies."
+				""
+				"Because of this, across the vast lands, there exists a form of entertainment known as &6Bettafish Duels&r, where two sides use their own Fightfish to battle each other."
+				""
+				"In such a fragile and unforgiving world, you can &2modify Fightfish with organs&r to gain a significant advantage in these duels."
+			]
+			id: "02BDED7D337512CD"
+			rewards: [
+				{
+					id: "1AE5EAB766BA6059"
+					item: "bettas:betta_fish_bucket"
+					type: "item"
+				}
+				{
+					id: "5C5674BF5DCCE43E"
+					item: "moblassos:aqua_lasso"
+					type: "item"
+				}
+			]
+			subtitle: "Bettamon?"
+			tasks: [{
+				id: "18A7A72907F6D36C"
+				item: "bettas:betta_fish"
+				type: "item"
+			}]
+			title: "Betta Master"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["040207B33E2FEBFF"]
+			description: ["You can upgrade your wallet to gain additional functionality."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "lightmanscurrency:wallet_netherite"
+				tag: {
+					AutoConvert: 1b
+				}
+			}
+			id: "44F1FB9DEBED0763"
+			rewards: [{
+				id: "60B98358787560DA"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A5F5C3E979DC6C2"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "64B211ADD1FF3E26"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_gold"
+						tag: {
+							AutoConvert: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AFFF675BC4BD4DF"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_emerald"
+						tag: {
+							AutoConvert: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C54A994CAD013A5"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_diamond"
+						tag: {
+							AutoConvert: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FAAFFC25AD94BE0"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_netherite"
+						tag: {
+							AutoConvert: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wallet upgrade"
+			x: 8.75d
+			y: 14.25d
+		}
+		{
+			dependencies: ["74F1E7C9FB0D08A1"]
+			description: [
+				"&7Delivery Agreements can be obtained not only from exploration chests, but also through the following methods:"
+				"&r"
+				"&41. Killing villagers.&r"
+				""
+				"&32. Trading with the Banker (the Banker profession is unlocked via the ATM).&r"
+			]
+			icon: "wares:delivery_agreement"
+			id: "00DAC886DEE844AD"
+			rewards: [
+				{
+					id: "7C8E517079F9FCAF"
+					item: "moblassos:contract"
+					type: "item"
+				}
+				{
+					id: "1F95DB059914A301"
+					item: "moblassos:emerald_lasso"
+					type: "item"
+				}
+			]
+			subtitle: "A choice of humanity"
+			tasks: [{
+				id: "092177F9C4F95804"
+				type: "checkmark"
+			}]
+			title: "Monopoly"
+			x: 1.5d
+			y: 14.25d
+		}
+		{
+			dependencies: ["0721AF9D7D5E4A7C"]
+			description: [
+				"The modpack includes the &d“Waystones”&r mod, removing the need for players to travel long distances on foot."
+				""
+				"Players can return to activated Waystones using items such as warp scrolls and warp stones."
+				""
+				"You can view additional miscellaneous items from this mod by searching “&d@Waystones&r” in JEI."
+			]
+			id: "6A394E28378C67C8"
+			rewards: [
+				{
+					count: 3
+					id: "0DA21E22449B40BF"
+					item: "waystones:return_scroll"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "37782791E37E53BC"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			subtitle: "The waystone shall remember you footsteps, carved into eternity"
+			tasks: [{
+				id: "18D6723C0ACE4719"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Waystones"
+			x: 7.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0721AF9D7D5E4A7C"]
+			description: [
+				"When a player places a Warp Plate, a Attuned Shard will be generated and bound to that specific plate."
+				""
+				"By swapping the  Attuned Shard between two different plates, the two Warp Plates will become linked to each other."
+				""
+				"When an entity stands on the pedestal for 20 ticks, it will be teleported to the linked pedestal. After teleportation, it will not trigger another teleport until it has been moved again."
+				""
+				"&8Items can also be transported&r"
+			]
+			id: "77F87E258991B1A7"
+			rewards: [{
+				count: 5
+				id: "231C070C2D46587F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Cheap teleporting device"
+			tasks: [{
+				id: "7B016FC80DBDC428"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			description: ["The modpack includes several &5magic mods&r. If you are interested in becoming a mage, you can find their guide entries in the &bMagic category&r on the left side of the &eFTB interface&r."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "17F34DB341F48836"
+			rewards: [{
+				id: "09753DDA68C78D0B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Uncovering the Truth of the World"
+			tasks: [{
+				id: "1B9CE6710438EEB7"
+				type: "checkmark"
+			}]
+			title: "Time-Honored Magic"
+			x: 6.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["28A03FA0404404DA"]
+			description: ["You can find manuscripts that record various ancient legends in places such as dragon roosts or caves, cyclops dens, and dungeons—this is where your journey to uncover these myths begins."]
+			icon: "iceandfire:manuscript"
+			id: "390E59D77E2AC74A"
+			rewards: [
+				{
+					id: "76A8BC2139460119"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+				{
+					id: "13823426EB28218A"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Ancient notes"
+			tasks: [{
+				id: "0616D5DDE0A710C2"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			title: "The Lost manuscript"
+			x: 1.25d
+			y: 12.75d
+		}
+		{
+			dependencies: ["390E59D77E2AC74A"]
+			description: [
+				"As you gather more &6manuscripts&r, you’ll realize the need for a tool to organize and carry them more conveniently."
+				""
+				"This journal will guide you through various fantastical legends. Although it currently contains only a small amount of basic knowledge, you can &econtinue collecting manuscripts to expand and complete it&r."
+			]
+			id: "7966D774681B9FC1"
+			rewards: [{
+				count: 2
+				id: "7014E451BC8CB0B3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Record your legend"
+			tasks: [{
+				id: "06AC29AD3B2BBDD4"
+				item: {
+					Count: 1b
+					id: "iceandfire:bestiary"
+					tag: {
+						Pages: [I;0]
+					}
+				}
+				type: "item"
+			}]
+			title: "Exploration Guide：The Bestiary"
+			x: 0.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["7966D774681B9FC1"]
+			description: [
+				"You will need a lectern in order to &eTranscribe&r the collected &6manuscripts&r into the &6Bestiary&r."
+				""
+				"By placing both the &6Bestiary&r and the &6manuscript&r for research, you can select one of the three options shown on the right side of the interface and &eadd it to the Bestiary&r."
+				""
+				"&aNote: Each research session adds new information, and once all research options have been completed, the book can no longer be further researched.&r"
+			]
+			id: "60FA450E74D398EA"
+			rewards: [{
+				count: 2
+				id: "04345BA8D5343DB4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Record the manuscript into the Bestiary"
+			tasks: [{
+				id: "0D42B7561AA5F217"
+				item: "iceandfire:lectern"
+				type: "item"
+			}]
+			title: "Bestiary Lectern"
+			x: 1.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["06AF74C1CDA2E18A"]
+			description: [
+				"&d“Ice and Fire”&r is a &dfantasy adventure mod&r centered around &edragons&r and themed on &emythical creatures&r."
+				""
+				"In the game, players will encounter a wide variety of legendary beings from myth. By collecting &6manuscripts&r and compiling the &6“Bestiary”&r, you can gain knowledge about these creatures—learning to exploit their weaknesses, defeat them, harvest valuable materials from their bodies to craft equipment, loot the treasures in their lairs, and even tame some of the more docile ones as &epets&r or &emounts&r."
+				""
+				"The creatures in this mod not only feature high-quality models and textures, but also smooth animations and sophisticated AI, delivering a truly outstanding and unique visual and combat experience."
+			]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragon_skull_fire"
+				tag: {
+					DragonAge: 75
+					Stage: 4
+				}
+			}
+			id: "28A03FA0404404DA"
+			rewards: [{
+				id: "73D4161941FC5D99"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Forge your own legend"
+			tasks: [{
+				id: "2D93EEA58973F48D"
+				type: "checkmark"
+			}]
+			title: "Quote：Where Mortals Dwell, Legends Began"
+			x: 3.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["0721AF9D7D5E4A7C"]
+			description: [
+				"&bNow, your Overworld has changed.&r"
+				"This modpack introduces &emany new elements&r to the world. A variety of mods, including &d“Ice and Fire”&r, bring a brand-new experience to your adventure."
+			]
+			icon: "minecraft:campfire"
+			id: "06AF74C1CDA2E18A"
+			rewards: [{
+				id: "1A48936E2D990564"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "A fantasy world"
+			tasks: [{
+				id: "03717290ABBFDA2E"
+				type: "checkmark"
+			}]
+			title: "A Different World"
+			x: 4.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["60FA450E74D398EA"]
+			description: [
+				"Thus, the introduction and guidance for the &d“Ice and Fire”&r mod comes to an end."
+				""
+				"This mod features an &eextremely detailed guidebook&r—the &6Bestiary&r. As you continue to complete and expand it, you will come to understand all aspects of the mod."
+				""
+				"Now, adventurer, it is your turn to take up the quill of ice and fire, and write your own legend."
+			]
+			icon: "iceandfire:dragon_stick"
+			id: "27821A1650B5B6C9"
+			rewards: [{
+				count: 5
+				id: "2B76F185285AC853"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Mortals,through wisdom, stand alongside th gods"
+			tasks: [{
+				id: "1953C281E2E1A192"
+				title: "传说由自己谱写"
+				type: "checkmark"
+			}]
+			title: "Legends are forge by your own hand"
+			x: 3.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["70F7BE40B3C7BBAB"]
+			description: [
+				"By combining several tools with a relic metal plate, you can craft a &6Operation Box&r, which allows you to quickly replace the contents of your chest cavity."
+				""
+				"By default, a Surgical Box obtained through crafting will include four relic metal plates to ensure your post-operation health."
+			]
+			id: "486909D9F577A497"
+			rewards: [{
+				id: "63F0AFDE607FBED3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Method to quick replace your chest contents"
+			tasks: [{
+				id: "02E85F3C5517E030"
+				item: {
+					Count: 1b
+					id: "kubejs:operation_box"
+					tag: {
+						inventory: [ ]
+					}
+				}
+				type: "item"
+			}]
+			title: "Operation Box"
+			x: -2.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			description: [
+				"As you progress deeper into the modification process, you will find that the default Chest Opener can no longer fully meet all your needs."
+				""
+				"To handle a wider range of situations, you will need to craft an &6Advanced Chest Opener&r. It can support special types of enchantments to enhance its chest-opening capabilities."
+				""
+				"These enchantments include: &dRemote Surgery&r, &dSafe Surgery&r, &dPainless Surgery&r, and &dCreative Surgery&r. They can be obtained through trading with villagers and goblins."
+				""
+				"Among them, Creative Surgery is the most special enchantment, allowing the player to open chests under any conditions without restriction. As a result, it is also the rarest and most expensive enchantment to appear in trades."
+			]
+			hide_dependency_lines: true
+			id: "48048A7240EF1042"
+			rewards: [{
+				id: "46152F473784CF7D"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "kubejs:safe_operation"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A advanced method"
+			tasks: [{
+				id: "1471A928F8BC3327"
+				item: "kubejs:advanced_chest_opener"
+				type: "item"
+			}]
+			title: "Advanced Chest Opener"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50CE3ADF8E4D6426"]
+			hide_dependency_lines: true
+			icon: "chestcavity:cooked_man_meat"
+			id: "61629147A528F41B"
+			invisible: true
+			rewards: [{
+				id: "35A9A4A38B0A4A7B"
+				item: "kubejs:faded_disc"
+				type: "item"
+			}]
+			subtitle: "Faded. . ."
+			tasks: [{
+				id: "2B7672880A7699CC"
+				item: "chestcavity:cooked_man_meat"
+				type: "item"
+			}]
+			title: "Hannibal?"
+			x: 10.0d
+			y: 1.75d
+		}
+	]
+	title: "Chapter 1 : As Usual"
+}

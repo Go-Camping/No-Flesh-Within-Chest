@@ -1,0 +1,1297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6DBB0B589D0F4552"
+	group: "4F4F4EA8CE67985B"
+	icon: "nameless_trinkets:explosion_proof_jacket"
+	id: "6DBB0B589D0F4552"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 14.438356164383562d
+		hover: [ ]
+		image: "kubejs:textures/task/collection_4.png"
+		rotation: 0.0d
+		width: 17.0d
+		x: -2.75d
+		y: 4.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "56536F6BEDB530F4"
+			rewards: [{
+				id: "6DCE015A279D9475"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10B7BC74AA8C49F6"
+				item: "goety:dark_hat"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -0.5d
+		}
+		{
+			id: "0D55E5DC232C5938"
+			rewards: [{
+				id: "0BFB180338AC8E43"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8C4CD879B5EC09"
+				item: "goety:dark_robe"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 0.5d
+		}
+		{
+			id: "21556C8818E2C07C"
+			rewards: [{
+				id: "108F580DE11AE3A8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35C812D2C5EE8139"
+				item: {
+					Count: 1b
+					id: "goety:dark_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 3.5d
+		}
+		{
+			id: "7D98BFAD2BBAB5B7"
+			rewards: [{
+				id: "66CF6A6B3D88AF88"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7112E72CF4886B44"
+				item: {
+					Count: 1b
+					id: "goety:dark_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 4.5d
+		}
+		{
+			id: "1890C35922DBBD50"
+			rewards: [{
+				id: "2AF1BC1C9387CB08"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "713E78730A1F2D43"
+				item: {
+					Count: 1b
+					id: "goety:dark_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 5.5d
+		}
+		{
+			id: "6C6CC0C8AFE8340F"
+			rewards: [{
+				id: "2CBC5E49EFE3E858"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63ADC9C3ADE33D74"
+				item: {
+					Count: 1b
+					id: "goety:dark_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 6.5d
+		}
+		{
+			id: "15B8AE837758CDD4"
+			rewards: [{
+				id: "188F5C05B36EA09B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41BF870520136ADD"
+				item: "goety:witch_hat"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -0.5d
+		}
+		{
+			id: "44D66768B1DD6854"
+			rewards: [{
+				id: "7EC2594C5CED6C7A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EAF53ED3ABCAE51"
+				item: "goety:witch_hat_hedge"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -0.5d
+		}
+		{
+			id: "78CAA38C44BCAC48"
+			rewards: [{
+				id: "304682FBF337BEA5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "776EAC72E1C1AF62"
+				item: "goety:crone_hat"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -0.5d
+		}
+		{
+			id: "6DC0022049C3E2C2"
+			rewards: [{
+				id: "2747663B0C08DA4F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18CC6BB0EE5589D3"
+				item: "goety:grand_robe"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.5d
+		}
+		{
+			id: "286E5DD452A5118F"
+			rewards: [{
+				id: "106140C11678430F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AAB3A6E1440BE6E"
+				item: "goety:necro_cape"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 0.5d
+		}
+		{
+			id: "5FC6DD9F59D11540"
+			rewards: [{
+				id: "15AE76E0878F2030"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5498C10D8A3518F2"
+				item: "goety:nameless_cape"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 0.5d
+		}
+		{
+			id: "35687722E564C1DB"
+			rewards: [{
+				id: "796B3D5ED2D3EC35"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49D2CFF670884173"
+				item: "goety:illusion_robe"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 0.5d
+		}
+		{
+			id: "4CA341D08123EA73"
+			rewards: [{
+				id: "0813BB4742769654"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E9F24338B780A9F"
+				item: "goety:illusion_robe_mirror"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.5d
+		}
+		{
+			id: "553BFFA994EEE079"
+			rewards: [{
+				id: "1E826D1FEA51DEC9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DAAF15C9F040D1B"
+				item: "goety:frost_robe"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.5d
+		}
+		{
+			id: "300A4D538E586FA8"
+			rewards: [{
+				id: "6D6EBA3952BD4AE2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2203A5D7C1756422"
+				item: "goety:wind_robe"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.5d
+		}
+		{
+			id: "55885F54A2930E5D"
+			rewards: [{
+				id: "3D83A69549E35435"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "720E26E1C0ECC543"
+				item: "goety:witch_robe"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 0.5d
+		}
+		{
+			id: "13596803FA9BFAB6"
+			rewards: [{
+				id: "6AA7A14E4101388F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FE39ED5BE323F9F"
+				item: "goety:witch_robe_hedge"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 0.5d
+		}
+		{
+			id: "71F4527C81CC538E"
+			rewards: [{
+				id: "4B162C79F0A45004"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76EF1E5C81582507"
+				item: "goety:warlock_robe"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.5d
+		}
+		{
+			id: "7192A54DA5971F6D"
+			rewards: [{
+				id: "12ECB78AB0361B73"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F0004C2B36D2778"
+				item: "goety:warlock_robe_dark"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.5d
+		}
+		{
+			id: "38E2F4E1A7DB21D1"
+			rewards: [{
+				id: "0A9918507490FD68"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E0C88858EBDAC19"
+				item: {
+					Count: 1b
+					id: "goety:cursed_knight_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 3.5d
+		}
+		{
+			id: "5740D8F9E71969B9"
+			rewards: [{
+				id: "65B7BDB2B4DFC3A3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E7EEAD9D541FA4F"
+				item: {
+					Count: 1b
+					id: "goety:cursed_knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 4.5d
+		}
+		{
+			id: "5C6617FCFD489FB6"
+			rewards: [{
+				id: "2C919EFAC23C46B7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D75F556602A965C"
+				item: {
+					Count: 1b
+					id: "goety:cursed_knight_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 6.5d
+		}
+		{
+			id: "2E10F06EC821794F"
+			rewards: [{
+				id: "0C7C79F59C8E900D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ECA2F4AD323FFAD"
+				item: {
+					Count: 1b
+					id: "goety:cursed_paladin_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 3.5d
+		}
+		{
+			id: "42E3E02C74680B7F"
+			rewards: [{
+				id: "7F6BFE473AB7E17D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32C6FFF54FE3715F"
+				item: {
+					Count: 1b
+					id: "goety:cursed_paladin_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 4.5d
+		}
+		{
+			id: "06CC8B6D681F3D56"
+			rewards: [{
+				id: "7FE178C398C713AB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45380284CB57F71B"
+				item: {
+					Count: 1b
+					id: "goety:cursed_paladin_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 5.5d
+		}
+		{
+			id: "3DBC6BCDD40C9C4F"
+			rewards: [{
+				id: "7B90FF0E3015C930"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B942A36360C421E"
+				item: {
+					Count: 1b
+					id: "goety:cursed_paladin_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 6.5d
+		}
+		{
+			id: "6B1141636B90D1D4"
+			rewards: [{
+				id: "6AAC850E4521BF78"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7185B2B13E7728A6"
+				item: {
+					Count: 1b
+					id: "goety:cursed_knight_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 5.5d
+		}
+		{
+			id: "224CBDF5106ABD3C"
+			rewards: [{
+				id: "4C396F16889B479D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "787D92CB824953AD"
+				item: {
+					Count: 1b
+					id: "goety:black_iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 3.5d
+		}
+		{
+			id: "63BAB98A178F81F5"
+			rewards: [{
+				id: "36A3C805A35270C0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41B1D23B437F3C15"
+				item: {
+					Count: 1b
+					id: "goety:black_iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.5d
+		}
+		{
+			id: "2F9B1022102997EA"
+			rewards: [{
+				id: "2B21D97F65F4A17D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A3005FC8628B81E"
+				item: {
+					Count: 1b
+					id: "goety:black_iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 5.5d
+		}
+		{
+			id: "45F934B7C017F888"
+			rewards: [{
+				id: "3C84A14F568F226E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47DA322B44CF9E68"
+				item: {
+					Count: 1b
+					id: "goety:black_iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 6.5d
+		}
+		{
+			id: "29466599FA18F8AB"
+			rewards: [{
+				id: "435E5686D81BEEF7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BC06ADC660F8B2A"
+				item: "goety:necro_crown"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -0.5d
+		}
+		{
+			id: "0DEFCDF0832F5217"
+			rewards: [{
+				id: "14C082BC2F57C5B8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6639763B7163C517"
+				item: "goety:grand_turban"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -0.5d
+		}
+		{
+			id: "23E14190A3AA58A8"
+			rewards: [{
+				id: "7A2CBADC9279E72F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19DBE2F1B0EAD159"
+				item: "goety:nameless_crown"
+				type: "item"
+			}]
+			x: -2.75d
+			y: -0.5d
+		}
+		{
+			id: "095996F9A85EE783"
+			rewards: [{
+				id: "04D25007931EF67B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "241566AB696234B0"
+				item: {
+					Count: 1b
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 7.5d
+		}
+		{
+			id: "225DE26C6B416BDB"
+			rewards: [{
+				id: "28E23ED9D82E6C3B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63062CB1892403F5"
+				item: {
+					Count: 1b
+					id: "alexsmobs:crocodile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 7.5d
+		}
+		{
+			id: "4C05927954DFED78"
+			rewards: [{
+				id: "488F6F72747D8145"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2474270D6636ED82"
+				item: {
+					Count: 1b
+					id: "alexsmobs:centipede_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 7.5d
+		}
+		{
+			id: "68F68894B4564A56"
+			rewards: [{
+				id: "564AF15460048AB6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF6106AE172F599"
+				item: {
+					Count: 1b
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 7.5d
+		}
+		{
+			id: "0ECEAE5EFB750FFC"
+			rewards: [{
+				id: "7FE966645CC4D67D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10F125223073F4D5"
+				item: {
+					Count: 1b
+					id: "alexsmobs:frontier_cap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 8.5d
+		}
+		{
+			id: "359E13B247CF0E9C"
+			rewards: [{
+				id: "511EFE9B898A1742"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6EDFAEFF0DC4DC"
+				item: {
+					Count: 1b
+					id: "alexsmobs:spiked_turtle_shell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 8.5d
+		}
+		{
+			id: "11C69E962CF87E10"
+			rewards: [{
+				id: "4F108DC8390EBC6F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "512252FC82D46D52"
+				item: {
+					Count: 1b
+					id: "alexsmobs:rocky_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 8.5d
+		}
+		{
+			id: "5AA2D30A4D039431"
+			rewards: [{
+				id: "66E4C7C6F975E13B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FAE57137DC6DF5B"
+				item: {
+					Count: 1b
+					id: "alexsmobs:unsettling_kimono"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 8.5d
+		}
+		{
+			id: "251778A26B067C91"
+			rewards: [{
+				id: "5CEE0D1AF72897BC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34B2CAB98E1353D2"
+				item: {
+					Count: 1b
+					id: "alexsmobs:novelty_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 7.5d
+		}
+		{
+			id: "34756CA0FC41A528"
+			rewards: [{
+				id: "785B9AFA225E31A0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C43A81EC5C00CBB"
+				item: {
+					Count: 1b
+					id: "somebosses:ender_ordnance_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.5d
+		}
+		{
+			id: "0BC814DD09672EFB"
+			rewards: [{
+				id: "78CEC7993350A625"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BEF74CED0AD6A4E"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.5d
+		}
+		{
+			id: "02B3AF7E84F3F581"
+			rewards: [{
+				id: "3A7DB217B476558D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E69247BE2831FB"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.5d
+		}
+		{
+			id: "6169D83CDBE31DA2"
+			rewards: [{
+				id: "45F8DFD46ABF5AD9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43117C3443553E52"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 6.5d
+		}
+		{
+			id: "5F586399A2109933"
+			rewards: [{
+				id: "59952E729226971A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A1CC28850984CAC"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 7.5d
+		}
+		{
+			id: "06EABC51A42D0E27"
+			rewards: [{
+				id: "39D89044872FCFBD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42EA2F6AFA234B64"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 8.5d
+		}
+		{
+			id: "34C9A645B9E0E664"
+			rewards: [{
+				id: "7D0D731D83BC04D7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58F9092DBC549701"
+				item: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 5.5d
+		}
+		{
+			id: "51F5446A91C3B94D"
+			rewards: [{
+				id: "6357DA4FC72DC138"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2981D0E2452BDC08"
+				item: {
+					Count: 1b
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 5.5d
+		}
+		{
+			id: "73BE72EAF3F6FC9B"
+			rewards: [{
+				id: "4F9C395AA5712D45"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50559504D1E4BE3A"
+				item: {
+					Count: 1b
+					id: "majobroom:majo_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 1.5d
+		}
+		{
+			id: "65D3F1792BA49589"
+			rewards: [{
+				id: "04434433CD67320F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FE4DDBE470013A5"
+				item: {
+					Count: 1b
+					id: "majobroom:majo_cloth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 2.5d
+		}
+		{
+			id: "79FAED4CA278611F"
+			rewards: [{
+				id: "27EE682C3E9CC028"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BE00824FFCFD141"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_ice_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 3.5d
+		}
+		{
+			id: "163834905BAECBCB"
+			rewards: [{
+				id: "67E0C05F420419D9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32A20DDC35D0F5B2"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_ice_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			id: "5FAE35F421143330"
+			rewards: [{
+				id: "5BF3820D9918160A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D34C295FB32D5AD"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_ice_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 5.5d
+		}
+		{
+			id: "54515950F62FD18C"
+			rewards: [{
+				id: "2ECDD0B8145654AF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AD7695A517CEFB3"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_ice_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.5d
+		}
+		{
+			id: "1D10312B329ADB83"
+			rewards: [{
+				id: "1B4770C29B1480E1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AAB8CA62932FEB0"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 3.5d
+		}
+		{
+			id: "6616475531C71FAB"
+			rewards: [{
+				id: "6C3EA06FB0599F1C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AE7D8A990603B59"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 4.5d
+		}
+		{
+			id: "595E490A35AF0DA0"
+			rewards: [{
+				id: "137392CE0749D5A9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C1EF91CCD35600D"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 5.5d
+		}
+		{
+			id: "3CC7487243A1240B"
+			rewards: [{
+				id: "50186F39CC346978"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "031987BC53021542"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_lightning_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 6.5d
+		}
+		{
+			id: "35927A879876CDC1"
+			rewards: [{
+				id: "56B4E083A309BEEC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "365F61B60529F5CA"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 3.5d
+		}
+		{
+			id: "32FBABD921163138"
+			rewards: [{
+				id: "555B029F81D55DF9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ACB5AFBABDF90BF"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 4.5d
+		}
+		{
+			id: "435DBD8B3AFD0336"
+			rewards: [{
+				id: "6FC173DF6C6ADDA6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "698A0319B72CF14B"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 5.5d
+		}
+		{
+			id: "1EB36EA0E49950CA"
+			rewards: [{
+				id: "3A3F2D21919970D5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FD4853AAD8F9C83"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonsteel_fire_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.75d
+			y: 6.5d
+		}
+	]
+	title: "Armor：Cold-Glinting Collectibles"
+}

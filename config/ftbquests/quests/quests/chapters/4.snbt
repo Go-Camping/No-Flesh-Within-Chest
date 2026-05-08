@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "4E02CBDD9D86D249"
+	icon: "witherstormmod:withered_nether_star"
+	id: "33634F4FE0060BF7"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 18.650485436893206d
+		hover: [ ]
+		image: "kubejs:textures/task/chapter4.png"
+		rotation: 0.0d
+		width: 17.0d
+		x: 0.5d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["22A8C953424C8FD9"]
+			description: [
+				"To defeat the Wither Storm, it is recommended to prepare in multiple aspects, including &2organs, equipment, and trinkets&r. Although the Wither Storm can technically be defeated under vanilla difficulty settings, it remains an extremely challenging encounter for inexperienced players."
+				""
+				"The following quests will provide a structured guide on how to defeat the Wither Storm step by step. If you have no prior experience with the Wither Storm, it is &2strongly recommended to read them carefully&r."
+				""
+				"By the way, the completion condition for this quest is to observe the Wither Storm entity for a period of time."
+			]
+			hide_dependency_lines: true
+			id: "757727A969C7BA1E"
+			rewards: [{
+				id: "3CD928A479F44FB2"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Time to finish this, Wither Strom. Once and for all"
+			tasks: [{
+				icon: "witherstormmod:withered_bone"
+				id: "17FAE125D3524D24"
+				observe_type: 5
+				timer: 20L
+				title: "Let's dance！"
+				to_observe: "witherstormmod:wither_storm"
+				type: "observation"
+			}]
+			title: "Let the Storm Begins"
+			x: -2.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["757727A969C7BA1E"]
+			description: [
+				"Initialy, the Wither Storm has 400 health and 8 armor."
+				""
+				"Upon being summoned, it will remain stationary for a charging phase. During this time, it is in an &6invulnerable state&r."
+				""
+				"After the charging process is complete, the Wither Storm will officially enter Phase One. In this phase, it uses Wither Skulls to bombard the area and indiscriminately absorbs nearby blocks and small entities. For every item or block absorbed, the Wither Storm &2regains 10 health&r."
+				""
+				"{@pagebreak}"
+				"For vanilla gameplay, defeating the Wither Storm at this stage is extremely difficult—arguably nearly impossible. However, with various buffs, and due to the relatively low aggression in Phase One, it is theoretically possible for highly optimized players to defeat it early."
+				""
+				"But for a more spectacular battle, why not let everything unfold until it becomes &4beyond salvation&r?"
+				""
+				"Note: Although you may defeat the Wither Storm at any phase, doing so may result in the &2Storm Star not being obtained properly&r. If you wish to access the final quest, please consider carefully before proceeding."
+			]
+			hide_dependency_lines: true
+			icon: "geodes:small_echo_bud"
+			id: "63C88B93760D098D"
+			shape: "hexagon"
+			subtitle: "Wither Storm phase 0"
+			tasks: [{
+				id: "27121D4DC4F1113C"
+				type: "checkmark"
+			}]
+			title: "Wither Storm : The Storm Unleashed"
+			x: -2.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63C88B93760D098D"]
+			description: [
+				"After a period of absorption, the Wither Storm will accumulate protective layers around its command block core. At this point, it enters its Second Phase."
+				""
+				"In this phase, the Wither Storm begins emitting gravitational beams and absorbs even more blocks, including larger entities. Its sound will also change, and the main head will no longer fire standard blue wither skulls, but instead &6Enhanced Storm Skulls&r."
+			]
+			hide_dependency_lines: true
+			icon: "geodes:medium_echo_bud"
+			id: "176844176E2F7129"
+			shape: "hexagon"
+			subtitle: "Wither Storm phase I and II"
+			tasks: [{
+				id: "4D1F8A2399E6CC91"
+				type: "checkmark"
+			}]
+			title: "Wither Storm : Hunchback"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["176844176E2F7129"]
+			description: [
+				"After collecting enough blocks, the command block core will become fully enclosed. At this point, &6Tentacles&r will grow from both its top and bottom. The Wither Storm then enters its Third Phase, in which its defense is increased to 16 armor points."
+				""
+				"The Wither Storm will remain in this phase for an extended period of time."
+			]
+			hide_dependency_lines: true
+			icon: "geodes:large_echo_bud"
+			id: "2D07CA70665772DB"
+			shape: "hexagon"
+			subtitle: "Wither Storm phase III"
+			tasks: [{
+				id: "4E051D69261A7616"
+				type: "checkmark"
+			}]
+			title: "Wither Storm : Tentacles"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2D07CA70665772DB"]
+			description: [
+				"With further growth, the Wither Storm will slowly ascend. At this point, its health will surge to &21024&r, and its defense will increase to 24 armor points."
+				""
+				"In this state, the Wither Storm will remain airborne at high altitude, becoming immune to nearly all forms of damage. Most creatures will flee in fear, while the Wither Storm will &2continuously track the player&r and launch attacks."
+				""
+				"If you are caught by its gravitational beam, the only way to escape is to attack its eye. Prolonged exposure to the beam will inflict &5Wither Sickness&r, which can only be cured by Golden Apple Stew."
+			]
+			hide_dependency_lines: true
+			icon: "geodes:echo_cluster"
+			id: "26BFD0F2225A8074"
+			shape: "hexagon"
+			subtitle: "Wither Storm phase IV"
+			tasks: [{
+				id: "38CD38C548CD975D"
+				type: "checkmark"
+			}]
+			title: "Wither Storm : Juggernaut"
+			x: 2.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26BFD0F2225A8074"]
+			description: [
+				"Even after reaching phase 5, the Wither Storm does not cease to grow. It will continue absorbing vast amounts of blocks to sustain its expansion."
+				""
+				"At this stage, it have reached the limit of its growth, the Wither Storm begins releasing &5Wither Symbionts&r. These symbionts carry fragments of its power. When defeated, they drop &6Enchanted Command Block Books&r."
+				""
+				"Enchanted Command Block Books can be used to upgrade your diamond tools (though you will likely never need them), and to craft &6FormidiBomb&r. Using a FormidiBomb allows you to \"kill\" the Wither Storm."
+			]
+			hide_dependency_lines: true
+			icon: "geodes:budding_echo_block"
+			id: "1EE271993AC21C6D"
+			shape: "hexagon"
+			subtitle: "Wither Storm phase V"
+			tasks: [{
+				id: "527AC95F6BB81FEC"
+				type: "checkmark"
+			}]
+			title: "Wither Storm : Devourer"
+			x: 2.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EE271993AC21C6D"]
+			description: [
+				"When you approach the remains of the Wither Storm, the &2dormant command block will reactivate&r. At this point, the Wither Storm will &6revive&r, though it will no longer be as powerful as before."
+				""
+				"In this state, the Wither Storm is split into three separate entities, each possessing its own life force."
+				""
+				"It will then evolve into its Sixth Phase, growing from three heads into nine—greatly amplifying its overall power."
+				""
+				"At this stage, you will need a &6Command Block Tool&r and must venture into the interior of the Wither Storm."
+			]
+			hide_dependency_lines: true
+			icon: "witherstormmod:command_block_book"
+			id: "3423699A415F1840"
+			shape: "hexagon"
+			subtitle: "Wither Storm phase VI"
+			tasks: [{
+				id: "4D6E1658C34453E8"
+				type: "checkmark"
+			}]
+			title: "Wither Storm : Reprise"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3423699A415F1840"]
+			description: [
+				"At the peak of its evolution, a &6Giant Hole&r will appear above its head, glowing with purple light. This entrance may take around an hour to form, so long-term preparation is required."
+				""
+				"Once the giant holeo appear, you can use an Ender Pearl, fire one from a crossbow, or simply climb inside to &2enter The Bowels of the Wither Storm&r."
+				""
+				"&2The Bowels is extremely dark, filled with corruption and infection&r. However, only here do you have the chance to confront its core—the command block. Use the &6Command Block Tool&r to strike the command block, eliminate all obstacles in your path, and ultimately destroy its &6core&r."
+				""
+				"If you feel the Wither Storm is evolving too slowly, you may activate the ability of &6Nether Star Fragments&r to force it into the next growth stage immediately！"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:ender_pearl"
+			id: "7326DD67C54CE97C"
+			shape: "hexagon"
+			subtitle: "Wither Storm final form"
+			tasks: [{
+				id: "090B71A2FB4AF530"
+				type: "checkmark"
+			}]
+			title: "Wither Storm : World Eater"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22A8C953424C8FD9"]
+			description: [
+				"&6With respect.&r"
+				""
+				"And here, your journey against the Wither Storm comes to an end. Though not overly difficult, the grandeur and brilliance of this finale make it a fitting conclusion to a &6journey&r."
+				""
+				"Perhaps the purpose of &6world-altering magic&r was to bring you back to confront the Wither Storm? Or perhaps such magic never truly existed, merely a dream-born illusion of self-reflection? Either way, this journey is nothing short of astonishing and admirable."
+				""
+				"Few players can endure the tedious content of this modpack, and those who achieve this milestone are even more &6rare and exceptional&r."
+				""
+				"&6Once again, we pay our respects to those who have completed it.&r"
+				""
+				"{@pagebreak}"
+				""
+				"But do not misunderstand, &6the end of the modpack does not mean the end of your journey&r. There is still much to explore: collecting various organs, experiencing more mod content, building your own base, challenging higher difficulties, and discovering new ways to achieve victory."
+				""
+				"The intended progression of this modpack is around &680 hours&r for the main path, and approximately &6100–150 hours&r for full completion. Please manage your playtime wisely, and avoid spending too much time on &2repetitive content&r."
+			]
+			hide_text_until_complete: true
+			icon: "witherstormmod:withered_nether_star"
+			id: "50E74D6934C5B5D8"
+			rewards: [
+				{
+					count: 30
+					id: "3F650248A434E87E"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:coin_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "23D3F86EF8BE78A0"
+					item: "kubejs:mysterious_trinket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "758CBDD66DCEF3B0"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "34407868E643C286"
+					item: "kubejs:lucky_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Protect our future"
+			tasks: [{
+				id: "5DDDBA1F0DE43D6C"
+				item: "witherstormmod:withered_nether_star"
+				type: "item"
+			}]
+			title: "The Past Within Memories"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Chapter 4 : Liberation"
+}

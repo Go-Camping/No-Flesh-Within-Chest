@@ -1,0 +1,21 @@
+{
+	icon: "chestcavity:blaze_core"
+	id: "4D95AEF58A49C16E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/mom love @p"
+			icon: "minecraft:poppy"
+			title: "&2ON&r Keep Inventory"
+			type: "command"
+		}
+		{
+			command: "/mom unlove @p"
+			icon: "minecraft:red_mushroom"
+			title: "&4OFF&r Keep Inventory"
+			type: "command"
+		}
+	]
+	title: "Keep Inventory"
+}

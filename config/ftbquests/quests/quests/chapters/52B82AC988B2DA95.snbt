@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "52B82AC988B2DA95"
+	group: "0241B51B931E1ED2"
+	icon: "weaponmaster:workstation"
+	id: "52B82AC988B2DA95"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "kubejs:textures/task/weapon_master_background.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 1.0d
+		y: 3.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Compared to other equipment mods, Weapon Master provides &5long-term progression&r, giving players a strong sense of growth and achievement."
+				""
+				"In addition, Weapon Master offers a level of visual design and equipment customization that is difficult for other equipment mods to match. Any player who has used its weapons is likely to be left with a lasting impression of the items within the mod."
+			]
+			icon: "weaponmaster:workstation"
+			id: "1C3CABF6FA4DBB44"
+			rewards: [{
+				count: 4
+				id: "2319A4D71F76480F"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Why choosing Weapon Master"
+			tasks: [{
+				id: "3D01795BE150312C"
+				type: "checkmark"
+			}]
+			title: "Intro : Weapon Master"
+			x: 1.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["1C3CABF6FA4DBB44"]
+			description: [
+				"To begin your Weapon Master journey, a simple Weapon Studio is not enough, you will need to craft a &5Weapon Kit&r to choose your weapon."
+				""
+				"By &eright-clicking&r the Weapon Kit, a selection interface containing four different weapons will appear. Based on your preference, you can choose a weapon to accompany you on your adventure. Of course, you can also craft four Weapon Kits and take one of each！"
+			]
+			id: "4B92B6F9C9EDC46E"
+			rewards: [{
+				id: "20A85C308C640405"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "A lifelong companion"
+			tasks: [{
+				id: "4408346A4E2B3C20"
+				item: "weaponmaster:weaponkit"
+				type: "item"
+			}]
+			title: "Choose Your Weapon！"
+			x: 2.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["4B92B6F9C9EDC46E"]
+			description: [
+				"After selecting your weapon, you will notice that its default durability is 0. To restore it, you need to use the Weapon Studio mentioned earlier to maintain your weapon."
+				""
+				"Right-click the Weapon Studio and place your chosen weapon into the slot in the GUI. Then select the button below to enter &2Repair Mode&r."
+				""
+				"In this mode, first apply &2Weapon Repair Paste&r over the entire weapon, then use a &2cloth (sandpaper?)&r to polish it. Once completed, the weapon will emit a &6glowing effect&r."
+				""
+				"After finishing one side, click the &2button on the right&r to flip it over and repeat the process. Once all steps are completed, the weapon’s durability will be fully restored."
+				""
+				"{image:kubejs:textures/task/weapon_master_1.png width:160 height:90 align:1}"
+			]
+			icon: "hexerei:cloth"
+			id: "2C8054AE6C57197F"
+			rewards: [{
+				count: 3
+				id: "361C99A0FA76F713"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "First Weapon Maintenance"
+			tasks: [{
+				id: "4D956F29048CE985"
+				type: "checkmark"
+			}]
+			title: "Polish Your Weapon"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C8054AE6C57197F"]
+			description: [
+				"After repairing your weapon, you can use the right-side buttons in the Weapon Studio to view four weapon attributes: &2damage, attack speed, durability, and looting&r."
+				""
+				"By &eselecting different attribute bars on the right with your mouse&r, any experience gained during use will be allocated to that specific attribute."
+				""
+				"For example, if you want to increase your weapon’s damage, you should select the damage attribute line."
+				""
+				"{image:kubejs:textures/task/weapon_master_2.png width:160 height:90 align:1}"
+				"{@pagebreak}"
+				"When a weapon’s experience bar is fully filled, its corresponding attribute level will increase. At this point, placing the weapon back into the Weapon Studio will open an upgrade interface."
+				"In this interface, you can select &2three weapon visual&r at the top, and &2one ability&r at the bottom."
+				""
+				"Weapon visuals and abilities will continue to appear during each upgrade until you have unlocked all available visuals and abilities."
+				""
+				"Once unlocked, weapon visuals can be configured using the top button, while abilities can be configured using the left-side button."
+				""
+				"{image:kubejs:textures/task/weapon_master_3.png width:160 height:90 align:1}"
+			]
+			icon: "modulargolems:quartz"
+			id: "09F28AC07C32FAB3"
+			rewards: [{
+				count: 3
+				id: "01F5CA3B2A4C633C"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "leveling, visuals and abilities"
+			tasks: [{
+				id: "229906B9C02325A9"
+				type: "checkmark"
+			}]
+			title: "Weapon Leveling"
+			x: -0.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["09F28AC07C32FAB3"]
+			description: [
+				"At this point, nearly all gameplay content of Weapon Master has been introduced. As a lightweight weapon-focused mod, Weapon Master undoubtedly achieves a &5compact yet refined design&r."
+				""
+				"In this modpack, the maximum weapon level cap has been increased from the default &610&r to &630&r, in order to slow down player progression."
+				""
+				"Weapon Master also provides a highly comprehensive configuration system, with well-crafted visuals. Its weapon attribute progression system meets a wide range of player needs, and the versatility of its weapons ensures they remain useful even in late-game power scaling. &2It is hoped that this introduction has sparked your interest in this mod&r！"
+			]
+			icon: "weaponmaster:workstation"
+			id: "1E13C34A1DBB2224"
+			rewards: [{
+				id: "218893B2BCD2628A"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			subtitle: "The limits of Weapon Master"
+			tasks: [{
+				id: "50517FD1B3BF2E2C"
+				type: "checkmark"
+			}]
+			title: "Weapon Master！"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B92B6F9C9EDC46E"]
+			description: [
+				"It has performance similar to conventional sword-type weapons: the shortest attack range, a modest sweep attack, and a relatively fast attack speed."
+				""
+				"Suitable for players who prefer the feel of vanilla weapons."
+			]
+			hide_dependency_lines: true
+			id: "71E8F25467157B23"
+			rewards: [{
+				id: "16CA015A57FA44D3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "A balanced weapon"
+			tasks: [{
+				id: "3F799555E56CF0DB"
+				item: {
+					Count: 1b
+					id: "weaponmaster:wm_broadsword"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							2021018507
+							-1881259459
+							-1131749424
+							1388561065
+						]
+						CoreWeaponlevels: {
+							f29bc625-66b3-4252-863f-c66cd87d1380: {
+								AttackLevel: 0
+								DefenseLevel: 0
+								MobilityLevel: 0
+								UtilityLevel: 0
+							}
+						}
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "default"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "f29bc625-66b3-4252-863f-c66cd87d1380"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "sword"
+						display: {
+							Name: "{\"text\":\"Broadsword\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Broadsword"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B92B6F9C9EDC46E"]
+			description: [
+				"The Rapier has the fastest attack speed of all weapons, but at the cost of having no sweep attack and only a slightly better reach than a Broadsword."
+				""
+				"However, it can be combined with various melee-related organs to produce impressive effects in combat."
+			]
+			hide_dependency_lines: true
+			id: "6BDC3F62E25B4614"
+			rewards: [{
+				id: "34512ECB18E579AE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "In speed lies invincibility"
+			tasks: [{
+				id: "6181DFB68557736F"
+				item: {
+					Count: 1b
+					id: "weaponmaster:wm_rapier"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							-1780722738
+							1837255725
+							-1336349047
+							-304297163
+						]
+						CoreWeaponlevels: {
+							f29bc625-66b3-4252-863f-c66cd87d1380: {
+								AttackLevel: 0
+								DefenseLevel: 0
+								MobilityLevel: 0
+								UtilityLevel: 0
+							}
+						}
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "default"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "f29bc625-66b3-4252-863f-c66cd87d1380"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "rapier"
+						display: {
+							Name: "{\"text\":\"Rapier\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Rapier"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B92B6F9C9EDC46E"]
+			description: [
+				"The Scythe possesses the largest sweep attack range in the entire game, along with a relatively long reach—second only to the Halberd."
+				""
+				"When facing large groups of enemies, the Scythe can easily deal significant damage."
+				""
+				"It is also one of the fastest options for completing certain damage-based evolution tasks involving organ progression."
+			]
+			hide_dependency_lines: true
+			id: "676512BA0A3EA2D1"
+			rewards: [{
+				id: "71D112C5719E5ACE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Soul-reaping weapon"
+			tasks: [{
+				id: "17C6446F0E116ED4"
+				item: {
+					Count: 1b
+					id: "weaponmaster:wm_broadswordlarge"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							110135072
+							911035529
+							-1189592933
+							-262846751
+						]
+						CoreWeaponlevels: {
+							f29bc625-66b3-4252-863f-c66cd87d1380: {
+								AttackLevel: 0
+								DefenseLevel: 0
+								MobilityLevel: 0
+								UtilityLevel: 0
+							}
+						}
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "basic"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "f29bc625-66b3-4252-863f-c66cd87d1380"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "scythe"
+						display: {
+							Name: "{\"text\":\"Scythe\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Scythe"
+			x: 5.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B92B6F9C9EDC46E"]
+			description: [
+				"It has the longest attack range, where even a slight difference in reach can provide a significant advantage in certain boss fights."
+				""
+				"Its only drawback is a slow attack speed, but this also benefits certain single-hit with high damage effects, allowing it to deliver impressive output thanks to its inherently high base damage."
+			]
+			hide_dependency_lines: true
+			id: "744396A152946AE7"
+			rewards: [{
+				id: "28EDB0AFC23AD9A4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The longer, the better"
+			tasks: [{
+				id: "05190F65BDFD8849"
+				item: {
+					Count: 1b
+					id: "weaponmaster:wm_rapierlarge"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							872272325
+							-747485479
+							-1568508959
+							-2086797240
+						]
+						CoreWeaponlevels: {
+							f29bc625-66b3-4252-863f-c66cd87d1380: {
+								AttackLevel: 0
+								DefenseLevel: 0
+								MobilityLevel: 0
+								UtilityLevel: 0
+							}
+						}
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "basic"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "f29bc625-66b3-4252-863f-c66cd87d1380"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "polearm"
+						display: {
+							Name: "{\"text\":\"Polearm\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Polearm"
+			x: 1.25d
+			y: 7.25d
+		}
+	]
+	title: "Weapon Master : A Lifelong companion"
+}

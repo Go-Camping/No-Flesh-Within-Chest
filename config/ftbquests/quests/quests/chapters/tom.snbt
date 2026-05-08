@@ -1,0 +1,354 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tom"
+	group: "0F9EA9FA28C88D03"
+	icon: "toms_storage:ts.inventory_connector"
+	id: "05ADC2E0A7649AC7"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "kubejs:textures/task/tom_background.png"
+		rotation: 0.0d
+		width: 19.583333333333332d
+		x: 6.25d
+		y: -0.25d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Are you often rummaging through chests only to find nothing you need?"
+				"Do you feel overwhelmed by the sheer number of item types when organizing storage?"
+				""
+				"Try &6Tom’s Simple Storage&r!"
+				""
+				"No power required,effortlessly solve all your storage problems."
+			]
+			icon: "toms_storage:ts.inventory_connector"
+			id: "4806938A4DAB5634"
+			rewards: [{
+				id: "52165A3A71ADB569"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:coin_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2C6577D17B5B135D"
+				type: "checkmark"
+			}]
+			title: "Simple Simple Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4806938A4DAB5634"]
+			description: [
+				"Used in combination with the &6Storage Terminal&r, this system integrates large numbers of adjacent containers into a single complete block-based storage solution."
+				""
+				"Placed next to any container (on any of its six sides), it will automatically detect and link to it, forming a &dstorage network&r. Right-clicking the &6Inventory Connector&r will display the total storage capacity and remaining available slots of all connected containers."
+				""
+				"If the container is adjacent to others, the &6Inventory Connector&r will treat them as a single unified system. Its maximum connection range is 16 blocks (theoretically allowing it to link all containers within a 32×32×32 area centered on the integrator)."
+			]
+			id: "7843988CB0F906B3"
+			rewards: [{
+				count: 8
+				id: "36397C2C40CEEC9A"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			subtitle: "Connect the storage network"
+			tasks: [{
+				id: "5B673BB7287B4024"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7843988CB0F906B3"]
+			description: ["Place it on a &6Inventory Connector&r, for accessing the storage network"]
+			id: "7EA63EFEECF4628D"
+			rewards: [{
+				count: 8
+				id: "1E8E446A5F45EA6B"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			subtitle: "Using the storage network"
+			tasks: [{
+				id: "02DD6FA9DC43CB97"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EA63EFEECF4628D"]
+			description: ["An upgraded version of the &6Storage Terminal&r, featuring an integrated crafting grid, making it the preferred choice in most situations."]
+			id: "06CFAD62C6DC65CA"
+			rewards: [{
+				id: "0BE186401EC124A1"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			subtitle: "Upgrade"
+			tasks: [{
+				id: "0DA3B74A7AD87B88"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7843988CB0F906B3"]
+			description: [
+				"Used to build a &dstorage network&r, it can be crafted into &6Framed Inventory Cable&r."
+				""
+				"When connecting a &6Storage Terminal&r, &6Crafting Terminal&r, or other containers, it must be used together with a &6Inventory Cable&r connector."
+			]
+			id: "17D8CDADACFB7134"
+			rewards: [{
+				count: 2
+				icon: "lightmanscurrency:coin_gold"
+				id: "5A2C147659F191D6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Connects inventories across long distance"
+			tasks: [{
+				id: "7DBD3D95D6FE5315"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06CFAD62C6DC65CA"]
+			description: [
+				"The &6Inventory Proxy&r is conceptually equivalent to extending one face of a container. In practice, it can be viewed as an &2input channel directed toward a specific side of a container&r."
+				""
+				"{image:kubejs:textures/task/tom_1.png width:160 height:90 align:1}"
+				"The image illustrates a common setup: at the center is a &6Inventory Proxy&r, which &2points to the chest on the right highlighted in red&r. Meanwhile, by right-clicking the left side of the proxy with a diamond, the chest highlighted in blue on the left is registered as a &6template container&r within the system."
+				""
+				"{@pagebreak}"
+				"{image:kubejs:textures/task/tom_2.png width:160 height:75 align:1}"
+				""
+				"The image shows the contents of the blue-framed chest. By configuring the item layout inside it, the &2Storage Proxy can control the container on the right&r, limiting it to match the template chest settings."
+				""
+				"In other words, &2each slot can only accept the corresponding item type&r, and item counts will not exceed the configured amount. If a slot in the template chest is left empty, it means any item is allowed to be inserted there."
+				""
+				""
+				"{@pagebreak}"
+				"After completing the template chest setup, inserting items into a hopper will cause them to be filled according to the configured limits. The &2order and method of insertion depend on the input direction&r."
+				""
+				"Since the proxy can be regarded as a &6input pipeline&r, the available input slots are restricted by the face where the container and proxy are connected."
+				""
+				"For example, if furnaces are placed on both the left and right sides, even if items are configured in the input slots, they can only flow into the fuel slot—because &2furnaces only accept inputs from the top&r."
+				""
+				""
+				"{image:kubejs:textures/task/tom_3.png width:160 height:75 align:1}"
+				""
+				"{@pagebreak}"
+				"In addition, by renaming containers (such as chests) in an anvil using a key-value format, you can define certain container properties."
+				""
+				"Currently supported tags include:"
+				""
+				"- &6ignoreSize&r : ignores filter stack size limits"
+				"- &6maxCount=<max value>&r : sets max stack count for empty slots"
+				""
+				""
+				"For example, you can set &2ignoreSize=true&r to make the container ignore filter stack size limits."
+			]
+			id: "3A4DBF039CE9A9E9"
+			rewards: [{
+				count: 3
+				id: "6FC6A6867709F689"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Flexible storage… but with limited use."
+			tasks: [{
+				id: "746A3841940970D5"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06CFAD62C6DC65CA"]
+			description: ["When held, it allows you to right-click and open the terminal interface from a greater distance (up to &516 blocks&r). The wireless terminal must be linked to the corresponding terminal before it can be used."]
+			id: "0E870625DCF57C7A"
+			rewards: [{
+				id: "06457B545226E084"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Wireless access"
+			tasks: [{
+				id: "0E0AAB585801DDF7"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E870625DCF57C7A"]
+			description: [
+				"Placing a single-layer Beacon next to a &6Inventory Connector&r allows the &6Advanced Wireless Terminal&r to open the storage interface from anywhere within the same world."
+				""
+				"If a max-level Beacon is placed, and the chunk is set to force-load using the FTB Map, the Advanced Wireless Terminal can even access the terminal across dimensions."
+				""
+				"In addition, one Beacon can support multiple &6Inventory Connector&r at the same time."
+				""
+				"&7To do this in FTB Map, open the map and go to the claimed chunks section in the top-left corner. Left-click to claim a chunk, then Shift + Left-click to force-load it. A striped pattern on the chunk indicates the operation was successful.&r"
+			]
+			icon: "toms_storage:ts.adv_wireless_terminal"
+			id: "0004C045EF8274F8"
+			rewards: [
+				{
+					count: 8
+					id: "63A711EC01B48CCE"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1EB3E2BC872FDCCC"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			subtitle: "Extra uses of the beacon"
+			tasks: [{
+				id: "12C75A7B277719CD"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "nfinite Range Access"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17D8CDADACFB7134"]
+			description: [
+				"Exposed cables look clumsy and unsightly, but not everyone has double-layer walls to hide their wiring."
+				""
+				"Therefore, craft some &6Framed Inventory Cables&r and use a &6Paint Kit&r to color and camouflage them. The cables will then blend seamlessly into their surroundings."
+			]
+			icon: "toms_storage:ts.inventory_cable_framed"
+			id: "742289A3FE32A740"
+			rewards: [{
+				count: 3
+				id: "4D3B0829CFA70EA1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: " Blending"
+			tasks: [
+				{
+					id: "7A6003F60A3D30F9"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "77BE1C2D7D293283"
+					item: {
+						Count: 1b
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17D8CDADACFB7134"]
+			description: [
+				"Other than just directly connecting adjacent containers, you can also link containers (such as drawers) using a &2Inventory Cable Connector&r."
+				""
+				"Furthermore, placing the connector above a Beacon allows the item network to connect to the current dimension, as long as the beacon beam is not obstructed. By setting up another beacon elsewhere and configuring the connector’s top-right input/output settings, you can &2share contents between multiple networks regardless of distance&r."
+				""
+				"If a two-layer beacon setup is constructed, the network can even be shared across dimensions."
+				""
+				"Perhaps you could try building your own private network within a personal dimension."
+			]
+			icon: "toms_storage:ts.inventory_cable_connector"
+			id: "15E4E2C92DF895CA"
+			rewards: [{
+				id: "459E9B5B85B26C05"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Merge containers, expand the network"
+			tasks: [{
+				id: "6DC82FBC2821C637"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			title: "Connecting New Storage Network"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EA63EFEECF4628D"]
+			description: [
+				"An &2Open Crate&r treats all items in the air block directly in front of it as if they were inside a container. Likewise, if the network inserts items into the Open Crate, they will be dropped into the space one block ahead."
+				""
+				"This is often used for item disposal or temporary buffering. It can also be useful in scenarios involving water-stream transportation or other world-based crafting systems."
+			]
+			id: "01EF48B3999B5BBE"
+			rewards: [{
+				id: "167B101D58E11673"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AD8943DADC3951C"
+				item: "toms_storage:ts.open_crate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7843988CB0F906B3"]
+			description: [
+				"&6基础存储漏斗&r可以用于向网络中输入或者输出物品。手持物品右键存储漏斗可以为其设置过滤白名单。"
+				""
+				"如果该漏斗用于&2两个网络之间的物品传输&r，则必须设置过滤，否则漏斗将不会进行工作！"
+			]
+			id: "450CA5A5B76B188E"
+			rewards: [{
+				id: "3958B11495AA31D7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68F7E0E9C890904B"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.25d
+		}
+	]
+	title: "Tom's Simple Storage : Gotta Store Them All"
+}

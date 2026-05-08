@@ -1,0 +1,1428 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss"
+	group: "4F4F4EA8CE67985B"
+	icon: "somebosses:dark_magic_gauntlet"
+	id: "1D958E2F7D239737"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_2.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 1.75d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 1.75d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 1.75d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 1.75d
+			y: 15.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 16.5d
+			y: 8.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 16.5d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 16.5d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 1.75d
+			y: 18.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 1.75d
+			y: 22.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&d《世界BOSS》模组&r提供了&d21个BOSS&r，可以通过两种方式召唤："
+				""
+				""
+				"1. 通过&6交货协议&r获取BOSS召唤物直接召唤"
+				""
+				"2. 向&6召唤祭坛&r中放入特定的物品召唤"
+				"(可以通过&e在JEI中右键召唤召唤祭坛&r，或&e将鼠标悬停于背包中的召唤祭坛按U键&r查看用途来查看&e召唤配方&r。)"
+			]
+			icon: "summoningrituals:altar"
+			id: "68EFDD765396B87D"
+			tasks: [{
+				id: "7B86EB34E9717A46"
+				type: "checkmark"
+			}]
+			title: "Somebosses"
+			x: -4.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "somebosses:furnace_torch"
+			id: "1102363C412CD193"
+			rewards: [{
+				id: "4ADAE1FE667FB3EE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:flaming_berserker"
+				icon: "somebosses:furnace_torch"
+				id: "50715CBDF1EB9744"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Flaming Berserker"
+			x: -3.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:rusty_sword_relic"
+			id: "7AA225CFD6F6BBA8"
+			rewards: [{
+				id: "64F5B2DFB0EC7547"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:ancient_wizard"
+				icon: "somebosses:rusty_sword_relic"
+				id: "5E0A9FF724BA1550"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ancient Wizard"
+			x: -2.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:token_of_the_ninja"
+			id: "3F743349368C7471"
+			rewards: [{
+				id: "13C26E66608F75A3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:merciless_assasin"
+				icon: "somebosses:token_of_the_ninja"
+				id: "52DCCF460ED4A7AC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Merciless Assasin"
+			x: -1.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:frozen_shield_plate"
+			id: "63D8444AA3929FF8"
+			rewards: [{
+				id: "4C3BA9A8DFAE10BD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:froverlord"
+				icon: "somebosses:frozen_shield_plate"
+				id: "69B7E0CB804B21C1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Froverlord"
+			x: -0.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:gilded_dynamite"
+			id: "3AB7F8C482DD8089"
+			rewards: [{
+				id: "544BCBC2A66F8CC4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:vulcan"
+				icon: "somebosses:gilded_dynamite"
+				id: "1B560DD1BDD2C474"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Vulcan"
+			x: 0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:disgusting_pendant"
+			id: "38AC8A74FA810D8B"
+			rewards: [{
+				id: "596BF39114567089"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:ender_ordnance"
+				icon: "somebosses:disgusting_pendant"
+				id: "3815A80B52886D00"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ender Ordance"
+			x: 1.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:cactus_relic"
+			id: "61968EC65ACE7240"
+			rewards: [{
+				id: "05C8D640DD78ED62"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:sand_giant"
+				icon: "somebosses:cactus_relic"
+				id: "32D786742A29FE95"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Sand Giant"
+			x: 2.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:illegal_beacon"
+			id: "3075B2CEE684B68F"
+			rewards: [{
+				id: "633BAE92D8BE4C31"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:aesegull"
+				icon: "somebosses:illegal_beacon"
+				id: "60473F608F6D0ED7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Aesegull"
+			x: 3.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:one_eyed_wrait_in_a_bottle"
+			id: "2FA35E059E71C850"
+			rewards: [{
+				id: "204BA8482812BBAF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:mono_eyed_skeleton"
+				icon: "somebosses:one_eyed_wrait_in_a_bottle"
+				id: "642CC2B34BF5EA6D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mono Eyed Skeleton"
+			x: 4.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:vampire_bait"
+			id: "230A2973CBD947A7"
+			rewards: [{
+				id: "0557DD550D4BBF8C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:crimson_vampire"
+				icon: "somebosses:vampire_bait"
+				id: "31A61EA9AF129F99"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Crimsom Vampire"
+			x: 5.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:prismarine_eye"
+			id: "35A35A62C6E9C71C"
+			rewards: [{
+				id: "5BEF044FCFD4CCFC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:prismarine_watcher"
+				icon: "somebosses:prismarine_eye"
+				id: "197E6493BDE45735"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Prismarine Watcher"
+			x: 6.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:burning_volcanic_rock"
+			id: "6BD52270D760EA85"
+			rewards: [{
+				id: "1406E729F12B5DFE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:volcanium"
+				icon: "somebosses:burning_volcanic_rock"
+				id: "4BD74DE255841BC2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Volcanium"
+			x: 7.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:necromancy_staff"
+			id: "7BBF4518E64E4ACC"
+			rewards: [{
+				id: "2C8F875AFF3524EF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:nameless_one"
+				icon: "somebosses:necromancy_staff"
+				id: "42C80A1D9ACB5F9C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nameless one"
+			x: -3.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:dark_magic_gauntlet"
+			id: "2696A6262EDDF11F"
+			rewards: [{
+				id: "49B9DAB9331B4DF8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:hand_head"
+				icon: "somebosses:dark_magic_gauntlet"
+				id: "6893108FD479E03A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hand Head"
+			x: -2.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:ice_lantern"
+			id: "778FDD035CA42B56"
+			rewards: [{
+				id: "20035B030A364ED5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:frost_magma"
+				icon: "somebosses:ice_lantern"
+				id: "7B93A9698C4ABB05"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Frost Magma"
+			x: -1.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:bone_of_curse"
+			id: "497F39A113B0BF24"
+			rewards: [{
+				id: "6212D7BD15A3025A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:skeleton_demon"
+				icon: "somebosses:bone_of_curse"
+				id: "34FDD847724C203F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Skeleton Demon"
+			x: -0.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:slab_of_command"
+			id: "3030197A175A4697"
+			rewards: [{
+				id: "540A74176A2CF510"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:stone_guard"
+				icon: "somebosses:slab_of_command"
+				id: "79EFBE304F1254CB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Stone Guard"
+			x: 0.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:power_generator_core"
+			id: "08D6D0CBC20DCA86"
+			rewards: [{
+				id: "382CB431FFF1F1A3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:electric_head"
+				icon: "somebosses:power_generator_core"
+				id: "56DD978A79AD6073"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Electric Head"
+			x: 1.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:cursed_spring_water"
+			id: "1D7F0AE5B73BDFFE"
+			rewards: [{
+				id: "36B9FFD1443AED0D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:man_of_water"
+				icon: "somebosses:cursed_spring_water"
+				id: "68566DE8DFC3E82E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Man of Water"
+			x: 2.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:monochrome_mask"
+			id: "46BE04772520FAA8"
+			rewards: [{
+				id: "0113135759EB7408"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:dark_mask"
+				icon: "somebosses:monochrome_mask"
+				id: "1B2377F66F966BC8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dark Mask"
+			x: 3.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["68EFDD765396B87D"]
+			hide_dependency_lines: true
+			icon: "somebosses:chaos_insignia"
+			id: "1340BDC2F17339E1"
+			rewards: [{
+				id: "4E442C55F8855AA8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "somebosses:knight_garent"
+				icon: "somebosses:chaos_insignia"
+				id: "2C4C603A3B098D7B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Knight Garent"
+			x: 4.75d
+			y: 6.25d
+		}
+		{
+			description: [
+				"&dBosses of Mass Destruction&r provides &d4 bosses&r that spawn in different structures and must be located by the player."
+				""
+				"Some bosses offer ways to help you find them, please refer to &eChallenges : Boss Compedium&r for more details."
+				""
+				"After defeating a boss, you can use &dBrimstone Nectar&r to reset the structure and &erechallenge the boss&r. (&eBrimstone Nectar can be crafted&r)"
+			]
+			icon: "bosses_of_mass_destruction:brimstone_nectar"
+			id: "638AFA1A16525BB9"
+			tasks: [{
+				id: "629F60AE6E85DED9"
+				type: "checkmark"
+			}]
+			title: "BOMD"
+			x: -4.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["638AFA1A16525BB9"]
+			description: [
+				"The &dBoss: Obsidilith&r appears as a &erare structure in the End&r."
+				""
+				"To summon it, place an &6Eye of Ender&r on the &6Obsidian Altar&r at the top of the structure, then wait for a short moment."
+				""
+				"After being defeated, an obsidian pillar will form at the original altar location, and a shulker box containing rewards will spawn at the center of its top surface."
+			]
+			hide_dependency_lines: true
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "0334639B0C126A8D"
+			rewards: [{
+				id: "361E3C2D5DA03BDB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The secret of the End floating city"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "748C2EDCD6C350AB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.25d
+			y: 12.25d
+		}
+		{
+			dependencies: ["638AFA1A16525BB9"]
+			description: [
+				"A rare structure found above &dNether lava lakes&r. It can only be summoned by &ebreaking the central structure—the &6Ancient Carved Blackstone&r."
+				""
+				"It can only be damaged by attacking its eye."
+			]
+			hide_dependency_lines: true
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "61C0C761B09A0584"
+			rewards: [{
+				id: "4C2E32484BC29818"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The demon in the Nether"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "42B1503E8F714D09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Search the Trace of Netherite Gaunlet"
+			x: -1.25d
+			y: 12.25d
+		}
+		{
+			dependencies: ["638AFA1A16525BB9"]
+			description: [
+				"&eSlaying undead creatures&r will randomly drop a &6Soul Star&r. While holding the Soul Star, &eright-click&r to be guided toward a &d Lich Tower located in a cold biome&r."
+				""
+				"Inside the tower, on one of its floors, you will find four &6Chiseled Stone Altars&r placed in each direction. Insert a &6Soul Star&r into each altar to summon the &dBoss: the Night Lich&r."
+			]
+			hide_dependency_lines: true
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "2040133CCC7EBE4F"
+			rewards: [{
+				id: "0104AB526955454E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The Soul Star guides you."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "7FC89E3816CD0244"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Search the Trace of Night Lich"
+			x: -2.25d
+			y: 12.25d
+		}
+		{
+			dependencies: ["638AFA1A16525BB9"]
+			description: [
+				"By combining &6Lily of the Valley&r and &6Amethyst Shards&r, you can craft a &6Void Lily&r. When planted on the ground, the Void Lily releases &epollen&r that guides you toward caves containing the &dVoid Blossom&r."
+				""
+				"The Void Bloosom caves generate &enear the bottom of the Overworld, close to the bedrock layer&r."
+			]
+			hide_dependency_lines: true
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "147CD351C2BC325E"
+			rewards: [{
+				id: "139BC074ABFBB065"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Follow the pollen down into the depths underground"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "1260A4EA8998C574"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Search the Trace of Void Blossom"
+			x: -3.25d
+			y: 12.25d
+		}
+		{
+			description: [
+				"&dMeet Your Fight&r mod provides &d4 bosses&r, each with their own unique loot. Their drops can be used to craft equipment such as useful trinkets, or cool weapons and tools."
+				""
+				"These bosses only appear when &esummoned&r. You will need to &dcraft the appropriate summoning item following its recipe&r, and then &ehold right-click&r while holding it to summon the boss."
+			]
+			icon: "meetyourfight:haunted_bell"
+			id: "7729DBC45AEF7D17"
+			tasks: [{
+				id: "2FCE1457A8EC99AF"
+				type: "checkmark"
+			}]
+			title: "Meet Your Fight"
+			x: -4.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["7729DBC45AEF7D17"]
+			hide_dependency_lines: true
+			icon: "meetyourfight:dusk_key"
+			id: "0B6E24F5105C5DE2"
+			rewards: [{
+				id: "18A9BB3035DEAF81"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12F2FCF51E24602F"
+					item: "meetyourfight:dusk_key"
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:rosalyne"
+					icon: "meetyourfight:dusk_key"
+					id: "7FC23750DD88E511"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["7729DBC45AEF7D17"]
+			hide_dependency_lines: true
+			icon: "meetyourfight:haunted_bell"
+			id: "4643F8D77E474B9B"
+			rewards: [{
+				id: "22893403C2B4A2E9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "265FF021C45EBF9C"
+					item: "meetyourfight:haunted_bell"
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:bellringer"
+					icon: "meetyourfight:haunted_bell"
+					id: "0F103E09BF1D81E5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["7729DBC45AEF7D17"]
+			hide_dependency_lines: true
+			icon: "meetyourfight:fossil_bait"
+			id: "5E53B369B6F8610E"
+			rewards: [{
+				id: "5025C54B55A92A03"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "113A047DE5D55947"
+					item: "meetyourfight:fossil_bait"
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:swampjaw"
+					icon: "meetyourfight:fossil_bait"
+					id: "3A3A695465028604"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["7729DBC45AEF7D17"]
+			hide_dependency_lines: true
+			icon: "meetyourfight:devils_ante"
+			id: "59C699B6973BBF18"
+			rewards: [{
+				id: "312EF6953D36E427"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22DD3D3D40626EE1"
+					item: "meetyourfight:devils_ante"
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:dame_fortuna"
+					icon: "meetyourfight:devils_ante"
+					id: "25F08A9BC632F1D8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -0.25d
+			y: 9.25d
+		}
+		{
+			description: [
+				"The &d“L_Ender’s Cataclysm”&r mod adds challenging dungeons, challenging bosses, and powerful gear."
+				""
+				"Currently, the mod introduces &d6 major bosses&r and &e5 mini bosses&r. &dEach boss is located within its own unique structure&r, features distinct abilities, and drops loot with special powers."
+				""
+				"The mod also &eprovides ways for players to locate these structures&r—please refer to the &eBoss Compedium&r for details."
+			]
+			icon: "cataclysm:the_incinerator"
+			id: "7C958A8AFC0EADC6"
+			tasks: [{
+				id: "5A0563FD4344CC21"
+				type: "checkmark"
+			}]
+			title: "Cataclysm"
+			x: -4.25d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7C958A8AFC0EADC6"]
+			description: [
+				"The &dAncient Factory&r lies buried deep &eunderground&r, long abandoned and untouched. At its core area, the creation of an ancient civilization, The Harbinger rests in slumber."
+				""
+				"It can be located using the &4Eye of Mech&r."
+				""
+				"&dBoss Activation :&r Insert a &6Nether Star&r into the body of the, &dThe Harbinger&r to awaken it."
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:mech_eye"
+			id: "3878A673CAAC5661"
+			rewards: [{
+				id: "054C2CAFBEBF7A21"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The Harbinger"
+			tasks: [
+				{
+					id: "6CE0E9211CBD546D"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:mech_eye"
+					id: "4BD820A2FAE8C624"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find Ancient Factory"
+			x: -3.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C958A8AFC0EADC6"]
+			description: [
+				"Located in the &dNether&r, the &dBlazing Arena&r is the domain of &dIgnis&r. Though abandoned for many years, the flames within have never died out."
+				""
+				"It can be located using the &6Eye of Flame&r."
+				""
+				"&dBoss Activation : &rDefeat the &6Ignited Revenant&r within the &dBlazing Arena&r, they will always drop &6Blazing Ashes&r. Hold the item and &eright-click&r the &6Altar of Flame&r to summon the boss."
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:flame_eye"
+			id: "03005FB0984AFCEF"
+			rewards: [{
+				id: "482AA01B3A302F5D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ignis"
+			tasks: [
+				{
+					id: "159DD68E2A7DC5F3"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ignis"
+					icon: "cataclysm:flame_eye"
+					id: "4C7148353566043D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find Burning Arena"
+			x: -2.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C958A8AFC0EADC6"]
+			description: [
+				"The &dRuinde Citadel&r is a structure that generates on the &douter End islands&r. It has four floors and serves as a maze-like stronghold of the &dEnd Guardian&r."
+				""
+				"Upon entering, you will first encounter a courtyard with scattered Void stone piles and Void Infused End Stone Bricks. From there, you can enter the inner maze through the central gate."
+				""
+				"It can be located using the &6Eye of Void&r."
+				""
+				"&dBoss Activation :&r On the 3rd and 4th floors, in the &eBoss Rooms&r, simply &eapproach&r the central spawner block to trigger the boss and begin the fight."
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:void_eye"
+			id: "0F897A2DA9514E5D"
+			rewards: [{
+				id: "74FADBA41EA864F4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ender Guardian"
+			tasks: [
+				{
+					id: "129ACF4E25F69FC6"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:void_eye"
+					id: "48DBCF922C1E690C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find Ruined Cidatel"
+			x: -1.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C958A8AFC0EADC6"]
+			description: [
+				"The &dSoul Black Smith&r is a blackstone foundry build above the &eNether lava lake&r, shrouded in thick smoke. Within it slumbers a terrifying beast."
+				""
+				"It can be located using the &6Eye of the Monstrous&r."
+				""
+				"&dBoss Activation:&r One will naturally spawn at the &eSoul Campfire&r within the &dSoul Black Smith&r."
+				""
+				"&8(Tip: There is a hidden room in this structure that requires a button to activate. It contains many valuable treasures, go find it！)&r"
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:monstrous_eye"
+			id: "7804C70BA041A413"
+			rewards: [{
+				id: "43D130E13C50CFA3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Netherirte Monstrosity"
+			tasks: [
+				{
+					id: "4B3B97B5D040840C"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: "cataclysm:monstrous_eye"
+					id: "3E9371D50F7B7484"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find Soul Black Smith"
+			x: -0.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C958A8AFC0EADC6"]
+			description: [
+				"An ancient ruin of remarkable architectural brilliance appears on the &esurface of deep ocean biomes&r. Once a symbol of glory, it has, under unknown influences, become a sunken city filled with Deeplings. Within it, an ancient ritual can summon the Abyssal creature, &dThe Leviathan&r."
+				""
+				"It can be located using the &6Eye of Abyss&r."
+				""
+				"&dBoss Activation:&r Craft an &6Abyssal Sacrifice&r and place it into the &6Altar of Abyss&r within the &dSunken City&r."
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:abyss_eye"
+			id: "2CD71AD199802E1A"
+			rewards: [{
+				id: "075A311E229088E4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The Leviathan"
+			tasks: [
+				{
+					id: "0FC6DE280E71E942"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:abyss_eye"
+					id: "783228E7780EAEFC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find Sunken City"
+			x: 0.75d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C958A8AFC0EADC6"]
+			description: [
+				"The &dCursed Pyramid&r is a massive pyramid structure located in the &ddesert&r."
+				"It can be located using the &6Eye of Desert&r."
+				""
+				"&dBoss Activation:&r In the four rooms at the top of the pyramid, search for &6Suspicious Sand&r blocks that look identical to normal sand."
+				""
+				"Hold a crafted &6Brush&r and hold &eright click&r pointing the &6Suspicious Sand&r to clean it, for obtaining &6Necklace of the Desert&r."
+				""
+				"Then, while holding the &6Necklace of the Desert&r, &eright-click&r the &dAncient Remnant&r at the base of the pyramid to awaken the boss."
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:desert_eye"
+			id: "4C2CAC391B06FAA8"
+			rewards: [{
+				id: "681F61F0440E688C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Ancient Remnant"
+			tasks: [
+				{
+					id: "583B940032B99BEF"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: "cataclysm:desert_eye"
+					id: "226F3D20FEB28494"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find Cursed Pyramid"
+			x: 1.75d
+			y: 15.5d
+		}
+		{
+			description: [
+				"The &dGoety&r mod is a magic-focused mod designed to enhance the vanilla experience by adding a wide range of new mechanics and features. For more details, refer to the mod tutorial section in FTB."
+				""
+				"This mod introduces &d2 bosses&r."
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:black_book"
+				}
+			}
+			id: "4E21EC992472D80A"
+			tasks: [{
+				id: "18B3FACB9F5F9641"
+				type: "checkmark"
+			}]
+			title: "Goety"
+			x: 10.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["4E21EC992472D80A"]
+			description: [
+				"Using a &6Dark Scroll&r inside a &dWoodland Mansion&r will summon Vizier."
+				""
+				"&7(The Dark Scroll can be crafted using vanilla items.)&r"
+			]
+			hide_dependency_lines: true
+			id: "21A1453792744E6A"
+			rewards: [{
+				id: "64C35F6EBB30661B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59894E78E254799E"
+				item: "goety:soul_ruby"
+				type: "item"
+			}]
+			title: "Vizier"
+			x: 11.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4E21EC992472D80A"]
+			description: [
+				"By performing the &dSabbath Ritual&r from the &dGoety&r mod, you can summon an &6Apostle&r."
+				""
+				"For details, please refer to the &dGoety&r manual, &6“The Black Book”&r."
+			]
+			hide_dependency_lines: true
+			id: "2FC7BD983537C21F"
+			rewards: [{
+				id: "36FA891268FCA72E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A8DC9897AA42647"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Apostle"
+			x: 12.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["161684844085FEDE"]
+			description: [
+				"The &6CThe Dead King&r generates in the boss room of &dCatacombs&r. By interacting with a &f\"Skeleton\"&r that lies on the throne will summon the boss, the &dThe Dead King&r."
+				""
+				"You can use the &2Wayward Compass&r to locate &dCatacombs&r."
+				""
+				"For more details, please refer to the &dIron's Spells 'n Spellbooks&r section in FTB."
+			]
+			hide_dependency_lines: true
+			id: "3770EDC8E8A38EFF"
+			rewards: [{
+				id: "7C23703B836F0D50"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F00DCDEE3602E7"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:blood_staff"
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 5
+							spells: [
+								{
+									level: 6
+									sid: "irons_spellbooks:wither_skull"
+									slot: 0
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:ray_of_siphoning"
+									slot: 1
+								}
+								{
+									level: 3
+									sid: "irons_spellbooks:blood_step"
+									slot: 2
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blood_slash"
+									slot: 3
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blaze_storm"
+									slot: 4
+								}
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The Dead King"
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			description: [
+				"The &dIron’s Spells ’n Spellbooks&r mod is a magic mod inspired by classic RPG games. For more details, please refer to the mod tutorial section in FTB."
+				""
+				"This mod only introduces &d1 boss&r."
+			]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_spellbook: {
+						spellSlots: 8
+						spells: [ ]
+					}
+				}
+			}
+			id: "161684844085FEDE"
+			tasks: [{
+				id: "1EEFD29371FAA6CF"
+				type: "checkmark"
+			}]
+			title: "Iron Spells 'n Spellbooks"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"The &dThe Graveyard&r mod adds eerie structures, mobs, and blocks to Minecraft, enhancing gameplay with a more frightening and challenging experience."
+				""
+				"This mod introduces &d1 boss&r."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "27AD335AE6A41756"
+			tasks: [{
+				id: "1022EC8ED7DAD231"
+				type: "checkmark"
+			}]
+			title: "The Graveyard"
+			x: 10.5d
+			y: 10.75d
+		}
+		{
+			dependencies: ["27AD335AE6A41756"]
+			description: [
+				"The &dLich Prison&r naturally generates in the sky above &dOcean biomes&r as a &elarge floating island structure&r. The island contains a ritual altar used to summon the Lich, as well as a massive bone structure. Beneath the bone structure is a lectern holding a book that explains the origin of the structure and its related lore."
+				""
+				"{@pagebreak}"
+				""
+				"&dBoss Activation :&r To summon the &dLich&r, you must first wait until &enight&r, then place three &6Ominous Bone Staff Fragments&r (top, middle, and bottom) in order from left to right into the &edamaged Deepslate core&r in front of the altar. After that, pour a &cVial of Blood&r onto the &6Altar&r block at the center."
+				""
+				"&7Ruins containing Ominous Bone Staff Fragments generate in forest biomes, appearing in three variants: Old Watchtowers, Blood Sacrifice Pits, and Ruined Camps. Each variant contains different fragment positions (head, torso, tail), which can be identified via visuals.&r"
+				""
+				"{@pagebreak}"
+				"&cObtaining Vial of Blood:&r"
+				""
+				"You must craft a &6Bone Dagger&r using three bones. While holding an &6empty glass bottle in your off-hand&r, killing villagers will fill it with blood. After repeating this process 8 times, the glass bottle will transform into a Vial of Blood."
+			]
+			hide_dependency_lines: true
+			icon: "graveyard:black_bone_staff"
+			id: "6B51398807F1CA21"
+			rewards: [{
+				id: "659002635C610E7D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Lich"
+			tasks: [
+				{
+					icon: "minecraft:skeleton_skull"
+					id: "112E0D31625622B8"
+					structure: "graveyard:lich_prison"
+					title: "Found Lich Prison"
+					type: "structure"
+				}
+				{
+					entity: "graveyard:lich"
+					icon: "graveyard:upper_bone_staff"
+					id: "6C1141D1F62E14B1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find Lich Prison"
+			x: 11.5d
+			y: 11.75d
+		}
+		{
+			description: [
+				"This items can obtained through a Delivery Agreement. Right click on the ground to open a portal."
+				""
+				"Monsters will spawn in waves. Make sure to defeat all enemies in each wave within the limited time."
+				""
+				"In the final wave of the &dFinal Onslaught&r, a &dBOSS&r will spawn."
+			]
+			icon: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "kubejs:final_raid"
+				}
+			}
+			id: "6CD0560928FBA29B"
+			tasks: [{
+				id: "5E3828982980413A"
+				type: "checkmark"
+			}]
+			title: "Gate of Eternal"
+			x: 10.5d
+			y: 13.75d
+		}
+		{
+			dependencies: ["6CD0560928FBA29B"]
+			description: ["&7He was once the king of Pillagers, leading raids that never failed—until a supreme being sealed him away in another world...&r"]
+			hide_dependency_lines: true
+			icon: "art_of_forging:ancient_blade"
+			id: "48AEAB844E3AC9F6"
+			rewards: [{
+				id: "02E4F5958B10E2E7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "invasioncodered:gashslit"
+				icon: "art_of_forging:ancient_blade"
+				id: "2E1F30B90A7EE461"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Gashslit The Emperor"
+			x: 11.5d
+			y: 14.75d
+		}
+		{
+			icon: "minecraft:grass_block"
+			id: "06BA15D2F337E2C6"
+			tasks: [{
+				id: "0234C61C3F9E6FA6"
+				type: "checkmark"
+			}]
+			title: "Vanila Minecraft"
+			x: -4.25d
+			y: 17.5d
+		}
+		{
+			dependencies: ["06BA15D2F337E2C6"]
+			description: ["As the most powerful mob in vanilla Minecraft, the Warden lurks within Ancient Cities, dealing massive damage to any enemy that makes noise."]
+			hide_dependency_lines: true
+			icon: "minecraft:sculk_shrieker"
+			id: "2D66B5749F9D7846"
+			rewards: [{
+				id: "1113F7B21BB07CFA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "The Once Most Powerful Soul"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1b
+					id: "kubejs:warden_core"
+					tag: { }
+				}
+				id: "54B2C0992C8C149D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Warden"
+			x: -3.25d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6269CC520129B2A2"]
+			description: [
+				"The Void Worm lives in the void beneath the &eEnd dimension&r. Throwing a &3Mysterious Worm&r into the void will lure it out."
+				""
+				"&8The most effective way to deal damage to the Void Worm is to directly attack its head.&r"
+			]
+			hide_dependency_lines: true
+			id: "08869259102FF427"
+			rewards: [{
+				id: "2BC33966C39BAD43"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08B30DF4477D1844"
+					item: "alexsmobs:mysterious_worm"
+					type: "item"
+				}
+				{
+					id: "476DA02DDC3FBC53"
+					item: "alexsmobs:void_worm_eye"
+					type: "item"
+				}
+			]
+			x: -3.25d
+			y: 21.75d
+		}
+		{
+			description: [""]
+			icon: "alexsmobs:animal_dictionary"
+			id: "6269CC520129B2A2"
+			tasks: [{
+				id: "292EF0BD0B82B736"
+				type: "checkmark"
+			}]
+			title: "Alex's Mobs"
+			x: -4.25d
+			y: 20.75d
+		}
+	]
+	title: "Challenges : Boss Compedium"
+}

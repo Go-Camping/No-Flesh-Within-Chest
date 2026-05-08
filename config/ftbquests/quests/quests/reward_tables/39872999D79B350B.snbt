@@ -1,0 +1,44 @@
+{
+	icon: {
+		Count: 1b
+		id: "unusualprehistory:sloth_pouch_armor"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "39872999D79B350B"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			auto: "invisible"
+			icon: {
+				Count: 1b
+				id: "unusualprehistory:sloth_pouch_armor"
+				tag: {
+					Damage: 0
+				}
+			}
+			ignore_reward_blocking: true
+			stage: "all_armor_monster"
+			title: "&2ON"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			icon: {
+				Count: 1b
+				id: "unusualprehistory:sloth_pouch_armor"
+				tag: {
+					Damage: 0
+				}
+			}
+			ignore_reward_blocking: true
+			remove: true
+			stage: "all_armor_monster"
+			title: "&4OFF"
+			type: "gamestage"
+		}
+	]
+	title: "Hostile Mobs Always Wear Armor"
+}
