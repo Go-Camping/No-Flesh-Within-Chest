@@ -6,7 +6,7 @@ StartupEvents.registry('item', event => {
      */
     function registerOrgan(organ) {
         global.ORGAN_LIST.push(organ)
-        let builder = event.create(organ.itemID).maxStackSize(organ.maxStackSize).tag('kubejs:organ').group("kubejs.organs")
+        let builder = event.create(organ.itemID).maxStackSize(organ.maxStackSize).tag('kubejs:organ').group("kubejs:organs")
         if (organ.ctrlTextLines.length > 0) {
             builder.tag('chestcavity:active')
         }

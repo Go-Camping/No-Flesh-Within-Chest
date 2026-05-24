@@ -1,5 +1,84 @@
 # 当前已知问题 - Know Issue
 
+## Create 6 迁移说明 - Create 6 Migration Notes
+
+> **目标版本**: Minecraft 1.20.1 + Forge 47.3.12 + Create 6.0.8
+>
+> This section tracks the remaining manual steps needed to complete the Create 6 migration.
+> KubeJS scripts have been updated automatically; the items below require manual action.
+
+### ✅ 已完成的脚本更新 (Completed Script Updates)
+
+- `kubejs/server_scripts/recipes/create.js`:
+  - Fixed `Fluid.water(n)` → `Fluid.of('minecraft:water').withAmount(n)`
+  - Updated sequenced assembly step methods from `event.recipes.createDeploying/createCutting/createPressing()` to `event.recipes.create.deploying/cutting/pressing()` (full namespace form)
+- `kubejs/server_scripts/recipes/ore_excavation.js`:
+  - Rewrote for Create Ore Excavation 1.20+ API: vein definitions are now split into separate `vein()` calls; `Item.of().withChance()` replaced with `coeutil.processingOutput()`
+- `kubejs/startup_scripts/creative_tab_register.js`:
+  - Migrated from `dev.architectury.registry.CreativeTabRegistry` to `StartupEvents.registry('creative_mode_tab', ...)`
+- `kubejs/startup_scripts/item_register.js`, `organ_register.js`, `special/eye_finder.js`:
+  - Fixed creative tab group IDs from `"kubejs.organs"` / `"kubejs.item"` to `"kubejs:organs"` (colon namespace)
+- `kubejs/startup_scripts/special/eye_finder.js`:
+  - Updated `net.minecraft.core.Registry.STRUCTURE_REGISTRY` → `net.minecraft.core.registries.Registries.STRUCTURE` (1.20.1 API)
+- `kubejs/startup_scripts/isb/school_register.js`:
+  - Added `.setDamageType('minecraft:magic')` to both spell schools (required by irons_spells_js 1.20.1+)
+
+### ⚠️ 需要手动完成的步骤 (Manual Steps Required)
+
+#### 1. 重新生成启动器 Manifest (Regenerate Launcher Manifest)
+`No Flesh Within Chest.json` 是 Forge 安装程序生成的启动器配置文件，其中包含所有 Forge 库文件的 SHA1 哈希值。
+必须通过运行 **Forge 1.20.1 (版本 47.3.12) 安装程序** 重新生成此文件，否则启动器将无法正确下载依赖项。
+
+The launcher manifest contains SHA1 hashes for all Forge library JARs, which cannot be manually updated.
+Run the **Forge 1.20.1-47.3.12 installer** to regenerate the full launcher profile, then replace the library/download sections in this file.
+
+游戏参数 (game arguments) 已更新为 1.20.1 版本信息，但 `libraries` 和 `assetIndex` 部分仍需从安装程序重新生成。
+
+#### 2. 更新所有 Mod JAR 文件 (Update All Mod JARs)
+以下是需要从 1.19.2 更新到 1.20.1 版本的核心 Mod 文件。
+
+**Create 生态圈 (必须更新)**:
+| 旧文件 | 新版本 | 来源 |
+|--------|--------|------|
+| `create-1.19.2-0.5.1.f.jar` | `create-1.20.1-6.0.8.jar` | Forge 1.20.1 |
+| `create_central_kitchen-1.19.2-for-create-0.5.1.f-1.3.11.c.jar` | `create-central-kitchen-1.4.3b-for-create-1.20.1-6.0.6.jar` | CurseForge |
+| `createaddition-1.19.2-1.2.3.jar` | `createaddition-forge-1.20.1-1.3.3.jar` | CurseForge/Modrinth |
+| `createoreexcavation-1.19-1.2.3.jar` | Create Ore Excavation `1.20.1-1.6.5` | Modrinth |
+| `create_crystal_clear-0.2.1-1.19.2.jar` | (需要确认 1.20.1 版本) | — |
+
+**KubeJS 生态圈 (必须更新)**:
+| 旧文件 | 新版本 |
+|--------|--------|
+| `kubejs-forge-1902.6.2-build.69.jar` | KubeJS Forge `2001.6.5-build.16` |
+| `kubejs-create-forge-1902.2.4-build.36.jar` | KubeJS Create Forge `2001.3.0-build.8` |
+| `rhino-forge-1902.2.3-build.284.jar` | Rhino Forge `2001.x` (KubeJS 依赖) |
+| `ponderjs-1.19.2-1.2.0.jar` | PonderJS Forge `1.20.1-1.4.0` |
+
+**需要额外添加的 Mod**:
+- `flywheel-forge-1.20.1-1.x.x.jar` — Create 6 uses **Flywheel 1.0** (separate mod, bundled with Create JAR)
+- Ponder library — bundled with Create 6 JAR, no longer needed as separate `ponderjs-*` mod
+
+**其他 Mod** (all 160+ other mods also need 1.20.1-compatible versions):
+- 大多数知名 Mod 已有 1.20.1 版本，需逐一检查并更新
+- 以下 Mod 为核心机制依赖，需优先确认 1.20.1 兼容性:
+  - `chestcavity-forge-*.jar` → **已有** 1.20.1 Forge 版本 (v2.17.1.1)
+  - `irons_spellbooks-*.jar` → **已有** 1.20.1 版本 (v1.20.1-3.15.6)
+  - `biomancy-forge-*.jar` → 需确认
+  - `hexerei-*.jar` → 需确认
+  - `art_of_forging-*.jar` → 需确认
+
+#### 3. 确认配置文件兼容性 (Verify Config Compatibility)
+- `config/create-common.toml`: Create 6 新增了许多配置项（包裹系统、链式传送带等），建议在首次启动后让 Create 重新生成配置文件
+- `config/flywheel-client.toml`: Flywheel 1.0 的配置格式发生了变化，建议删除旧配置让其重新生成
+- 其他 Mod 配置文件: 大多数配置文件在版本迁移时会向后兼容，但建议备份后进行测试
+
+#### 4. 数据包验证 (Datapack Validation)
+迁移完成后，建议使用 `/data verify` 检查所有数据包是否正常加载，重点检查:
+- `kubejs/server_scripts/recipes/ore_excavation.js` 中的新 vein 定义格式
+- `kubejs/server_scripts/recipes/create.js` 中所有 sequenced assembly 配方
+
+
+
 > 下文仅提供中文文案用于开发团队进行问题同步。问题记录在问题发现的版本下，如若修复使用二级列表标注修复情况和方法。问题通过P0~P3等级标注优先级。
 
 ## 版本 Beta 0.0.1

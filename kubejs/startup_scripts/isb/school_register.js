@@ -5,6 +5,7 @@ StartupEvents.registry('irons_spellbooks:schools', event => {
         .setPowerAttribute('kubejs:magnificent_spell_power')
         .setResistanceAttribute('kubejs:magnificent_spell_resistance')
         .setDefaultCastSound('irons_spellbooks:cast.generic.holy')
+        .setDamageType('minecraft:magic')  // Required in irons_spells_js 1.20.1+
 
     event.create('candy')
         .setName(Text.of(Text.translatable("school.kubejs.candy")).color('#fcc2e4'))
@@ -12,4 +13,5 @@ StartupEvents.registry('irons_spellbooks:schools', event => {
         .setPowerAttribute('kubejs:candy_spell_power')
         .setResistanceAttribute('kubejs:candy_spell_resistance')
         .setDefaultCastSound('irons_spellbooks:cast.generic.holy')
+        .setDamageType('minecraft:magic')  // Required in irons_spells_js 1.20.1+
 })

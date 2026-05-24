@@ -65,7 +65,7 @@ StartupEvents.registry('item', event => {
         .tag('kubejs:organ')
         .tag('kubejs:infected')
         .tag('itemborders:iron')
-        .group("kubejs.organs")
+        .group("kubejs:organs")
 
     event.create('active_pill').texture('kubejs:item/active_pill').tag('kubejs:pill').food(food => {
         food
