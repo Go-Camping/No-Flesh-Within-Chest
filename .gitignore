@@ -31,3 +31,4 @@
 /hmclversion.cfg
 /config/inventoryprofilesnext/*
 !/config/inventoryprofilesnext/inventoryprofiles.json
+/dist/
