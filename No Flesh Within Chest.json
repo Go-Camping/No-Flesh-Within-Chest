@@ -53,13 +53,13 @@
       "--launchTarget",
       "forgeclient",
       "--fml.forgeVersion",
-      "43.3.5",
+      "47.3.12",
       "--fml.mcVersion",
-      "1.19.2",
+      "1.20.1",
       "--fml.forgeGroup",
       "net.minecraftforge",
       "--fml.mcpVersion",
-      "20220805.130853"
+      "20230612.114412"
     ],
     "jvm": [
       {
@@ -1812,8 +1812,8 @@
   },
   "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
   "minimumLauncherVersion": 21,
-  "releaseTime": "2022-08-05T19:57:05+08:00",
-  "time": "2022-08-05T19:57:05+08:00",
+  "releaseTime": "2023-06-12T19:57:05+08:00",
+  "time": "2023-06-12T19:57:05+08:00",
   "type": "release",
-  "clientVersion": "1.19.2"
+  "clientVersion": "1.20.1"
 }
